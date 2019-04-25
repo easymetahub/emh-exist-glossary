@@ -1,0 +1,5 @@
+.DS_Store
+/.gradle
+/build
+/src/main/polymer/build
+/src/main/polymer/node_modules
