@@ -1,0 +1,6 @@
+{
+  "name": "emh-accelerator",
+  "short_name": "emh-accelerator",
+  "start_url": "/",
+  "display": "standalone"
+}

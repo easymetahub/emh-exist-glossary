@@ -1,0 +1,7 @@
+{
+  "name": "emh-exist-accelerator",
+  "short_name": "emh-accelerator",
+  "description": "EasyMetaHub Accelerator application",
+  "start_url": "/",
+  "display": "standalone"
+}

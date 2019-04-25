@@ -1,0 +1,29 @@
+{
+  "name": "emh-accelerator",
+  "dependencies": {
+    "@polymer/app-layout": "^3.0.1",
+    "@polymer/iron-ajax": "^3.0.1",
+    "@polymer/iron-collapse": "^3.0.1",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/iron-location": "^3.0.1",
+    "@polymer/lit-element": "^0.6.1",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-card": "^3.0.1",
+    "@polymer/paper-checkbox": "^3.1.0",
+    "@polymer/paper-dialog": "^3.0.1",
+    "@polymer/paper-dialog-scrollable": "^3.0.1",
+    "@polymer/paper-icon-button": "^3.0.1",
+    "@polymer/paper-input": "^3.0.1",
+    "@polymer/paper-item": "^3.0.1",
+    "@polymer/paper-listbox": "^3.0.1",
+    "@polymer/paper-slider": "^3.0.1",
+    "@polymer/polymer": "^3.0.0",
+    "@vaadin/vaadin-grid": "^5.2.1",
+    "@vaadin/vaadin-upload": "^4.2.1",
+    "paper-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  }
+}
