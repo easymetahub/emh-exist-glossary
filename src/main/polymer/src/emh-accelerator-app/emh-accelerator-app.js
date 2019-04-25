@@ -79,23 +79,23 @@ class EMHAcceleratorApp extends PolymerElement {
       <iron-location id="sourceLocation" query="{{query}}"></iron-location>
       <iron-query-params id="sourceParams" params-string="{{query}}" params-object="{{params}}"></iron-query-params>
       <iron-ajax auto="true" id="runSearch"
-        url="/search"  
+        url="modules/search.xq"  
         params="[[params]]"
         handle-as="json"
         last-response="{{result}}"></iron-ajax>
       <iron-ajax auto="true"  id="whoAmI"
-        url="/modules/who-am-i.xqy"  
+        url="modules/who-am-i.xq"  
         handle-as="json"
         last-response="{{user}}"></iron-ajax>
       <iron-ajax id="loginAction" 
-        url="/modules/login.xqy"  
+        url="modules/login.xqy"  
         params="[[loginData]]"
         handle-as="json"
         on-response="_onLoginResponse"></iron-ajax>
       <paper-dialog id="dialog">
         <h2>Upload ZIP(s)</h2>
         <paper-dialog-scrollable>
-          <vaadin-upload accept=".zip" target="/upload-all" method="POST" timeout="300000" form-data-name="my-attachment" id="responseDemo" files="{{files}}">
+          <vaadin-upload accept=".zip" target="modules/upload.xq" method="POST" timeout="300000" form-data-name="my-attachment" id="responseDemo" files="{{files}}">
             <iron-icon slot="drop-label-icon" icon="description"></iron-icon>
             <span slot="drop-label">Drop your requests here (ZIP files only)</span>
             <div slot="file-list">
