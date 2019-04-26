@@ -68,9 +68,9 @@ declare function emhjson:match($match as node()) {
  :)
 declare function emhjson:snippet($snippet as node()) {
     map {
-        "matches" : array {
-            for $match in $snippet/search:match
-            return emhjson:match($match)
+        "matches" : array { ()
+            (:for $match in $snippet/search:match
+            return emhjson:match($match):)
         }
     }
 };
@@ -84,9 +84,9 @@ declare function emhjson:snippet($snippet as node()) {
 declare function emhjson:concept-value($values as node()*) {
     switch (fn:count($values))
         case 0 return
-            null-node { }
+            ()
         case 1 return
-            text { xs:string($values) }
+            xs:string($values)
         default return
             array { $values/text() }
 };

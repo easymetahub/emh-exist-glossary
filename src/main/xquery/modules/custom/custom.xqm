@@ -28,7 +28,6 @@ xquery version "3.1";
  :)
 module namespace custom="http://easymetahub.com/emh-accelerator/library/custom";
 
-import module namespace functx = "http://www.functx.com";
 import module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json" at "../emh-json.xqm";
 
 declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
@@ -36,11 +35,12 @@ declare namespace skos="http://www.w3.org/2008/05/skos#";
 declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#";
 declare namespace dc="http://purl.org/dc/elements/1.1/";
 declare namespace env = "http://marklogic.com/data-hub/envelope";
+declare namespace search = "http://marklogic.com/data-hub/search";
 
 (:~
  : This is the collection that all uploads will be stored in so that the search can find them.
  :)
-declare variable $custom:data-collection := "accelerator-data";
+declare variable $custom:data-collection := "/db/apps/emh-accelerator/data";
 
 (:~
  : Look up the Concept whose rdf:about value equals the $name parameter.
@@ -88,8 +88,8 @@ declare function custom:facet-value($facet-value as node(), $facet-name as xs:st
             "facet" : $facet-name,
             "value" : $facet-text,
             "name" : $display-name,
-            "count" : number-node { xs:integer($facet-value/@count) },
-            "selected" : boolean-node { $selected }
+            "count" : xs:integer($facet-value/@count),
+            "selected" : xs:boolean($selected) 
         }
 };
 
@@ -125,7 +125,7 @@ declare function custom:facet-object($facet as node(), $qtext as xs:string)
                             for $value in fn:subsequence($facet/search:facet-value, 11)
                             return custom:facet-value($value, $facet/@name/string(), $qtext)
                         }
-                    else null-node { }
+                    else ()
             }
 
 };
@@ -225,13 +225,13 @@ declare function custom:result-object($result as node(), $show-snippets as xs:bo
  :  @param $file     The file that has been uploaded.
  :  @return An array of JSON objects as { "type": error-type, "message": error-message }
  :)
-declare function custom:process-upload($filename as xs:string, $file)
-as map()*
+declare function custom:process-upload($filename as xs:string, $file as node())
+as map(*)
 {
-    let $log := xdmp:log("Processing file: " || $filename)
+    let $log := util:log("info", "Processing file: " || $filename)
+    let $log2 := util:log("info", "Processing file: " || $file/fn:local-name())
     let $glossary := fn:substring-before($filename, ".")
-    let $is-glossary :=
-        if (fn:count(cts:search(collection($custom:data-collection)//env:envelope, cts:element-range-query(xs:QName("env:glossaryName"), "=", $glossary))) gt 0) then fn:true() else fn:false()
+    let $is-glossary := xmldb:collection-available($custom:data-collection || '/' || $glossary)
     return if ($is-glossary)
     then
         map {
@@ -239,38 +239,21 @@ as map()*
             "message" : fn:concat("Glossary ", $glossary, " already exists")
         }
     else
+    let $mkdir := xmldb:create-collection($custom:data-collection, $glossary)
     let $nodes :=
-        for $node at $index in xdmp:unquote($file)/*/*
-        let $id := sem:uuid-string()
+        for $node at $index in fn:subsequence($file/*/*, 1, 10)
+        let $id := util:uuid()
         let $envelope :=
-            element { fn:QName("http://marklogic.com/data-hub/envelope", "envelope") } {
-                element { fn:QName("http://marklogic.com/data-hub/envelope", "headers") } {
-                    element { fn:QName("http://marklogic.com/data-hub/envelope", "id") } { $id },
-                    element { fn:QName("http://marklogic.com/data-hub/envelope", "glossaryName") } { $glossary },
-                    element { fn:QName("http://marklogic.com/data-hub/envelope", "timestamp") } {  fn:current-dateTime() }
+            element { "env:envelope" } {
+                element { "env:headers" } {
+                    element { "env:id" } { $id },
+                    element { "env:glossaryName" } { $glossary },
+                    element { "env:timestamp" } {  fn:current-dateTime() }
                 },
-                element { fn:QName("http://marklogic.com/data-hub/envelope", "instance") } { $node }
+                element { "env:instance" } { $node }
             }
         let $stored :=
-            xdmp:document-insert(
-                "/glossary/" || $glossary || "/" || sem:uuid() || ".xml",
-                $envelope,
-                <options xmlns="xdmp:document-insert">  
-                    <permissions>{xdmp:default-permissions()}</permissions>
-                    <collections>{
-                        <collection>{$custom:data-collection}</collection>,
-                        <collection>glossary-{$glossary}</collection>,
-                        for $coll in xdmp:default-collections()
-                        return <collection>{$coll}</collection>
-                    }</collections>
-                    <permissions>{(
-                        xdmp:default-permissions(), 
-                        xdmp:permission("emh-accelerator-reader", "read"), 
-                        xdmp:permission("emh-accelerator-writer", "update")
-                    )}</permissions>
-                    <quality>10</quality>
-                </options>
-            )
+            xmldb:store($custom:data-collection || '/' || $glossary, $id || '.xml', $envelope)
         return ()
     return 
         map {
@@ -288,99 +271,6 @@ declare function custom:search-options()
 as node()
 {
   <options xmlns="http://marklogic.com/appservices/search">
-    <search-option>unfiltered</search-option>
-    <search-option>score-logtfidf</search-option>
-    <search-option>relevance-trace</search-option>
-    <constraint name="Glossary">
-        <range type="xs:string" facet="true">
-            <element ns="http://marklogic.com/data-hub/envelope" name="glossaryName"/>
-            <facet-option>frequency-order</facet-option>
-            <facet-option>descending</facet-option>
-            <facet-option>limit=25</facet-option>
-        </range>
-    </constraint>
-    <constraint name="Preferred Label">
-        <range type="xs:string" facet="true">
-            <element ns="http://www.w3.org/2008/05/skos#" name="prefLabel"/>
-            <facet-option>frequency-order</facet-option>
-            <facet-option>descending</facet-option>
-            <facet-option>limit=25</facet-option>
-        </range>
-    </constraint>
-    <constraint name="Alternative Label">
-        <range type="xs:string" facet="true">
-            <element ns="http://www.w3.org/2008/05/skos#" name="altLabel"/>
-            <facet-option>frequency-order</facet-option>
-            <facet-option>descending</facet-option>
-            <facet-option>limit=25</facet-option>
-        </range>
-    </constraint>
-    <constraint name="Entity">
-        <range type="xs:string" facet="true">
-            <element ns="http://www.w3.org/2008/05/skos#" name="entity"/>
-            <facet-option>frequency-order</facet-option>
-            <facet-option>descending</facet-option>
-            <facet-option>limit=25</facet-option>
-        </range>
-    </constraint>
-    <constraint name="Property Of">
-        <range type="xs:string" facet="true">
-            <element ns="http://www.w3.org/2008/05/skos#" name="property-of"/>
-            <facet-option>frequency-order</facet-option>
-            <facet-option>descending</facet-option>
-            <facet-option>limit=25</facet-option>
-        </range>
-    </constraint>
-    <constraint name="Related">
-        <range type="xs:string" facet="true">
-            <element ns="http://www.w3.org/2008/05/skos#" name="related"/>
-            <attribute ns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" name="resource"/>
-            <facet-option>frequency-order</facet-option>
-            <facet-option>descending</facet-option>
-            <facet-option>limit=25</facet-option>
-        </range>
-    </constraint>
-    <constraint name="Broader">
-        <range type="xs:string" facet="true">
-            <element ns="http://www.w3.org/2008/05/skos#" name="broader"/>
-            <attribute ns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" name="resource"/>
-            <facet-option>frequency-order</facet-option>
-            <facet-option>descending</facet-option>
-            <facet-option>limit=25</facet-option>
-        </range>
-    </constraint>
-    <constraint name="Narrower">
-        <range type="xs:string" facet="true">
-            <element ns="http://www.w3.org/2008/05/skos#" name="narrower"/>
-            <attribute ns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" name="resource"/>
-            <facet-option>frequency-order</facet-option>
-            <facet-option>descending</facet-option>
-            <facet-option>limit=25</facet-option>
-        </range>
-    </constraint>
-    <additional-query>
-      <cts:collection-query xmlns:cts="http://marklogic.com/cts">
-        <cts:uri>{$custom:data-collection}</cts:uri>
-      </cts:collection-query>
-    </additional-query>
-    <debug>true</debug>
-  <return-query>true</return-query>
-  <return-qtext>true</return-qtext>
-    <operator name="sort">
-      <state name="relevance">
-        <sort-order direction="descending">
-          <score/>
-        </sort-order>
-      </state>
-      <state name='prefLabel'>
-        <sort-order direction="ascending">
-          <element ns="http://www.w3.org/2004/02/skos/core#" name="prefLabel"/>
-        </sort-order>
-        <sort-order direction="descending">
-          <score/>
-        </sort-order>
-      </state>
-    </operator>
   </options>
 };
 

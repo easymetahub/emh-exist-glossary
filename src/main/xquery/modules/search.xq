@@ -31,7 +31,11 @@ declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 declare namespace skos="http://www.w3.org/2008/05/skos#";
 declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#";
 declare namespace dc="http://purl.org/dc/elements/1.1/";
+declare namespace search = "http://marklogic.com/data-hub/search";
+declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 
+declare option output:method "json";
+declare option output:media-type "application/json";
 
 (:~
  : This method allows for the odering of facets showing the selected snippets first
@@ -54,8 +58,8 @@ declare function local:facets-by-selection($facets as node()*, $return-selected 
             if ($return-selected) then $facet else ()
 };
 
-let $q := if (fn:string-length(request:get-parameter('q')) gt 0) then request:get-parameter('q') else ()
-let $debug := if (fn:string-length(request:get-parameter('debug')) gt 0) then fn:true() else fn:false()
+let $q := if (fn:string-length(request:get-parameter('q', "")) gt 0) then request:get-parameter('q', "") else ()
+let $debug := if (fn:string-length(request:get-parameter('debug', "")) gt 0) then fn:true() else fn:false()
 
 let $total-count := fn:count(fn:collection($custom:data-collection)//skos:Concept)
 
@@ -75,9 +79,9 @@ let $search-input :=
         " "
     )
 
-let $search-results := search:search($search-input, custom:search-options(), $start, $page-length) 
+let $search-results := () (: search:search($search-input, custom:search-options(), $start, $page-length) :)
 
-let $qtext := $search-results/search:qtext/text()
+let $qtext := ($search-results/search:qtext/text(), "*")[1]
 
 let $selected-facets := 
     for $facet in local:facets-by-selection($search-results/search:facet, fn:true(), $qtext)

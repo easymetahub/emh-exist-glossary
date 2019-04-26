@@ -95,9 +95,9 @@ class EMHAcceleratorApp extends PolymerElement {
       <paper-dialog id="dialog">
         <h2>Upload ZIP(s)</h2>
         <paper-dialog-scrollable>
-          <vaadin-upload accept=".zip" target="modules/upload.xq" method="POST" timeout="300000" form-data-name="my-attachment" id="responseDemo" files="{{files}}">
+          <vaadin-upload accept=".rdf" target="modules/upload.xq" method="POST" timeout="300000" form-data-name="my-attachment" id="responseDemo" files="{{files}}">
             <iron-icon slot="drop-label-icon" icon="description"></iron-icon>
-            <span slot="drop-label">Drop your requests here (ZIP files only)</span>
+            <span slot="drop-label">Drop your requests here (RDF files only)</span>
             <div slot="file-list">
               <h4 id="files">Files</h4>
               <template is="dom-repeat" items="[[files]]" as="file">

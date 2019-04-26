@@ -28,19 +28,21 @@ import module namespace custom="http://easymetahub.com/emh-accelerator/library/c
 
 declare namespace error="http://marklogic.com/xdmp/error";
 declare namespace skos="http://www.w3.org/2004/02/skos/core#";
+declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
+
+declare option output:method "json";
+declare option output:media-type "application/json";
 
 declare variable $request-filename := request:get-uploaded-file-name("my-attachment");
 
-declare option xdmp:mapping "false";
-
-let $log := xdmp:log("Starting an upload!")
+let $log := util:log("info", "Starting an upload!")
 (: wrapping updates in invoke-function so transaction results are visible to code below :)
 let $json-response :=
                 array {
-                    if (request:get-uploaded-file-data("my-attachment")) eq 0)
+                    if (fn:count($request-filename) eq 0)
                     then 
                         map {
-                            "filename" : "none", 
+                            "responseFilename" : "none", 
                             "messages" : 
                                 array { 
                                     map { 
@@ -52,11 +54,25 @@ let $json-response :=
                     else
                         for $file at $pos in request:get-uploaded-file-data("my-attachment")
                         let $filename := $request-filename[$pos]
+                        let $file-string := util:binary-to-string($file)
                         return
                             map { 
-                                "filename" : $filename, 
-                                "messages" : array { custom:process-upload($filename, $file) } 
+                                "responseFilename" : $filename, 
+                                "messages" : array {(
+                                    map {
+                                        "type" : "info", 
+                                        "message" : "Processing file " || $filename 
+                                    },
+                                    try {
+                                        custom:process-upload($filename, fn:parse-xml($file-string) ) 
+                                    } catch * {
+                                        map { 
+                                            "type" : "error", 
+                                            "message" : $err:description 
+                                        } 
+                                    }
+                                )} 
                             }
                 }
-            }
+
 return $json-response
