@@ -11,5 +11,5 @@
   <target>emh-accelerator</target>
   <prepare>pre-install.xql</prepare>
   <finish>post-install.xql</finish>
-  <permissions user="emh" group="emh" mode="rw-rw-r--"/>
+  <permissions user="emh" group="emh" mode="rw-rw-rw-"/>
 </meta>

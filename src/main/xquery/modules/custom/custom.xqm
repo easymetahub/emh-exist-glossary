@@ -229,9 +229,9 @@ declare function custom:process-upload($filename as xs:string, $file as node())
 as map(*)
 {
     let $log := util:log("info", "Processing file: " || $filename)
-    let $log2 := util:log("info", "Processing file: " || $file/fn:local-name())
+    let $log2 := util:log("info", "Processing file: " || $file/*/fn:local-name())
     let $glossary := fn:substring-before($filename, ".")
-    let $is-glossary := xmldb:collection-available($custom:data-collection || '/' || $glossary)
+    let $is-glossary := fn:collection($custom:data-collection)//env:headers[env:glossaryName = $glossary]
     return if ($is-glossary)
     then
         map {
@@ -239,9 +239,9 @@ as map(*)
             "message" : fn:concat("Glossary ", $glossary, " already exists")
         }
     else
-    let $mkdir := xmldb:create-collection($custom:data-collection, $glossary)
+    (:let $mkdir := xmldb:create-collection($custom:data-collection, $glossary):)
     let $nodes :=
-        for $node at $index in fn:subsequence($file/*/*, 1, 10)
+        for $node at $index in $file//rdf:RDF/*
         let $id := util:uuid()
         let $envelope :=
             element { "env:envelope" } {
@@ -253,7 +253,7 @@ as map(*)
                 element { "env:instance" } { $node }
             }
         let $stored :=
-            xmldb:store($custom:data-collection || '/' || $glossary, $id || '.xml', $envelope)
+            xmldb:store($custom:data-collection, $id || '.xml', $envelope)
         return ()
     return 
         map {
