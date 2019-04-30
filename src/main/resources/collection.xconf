@@ -1,9 +1,14 @@
 <collection xmlns="http://exist-db.org/collection-config/1.0">
-    <index xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#">
+    <index xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" xmlns:env="http://marklogic.com/data-hub/envelope">
     <lucene>
         <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
         <analyzer id="ws" class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"/>
-        <text qname="skos:prefLabel"/>
+        <text qname="env:envelope">
+	        <facet dimension="Glossary" expression="env:headers/env:glossaryName"/>
+	        <facet dimension="PrefLabel" expression="env:instance/skos:prefLabel"/>
+	        <facet dimension="AltLabel" expression="env:instance/skos:altLabel"/>
+            <field name="Description" expression="env:instance/skos:description"/>
+        </text>
     </lucene>
     </index>
       <triggers>
