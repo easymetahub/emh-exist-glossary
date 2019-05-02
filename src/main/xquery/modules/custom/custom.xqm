@@ -29,6 +29,7 @@ xquery version "3.1";
 module namespace custom="http://easymetahub.com/emh-accelerator/library/custom";
 
 import module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json" at "../emh-json.xqm";
+import module namespace kwic="http://exist-db.org/xquery/kwic";
 
 declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 declare namespace skos="http://www.w3.org/2008/05/skos#";
@@ -50,17 +51,7 @@ declare variable $custom:data-collection := "/db/apps/emh-accelerator/data";
  :)
 declare function custom:prefLabel($name as xs:string)
 {
-    "foo"
-    (:
-    cts:search(
-        collection($custom:data-collection)//skos:Concept,
-        cts:element-attribute-range-query(
-                xs:QName("skos:Concept"), 
-                xs:QName("rdf:about"), 
-                "=",
-                $name)
-    )/skos:prefLabel/text()
-    :)
+    collection($custom:data-collection)//skos:Concept[@rdf:about = $name]/skos:prefLabel/text()
 };
 
 (:~
@@ -71,9 +62,8 @@ declare function custom:prefLabel($name as xs:string)
  : @param $qtext       The 'search:qtext' of the search results to find the selected facet value(s)
  : @return The JSON object for creating a facet value entry on the client page
  :)
-declare function custom:facet-value($facet-value as node(), $facet-name as xs:string, $qtext as xs:string)
+declare function custom:facet-value($facet-name as xs:string, $count as xs:integer, $value-name as xs:string, $qtext as xs:string)
 {
-    let $value-name := $facet-value/@name/string()
     let $facet-text := emhjson:facet-text($facet-name, $value-name)
     let $display-name :=
         if (fn:starts-with($value-name, "#"))
@@ -86,9 +76,9 @@ declare function custom:facet-value($facet-value as node(), $facet-name as xs:st
         else
         map {
             "facet" : $facet-name,
-            "value" : $facet-text,
+            "value" : $value-name,
             "name" : $display-name,
-            "count" : xs:integer($facet-value/@count),
+            "count" : $count,
             "selected" : xs:boolean($selected) 
         }
 };
@@ -100,33 +90,25 @@ declare function custom:facet-value($facet-value as node(), $facet-name as xs:st
  : @param $qtext  The 'search:qtext' of the search results to find the selected facet value(s)
  : @return The JSON object for creating a facet entry on the client page
  :)
-declare function custom:facet-object($facet as node(), $qtext as xs:string) 
+declare function custom:facet-object($facet as map(*), $facet-name as xs:string, $qtext as xs:string) 
 {
-    switch ($facet/@type)
-        case "xs:gYear" return
-            map {
-                "name" : xs:string($facet/@name),
-                "min" : xs:integer($facet/search:facet-value[1]),
-                "max" : xs:integer($facet/search:facet-value[fn:last()]),
-                "lower" : xs:integer($facet/search:facet-value[1]),
-                "upper" : xs:integer($facet/search:facet-value[fn:last()])
-            }
-        default return
-            map {
-                "name" : xs:string($facet/@name),
-                "values" : array {
-                        for $value in fn:subsequence($facet/search:facet-value, 1, 10)
-                        return custom:facet-value($value, $facet/@name/string(), $qtext)
-                    },
-                "extvalues" : 
-                    if (fn:count($facet/search:facet-value) gt 10)
-                    then
-                        array {
-                            for $value in fn:subsequence($facet/search:facet-value, 11)
-                            return custom:facet-value($value, $facet/@name/string(), $qtext)
-                        }
-                    else ()
-            }
+    let $names := map:keys($facet)
+    return
+    map {
+        "name" : $facet-name,
+        "values" : array {
+                for $value in fn:subsequence($names, 1, 10)
+                return custom:facet-value($facet-name, map:get($facet, $value), $value, $qtext)
+            },
+        "extvalues" : 
+            if (fn:count($names) gt 10)
+            then
+                array {
+                    for $value in fn:subsequence($names, 11)
+                return custom:facet-value($facet-name, map:get($facet, $value), $value, $qtext)
+                }
+            else ()
+    }
 
 };
 
@@ -137,22 +119,13 @@ declare function custom:facet-object($facet as node(), $qtext as xs:string)
  : @param $show-snippets A flag for whether to show the snippets.
  : @return The JSON object that represents a result item in the client page
  :)
-declare function custom:result-object($result as node(), $show-snippets as xs:boolean)
+declare function custom:result-object($result as node(), $index, $show-snippets as xs:boolean)
 {
-    let $uri := $result/@uri/string()
-    let $envelope := if ($result/@uri) 
-                    then fn:doc($uri)//env:envelope
-                    else ()
-    let $concept := if ($envelope) 
-                    then $envelope//skos:Concept
-                    else 
-                        <skos:Concept>
-                            <skos:prefLabel>No query match</skos:prefLabel>
-                            <skos:definition></skos:definition>
-                        </skos:Concept>
+    let $uri := fn:base-uri($result)
+    let $concept := $result//skos:Concept
     return
         map {
-            'index' : $result/@index/number(),
+            'index' : $index,
             'concept' : map {
                             'term' : emhjson:concept-value($concept/skos:prefLabel),
                             'about' : emhjson:concept-value($concept/@rdf:about),
@@ -164,36 +137,36 @@ declare function custom:result-object($result as node(), $show-snippets as xs:bo
                                             return 
                                                 map {
                                                     'name' : emhjson:concept-value($prefLabel), 
-                                                    'glossary' : emhjson:facet-text('Glossary', $envelope/env:headers/env:glossaryName),
+                                                    'glossary' : emhjson:facet-text('Glossary', $result/env:headers/env:glossaryName),
                                                     'label' : emhjson:facet-text('Preferred Label', $prefLabel[1])
                                                 }
                                         },
-                            'broader' : array {
+                            'broader' : array { 
                                             for $broader in $concept/skos:broader
                                             let $prefLabel := custom:prefLabel($broader/@rdf:resource)
                                             return 
                                                 map {
                                                     'name' : emhjson:concept-value($prefLabel), 
-                                                    'glossary' : emhjson:facet-text('Glossary', $envelope/env:headers/env:glossaryName),
+                                                    'glossary' : emhjson:facet-text('Glossary', $result/env:headers/env:glossaryName),
                                                     'label' : emhjson:facet-text('Preferred Label', $prefLabel[1])
                                                 }
                                         },
-                            'narrower' : array {
+                            'narrower' : array { 
                                             for $narrower in $concept/skos:narrower
                                             let $prefLabel := custom:prefLabel($narrower/@rdf:resource)
                                             return 
                                                 map { 
                                                     'name' : emhjson:concept-value($prefLabel), 
-                                                    'glossary' : emhjson:facet-text('Glossary', $envelope/env:headers/env:glossaryName),
+                                                    'glossary' : emhjson:facet-text('Glossary', $result/env:headers/env:glossaryName),
                                                     'label' : emhjson:facet-text('Preferred Label', $prefLabel[1])
                                                 }
                                         }
                         },
-            'snippets' : array {
+            'snippets' : array { 
                 if ($show-snippets)
                 then
-                    for $snippet in $result/search:snippet
-                    return emhjson:snippet($snippet)
+                    for $snippet in kwic:summarize($result, <config width="40"/>)
+                    return fn:serialize($snippet)
                 else ()
             },
 (: This is an example of adding a grid of data to the result item.
@@ -212,9 +185,7 @@ declare function custom:result-object($result as node(), $show-snippets as xs:bo
                      },
 :)
             'uri' : $result/@uri/string(),
-            'score' : $result/@score/number(),
-            'confidence' : $result/@confidence/number(),
-            'fitness' : $result/@fitness/number()
+            'score' : ft:score($result)
         }
 };
 

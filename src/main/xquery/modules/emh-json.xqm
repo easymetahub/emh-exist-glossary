@@ -26,6 +26,8 @@ xquery version "3.1";
  :)
 module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json";
 
+import module namespace functx = "http://www.functx.com";
+
 (:~
  : Generates the snippe match string to show the highlighted text for the client.
  :
@@ -54,26 +56,11 @@ declare function emhjson:stringify($match as node()) {
  :)
 declare function emhjson:match($match as node()) {
     map {
-      'path' : $match/@path/string(),
-      'text' : emhjson:stringify($match)
+      'path' : "" (:functx:path-to-node($match):),
+      'text' : fn:serialize($match)
     }
 };
 
-
-(:~
- : Generate the JSON object for a snippet
- :
- : @param $snippet A 'search:snippet' node from a 'search:result' object
- : @return The JSON object for a search result snippet
- :)
-declare function emhjson:snippet($snippet as node()) {
-    map {
-        "matches" : array { ()
-            (:for $match in $snippet/search:match
-            return emhjson:match($match):)
-        }
-    }
-};
 
 (:~
  :

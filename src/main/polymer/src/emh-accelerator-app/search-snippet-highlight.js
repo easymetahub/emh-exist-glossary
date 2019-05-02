@@ -26,7 +26,7 @@ class SearchSnippetHighlight extends LitElement {
 
   render() {
     return html`
-      <style>.highlight { background-color: yellow; }</style>
+      <style>.hi { background-color: yellow; }</style>
       <div .innerHTML="${this.sanitizeHtml(this.snippet)}"></div>`;
   }
 

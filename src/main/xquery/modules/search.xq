@@ -33,6 +33,7 @@ declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#";
 declare namespace dc="http://purl.org/dc/elements/1.1/";
 declare namespace search = "http://marklogic.com/data-hub/search";
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
+declare namespace env = "http://marklogic.com/data-hub/envelope";
 
 declare option output:method "json";
 declare option output:media-type "application/json";
@@ -73,16 +74,28 @@ let $end := $start + $page-length - 1
 let $search-input :=
     fn:string-join(
         (
-            ($q, "*")[1],
+            $q,
             $facets-param
         ), 
         " "
     )
 
-let $search-results := () (: search:search($search-input, custom:search-options(), $start, $page-length) :)
+let $search-count := 
+    if (fn:string-length($search-input) gt 0)
+    then fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $search-input)])
+    else fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept])
+let $search-results := 
+    if (fn:string-length($search-input) gt 0)
+    then fn:subsequence(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $search-input)], $start, $start + $page-length -1)
+    else fn:subsequence(collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept], $start, $start + $page-length - 1)
 
-let $qtext := ($search-results/search:qtext/text(), "*")[1]
 
+let $facets := 
+for $facet-name in ("Glossary", "PrefLabel", "AltLabel")
+let $facet := ft:facets(head($search-results), $facet-name, ())
+return if (fn:count(map:keys($facet)) gt 0) then custom:facet-object($facet, $facet-name, $search-input) else ()
+
+(:
 let $selected-facets := 
     for $facet in local:facets-by-selection($search-results/search:facet, fn:true(), $qtext)
     return custom:facet-object($facet, $qtext)
@@ -90,12 +103,12 @@ let $selected-facets :=
 let $unselected-facets := 
     for $facet in local:facets-by-selection($search-results/search:facet, fn:false(), $qtext)
     return custom:facet-object($facet, $qtext)
-
+:)
 
 let $results := 
-    for $result in $search-results//search:result
+    for $result at $index in $search-results
     return
-        custom:result-object($result, if ($q) then fn:true() else fn:false())
+        custom:result-object($result, $index + $start - 1, if ($q) then fn:true() else fn:false())
 
         
 return
@@ -103,8 +116,8 @@ return
     then $search-results
     else
         map {
-            "total" : $search-results/@total/number(),
+            "total" : $search-count,
             "available" : $total-count,
-            "facets" : array { ($selected-facets, $unselected-facets) },
+            "facets" : array { $facets },
             "results" : array { $results }
         }

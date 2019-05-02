@@ -77,9 +77,7 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
             <span class="term">[[item.concept.term]]</span>
           </div>
           <template is="dom-repeat" items="[[item.snippets]]">
-            <template is="dom-repeat" items="[[item.matches]]">
-              <search-snippet-highlight snippet="[[item.text]]"></search-snippet-highlight>
-            </template>
+            <search-snippet-highlight snippet="[[item]]"></search-snippet-highlight>
           </template>
           <template is="dom-if" if="[[item.grid]]">
             <vaadin-grid theme="compact row-stripes" items="[[item.grid.rows]]"  height-by-rows>
@@ -105,11 +103,11 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
               </template>
               <h5>Related</h5>
               <template is="dom-repeat" items="[[item.concept.related]]">
-                <paper-button class="label" raised>[[item]]</paper-button>
+                <paper-button class="label" raised>[[item.name]]</paper-button>
               </template>
               <h5>Broader</h5>
               <template is="dom-repeat" items="[[item.concept.broader]]">
-                <paper-button class="label" raised>[[item]]</paper-button>
+                <paper-button class="label" raised>[[item.name]]</paper-button>
               </template>
               <h5>Narrower 
                   <template is="dom-if" if="[[editable]]">
@@ -117,7 +115,7 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
                   </template>
               </h5>
               <template is="dom-repeat" items="[[item.concept.narrower]]">
-                <paper-button class="label" raised>[[item]]</paper-button>
+                <paper-button class="label" raised>[[item.name]]</paper-button>
               </template>
             </div>
           </iron-collapse>
