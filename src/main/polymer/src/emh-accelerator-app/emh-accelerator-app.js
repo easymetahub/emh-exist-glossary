@@ -180,7 +180,6 @@ class EMHAcceleratorApp extends PolymerElement {
     } 
 
     facetChanged(value) {
-      /*
       if (value.path.endsWith(".selected")) {
         var separator = "~~";
         var pathlength = value.path.length;
@@ -210,23 +209,22 @@ class EMHAcceleratorApp extends PolymerElement {
         this.set( 'params.facets', params.facets  );
         this.notifyPath('params.facets');
       }
-      */
     }
 
     ready() {
       super.ready();
-      // if (!this.params.pagelength) {
-      //   this.params.pagelength = 10;
-      //   this.notifyPath('params.pagelength');
-      // }
+      if (!this.params.pagelength) {
+        this.params.pagelength = 10;
+        this.notifyPath('params.pagelength');
+      }
     }
 
     connectedCallback() {
       super.connectedCallback();
-      // if (!this.params.pagelength) {
-      //   this.params.pagelength = 10;
-      //   this.notifyPath('params.pagelength');
-      // }
+      if (!this.params.pagelength) {
+        this.params.pagelength = 10;
+        this.notifyPath('params.pagelength');
+      }
         this.$.runSearch.generateRequest();
     }
 

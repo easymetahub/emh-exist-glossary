@@ -62,24 +62,29 @@ declare function custom:prefLabel($name as xs:string)
  : @param $qtext       The 'search:qtext' of the search results to find the selected facet value(s)
  : @return The JSON object for creating a facet value entry on the client page
  :)
-declare function custom:facet-value($facet-name as xs:string, $count as xs:integer, $value-name as xs:string, $qtext as xs:string)
+declare function custom:facet-value($facet-name as xs:string, $count as xs:integer, $value-name as xs:string, $qtext as xs:string?)
 {
     let $facet-text := emhjson:facet-text($facet-name, $value-name)
     let $display-name :=
         if (fn:starts-with($value-name, "#"))
         then custom:prefLabel($value-name)
         else $value-name
-    let $selected :=fn:contains($qtext, $facet-text)
+    let $selected := if (fn:string-length($qtext) gt 0)
+                    then if ($qtext eq $facet-text)
+                     then fn:true()
+                     else fn:false()
+                     else fn:false()
+                     
     return
         if (fn:not($value-name))
         then ()
         else
         map {
             "facet" : $facet-name,
-            "value" : $value-name,
+            "value" : $facet-text,
             "name" : $display-name,
             "count" : $count,
-            "selected" : xs:boolean($selected) 
+            "selected" : $selected 
         }
 };
 
@@ -90,22 +95,34 @@ declare function custom:facet-value($facet-name as xs:string, $count as xs:integ
  : @param $qtext  The 'search:qtext' of the search results to find the selected facet value(s)
  : @return The JSON object for creating a facet entry on the client page
  :)
-declare function custom:facet-object($facet as map(*), $facet-name as xs:string, $qtext as xs:string) 
+declare function custom:facet-object($facet as map(*), $facet-name as xs:string, $qtext as xs:string*) 
 {
-    let $names := map:keys($facet)
+    let $names := 
+        for $name in map:keys($facet)
+        let $count := map:get($facet, $name)
+        order by $count descending, $name ascending
+        return $name
+        
+    let $selected-facet := (
+        for $facet in $qtext
+        return 
+            if (fn:starts-with($facet, $facet-name))
+            then $facet
+            else (), "")[1]
+        
     return
     map {
         "name" : $facet-name,
         "values" : array {
                 for $value in fn:subsequence($names, 1, 10)
-                return custom:facet-value($facet-name, map:get($facet, $value), $value, $qtext)
+                return custom:facet-value($facet-name, map:get($facet, $value), $value, $selected-facet)
             },
         "extvalues" : 
             if (fn:count($names) gt 10)
             then
                 array {
                     for $value in fn:subsequence($names, 11)
-                return custom:facet-value($facet-name, map:get($facet, $value), $value, $qtext)
+                return custom:facet-value($facet-name, map:get($facet, $value), $value, $selected-facet)
                 }
             else ()
     }

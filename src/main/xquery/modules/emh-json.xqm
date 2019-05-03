@@ -95,8 +95,8 @@ declare function emhjson:facet-text($facet-name as xs:string, $value-name as xs:
         else $facet-name, 
         ':', 
         if (fn:contains($value-name, ' '))
-        then '"' || $value-name || '"'
-        else $value-name
+        then '"' || encode-for-uri($value-name) || '"'
+        else encode-for-uri($value-name)
     )
 };
 

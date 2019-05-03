@@ -70,40 +70,62 @@ let $facets-param := fn:tokenize(request:get-parameter('facets', ()), "~~")
 let $end := $start + $page-length - 1
 
 
-(: If there isn't a search string, then return all possible results :)
-let $search-input :=
-    fn:string-join(
-        (
-            $q,
-            $facets-param
-        ), 
-        " "
-    )
-
 let $search-count := 
-    if (fn:string-length($search-input) gt 0)
-    then fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $search-input)])
+    if (fn:string-length($q) gt 0)
+    then fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, map { "facets" : map:merge(
+        for $facet in $facets-param
+        let $facet-name := fn:substring-before($facet, ":")
+        let $facet-value := fn:substring-after($facet, ":")
+        return map { $facet-name : xmldb:decode($facet-value) }
+
+        
+    )})])
     else fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept])
 let $search-results := 
-    if (fn:string-length($search-input) gt 0)
-    then fn:subsequence(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $search-input)], $start, $start + $page-length -1)
+    if (fn:string-length($q) gt 0)
+    then fn:subsequence(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, map { "facets" : map:merge(
+        for $facet in $facets-param
+        let $facet-name := fn:substring-before($facet, ":")
+        let $facet-value := fn:substring-after($facet, ":")
+        return map { $facet-name : xmldb:decode($facet-value) }
+    )
+        
+    })], $start, $start + $page-length -1)
     else fn:subsequence(collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept], $start, $start + $page-length - 1)
 
 
-let $facets := 
-for $facet-name in ("Glossary", "PrefLabel", "AltLabel")
-let $facet := ft:facets(head($search-results), $facet-name, ())
-return if (fn:count(map:keys($facet)) gt 0) then custom:facet-object($facet, $facet-name, $search-input) else ()
+let $facet-names := 
+    for $name in ("Broader", "Narrower", "Related", "Glossary", "PrefLabel", "AltLabel")
+    order by $name
+    return $name
 
-(:
+let $selected-facet-names := 
+    for $name in $facet-names
+    return 
+        for $facet-param in $facets-param
+        return 
+            if (fn:starts-with($facet-param, $name || ":"))
+            then $name
+            else ()
+
+let $unselected-facet-names := $facet-names[not(.=$selected-facet-names)]
+
 let $selected-facets := 
-    for $facet in local:facets-by-selection($search-results/search:facet, fn:true(), $qtext)
-    return custom:facet-object($facet, $qtext)
+    for $facet-name in $selected-facet-names
+    let $facet := ft:facets(head($search-results), $facet-name, ())
+    return 
+        if (fn:count(map:keys($facet)) gt 0) 
+        then custom:facet-object($facet, $facet-name, $facets-param) 
+        else ()
+
 
 let $unselected-facets := 
-    for $facet in local:facets-by-selection($search-results/search:facet, fn:false(), $qtext)
-    return custom:facet-object($facet, $qtext)
-:)
+    for $facet-name in $unselected-facet-names
+    let $facet := ft:facets(head($search-results), $facet-name, ())
+    return 
+        if (fn:count(map:keys($facet)) gt 0) 
+        then custom:facet-object($facet, $facet-name, $facets-param) 
+        else ()
 
 let $results := 
     for $result at $index in $search-results
@@ -118,6 +140,6 @@ return
         map {
             "total" : $search-count,
             "available" : $total-count,
-            "facets" : array { $facets },
+            "facets" : array { ($selected-facets, $unselected-facets) },
             "results" : array { $results }
         }

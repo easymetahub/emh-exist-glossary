@@ -7,6 +7,9 @@
 	        <facet dimension="Glossary" expression="env:headers/env:glossaryName"/>
 	        <facet dimension="PrefLabel" expression="env:instance/skos:prefLabel"/>
 	        <facet dimension="AltLabel" expression="env:instance/skos:altLabel"/>
+	        <facet dimension="Broader" expression="env:instance/skos:Concept/skos:broader/@rdf:resource/string()"/>
+	        <facet dimension="Narrower" expression="env:instance/skos:Concept/skos:narrower/@rdf:resource/string()"/>
+	        <facet dimension="Related" expression="env:instance/skos:Concept/skos:related/@rdf:resource/string()"/>
             <field name="Description" expression="env:instance/skos:description"/>
         </text>
     </lucene>
