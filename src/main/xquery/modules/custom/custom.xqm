@@ -62,17 +62,15 @@ declare function custom:prefLabel($name as xs:string)
  : @param $qtext       The 'search:qtext' of the search results to find the selected facet value(s)
  : @return The JSON object for creating a facet value entry on the client page
  :)
-declare function custom:facet-value($facet-name as xs:string, $count as xs:integer, $value-name as xs:string, $qtext as xs:string?)
+declare function custom:facet-value($facet-name as xs:string, $count as xs:integer, $value-name as xs:string, $qtext as xs:string*)
 {
     let $facet-text := emhjson:facet-text($facet-name, $value-name)
     let $display-name :=
         if (fn:starts-with($value-name, "#"))
         then custom:prefLabel($value-name)
         else $value-name
-    let $selected := if (fn:string-length($qtext) gt 0)
-                    then if ($qtext eq $facet-text)
+    let $selected := if ($qtext = $facet-text)
                      then fn:true()
-                     else fn:false()
                      else fn:false()
                      
     return
@@ -103,12 +101,12 @@ declare function custom:facet-object($facet as map(*), $facet-name as xs:string,
         order by $count descending, $name ascending
         return $name
         
-    let $selected-facet := (
+    let $selected-facet := 
         for $facet in $qtext
         return 
             if (fn:starts-with($facet, $facet-name))
             then $facet
-            else (), "")[1]
+            else ()
         
     return
     map {

@@ -99,7 +99,7 @@ let $facet-names :=
     order by $name
     return $name
 
-let $selected-facet-names := 
+let $selected-facet-names := fn:distinct-values(
     for $name in $facet-names
     return 
         for $facet-param in $facets-param
@@ -107,6 +107,7 @@ let $selected-facet-names :=
             if (fn:starts-with($facet-param, $name || ":"))
             then $name
             else ()
+            )
 
 let $unselected-facet-names := $facet-names[not(.=$selected-facet-names)]
 
