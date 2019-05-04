@@ -154,7 +154,7 @@ class EMHAcceleratorApp extends PolymerElement {
           </paper-card>
         <section>
           <template is="dom-repeat" items="{{result.results}}">
-            <result-item item="{{item}}"></result-item>
+            <result-item item="{{item}}" params="{{params}}" user="{{user}}"></result-item>
           </template>
           <!-- DO NOT REMOVE COPYRIGHT NOTICE -->
           <paper-card>Copyright &#169; 2018 EasyMetaHub, LLC. All rights reserved.</paper-card>

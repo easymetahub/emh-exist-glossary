@@ -71,23 +71,39 @@ let $end := $start + $page-length - 1
 
 
 let $search-count := 
-    if (fn:string-length($q) gt 0)
+    if (fn:string-length($q) gt 0 or fn:count($facets-param) gt 0)
     then fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, map { "facets" : map:merge(
         for $facet in $facets-param
         let $facet-name := fn:substring-before($facet, ":")
+        let $trimmed-facet-name := 
+                if (fn:starts-with($facet-name, '"'))
+                then (fn:substring(fn:substring($facet-name, 1, fn:string-length($facet-name) - 1), 2))
+                else $facet-name
         let $facet-value := fn:substring-after($facet, ":")
-        return map { $facet-name : xmldb:decode($facet-value) }
+        let $trimmed-facet-value := 
+                if (fn:starts-with($facet-value, '"'))
+                then (fn:substring(fn:substring($facet-value, 1, fn:string-length($facet-value) - 1), 2))
+                else $facet-value
+        return map { $trimmed-facet-name : xmldb:decode($trimmed-facet-value) }
 
         
     )})])
     else fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept])
 let $search-results := 
-    if (fn:string-length($q) gt 0)
+    if (fn:string-length($q) gt 0 or fn:count($facets-param) gt 0)
     then fn:subsequence(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, map { "facets" : map:merge(
         for $facet in $facets-param
         let $facet-name := fn:substring-before($facet, ":")
+        let $trimmed-facet-name := 
+                if (fn:starts-with($facet-name, '"'))
+                then (fn:substring(fn:substring($facet-name, 1, fn:string-length($facet-name) - 1), 2))
+                else $facet-name
         let $facet-value := fn:substring-after($facet, ":")
-        return map { $facet-name : xmldb:decode($facet-value) }
+        let $trimmed-facet-value := 
+                if (fn:starts-with($facet-value, '"'))
+                then (fn:substring(fn:substring($facet-value, 1, fn:string-length($facet-value) - 1), 2))
+                else $facet-value
+        return map { $trimmed-facet-name : xmldb:decode($trimmed-facet-value) }
     )
         
     })], $start, $start + $page-length -1)
@@ -95,7 +111,7 @@ let $search-results :=
 
 
 let $facet-names := 
-    for $name in ("Broader", "Narrower", "Related", "Glossary", "PrefLabel", "AltLabel")
+    for $name in ("Broader", "Narrower", "Related", "Glossary", '"Preferred Label"', '"Alternate Label"')
     order by $name
     return $name
 
@@ -115,7 +131,7 @@ let $selected-facets :=
     for $facet-name in $selected-facet-names
     let $facet := ft:facets(head($search-results), $facet-name, ())
     return 
-        if (fn:count(map:keys($facet)) gt 0) 
+        if (fn:exists($facet) and fn:count(map:keys($facet)) gt 0) 
         then custom:facet-object($facet, $facet-name, $facets-param) 
         else ()
 
@@ -124,7 +140,7 @@ let $unselected-facets :=
     for $facet-name in $unselected-facet-names
     let $facet := ft:facets(head($search-results), $facet-name, ())
     return 
-        if (fn:count(map:keys($facet)) gt 0) 
+        if (fn:exists($facet) and fn:count(map:keys($facet)) gt 0) 
         then custom:facet-object($facet, $facet-name, $facets-param) 
         else ()
 

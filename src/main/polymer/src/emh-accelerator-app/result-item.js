@@ -13,6 +13,7 @@ import '@polymer/paper-icon-button/paper-icon-button.js';
 import '@polymer/paper-button/paper-button.js';
 import '@vaadin/vaadin-grid/vaadin-grid.js';
 import './search-snippet-highlight.js';
+import './result-item-button.js';
 
 /**
  * @customElement
@@ -103,11 +104,11 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
               </template>
               <h5>Related</h5>
               <template is="dom-repeat" items="[[item.concept.related]]">
-                <paper-button class="label" raised>[[item.name]]</paper-button>
+                <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
               </template>
               <h5>Broader</h5>
               <template is="dom-repeat" items="[[item.concept.broader]]">
-                <paper-button class="label" raised>[[item.name]]</paper-button>
+                <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
               </template>
               <h5>Narrower 
                   <template is="dom-if" if="[[editable]]">
@@ -115,7 +116,7 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
                   </template>
               </h5>
               <template is="dom-repeat" items="[[item.concept.narrower]]">
-                <paper-button class="label" raised>[[item.name]]</paper-button>
+                <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
               </template>
             </div>
           </iron-collapse>
@@ -132,6 +133,7 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
         observer: '_expandedChanged'
       },
       item: { type: Object, notify: true },
+      params: { type: Object, notify: true },
       editable: { type: Boolean, value:false }
     };
   }
