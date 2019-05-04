@@ -5,8 +5,8 @@
         <analyzer id="ws" class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"/>
         <text qname="env:envelope">
 	        <facet dimension="Glossary" expression="env:headers/env:glossaryName"/>
-	        <facet dimension="PrefLabel" expression="env:instance/skos:prefLabel"/>
-	        <facet dimension="AltLabel" expression="env:instance/skos:altLabel"/>
+	        <facet dimension="Preferred Label" expression="env:instance/skos:Concept/skos:prefLabel"/>
+	        <facet dimension="Alternate Label" expression="env:instance/skos:Concept/skos:altLabel"/>
 	        <facet dimension="Broader" expression="env:instance/skos:Concept/skos:broader/@rdf:resource/string()"/>
 	        <facet dimension="Narrower" expression="env:instance/skos:Concept/skos:narrower/@rdf:resource/string()"/>
 	        <facet dimension="Related" expression="env:instance/skos:Concept/skos:related/@rdf:resource/string()"/>
