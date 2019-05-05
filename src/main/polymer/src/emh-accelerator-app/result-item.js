@@ -77,6 +77,7 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
             </template>
             <span class="term">[[item.concept.term]]</span>
           </div>
+          <div>Glossary: [[item.glossary]]</div>
           <template is="dom-repeat" items="[[item.snippets]]">
             <search-snippet-highlight snippet="[[item]]"></search-snippet-highlight>
           </template>

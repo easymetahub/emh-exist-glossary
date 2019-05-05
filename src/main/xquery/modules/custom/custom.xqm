@@ -199,7 +199,8 @@ declare function custom:result-object($result as node(), $index, $show-snippets 
                                  }
                      },
 :)
-            'uri' : $result/@uri/string(),
+            'uri' : fn:base-uri($result),
+            'glossary': $result//env:headers/env:glossaryName/text(),
             'score' : ft:score($result)
         }
 };
@@ -254,9 +255,8 @@ as map(*)
  : @return The search options for the search:search() call in the search module.
  :)
 declare function custom:search-options()
-as node()
+as xs:string*
 {
-  <options xmlns="http://marklogic.com/appservices/search">
-  </options>
+    ("Broader", "Narrower", "Related", "Glossary", '"Preferred Label"', '"Alternate Label"')
 };
 

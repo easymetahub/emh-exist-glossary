@@ -69,10 +69,8 @@ let $page-length := xs:positiveInteger(request:get-parameter('pagelength', '10')
 let $facets-param := fn:tokenize(request:get-parameter('facets', ()), "~~")
 let $end := $start + $page-length - 1
 
-
-let $search-count := 
-    if (fn:string-length($q) gt 0 or fn:count($facets-param) gt 0)
-    then fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, map { "facets" : map:merge(
+let $facets-map := 
+    map { "facets" : map:merge(
         for $facet in $facets-param
         let $facet-name := fn:substring-before($facet, ":")
         let $trimmed-facet-name := 
@@ -87,31 +85,19 @@ let $search-count :=
         return map { $trimmed-facet-name : xmldb:decode($trimmed-facet-value) }
 
         
-    )})])
-    else fn:count(collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept])
-let $search-results := 
+    )}
+
+let $query-results := 
     if (fn:string-length($q) gt 0 or fn:count($facets-param) gt 0)
-    then fn:subsequence(collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, map { "facets" : map:merge(
-        for $facet in $facets-param
-        let $facet-name := fn:substring-before($facet, ":")
-        let $trimmed-facet-name := 
-                if (fn:starts-with($facet-name, '"'))
-                then (fn:substring(fn:substring($facet-name, 1, fn:string-length($facet-name) - 1), 2))
-                else $facet-name
-        let $facet-value := fn:substring-after($facet, ":")
-        let $trimmed-facet-value := 
-                if (fn:starts-with($facet-value, '"'))
-                then (fn:substring(fn:substring($facet-value, 1, fn:string-length($facet-value) - 1), 2))
-                else $facet-value
-        return map { $trimmed-facet-name : xmldb:decode($trimmed-facet-value) }
-    )
-        
-    })], $start, $start + $page-length -1)
-    else fn:subsequence(collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept], $start, $start + $page-length - 1)
+    then collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, $facets-map)]
+    else collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept]
+
+let $search-count := fn:count($query-results)
+let $search-results := $query-results[$start le position() and position() le $end]
 
 
 let $facet-names := 
-    for $name in ("Broader", "Narrower", "Related", "Glossary", '"Preferred Label"', '"Alternate Label"')
+    for $name in custom:search-options()
     order by $name
     return $name
 
