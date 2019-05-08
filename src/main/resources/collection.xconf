@@ -1,20 +1,52 @@
-<collection xmlns="http://exist-db.org/collection-config/1.0">
-    <index xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" xmlns:env="http://marklogic.com/data-hub/envelope">
-    <lucene>
-        <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
-        <analyzer id="ws" class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"/>
-        <text qname="env:envelope">
-	        <facet dimension="Glossary" expression="env:headers/env:glossaryName"/>
-	        <facet dimension="Preferred Label" expression="env:instance/skos:Concept/skos:prefLabel"/>
-	        <facet dimension="Alternate Label" expression="env:instance/skos:Concept/skos:altLabel"/>
-	        <facet dimension="Broader" expression="env:instance/skos:Concept/skos:broader/@rdf:resource/string()"/>
-	        <facet dimension="Narrower" expression="env:instance/skos:Concept/skos:narrower/@rdf:resource/string()"/>
-	        <facet dimension="Related" expression="env:instance/skos:Concept/skos:related/@rdf:resource/string()"/>
-            <field name="Description" expression="env:instance/skos:description"/>
-        </text>
-    </lucene>
+<collection
+    xmlns="http://exist-db.org/collection-config/1.0">
+    <index
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:skos="http://www.w3.org/2008/05/skos#"
+        xmlns:env="http://marklogic.com/data-hub/envelope">
+        <lucene>
+            <analyzer
+                class="org.apache.lucene.analysis.standard.StandardAnalyzer"></analyzer>
+            <analyzer
+                id="ws"
+                class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"></analyzer>
+            <text
+                qname="env:envelope">
+                <facet
+                    dimension="Glossary"
+                    expression="env:headers/env:glossaryName"></facet>
+                <facet
+                    dimension="Preferred Label"
+                    expression="env:instance/skos:Concept/skos:prefLabel"></facet>
+                <facet
+                    dimension="Alternate Label"
+                    expression="env:instance/skos:Concept/skos:altLabel"></facet>
+                <facet
+                    dimension="Broader"
+                    expression="env:instance/skos:Concept/skos:broader/@rdf:resource/string()"></facet>
+                <facet
+                    dimension="Narrower"
+                    expression="env:instance/skos:Concept/skos:narrower/@rdf:resource/string()"></facet>
+                <facet
+                    dimension="Related"
+                    expression="env:instance/skos:Concept/skos:related/@rdf:resource/string()"></facet>
+                <field
+                    name="Description"
+                    expression="env:instance/skos:description"></field>
+            </text>
+        </lucene>
+        <range>
+            <create
+                qname="skos:Concept">
+                <field
+                    name="id"
+                    match="@rdf:about"
+                    type="xs:string"></field>
+            </create>
+        </range>
     </index>
-      <triggers>
-        <trigger class="org.exist.extensions.exquery.restxq.impl.RestXqTrigger"/>
+    <triggers>
+        <trigger
+            class="org.exist.extensions.exquery.restxq.impl.RestXqTrigger"></trigger>
     </triggers>
 </collection>
