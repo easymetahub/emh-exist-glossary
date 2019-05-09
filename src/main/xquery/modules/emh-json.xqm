@@ -9,7 +9,7 @@ xquery version "3.1";
  : Copyright (c) 2018. EasyMetaHub, LLC
  :
  : Proprietary
- : Extensions: MarkLogic
+ : Extensions: eXist-db
  :
  : XQuery
  : Specification March 2017

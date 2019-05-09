@@ -9,7 +9,7 @@ xquery version "3.1";
  : Copyright (c) 2018. EasyMetaHub, LLC
  :
  : Proprietary
- : Extensions: MarkLogic
+ : Extensions: eXist-db
  :
  : XQuery
  : Specification March 2017
@@ -28,6 +28,7 @@ xquery version "3.1";
  :)
 module namespace custom="http://easymetahub.com/emh-accelerator/library/custom";
 
+import module namespace config="http://exist-db.org/apps/emh-accelerator/config" at "../config.xqm";
 import module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json" at "../emh-json.xqm";
 import module namespace kwic="http://exist-db.org/xquery/kwic";
 
@@ -39,11 +40,6 @@ declare namespace env = "http://marklogic.com/data-hub/envelope";
 declare namespace search = "http://marklogic.com/data-hub/search";
 
 (:~
- : This is the collection that all uploads will be stored in so that the search can find them.
- :)
-declare variable $custom:data-collection := "/db/apps/emh-accelerator/data";
-
-(:~
  : Look up the Concept whose rdf:about value equals the $name parameter.
  :
  : @param $name The value that relates to the rdf:about attribute of a skos:Concept
@@ -51,14 +47,15 @@ declare variable $custom:data-collection := "/db/apps/emh-accelerator/data";
  :)
 declare function custom:prefLabel($name as xs:string)
 {
-    collection($custom:data-collection)//skos:Concept[@rdf:about = $name]/skos:prefLabel/text()
+    collection($config:data-root)//skos:Concept[@rdf:about = $name]/skos:prefLabel/text()
 };
 
 (:~
  : Generates the JSON object for a facet value.
  :
- : @param $facet-value The 'search:facet-value' of the 'search:facet' of the search results.
- : @param $facet-name  The name of the facet from the 'search:facet' element.
+ : @param $facet-name  The name of the facet from the collection.xconf.
+ : @param $count       The number of documents that contains the facet value
+ : @param $value-name  The thext of the faccet value.
  : @param $qtext       The 'search:qtext' of the search results to find the selected facet value(s)
  : @return The JSON object for creating a facet value entry on the client page
  :)
@@ -89,8 +86,9 @@ declare function custom:facet-value($facet-name as xs:string, $count as xs:integ
 (:~
  : Generates the JSON object for a facet.
  :
- : @param $facet  The 'search:facet' object from the search results.
- : @param $qtext  The 'search:qtext' of the search results to find the selected facet value(s)
+ : @param $facet       The facet map from the search results.
+ : @param $facet-name  The name of the facet from the collection.xconf.
+ : @param $qtext       The 'search:qtext' of the search results to find the selected facet value(s)
  : @return The JSON object for creating a facet entry on the client page
  :)
 declare function custom:facet-object($facet as map(*), $facet-name as xs:string, $qtext as xs:string*) 
@@ -130,11 +128,12 @@ declare function custom:facet-object($facet as map(*), $facet-name as xs:string,
 (:~
  : Generates the JSON object for a result item.
  :
- : @param $result A 'search:result' object from the search results
+ : @param $result        A 'search:result' object from the search results
+ : @param $index         The index of the result object from the search
  : @param $show-snippets A flag for whether to show the snippets.
  : @return The JSON object that represents a result item in the client page
  :)
-declare function custom:result-object($result as node(), $index, $show-snippets as xs:boolean)
+declare function custom:result-object($result as node(), $index as xs:integer, $show-snippets as xs:boolean)
 {
     let $uri := fn:base-uri($result)
     let $concept := $result//skos:Concept
@@ -218,7 +217,7 @@ as map(*)
     let $log := util:log("info", "Processing file: " || $filename)
     let $log2 := util:log("info", "Processing file: " || $file/*/fn:local-name())
     let $glossary := fn:substring-before($filename, ".")
-    let $is-glossary := fn:collection($custom:data-collection)//env:headers[env:glossaryName = $glossary]
+    let $is-glossary := fn:collection($config:data-root)//env:headers[env:glossaryName = $glossary]
     return if ($is-glossary)
     then
         map {
@@ -226,7 +225,7 @@ as map(*)
             "message" : fn:concat("Glossary ", $glossary, " already exists")
         }
     else
-    (:let $mkdir := xmldb:create-collection($custom:data-collection, $glossary):)
+    (:let $mkdir := xmldb:create-collection($config:data-root, $glossary):)
     let $nodes :=
         for $node at $index in $file//rdf:RDF/*
         let $id := util:uuid()
@@ -240,7 +239,7 @@ as map(*)
                 element { "env:instance" } { $node }
             }
         let $stored :=
-            xmldb:store($custom:data-collection, $id || '.xml', $envelope)
+            xmldb:store($config:data-root, $id || '.xml', $envelope)
         return ()
     return 
         map {
@@ -250,9 +249,9 @@ as map(*)
 };
 
 (:~
- : Returns the search option for the query.
+ : Returns the list of the names of the facets in collection.xconf for the query.
  :
- : @return The search options for the search:search() call in the search module.
+ : @return The list of the facet names.
  :)
 declare function custom:search-options()
 as xs:string*

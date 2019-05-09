@@ -9,7 +9,7 @@ xquery version "3.1";
  : Copyright (c) 2018. EasyMetaHub, LLC
  :
  : Proprietary
- : Extensions: MarkLogic
+ : Extensions: eXist-db
  :
  : XQuery
  : Specification March 2017
@@ -18,7 +18,7 @@ xquery version "3.1";
  :
  :)
 (:~
- : This module handles the search the server.
+ : This module handles the search of the server.
  :
  : @author Loren Cahlander
  : @since October 25, 2018
@@ -26,6 +26,7 @@ xquery version "3.1";
  :)
 import module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json" at "emh-json.xqm";
 import module namespace custom="http://easymetahub.com/emh-accelerator/library/custom" at "custom/custom.xqm";
+import module namespace config="http://exist-db.org/apps/emh-accelerator/config" at "config.xqm";
 
 declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 declare namespace skos="http://www.w3.org/2008/05/skos#";
@@ -38,31 +39,10 @@ declare namespace env = "http://marklogic.com/data-hub/envelope";
 declare option output:method "json";
 declare option output:media-type "application/json";
 
-(:~
- : This method allows for the odering of facets showing the selected snippets first
- :
- : @param $facets          The facets from the search result
- : @param $return-selected The flag to determine if the facet should be returned if the facet has a selected value.
- : @param $qtext           The 'search:qtext' of the search results to find the selected facet value(s)
- :)
-declare function local:facets-by-selection($facets as node()*, $return-selected as xs:boolean, $qtext as xs:string)
-{
-    for $facet in $facets[search:facet-value]
-    let $selected := 
-        for $value in $facet/search:facet-value
-        return if (fn:contains($qtext, emhjson:facet-text($facet/@name/string(), $value/@name/string()))) then $value else ()
-    return
-        if (fn:not($selected))
-        then 
-            if ($return-selected) then () else $facet
-        else
-            if ($return-selected) then $facet else ()
-};
-
 let $q := if (fn:string-length(request:get-parameter('q', "")) gt 0) then request:get-parameter('q', "") else ()
 let $debug := if (fn:string-length(request:get-parameter('debug', "")) gt 0) then fn:true() else fn:false()
 
-let $total-count := fn:count(fn:collection($custom:data-collection)//skos:Concept)
+let $total-count := fn:count(fn:collection($config:data-root)//skos:Concept)
 
 let $start := xs:positiveInteger(request:get-parameter('start', '1'))
 let $page-length := xs:positiveInteger(request:get-parameter('pagelength', '10'))
@@ -89,14 +69,14 @@ let $facets-map :=
 
 let $query-results := 
     if (fn:string-length($q) gt 0 or fn:count($facets-param) gt 0)
-    then collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, $facets-map)]
-    else collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept]
+    then collection($config:data-root)//env:envelope[ft:query(., $q, $facets-map)]
+    else collection($config:data-root)//env:envelope[env:instance/skos:Concept]
 
 let $query-results2 := 
     if (fn:count($query-results) = 0)
     then
         if (fn:string-length($q) gt 0)
-        then collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q || "*", $facets-map)]
+        then collection($config:data-root)//env:envelope[ft:query(., $q || "*", $facets-map)]
         else ()
     else $query-results
 

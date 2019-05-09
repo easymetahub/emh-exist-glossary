@@ -1,11 +1,29 @@
 xquery version "3.1";
+(:
+ : Module Name: Configuration Library Module
+ :
+ : Module Version: 1.0
+ :
+ : Date: 10/25/2018
+ :
+ : Copyright (c) 2018. EasyMetaHub, LLC
+ :
+ : Proprietary
+ : Extensions: eXist-db
+ :
+ : XQuery
+ : Specification March 2017
+ :
+ : Module Overview: This module is where the customization to the accelerator takes place.
+ :
+ :)
 
 (:~
  : A set of helper functions to access the application context from
  : within a module.
  :)
 
-module namespace config="http://exist-db.org/apps/xqdoc/config";
+module namespace config="http://exist-db.org/apps/emh-accelerator/config";
 declare namespace templates="http://exist-db.org/xquery/templates";
 
 declare namespace repo="http://exist-db.org/xquery/repo";
@@ -34,7 +52,7 @@ declare variable $config:repo-descriptor := doc(concat($config:app-root, "/repo.
 declare variable $config:expath-descriptor := doc(concat($config:app-root, "/expath-pkg.xml"))/expath:package;
 
 
-declare variable $config:data-root := "/db/system/xqdoc";
+declare variable $config:data-root := concat($config:app-root, "/data");
 
 (:~
  : Resolve the given path using the current application context.

@@ -1,4 +1,22 @@
 xquery version "3.1";
+(:
+ : Module Name: File Upload Module
+ :
+ : Module Version: 1.0
+ :
+ : Date: 10/25/2018
+ :
+ : Copyright (c) 2018. EasyMetaHub, LLC
+ :
+ : Proprietary
+ : Extensions: eXist-db
+ :
+ : XQuery
+ : Specification March 2017
+ :
+ : Module Overview: This module handles files being uploaded to the server.
+ :
+ :)
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 
