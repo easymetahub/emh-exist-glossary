@@ -103,21 +103,27 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
               <template is="dom-repeat" items="[[item.concept.definition]]">
                 <p>[[item]]</p>
               </template>
-              <h5>Related</h5>
-              <template is="dom-repeat" items="[[item.concept.related]]">
-                <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
+              <template is="dom-if" if="[[_show(item.concept.related)]]">
+                <h5>Related</h5>
+                <template is="dom-repeat" items="[[item.concept.related]]">
+                  <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
+                </template>
               </template>
-              <h5>Broader</h5>
-              <template is="dom-repeat" items="[[item.concept.broader]]">
-                <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
+              <template is="dom-if" if="[[_show(item.concept.broader)]]">
+                <h5>Broader</h5>
+                <template is="dom-repeat" items="[[item.concept.broader]]">
+                  <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
+                </template>
               </template>
-              <h5>Narrower 
-                  <template is="dom-if" if="[[editable]]">
-                    <paper-icon-button icon="add" raised></paper-icon-button>
-                  </template>
-              </h5>
-              <template is="dom-repeat" items="[[item.concept.narrower]]">
-                <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
+              <template is="dom-if" if="[[_show(item.concept.narrower)]]">
+                <h5>Narrower 
+                    <template is="dom-if" if="[[editable]]">
+                      <paper-icon-button icon="add" raised></paper-icon-button>
+                    </template>
+                </h5>
+                <template is="dom-repeat" items="[[item.concept.narrower]]">
+                  <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
+                </template>
               </template>
             </div>
           </iron-collapse>
@@ -168,8 +174,13 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
         this.$.expandText.innerHTML = "Show details";
       }
     }
+
     toggleExpand(e) {
       this.expanded = !this.expanded;
+    }
+
+    _show(a) {
+      return (a.length > 0);
     }
 
 }

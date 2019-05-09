@@ -92,8 +92,16 @@ let $query-results :=
     then collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q, $facets-map)]
     else collection("/db/apps/emh-accelerator/data")//env:envelope[env:instance/skos:Concept]
 
-let $search-count := fn:count($query-results)
-let $search-results := $query-results[$start le position() and position() le $end]
+let $query-results2 := 
+    if (fn:count($query-results) = 0)
+    then
+        if (fn:string-length($q) gt 0)
+        then collection("/db/apps/emh-accelerator/data")//env:envelope[ft:query(., $q || "*", $facets-map)]
+        else ()
+    else $query-results
+
+let $search-count := fn:count($query-results2)
+let $search-results := $query-results2[$start le position() and position() le $end]
 
 
 let $facet-names := 
@@ -115,7 +123,7 @@ let $unselected-facet-names := $facet-names[not(.=$selected-facet-names)]
 
 let $selected-facets := 
     for $facet-name in $selected-facet-names
-    let $facet := ft:facets(head($search-results), $facet-name, ())
+    let $facet := if ($search-count gt 0) then ft:facets(head($search-results), $facet-name, ()) else ()
     return 
         if (fn:exists($facet) and fn:count(map:keys($facet)) gt 0) 
         then custom:facet-object($facet, $facet-name, $facets-param) 
@@ -124,7 +132,7 @@ let $selected-facets :=
 
 let $unselected-facets := 
     for $facet-name in $unselected-facet-names
-    let $facet := ft:facets(head($search-results), $facet-name, ())
+    let $facet := if ($search-count gt 0) then ft:facets(head($search-results), $facet-name, ()) else ()
     return 
         if (fn:exists($facet) and fn:count(map:keys($facet)) gt 0) 
         then custom:facet-object($facet, $facet-name, $facets-param) 
