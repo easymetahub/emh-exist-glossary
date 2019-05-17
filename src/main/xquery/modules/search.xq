@@ -4,9 +4,9 @@ xquery version "3.1";
  :
  : Module Version: 1.0
  :
- : Date: 10/25/2018
+ : Date: May 17, 2019
  :
- : Copyright (c) 2018. EasyMetaHub, LLC
+ : Copyright (c) 2019. EasyMetaHub, LLC
  :
  : Proprietary
  : Extensions: eXist-db
@@ -21,7 +21,7 @@ xquery version "3.1";
  : This module handles the search of the server.
  :
  : @author Loren Cahlander
- : @since October 25, 2018
+ : @since May 17, 2019
  : @version 1.0
  :)
 import module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json" at "emh-json.xqm";

@@ -1,3 +1,9 @@
+/*
+  Copyright (c) 2019. EasyMetaHub, LLC
+
+  TODO: Customize for project specifics.
+
+ */
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
 import '@polymer/paper-button/paper-button.js';
 

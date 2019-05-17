@@ -4,9 +4,9 @@ xquery version "3.1";
  :
  : Module Version: 1.0
  :
- : Date: 10/25/2018
+ : Date: May 17, 2019
  :
- : Copyright (c) 2018. EasyMetaHub, LLC
+ : Copyright (c) 2019. EasyMetaHub, LLC
  :
  : Proprietary
  : Extensions: eXist-db

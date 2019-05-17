@@ -1,5 +1,5 @@
 /*
-  Copyright (c) 2018. EasyMetaHub, LLC
+  Copyright (c) 2019. EasyMetaHub, LLC
  */
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import {timeOut} from '@polymer/polymer/lib/utils/async.js';

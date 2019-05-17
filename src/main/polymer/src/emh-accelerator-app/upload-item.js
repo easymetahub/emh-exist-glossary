@@ -1,5 +1,5 @@
 /*
-  Copyright (c) 2018. EasyMetaHub, LLC
+  Copyright (c) 2019. EasyMetaHub, LLC
 
   TODO: Customize for project specifics.
 

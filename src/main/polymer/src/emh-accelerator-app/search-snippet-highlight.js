@@ -1,5 +1,5 @@
 /*
-  Copyright (c) 2018. EasyMetaHub, LLC
+  Copyright (c) 2019. EasyMetaHub, LLC
  */
 import {html, LitElement} from '@polymer/lit-element/lit-element.js';
 
