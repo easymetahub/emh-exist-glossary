@@ -78,7 +78,7 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
             <span class="term">[[item.concept.term]]</span>
           </div>
           <div>Glossary: [[item.glossary]]</div>
-          <template is="dom-repeat" items="[[item.snippets]]">
+          <template id="repeat0" is="dom-repeat" items="[[item.snippets]]">
             <search-snippet-highlight snippet="[[item]]"></search-snippet-highlight>
           </template>
           <template is="dom-if" if="[[item.grid]]">
@@ -100,18 +100,18 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
                 <p>[[item.concept.altlabel]]</p>
               </template>
               <h5>Definition</h5>
-              <template is="dom-repeat" items="[[item.concept.definition]]">
+              <template id="repeat1" is="dom-repeat" items="[[item.concept.definition]]">
                 <p>[[item]]</p>
               </template>
               <template is="dom-if" if="[[_show(item.concept.related)]]">
                 <h5>Related</h5>
-                <template is="dom-repeat" items="[[item.concept.related]]">
+                <template id="repeat2" is="dom-repeat" items="[[item.concept.related]]">
                   <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
                 </template>
               </template>
               <template is="dom-if" if="[[_show(item.concept.broader)]]">
                 <h5>Broader</h5>
-                <template is="dom-repeat" items="[[item.concept.broader]]">
+                <template  id="repeat3" is="dom-repeat" items="[[item.concept.broader]]">
                   <result-item-button item="[[item]]" params="{{params}}"></result-item-button>
                 </template>
               </template>
@@ -139,7 +139,7 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
         notify: true,
         observer: '_expandedChanged'
       },
-      item: { type: Object, notify: true },
+      item: { type: Object, notify: true, observer: '_itemChanged' },
       params: { type: Object, notify: true },
       editable: { type: Boolean, value:false }
     };
@@ -160,6 +160,25 @@ class ResultItem extends GestureEventListeners(PolymerElement) {
     }
     // Fires when an attribute was added, removed, or updated
     _expandedChanged(newVal, oldVal) {
+    
+      //If icon is already set no need to animate!
+      if((newVal && (this.$.expandButton.icon == "icons:expand-less")) || (!newVal && (this.$.expandButton.icon == "icons:expand-more"))) {
+        return;
+      }
+      
+      if(this.expanded) {
+        this.$.expandButton.icon = "icons:expand-less";
+        this.$.expandText.innerHTML = "Hide details";
+      } else {
+        this.$.expandButton.icon = "icons:expand-more";
+        this.$.expandText.innerHTML = "Show details";
+      }
+    }
+
+    // Fires when an attribute was added, removed, or updated
+    _itemChanged(newVal, oldVal) {
+
+      this.expanded = false;
     
       //If icon is already set no need to animate!
       if((newVal && (this.$.expandButton.icon == "icons:expand-less")) || (!newVal && (this.$.expandButton.icon == "icons:expand-more"))) {

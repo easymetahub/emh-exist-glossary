@@ -6,6 +6,7 @@
  */
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
 import '@vaadin/vaadin-grid/vaadin-grid.js';
+import '@vaadin/vaadin-progress-bar/vaadin-progress-bar.js';
 import '@polymer/iron-icon/iron-icon.js';
 
 /**
@@ -33,7 +34,10 @@ class UploadItem extends PolymerElement {
       <div class="card-content">
         <span class="term">[[item.filename]]</span>
         <span class="term">[[item.responseFilename]]</span>
-        [[item.status]]
+        <template is="dom-if" if="[[item.status]]">
+          <b>[[item.status]]</b>
+          <vaadin-progress-bar indeterminate value="0"></vaadin-progress-bar>
+        </template>
         <template is="dom-if" if="[[item.location]]">
           <a href="[[item.location]]" download="[[item.responseFilename]]"><iron-icon class="download" icon="icons:file-download"></iron-icon></a>
         </template>

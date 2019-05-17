@@ -2,6 +2,8 @@
   Copyright (c) 2018. EasyMetaHub, LLC
  */
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import {timeOut} from '@polymer/polymer/lib/utils/async.js';
+import {Debouncer} from '@polymer/polymer/lib/utils/debounce.js';
 import '@polymer/app-layout/app-drawer-layout/app-drawer-layout.js';
 import '@polymer/app-layout/app-drawer/app-drawer.js';
 import '@polymer/app-layout/app-scroll-effects/app-scroll-effects.js';
@@ -14,8 +16,10 @@ import '@polymer/iron-icon/iron-icon.js';
 import '@polymer/paper-icon-button/paper-icon-button.js';
 import '@polymer/paper-button/paper-button.js';
 import '@polymer/paper-card/paper-card.js';
-import '@polymer/paper-slider/paper-slider.js';
+import '@polymer/paper-dialog/paper-dialog.js';
 import '@polymer/paper-input/paper-input.js';
+import '@polymer/paper-slider/paper-slider.js';
+import '@polymer/paper-spinner/paper-spinner.js';
 import '@polymer/iron-location/iron-location.js';
 import '@polymer/iron-location/iron-query-params.js';
 import '@polymer/paper-button/paper-button.js';
@@ -64,7 +68,7 @@ class EMHAcceleratorApp extends PolymerElement {
         result-item {
           margin: 5px;
         }
-        paper-dialog {
+        paper-dialog.wide {
           width: 90%;
         }
         paper-card {
@@ -78,11 +82,11 @@ class EMHAcceleratorApp extends PolymerElement {
       </style>
       <iron-location id="sourceLocation" query="{{query}}"></iron-location>
       <iron-query-params id="sourceParams" params-string="{{query}}" params-object="{{params}}"></iron-query-params>
-      <iron-ajax auto="true" id="runSearch"
+      <iron-ajax id="runSearch"
         url="modules/search.xq"  
         params="[[params]]"
         handle-as="json"
-        last-response="{{result}}"></iron-ajax>
+        on-response="_onSearchResponse"></iron-ajax>
       <iron-ajax auto="true"  id="whoAmI"
         url="modules/who-am-i.xq"  
         handle-as="json"
@@ -92,7 +96,7 @@ class EMHAcceleratorApp extends PolymerElement {
         params="[[loginData]]"
         handle-as="json"
         on-response="_onLoginResponse"></iron-ajax>
-      <paper-dialog id="dialog">
+      <paper-dialog class="wide" id="dialog">
         <h2>Upload ZIP(s)</h2>
         <paper-dialog-scrollable>
           <vaadin-upload accept=".rdf" target="modules/upload.xq" method="POST" timeout="300000" form-data-name="my-attachment" id="responseDemo" files="{{files}}">
@@ -110,7 +114,7 @@ class EMHAcceleratorApp extends PolymerElement {
           <paper-button on-click="_closeUpload">Close</paper-button>
         </div>
       </paper-dialog>
-      <paper-dialog id="login">
+      <paper-dialog class="wide" id="login">
         <h2>Login</h2>
         <paper-input label="username" value="{{loginData.user}}"></paper-input>
         <paper-input label="password" value="{{loginData.password}}" type="password"></paper-input>
@@ -118,6 +122,9 @@ class EMHAcceleratorApp extends PolymerElement {
           <paper-button dialog-dismiss>Close</paper-button>
           <paper-button on-click="_attemptUserLogin">Login</paper-button>
         </div>
+      </paper-dialog>
+      <paper-dialog id="thespinner" modal>
+        <paper-spinner active></paper-spinner>
       </paper-dialog>
       <app-drawer-layout>
         <app-drawer slot="drawer">
@@ -145,7 +152,9 @@ class EMHAcceleratorApp extends PolymerElement {
           </app-toolbar>
           </app-header>
           <paper-card>
-            <paper-input id="searchInput" source="{{suggestions}}" value="{{params.q}}" placeholder="Query text">
+            <paper-input id="searchInput" source="{{suggestions}}" value="{{search}}" placeholder="Query text">
+              <paper-icon-button slot="suffix" on-click="clearInput" icon="clear" alt="clear" title="clear">
+              </paper-icon-button>
             </paper-input>
           </paper-card>
           <paper-card>
@@ -169,6 +178,11 @@ class EMHAcceleratorApp extends PolymerElement {
       suggestions: { type: Array, notify: true },
       result: { type: Object, notify: true },
       params: { type: Object, notify: true },
+      search : {
+        type : String,
+        notify : true,
+        observer : 'searchChanged'
+      },
       user: { type: Object, notify: true },
       loginData: { type:Object, value: { }, notify: true }
     };
@@ -178,6 +192,22 @@ class EMHAcceleratorApp extends PolymerElement {
       'facetChanged(result.facets.*)'
     ]
     } 
+
+    clearInput() {
+      this.search = "";
+    }
+
+    searchChanged() {
+      this._debouncer = Debouncer.debounce(
+          this._debouncer, // initially undefined
+          timeOut.after(1000),
+          () => {
+            this.params.q = this.search;
+            this.notifyPath('params.q');
+            this._runSearch();
+          }
+      );
+    }
 
     facetChanged(value) {
       if (value.path.endsWith(".selected")) {
@@ -208,6 +238,7 @@ class EMHAcceleratorApp extends PolymerElement {
         }
         this.set( 'params.facets', params.facets  );
         this.notifyPath('params.facets');
+        this._runSearch();
       }
     }
 
@@ -225,7 +256,7 @@ class EMHAcceleratorApp extends PolymerElement {
         this.params.pagelength = 10;
         this.notifyPath('params.pagelength');
       }
-        this.$.runSearch.generateRequest();
+      this._runSearch();
     }
 
     _openDialog() {
@@ -251,8 +282,19 @@ class EMHAcceleratorApp extends PolymerElement {
       this.$.dialog.open();
     }
 
+    _runSearch() {
+        this.$.thespinner.open();
+        this.$.runSearch.generateRequest();
+    }
+
+    _onSearchResponse(e) {
+      var resp = e.detail.response;
+        this.$.thespinner.close();
+      this.result = resp;
+    }
+
     _closeUpload() {
-      this.$.runSearch.generateRequest();
+      this._runSearch();
       this.$.dialog.close();
     }
 
@@ -270,7 +312,7 @@ class EMHAcceleratorApp extends PolymerElement {
       var resp = e.detail.response;
       if (resp.status == 'success') {
         this.$.whoAmI.generateRequest();
-        this.$.runSearch.generateRequest();
+        this._runSearch();
         this.$.login.close();
       } else {
         alert('error');

@@ -103,7 +103,7 @@ let $unselected-facet-names := $facet-names[not(.=$selected-facet-names)]
 
 let $selected-facets := 
     for $facet-name in $selected-facet-names
-    let $facet := if ($search-count gt 0) then ft:facets(head($search-results), $facet-name, ()) else ()
+    let $facet := if ($search-count gt 0) then ft:facets($search-results, $facet-name, ()) else ()
     return 
         if (fn:exists($facet) and fn:count(map:keys($facet)) gt 0) 
         then custom:facet-object($facet, $facet-name, $facets-param) 
@@ -112,7 +112,7 @@ let $selected-facets :=
 
 let $unselected-facets := 
     for $facet-name in $unselected-facet-names
-    let $facet := if ($search-count gt 0) then ft:facets(head($search-results), $facet-name, ()) else ()
+    let $facet := if ($search-count gt 0) then ft:facets($search-results, $facet-name, ()) else ()
     return 
         if (fn:exists($facet) and fn:count(map:keys($facet)) gt 0) 
         then custom:facet-object($facet, $facet-name, $facets-param) 
