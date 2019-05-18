@@ -189,7 +189,8 @@ class EMHAcceleratorApp extends PolymerElement {
   }
     static get observers() {
       return [
-      'facetChanged(result.facets.*)'
+      'facetChanged(result.facets.*)',
+      'facetChanged2(params.selected)'
     ]
     } 
 
@@ -240,6 +241,10 @@ class EMHAcceleratorApp extends PolymerElement {
         this.notifyPath('params.facets');
         this._runSearch();
       }
+    }
+
+    facetChanged2(value) {
+      this._runSearch();
     }
 
     ready() {

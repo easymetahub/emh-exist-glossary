@@ -33,8 +33,8 @@ class ResultItemButton extends PolymerElement {
   selectLink() {
     var separator = "~~";
     var tArray = [this.item.glossary, this.item.label];
-    this.set('params', { facets: tArray.join(separator) });
-    this.notifyPath('params');
+    this.set('params', { facets: tArray.join(separator), selected: true });
+    this.notifyPath('params.selected');
   }
 }
 
