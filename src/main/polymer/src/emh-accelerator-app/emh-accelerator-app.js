@@ -97,7 +97,7 @@ class EMHAcceleratorApp extends PolymerElement {
         handle-as="json"
         on-response="_onLoginResponse"></iron-ajax>
       <paper-dialog class="wide" id="dialog">
-        <h2>Upload ZIP(s)</h2>
+        <h2>Upload RDF(s)</h2>
         <paper-dialog-scrollable>
           <vaadin-upload accept=".rdf" target="modules/upload.xq" method="POST" timeout="300000" form-data-name="my-attachment" id="responseDemo" files="{{files}}">
             <iron-icon slot="drop-label-icon" icon="description"></iron-icon>
