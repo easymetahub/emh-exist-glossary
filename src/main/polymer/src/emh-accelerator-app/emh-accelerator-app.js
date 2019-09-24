@@ -146,7 +146,7 @@ class EMHAcceleratorApp extends PolymerElement {
           <app-toolbar>
             <paper-icon-button icon="menu" drawer-toggle></paper-icon-button>
             <iron-icon src="icon.png"></iron-icon>
-            <div main-title>Accelerator</div>
+            <div main-title>Glossary</div>
             <paper-slider title="Page size" pin snaps min="10" max="100" step="10" value="{{params.pagelength}}"></paper-slider>
             <paper-button on-click="_openLoginDialog">[[user.username]]</paper-icon-button>
           </app-toolbar>

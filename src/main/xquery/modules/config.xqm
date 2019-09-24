@@ -14,7 +14,7 @@ xquery version "3.1";
  : XQuery
  : Specification March 2017
  :
- : Module Overview: This module is where the customization to the accelerator takes place.
+ : Module Overview: This module is where the customization to the glossary takes place.
  :
  :)
 
@@ -23,7 +23,7 @@ xquery version "3.1";
  : within a module.
  :)
 
-module namespace config="http://exist-db.org/apps/emh-accelerator/config";
+module namespace config="http://exist-db.org/apps/emh-glossary/config";
 declare namespace templates="http://exist-db.org/xquery/templates";
 
 declare namespace repo="http://exist-db.org/xquery/repo";

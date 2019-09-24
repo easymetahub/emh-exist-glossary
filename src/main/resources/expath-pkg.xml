@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package 
-  xmlns="http://expath.org/ns/pkg" name="http://easymetahub.com/apps/accelerator"
-  abbrev="emh-accelerator" version="2.0.0" spec="1.0">
-  <title>EMH Accelerator</title>
+  xmlns="http://expath.org/ns/pkg" name="http://easymetahub.com/apps/glossary"
+  abbrev="emh-glossary" version="0.8.0" spec="1.0">
+  <title>EMH Glossary</title>
   <dependency processor="http://exist-db.org" semver-min="4.4.0"/>
 </package>

@@ -24,7 +24,7 @@ xquery version "3.1";
  : @since May 17, 2019
  : @version 1.0
  :)
-module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json";
+module namespace emhjson="http://easymetahub.com/emh-glossary/library/json";
 
 import module namespace functx = "http://www.functx.com";
 

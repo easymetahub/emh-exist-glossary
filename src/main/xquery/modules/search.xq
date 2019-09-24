@@ -24,9 +24,9 @@ xquery version "3.1";
  : @since May 17, 2019
  : @version 1.0
  :)
-import module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json" at "emh-json.xqm";
-import module namespace custom="http://easymetahub.com/emh-accelerator/library/custom" at "custom/custom.xqm";
-import module namespace config="http://exist-db.org/apps/emh-accelerator/config" at "config.xqm";
+import module namespace emhjson="http://easymetahub.com/emh-glossary/library/json" at "emh-json.xqm";
+import module namespace custom="http://easymetahub.com/emh-glossary/library/custom" at "custom/custom.xqm";
+import module namespace config="http://exist-db.org/apps/emh-glossary/config" at "config.xqm";
 
 declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 declare namespace skos="http://www.w3.org/2008/05/skos#";

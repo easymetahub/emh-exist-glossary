@@ -1,5 +1,5 @@
 {
-  "name": "emh-accelerator",
+  "name": "emh-glossary",
   "dependencies": {
     "@polymer/app-layout": "^3.0.1",
     "@polymer/iron-ajax": "^3.0.1",

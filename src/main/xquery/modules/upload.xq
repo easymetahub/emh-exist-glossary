@@ -24,7 +24,7 @@ xquery version "3.1";
  : @since May 17, 2019
  : @version 1.0
  :)
-import module namespace custom="http://easymetahub.com/emh-accelerator/library/custom" at "custom/custom.xqm";
+import module namespace custom="http://easymetahub.com/emh-glossary/library/custom" at "custom/custom.xqm";
 
 declare namespace error="http://marklogic.com/xdmp/error";
 declare namespace skos="http://www.w3.org/2004/02/skos/core#";

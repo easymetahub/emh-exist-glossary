@@ -1,7 +1,7 @@
 {
-  "name": "emh-exist-accelerator",
-  "short_name": "emh-accelerator",
-  "description": "EasyMetaHub Accelerator application",
+  "name": "emh-exist-glossary",
+  "short_name": "emh-glossary",
+  "description": "EasyMetaHub Glossary application",
   "start_url": "/",
   "display": "standalone"
 }

@@ -14,11 +14,11 @@ xquery version "3.1";
  : XQuery
  : Specification March 2017
  :
- : Module Overview: This module is where the customization to the accelerator takes place.
+ : Module Overview: This module is where the customization to the glossary takes place.
  :
  :)
 (:~
- : This module is where the customization to the accelerator takes place.
+ : This module is where the customization to the glossary takes place.
  :
  : TODO: Customize for the project
  :
@@ -26,10 +26,10 @@ xquery version "3.1";
  : @since May 17, 2019
  : @version 1.0
  :)
-module namespace custom="http://easymetahub.com/emh-accelerator/library/custom";
+module namespace custom="http://easymetahub.com/emh-glossary/library/custom";
 
-import module namespace config="http://exist-db.org/apps/emh-accelerator/config" at "../config.xqm";
-import module namespace emhjson="http://easymetahub.com/emh-accelerator/library/json" at "../emh-json.xqm";
+import module namespace config="http://exist-db.org/apps/emh-glossary/config" at "../config.xqm";
+import module namespace emhjson="http://easymetahub.com/emh-glossary/library/json" at "../emh-json.xqm";
 import module namespace kwic="http://exist-db.org/xquery/kwic";
 
 declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
