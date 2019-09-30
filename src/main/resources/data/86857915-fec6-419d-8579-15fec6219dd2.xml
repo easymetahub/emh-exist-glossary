@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>86857915-fec6-419d-8579-15fec6219dd2</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#dishAntenna">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>dish antenna</skos:prefLabel>
+		<skos:definition>dish antenna</skos:definition>
+		<skos:altLabel>dish antennas</skos:altLabel>
+		<skos:broader rdf:resource="#radioTelescope"/>
+		<skos:related rdf:resource="#antenna"/>
+		<skos:related rdf:resource="#parabolicReflector"/>
+		<skos:related rdf:resource="#radarTelescope"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f0fee495-f63a-4788-bee4-95f63a1788a7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#hydratedCarbon">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>hydrated carbon</skos:prefLabel>
+		<skos:definition>CH molecule</skos:definition>
+		<skos:altLabel>CH</skos:altLabel>
+		<skos:broader rdf:resource="#carbonCompound"/>
+		<skos:broader rdf:resource="#hydrocarbon"/>
+		<skos:broader rdf:resource="#interstellarMolecule"/>
+		<skos:broader rdf:resource="#molecule"/>
+		<skos:changeNote>FVH: moved CH to ALT to conform to standard use in the thesaurus (2007-OCT-5)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f6d8fbd8-2ed9-41bf-98fb-d82ed9c1bfc4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#orbitalElement">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>orbital element</skos:prefLabel>
+		<skos:definition>orbital element</skos:definition>
+		<skos:narrower rdf:resource="#apsis"/>
+		<skos:narrower rdf:resource="#centerOfMass"/>
+		<skos:narrower rdf:resource="#eccentricity"/>
+		<skos:narrower rdf:resource="#inclination"/>
+		<skos:narrower rdf:resource="#orbitalAnomaly"/>
+		<skos:narrower rdf:resource="#osculatoryElement"/>
+		<skos:narrower rdf:resource="#period"/>
+		<skos:narrower rdf:resource="#positionAngle"/>
+		<skos:narrower rdf:resource="#semimajorAxis"/>
+		<skos:related rdf:resource="#acceleration"/>
+		<skos:related rdf:resource="#celestialMechanics"/>
+		<skos:related rdf:resource="#orbit"/>
+		<skos:related rdf:resource="#regressionOfNode"/>
+		<skos:changeNote>FVH: removed element_of_orbit (2007-SEP-24)</skos:changeNote>
+		<skos:scopeNote>see also orbit</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

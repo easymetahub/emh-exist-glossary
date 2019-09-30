@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c666aa7a-a05a-4024-a6aa-7aa05a802460</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#solarEclipse">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>solar eclipse</skos:prefLabel>
+		<skos:definition>solar eclipse</skos:definition>
+		<skos:broader rdf:resource="#eclipse"/>
+		<skos:related rdf:resource="#Moon"/>
+		<skos:related rdf:resource="#Sun"/>
+		<skos:related rdf:resource="#bailysBead"/>
+		<skos:related rdf:resource="#diamondRingEffect"/>
+		<skos:related rdf:resource="#flashSpectrum"/>
+		<skos:related rdf:resource="#penumbra"/>
+		<skos:related rdf:resource="#shadowBand"/>
+		<skos:related rdf:resource="#umbra"/>
+		<skos:related rdf:resource="#zoneOfTotality"/>
+	</skos:Concept></env:instance></env:envelope>

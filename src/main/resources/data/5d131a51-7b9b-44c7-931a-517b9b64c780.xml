@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5d131a51-7b9b-44c7-931a-517b9b64c780</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#MilkyWayGalaxy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Milky Way galaxy</skos:prefLabel>
+		<skos:definition>the Milky Way galaxy</skos:definition>
+		<skos:altLabel>the Galaxy</skos:altLabel>
+		<skos:broader rdf:resource="#galaxy"/>
+		<skos:broader rdf:resource="#LocalGroup"/>
+		<skos:broader rdf:resource="#spiralGalaxy"/>
+		<skos:related rdf:resource="#GalacticAnticenter"/>
+		<skos:related rdf:resource="#GalacticBulge"/>
+		<skos:related rdf:resource="#GalacticCenter"/>
+		<skos:related rdf:resource="#GalacticCluster"/>
+		<skos:related rdf:resource="#GalacticCoordinateSystem"/>
+		<skos:related rdf:resource="#GalacticCosmicRay"/>
+		<skos:related rdf:resource="#GalacticEquator"/>
+		<skos:related rdf:resource="#GalacticHalo"/>
+		<skos:related rdf:resource="#GalacticLatitude"/>
+		<skos:related rdf:resource="#GalacticLongitude"/>
+		<skos:related rdf:resource="#GalacticPlane"/>
+		<skos:related rdf:resource="#GalacticPole"/>
+		<skos:related rdf:resource="#GalacticRotation"/>
+		<skos:related rdf:resource="#GouldsBelt"/>
+		<skos:related rdf:resource="#highVelocityCloud"/>
+		<skos:related rdf:resource="#highVelocityStar"/>
+		<skos:related rdf:resource="#skyBrightness"/>
+	</skos:Concept></env:instance></env:envelope>

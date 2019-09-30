@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e409616a-b555-4d66-8961-6ab555ed6641</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#measuringInstrument">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>measuring instrument</skos:prefLabel>
+		<skos:definition>measuring instrument</skos:definition>
+		<skos:narrower rdf:resource="#altimeter"/>
+		<skos:narrower rdf:resource="#anemometer"/>
+		<skos:narrower rdf:resource="#atomicClock"/>
+		<skos:narrower rdf:resource="#barometer"/>
+		<skos:narrower rdf:resource="#chronometer"/>
+		<skos:narrower rdf:resource="#clock"/>
+		<skos:narrower rdf:resource="#counter"/>
+		<skos:narrower rdf:resource="#densitometer"/>
+		<skos:narrower rdf:resource="#heliometer"/>
+		<skos:narrower rdf:resource="#microdensitometer"/>
+		<skos:narrower rdf:resource="#micrometer"/>
+		<skos:narrower rdf:resource="#microphotometer"/>
+		<skos:narrower rdf:resource="#monochromator"/>
+		<skos:narrower rdf:resource="#proportionalCounter"/>
+		<skos:narrower rdf:resource="#radiometer"/>
+		<skos:narrower rdf:resource="#rangeFinder"/>
+		<skos:narrower rdf:resource="#sensitometer"/>
+		<skos:narrower rdf:resource="#weatherStation"/>
+		<skos:narrower rdf:resource="#windVane"/>
+		<skos:related rdf:resource="#calibration"/>
+		<skos:related rdf:resource="#measurement"/>
+	</skos:Concept></env:instance></env:envelope>

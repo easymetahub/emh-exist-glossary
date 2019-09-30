@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>7c6f79af-b8a8-4b99-af79-afb8a89b9925</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#photography">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>photography</skos:prefLabel>
+		<skos:definition>photography</skos:definition>
+		<skos:altLabel>astrophotography</skos:altLabel>
+		<skos:narrower rdf:resource="#allSkyPhotography"/>
+		<skos:narrower rdf:resource="#colorPhotography"/>
+		<skos:narrower rdf:resource="#falseColorPhotography"/>
+		<skos:narrower rdf:resource="#spectrography"/>
+		<skos:narrower rdf:resource="#streakPhotography"/>
+		<skos:narrower rdf:resource="#ultravioletPhotography"/>
+		<skos:related rdf:resource="#HdCurve"/>
+		<skos:related rdf:resource="#astronomicalTechnique"/>
+		<skos:related rdf:resource="#camera"/>
+		<skos:related rdf:resource="#darkroom"/>
+		<skos:related rdf:resource="#edgeEffect"/>
+		<skos:related rdf:resource="#image"/>
+		<skos:related rdf:resource="#microphotometer"/>
+		<skos:related rdf:resource="#observingTechnique"/>
+		<skos:related rdf:resource="#photogrammetry"/>
+		<skos:related rdf:resource="#photographicEmulsion"/>
+		<skos:related rdf:resource="#photographicFilm"/>
+		<skos:related rdf:resource="#photographicPlate"/>
+		<skos:related rdf:resource="#photographicProcessing"/>
+		<skos:related rdf:resource="#unsharpMasking"/>
+	</skos:Concept></env:instance></env:envelope>

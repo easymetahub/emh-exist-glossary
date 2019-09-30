@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0d56923c-057d-4505-9692-3c057db50523</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#SunyaevZeldovichEffect">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Sunyaev-Zeldovich effect</skos:prefLabel>
+		<skos:definition>Sunyaev-Zeldovich effect</skos:definition>
+		<skos:altLabel>Sunyaev Zeldovich effect</skos:altLabel>
+		<skos:related rdf:resource="#XRayEmission"/>
+		<skos:related rdf:resource="#backgroundRadiation"/>
+		<skos:related rdf:resource="#galaxyCluster"/>
+		<skos:related rdf:resource="#intraclusterMatter"/>
+		<skos:related rdf:resource="#microwaveBackground"/>
+	</skos:Concept></env:instance></env:envelope>

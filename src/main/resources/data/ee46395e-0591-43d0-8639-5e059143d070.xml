@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ee46395e-0591-43d0-8639-5e059143d070</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#nuclearReaction">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>nuclear reaction</skos:prefLabel>
+		<skos:definition>nuclear reaction</skos:definition>
+		<skos:narrower rdf:resource="#nuclearFission"/>
+		<skos:narrower rdf:resource="#nuclearFusion"/>
+		<skos:narrower rdf:resource="#urcaProcess"/>
+		<skos:related rdf:resource="#carbonBurning"/>
+		<skos:related rdf:resource="#nuclearPhysics"/>
+		<skos:related rdf:resource="#nucleosynthesis"/>
+		<skos:related rdf:resource="#solarNeutrinoProblem"/>
+	</skos:Concept></env:instance></env:envelope>

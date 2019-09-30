@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e0340e97-be0c-4f41-b40e-97be0caf4144</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#mercury">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>mercury</skos:prefLabel>
+		<skos:definition>mercury (atomic number 80)</skos:definition>
+		<skos:altLabel>Hg</skos:altLabel>
+		<skos:broader rdf:resource="#fundamentalChemicalElement"/>
+		<skos:related rdf:resource="#mercuryManganeseStar"/>
+		<skos:scopeNote>Don't get confused with the planet Mercury (2007-NOV-13)</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

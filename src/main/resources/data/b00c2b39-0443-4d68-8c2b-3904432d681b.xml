@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b00c2b39-0443-4d68-8c2b-3904432d681b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lowMassXRayBinaryStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>low-mass X-ray binary star</skos:prefLabel>
+		<skos:definition>low-mass X-ray binary star</skos:definition>
+		<skos:altLabel>LMXB</skos:altLabel>
+		<skos:broader rdf:resource="#XRayBinaryStar"/>
+		<skos:related rdf:resource="#accretionDisk"/>
+		<skos:related rdf:resource="#cataclysmicVariableStar"/>
+		<skos:related rdf:resource="#highMassXRayBinaryStar"/>
+		<skos:related rdf:resource="#lowMassStar"/>
+		<skos:related rdf:resource="#neutronStar"/>
+	</skos:Concept></env:instance></env:envelope>

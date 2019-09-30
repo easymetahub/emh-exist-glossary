@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3782b96b-2031-44a1-82b9-6b203174a1ab</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#zenithTelescope">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>zenith telescope</skos:prefLabel>
+		<skos:definition>zenith telescope</skos:definition>
+		<skos:broader rdf:resource="#refractingTelescope"/>
+		<skos:broader rdf:resource="#transitTelescope"/>
+		<skos:narrower rdf:resource="#zenithTube"/>
+		<skos:related rdf:resource="#meridianObservation"/>
+		<skos:changeNote>FVH: removed photographic_zenith_tube, moved zenith_tube to NT (2007-OCT-1)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

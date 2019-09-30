@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>7172e92a-c6a8-409c-b2e9-2ac6a8809c7b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#exponentialProfile">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>exponential profile</skos:prefLabel>
+		<skos:definition>exponential mass-profile</skos:definition>
+		<skos:broader rdf:resource="#massDistribution"/>
+		<skos:related rdf:resource="#BurkertProfile"/>
+		<skos:related rdf:resource="#NavarroFrenkWhiteProfile"/>
+		<skos:related rdf:resource="#isothermalSphere"/>
+		<skos:historyNote>FVH: new (2007-OCT-5)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

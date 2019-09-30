@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>53b278c8-47e5-4e3d-b278-c847e54e3d90</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#spectralType">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>spectral type</skos:prefLabel>
+		<skos:definition>spectral type</skos:definition>
+		<skos:related rdf:resource="#AStar"/>
+		<skos:related rdf:resource="#BStar"/>
+		<skos:related rdf:resource="#FStar"/>
+		<skos:related rdf:resource="#GStar"/>
+		<skos:related rdf:resource="#KStar"/>
+		<skos:related rdf:resource="#LDwarf"/>
+		<skos:related rdf:resource="#MStar"/>
+		<skos:related rdf:resource="#NStar"/>
+		<skos:related rdf:resource="#OStar"/>
+		<skos:related rdf:resource="#RStar"/>
+		<skos:related rdf:resource="#SStar"/>
+		<skos:related rdf:resource="#TDwarf"/>
+		<skos:related rdf:resource="#lineWidth"/>
+		<skos:related rdf:resource="#luminosityClass"/>
+		<skos:related rdf:resource="#luminosityClassification"/>
+		<skos:related rdf:resource="#spectralClassification"/>
+		<skos:related rdf:resource="#spectralLine"/>
+		<skos:related rdf:resource="#standardStar"/>
+		<skos:related rdf:resource="#temperature"/>
+		<skos:scopeNote>not a complete list of terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

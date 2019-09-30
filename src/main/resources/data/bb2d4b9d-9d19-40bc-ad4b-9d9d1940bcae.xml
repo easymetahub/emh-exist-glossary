@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bb2d4b9d-9d19-40bc-ad4b-9d9d1940bcae</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#eclipticPlane">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>ecliptic plane</skos:prefLabel>
+		<skos:definition>ecliptic plane</skos:definition>
+		<skos:related rdf:resource="#EarthOrbit"/>
+		<skos:related rdf:resource="#ecliptic"/>
+		<skos:related rdf:resource="#eclipticPole"/>
+		<skos:related rdf:resource="#obliquityOfEcliptic"/>
+	</skos:Concept></env:instance></env:envelope>

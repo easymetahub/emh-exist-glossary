@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b27c1c87-df80-4276-bc1c-87df805276f8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#meteoroid">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>meteoroid</skos:prefLabel>
+		<skos:definition>meteoroid</skos:definition>
+		<skos:altLabel>meteorids</skos:altLabel>
+		<skos:broader rdf:resource="#interplanetaryDust"/>
+		<skos:broader rdf:resource="#interplanetaryGrain"/>
+		<skos:broader rdf:resource="#interplanetaryMatter"/>
+		<skos:narrower rdf:resource="#micrometeoroid"/>
+		<skos:related rdf:resource="#asteroid"/>
+		<skos:related rdf:resource="#comet"/>
+		<skos:related rdf:resource="#meteoroidDustCloud"/>
+		<skos:related rdf:resource="#meteor"/>
+		<skos:related rdf:resource="#zodiacalDust"/>
+	</skos:Concept></env:instance></env:envelope>

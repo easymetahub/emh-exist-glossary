@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e76ed888-44ab-4942-aed8-8844ab7942e9</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lightPolarization">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>light polarization</skos:prefLabel>
+		<skos:definition>light polarization</skos:definition>
+		<skos:altLabel>polarization wave</skos:altLabel>
+		<skos:narrower rdf:resource="#XRayPolarization"/>
+		<skos:narrower rdf:resource="#circularPolarization"/>
+		<skos:narrower rdf:resource="#planePolarization"/>
+		<skos:related rdf:resource="#FaradayEffect"/>
+		<skos:related rdf:resource="#electromagneticRadiation"/>
+		<skos:related rdf:resource="#opticalProperty"/>
+		<skos:related rdf:resource="#polarimetry"/>
+		<skos:related rdf:resource="#polarizedLight"/>
+		<skos:related rdf:resource="#polarizedRadiation"/>
+		<skos:related rdf:resource="#radiationScattering"/>
+		<skos:related rdf:resource="#stokesParameter"/>
+	</skos:Concept></env:instance></env:envelope>

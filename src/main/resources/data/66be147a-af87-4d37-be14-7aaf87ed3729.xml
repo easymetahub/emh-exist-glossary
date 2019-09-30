@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>66be147a-af87-4d37-be14-7aaf87ed3729</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#populationIiCepheid">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>population II Cepheid</skos:prefLabel>
+		<skos:definition>Population II Cepheid</skos:definition>
+		<skos:broader rdf:resource="#populationIiStar"/>
+		<skos:narrower rdf:resource="#RrLyraeStar"/>
+		<skos:narrower rdf:resource="#WVirginisStar"/>
+	</skos:Concept></env:instance></env:envelope>

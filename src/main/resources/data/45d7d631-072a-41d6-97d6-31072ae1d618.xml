@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>45d7d631-072a-41d6-97d6-31072ae1d618</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#photometricSystem">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>photometric system</skos:prefLabel>
+		<skos:definition>photometric system</skos:definition>
+		<skos:narrower rdf:resource="#BesselPhotometry"/>
+		<skos:narrower rdf:resource="#CapePhotometry"/>
+		<skos:narrower rdf:resource="#DdoPhotometry"/>
+		<skos:narrower rdf:resource="#GenevaPhotometry"/>
+		<skos:narrower rdf:resource="#GunnPhotometry"/>
+		<skos:narrower rdf:resource="#HstPhotometry"/>
+		<skos:narrower rdf:resource="#JohnsonPhotometry"/>
+		<skos:narrower rdf:resource="#KronCousinsPhotometry"/>
+		<skos:narrower rdf:resource="#SloanPhotometry"/>
+		<skos:narrower rdf:resource="#StromgrenPhotometry"/>
+		<skos:narrower rdf:resource="#WalravenPhotometry"/>
+		<skos:narrower rdf:resource="#rgbPhotometry"/>
+		<skos:related rdf:resource="#apparentMagnitude"/>
+		<skos:related rdf:resource="#photometry"/>
+	</skos:Concept></env:instance></env:envelope>

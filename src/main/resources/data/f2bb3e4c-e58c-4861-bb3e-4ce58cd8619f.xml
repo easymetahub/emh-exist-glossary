@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f2bb3e4c-e58c-4861-bb3e-4ce58cd8619f</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#velocityCurve">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>velocity curve</skos:prefLabel>
+		<skos:definition>velocity curve</skos:definition>
+		<skos:related rdf:resource="#lightCurve"/>
+		<skos:related rdf:resource="#maximum"/>
+		<skos:related rdf:resource="#minimum"/>
+		<skos:related rdf:resource="#period"/>
+		<skos:related rdf:resource="#phaseShift"/>
+		<skos:related rdf:resource="#phaseWave"/>
+		<skos:related rdf:resource="#spectroscopicBinaryStar"/>
+		<skos:related rdf:resource="#variableStar"/>
+		<skos:related rdf:resource="#velocity"/>
+	</skos:Concept></env:instance></env:envelope>

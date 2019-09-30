@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0f70f36b-eedf-45b3-b0f3-6beedf15b34e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#RCanisMajorisStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>R Canis Majoris star</skos:prefLabel>
+		<skos:definition>R Canis Majoris star</skos:definition>
+		<skos:altLabel>R CMa star</skos:altLabel>
+		<skos:broader rdf:resource="#eclipsingBinaryStar"/>
+	</skos:Concept></env:instance></env:envelope>

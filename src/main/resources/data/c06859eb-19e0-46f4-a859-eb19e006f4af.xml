@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c06859eb-19e0-46f4-a859-eb19e006f4af</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#NorthCelestialPole">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>North Celestial Pole</skos:prefLabel>
+		<skos:definition>North Celestial Pole</skos:definition>
+		<skos:altLabel>NCP</skos:altLabel>
+		<skos:altLabel>N.C.P.</skos:altLabel>
+		<skos:broader rdf:resource="#celestialPole"/>
+		<skos:related rdf:resource="#SouthCelestialPole"/>
+	</skos:Concept></env:instance></env:envelope>

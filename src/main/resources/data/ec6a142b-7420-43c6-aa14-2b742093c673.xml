@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ec6a142b-7420-43c6-aa14-2b742093c673</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#kinematics">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>kinematics</skos:prefLabel>
+		<skos:definition>kinematics</skos:definition>
+		<skos:narrower rdf:resource="#acceleration"/>
+		<skos:related rdf:resource="#GalacticRotation"/>
+		<skos:related rdf:resource="#GalacticStructure"/>
+		<skos:related rdf:resource="#angularMomentum"/>
+		<skos:related rdf:resource="#galaxyRotationCurve"/>
+		<skos:related rdf:resource="#galaxyStructure"/>
+		<skos:related rdf:resource="#properMotion"/>
+		<skos:related rdf:resource="#radialVelocity"/>
+		<skos:related rdf:resource="#velocity"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d2fd6b5e-af8f-4572-bd6b-5eaf8ff57290</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#highVelocityCloud">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>high-velocity cloud</skos:prefLabel>
+		<skos:definition>high-velocity cloud</skos:definition>
+		<skos:altLabel>HVC</skos:altLabel>
+		<skos:altLabel>high velocity cloud</skos:altLabel>
+		<skos:broader rdf:resource="#cloud"/>
+		<skos:related rdf:resource="#GalacticRotation"/>
+		<skos:related rdf:resource="#MilkyWayGalaxy"/>
+		<skos:related rdf:resource="#highVelocityStar"/>
+		<skos:related rdf:resource="#velocity"/>
+		<skos:changeNote>FVH: added ALT HVC (2007-SEP-21)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

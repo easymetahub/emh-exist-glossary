@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c030fbf6-c1ff-46f6-b0fb-f6c1ffe6f6ff</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#infraredRadiation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>infrared radiation</skos:prefLabel>
+		<skos:definition>infrared radiation</skos:definition>
+		<skos:broader rdf:resource="#electromagneticRadiation"/>
+		<skos:broader rdf:resource="#radiation"/>
+		<skos:narrower rdf:resource="#BrackettSeries"/>
+		<skos:narrower rdf:resource="#PfundSeries"/>
+		<skos:narrower rdf:resource="#PhillipsBand"/>
+		<skos:narrower rdf:resource="#farInfraredRadiation"/>
+		<skos:narrower rdf:resource="#nearInfraredRadiation"/>
+		<skos:related rdf:resource="#IrasSatellite"/>
+		<skos:related rdf:resource="#greenhouseEffect"/>
+		<skos:related rdf:resource="#infrared"/>
+		<skos:related rdf:resource="#infraredAstronomy"/>
+		<skos:related rdf:resource="#remoteSensing"/>
+		<skos:related rdf:resource="#terrestrialRadiation"/>
+		<skos:related rdf:resource="#thermalRadiation"/>
+	</skos:Concept></env:instance></env:envelope>

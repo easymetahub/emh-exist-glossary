@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e982ad96-e331-435f-82ad-96e331c35f09</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#diskPopulation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>disk population</skos:prefLabel>
+		<skos:definition>disc population	UK</skos:definition>
+		<skos:definition>disk population</skos:definition>
+		<skos:broader rdf:resource="#populationIiStar"/>
+		<skos:related rdf:resource="#GalacticPlane"/>
+		<skos:related rdf:resource="#disk"/>
+		<skos:related rdf:resource="#stellarPopulation"/>
+	</skos:Concept></env:instance></env:envelope>

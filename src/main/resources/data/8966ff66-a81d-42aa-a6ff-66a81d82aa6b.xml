@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8966ff66-a81d-42aa-a6ff-66a81d82aa6b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#sunspotNumber">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>sunspot number</skos:prefLabel>
+		<skos:definition>sunspot number</skos:definition>
+		<skos:altLabel>Wolf number</skos:altLabel>
+		<skos:altLabel>relative sunspot number</skos:altLabel>
+		<skos:related rdf:resource="#MaunderMinimum"/>
+		<skos:related rdf:resource="#butterflyDiagram"/>
+		<skos:related rdf:resource="#solarActivity"/>
+		<skos:related rdf:resource="#solarCycle"/>
+		<skos:related rdf:resource="#sunspotGroup"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4d2b5f4e-9907-455f-ab5f-4e9907155f2b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#spectralLine">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>spectral line</skos:prefLabel>
+		<skos:definition>spectral line</skos:definition>
+		<skos:altLabel>spectrum line</skos:altLabel>
+		<skos:narrower rdf:resource="#DLine"/>
+		<skos:narrower rdf:resource="#FraunhoferLine"/>
+		<skos:narrower rdf:resource="#absorptionLine"/>
+		<skos:narrower rdf:resource="#calciumLine"/>
+		<skos:narrower rdf:resource="#carbonLine"/>
+		<skos:narrower rdf:resource="#cyanogenLine"/>
+		<skos:narrower rdf:resource="#emissionLine"/>
+		<skos:narrower rdf:resource="#hyperfineLine"/>
+		<skos:narrower rdf:resource="#metalLine"/>
+		<skos:narrower rdf:resource="#molecularLine"/>
+		<skos:narrower rdf:resource="#technetiumLine"/>
+		<skos:narrower rdf:resource="#telluricLine"/>
+		<skos:narrower rdf:resource="#ultravioletLine"/>
+		<skos:related rdf:resource="#equivalentWidth"/>
+		<skos:related rdf:resource="#fineStructure"/>
+		<skos:related rdf:resource="#instrumentalProfile"/>
+		<skos:related rdf:resource="#lineBlanketing"/>
+		<skos:related rdf:resource="#lineBlending"/>
+		<skos:related rdf:resource="#lineBroadening"/>
+		<skos:related rdf:resource="#lineFormation"/>
+		<skos:related rdf:resource="#lineIdentification"/>
+		<skos:related rdf:resource="#lineIntensitite"/>
+		<skos:related rdf:resource="#lineProfile"/>
+		<skos:related rdf:resource="#lineRatio"/>
+		<skos:related rdf:resource="#naturalLineBroadening"/>
+		<skos:related rdf:resource="#naturalLineWidth"/>
+		<skos:related rdf:resource="#spectralType"/>
+		<skos:related rdf:resource="#transitionProbability"/>
+		<skos:scopeNote>not a complete list of terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9b9a90ab-13e6-4d5f-9a90-ab13e6ed5fcd</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#TTauriStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>T Tauri star</skos:prefLabel>
+		<skos:definition>T Tauri star</skos:definition>
+		<skos:altLabel>TTS</skos:altLabel>
+		<skos:altLabel>YY Orionis star</skos:altLabel>
+		<skos:broader rdf:resource="#emissionLineStar"/>
+		<skos:broader rdf:resource="#irregularVariableStar"/>
+		<skos:broader rdf:resource="#preMainSequenceStar"/>
+		<skos:narrower rdf:resource="#FuOrionisStar"/>
+		<skos:narrower rdf:resource="#classicalTTauriStar"/>
+		<skos:narrower rdf:resource="#weakLineTTauriStar"/>
+		<skos:related rdf:resource="#HerbigHaroObject"/>
+		<skos:related rdf:resource="#RwAurigaeStar"/>
+		<skos:related rdf:resource="#TAssociation"/>
+		<skos:related rdf:resource="#emissionNebula"/>
+		<skos:related rdf:resource="#protostar"/>
+		<skos:changeNote>FVH: moved yy_orinois_star to ALT, added NT CLASSICAL_T_TAURI_STARS and WEAK_LINE_T_TAURI_STARS (2007-SEP-24)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

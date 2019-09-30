@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e2cda383-e752-4774-8da3-83e752a77479</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lateTypeSubdwarf">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>late-type subdwarf</skos:prefLabel>
+		<skos:definition>late-type subdwarf</skos:definition>
+		<skos:altLabel>cool subdwarf star</skos:altLabel>
+		<skos:broader rdf:resource="#lateTypeStar"/>
+		<skos:broader rdf:resource="#lowLuminosityStar"/>
+		<skos:broader rdf:resource="#subdwarf"/>
+		<skos:narrower rdf:resource="#LSubdwarf"/>
+		<skos:narrower rdf:resource="#brownDwarf"/>
+	</skos:Concept></env:instance></env:envelope>

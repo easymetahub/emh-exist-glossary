@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>7b1c0a0c-0802-4a2a-9c0a-0c08025a2a77</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#detector">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>detector</skos:prefLabel>
+		<skos:definition>detector</skos:definition>
+		<skos:broader rdf:resource="#instrument"/>
+		<skos:narrower rdf:resource="#XRayDetector"/>
+		<skos:narrower rdf:resource="#dustDetector"/>
+		<skos:narrower rdf:resource="#infraredDetector"/>
+		<skos:narrower rdf:resource="#multiChannelDetector"/>
+		<skos:narrower rdf:resource="#photographicEmulsion"/>
+		<skos:narrower rdf:resource="#photomultiplierTube"/>
+		<skos:narrower rdf:resource="#radiometer"/>
+		<skos:narrower rdf:resource="#superconductingTunnelJunction"/>
+		<skos:narrower rdf:resource="#synchronousDetector"/>
+		<skos:narrower rdf:resource="#twoDimensionalDetector"/>
+		<skos:narrower rdf:resource="#ultravioletDetector"/>
+		<skos:related rdf:resource="#chargeCoupledDevice"/>
+		<skos:related rdf:resource="#chargeInjectionDevice"/>
+		<skos:related rdf:resource="#chargeTransferDevice"/>
+		<skos:related rdf:resource="#limitingMagnitude"/>
+		<skos:related rdf:resource="#pixel"/>
+		<skos:related rdf:resource="#quantumEfficiency"/>
+		<skos:related rdf:resource="#receiver"/>
+		<skos:related rdf:resource="#remoteSensing"/>
+		<skos:related rdf:resource="#semiconductorDevice"/>
+		<skos:related rdf:resource="#sensitivity"/>
+		<skos:related rdf:resource="#shotNoise"/>
+		<skos:related rdf:resource="#shutter"/>
+		<skos:related rdf:resource="#signalDetection"/>
+		<skos:related rdf:resource="#telescopeInstrument"/>
+		<skos:changeNote>FVH: added NT SUPERCONDUCTING_TUNNEL_JUNCTION (2007-SEP-21)</skos:changeNote>
+		<skos:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

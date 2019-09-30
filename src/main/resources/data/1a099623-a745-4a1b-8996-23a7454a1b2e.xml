@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>1a099623-a745-4a1b-8996-23a7454a1b2e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#NewtonianGravitation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Newtonian gravitation</skos:prefLabel>
+		<skos:definition>Newtonian gravitation</skos:definition>
+		<skos:broader rdf:resource="#gravitation"/>
+		<skos:related rdf:resource="#ModifiedNewtonianDynamics"/>
+		<skos:related rdf:resource="#generalTheoryOfRelativity"/>
+		<skos:related rdf:resource="#gravitationalConstant"/>
+		<skos:related rdf:resource="#gravitationalForce"/>
+	</skos:Concept></env:instance></env:envelope>

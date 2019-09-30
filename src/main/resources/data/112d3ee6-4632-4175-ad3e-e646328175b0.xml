@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>112d3ee6-4632-4175-ad3e-e646328175b0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#axialRatio">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>axial ratio</skos:prefLabel>
+		<skos:definition>axial ratio</skos:definition>
+		<skos:broader rdf:resource="#ratio"/>
+		<skos:related rdf:resource="#axis"/>
+		<skos:related rdf:resource="#majorAxis"/>
+		<skos:related rdf:resource="#minorAxis"/>
+		<skos:historyNote>ES: new (2007-OCT-11)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

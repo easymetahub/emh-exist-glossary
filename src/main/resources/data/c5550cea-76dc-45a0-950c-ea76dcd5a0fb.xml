@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c5550cea-76dc-45a0-950c-ea76dcd5a0fb</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#SuUrsaeMajorisStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>SU Ursae Majoris star</skos:prefLabel>
+		<skos:definition>SU Ursae Majoris star</skos:definition>
+		<skos:broader rdf:resource="#dwarfNova"/>
+		<skos:related rdf:resource="#WzSagittaeStar"/>
+		<skos:related rdf:resource="#superhump"/>
+	</skos:Concept></env:instance></env:envelope>

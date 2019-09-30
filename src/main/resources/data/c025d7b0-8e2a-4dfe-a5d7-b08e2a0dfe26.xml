@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c025d7b0-8e2a-4dfe-a5d7-b08e2a0dfe26</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#infraredPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>infrared photometry</skos:prefLabel>
+		<skos:definition>infrared photometry</skos:definition>
+		<skos:broader rdf:resource="#broadBandPhotometry"/>
+		<skos:broader rdf:resource="#mediumBandPhotometry"/>
+		<skos:broader rdf:resource="#photometry"/>
+		<skos:related rdf:resource="#HMagnitude"/>
+		<skos:related rdf:resource="#IMagnitude"/>
+		<skos:related rdf:resource="#JMagnitude"/>
+		<skos:related rdf:resource="#KMagnitude"/>
+		<skos:related rdf:resource="#LMagnitude"/>
+		<skos:related rdf:resource="#MMagnitude"/>
+		<skos:related rdf:resource="#NMagnitude"/>
+		<skos:related rdf:resource="#OMagnitude"/>
+		<skos:related rdf:resource="#PMagnitude"/>
+		<skos:related rdf:resource="#QMagnitude"/>
+		<skos:related rdf:resource="#farInfraredRadiation"/>
+		<skos:related rdf:resource="#nearInfraredRadiation"/>
+	</skos:Concept></env:instance></env:envelope>

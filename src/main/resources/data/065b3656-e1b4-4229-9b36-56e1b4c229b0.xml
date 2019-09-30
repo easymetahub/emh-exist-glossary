@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>065b3656-e1b4-4229-9b36-56e1b4c229b0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#sigma8">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>sigma8</skos:prefLabel>
+		<skos:definition>the normalization factor of the cosmological matter power spectrum</skos:definition>
+		<skos:altLabel>sigma_8</skos:altLabel>
+		<skos:broader rdf:resource="#cosmologicalParameter"/>
+		<skos:historyNote>FVH: new (2007-OCT-24)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

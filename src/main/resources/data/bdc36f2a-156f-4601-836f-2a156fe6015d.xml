@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bdc36f2a-156f-4601-836f-2a156fe6015d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#dataReduction">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>data reduction</skos:prefLabel>
+		<skos:definition>data reduction</skos:definition>
+		<skos:broader rdf:resource="#dataProcessing"/>
+		<skos:related rdf:resource="#computer"/>
+		<skos:related rdf:resource="#dataAnalysis"/>
+		<skos:related rdf:resource="#dataCenter"/>
+		<skos:related rdf:resource="#dataRetrieval"/>
+		<skos:related rdf:resource="#dataStorage"/>
+		<skos:related rdf:resource="#errorAnalysis"/>
+		<skos:related rdf:resource="#fineAnalysis"/>
+		<skos:related rdf:resource="#reductionMethod"/>
+	</skos:Concept></env:instance></env:envelope>

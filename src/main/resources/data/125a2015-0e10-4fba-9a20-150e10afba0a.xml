@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>125a2015-0e10-4fba-9a20-150e10afba0a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#blackHole">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>black hole</skos:prefLabel>
+		<skos:definition>black hole</skos:definition>
+		<skos:broader rdf:resource="#collapsedStar"/>
+		<skos:broader rdf:resource="#compactObject"/>
+		<skos:broader rdf:resource="#degenerateMatter"/>
+		<skos:broader rdf:resource="#relativisticStar"/>
+		<skos:narrower rdf:resource="#KerrBlackHole"/>
+		<skos:narrower rdf:resource="#stellarBlackHole"/>
+		<skos:related rdf:resource="#HawkingRadiation"/>
+		<skos:related rdf:resource="#KruskalDiagram"/>
+		<skos:related rdf:resource="#PenroseProcess"/>
+		<skos:related rdf:resource="#SchwarzschildRadius"/>
+		<skos:related rdf:resource="#XRayBinaryStar"/>
+		<skos:related rdf:resource="#accretionDisk"/>
+		<skos:related rdf:resource="#ergosphere"/>
+		<skos:related rdf:resource="#eventHorizon"/>
+		<skos:related rdf:resource="#galacticNucleus"/>
+		<skos:related rdf:resource="#gravitationalCollapse"/>
+		<skos:related rdf:resource="#gravitationalLensing"/>
+		<skos:related rdf:resource="#massiveObject"/>
+		<skos:related rdf:resource="#nakedSingularity"/>
+		<skos:related rdf:resource="#relativisticAstrophysics"/>
+		<skos:related rdf:resource="#spaceTimeSingularity"/>
+		<skos:related rdf:resource="#supernovaRemnant"/>
+		<skos:related rdf:resource="#whiteHole"/>
+	</skos:Concept></env:instance></env:envelope>

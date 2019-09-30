@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>de6c9ddc-2637-4a13-ac9d-dc2637ea13c5</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#solarTerrestrialRelation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>solar-terrestrial relation</skos:prefLabel>
+		<skos:definition>solar-terrestrial relation</skos:definition>
+		<skos:altLabel>solar terrestiral relation</skos:altLabel>
+		<skos:broader rdf:resource="#solarPlanetaryRelation"/>
+		<skos:related rdf:resource="#Earth"/>
+		<skos:related rdf:resource="#Sun"/>
+		<skos:related rdf:resource="#solarAtmosphere"/>
+		<skos:related rdf:resource="#solarPhysics"/>
+	</skos:Concept></env:instance></env:envelope>

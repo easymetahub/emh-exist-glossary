@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9aec0cf5-859c-4164-ac0c-f5859ca16439</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#microwaveBackground">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>microwave background</skos:prefLabel>
+		<skos:definition>cosmic microwave background</skos:definition>
+		<skos:broader rdf:resource="#backgroundRadiation"/>
+		<skos:broader rdf:resource="#cosmicNoise"/>
+		<skos:broader rdf:resource="#microwaveRadiation"/>
+		<skos:related rdf:resource="#SunyaevZeldovichEffect"/>
+		<skos:related rdf:resource="#XRayBackground"/>
+		<skos:related rdf:resource="#cosmology"/>
+		<skos:related rdf:resource="#gammaRayBackground"/>
+		<skos:related rdf:resource="#radioBackground"/>
+		<skos:related rdf:resource="#ultravioletBackground"/>
+		<skos:changeNote>FVH: Added RT COSMOLOGY (2007-SEP-21)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

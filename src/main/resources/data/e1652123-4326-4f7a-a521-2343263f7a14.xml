@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e1652123-4326-4f7a-a521-2343263f7a14</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#giantEllipticalGalaxy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>giant elliptical galaxy</skos:prefLabel>
+		<skos:definition>giant elliptical galaxy</skos:definition>
+		<skos:broader rdf:resource="#ellipticalGalaxy"/>
+	</skos:Concept></env:instance></env:envelope>

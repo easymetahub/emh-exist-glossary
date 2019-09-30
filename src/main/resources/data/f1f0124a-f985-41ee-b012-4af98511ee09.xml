@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f1f0124a-f985-41ee-b012-4af98511ee09</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#DopplerBroadening">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Doppler broadening</skos:prefLabel>
+		<skos:definition>Doppler broadening</skos:definition>
+		<skos:broader rdf:resource="#lineBroadening"/>
+		<skos:related rdf:resource="#DopplerEffect"/>
+		<skos:related rdf:resource="#StarkBroadening"/>
+		<skos:related rdf:resource="#ZeemanSplitting"/>
+		<skos:related rdf:resource="#lineWidth"/>
+		<skos:related rdf:resource="#naturalLineWidth"/>
+		<skos:related rdf:resource="#pressureBroadening"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>57ac7604-db9d-4fdf-ac76-04db9d2fdf30</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#twoColorPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>two-color photometry</skos:prefLabel>
+		<skos:definition>two-color photometry</skos:definition>
+		<skos:altLabel>two color photometry</skos:altLabel>
+		<skos:broader rdf:resource="#broadBandPhotometry"/>
+		<skos:narrower rdf:resource="#BvPhotometry"/>
+		<skos:related rdf:resource="#JohnsonPhotometry"/>
+		<skos:related rdf:resource="#SloanPhotometry"/>
+	</skos:Concept></env:instance></env:envelope>

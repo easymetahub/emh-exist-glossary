@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bac37939-b316-4ed4-8379-39b316fed49a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#magneticVariableStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>magnetic variable star</skos:prefLabel>
+		<skos:definition>magnetic variable star</skos:definition>
+		<skos:broader rdf:resource="#intrinsicVariableStar"/>
+		<skos:broader rdf:resource="#magneticStar"/>
+		<skos:narrower rdf:resource="#AmStar"/>
+		<skos:narrower rdf:resource="#SxArietisStar"/>
+		<skos:narrower rdf:resource="#alpha2CanumVenaticorumStar"/>
+		<skos:related rdf:resource="#ApStar"/>
+		<skos:related rdf:resource="#magneticField"/>
+		<skos:related rdf:resource="#magneticPole"/>
+	</skos:Concept></env:instance></env:envelope>

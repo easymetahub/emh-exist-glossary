@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>258fb95d-a998-4b63-8fb9-5da9984b631b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lineWidth">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>line width</skos:prefLabel>
+		<skos:definition>line width</skos:definition>
+		<skos:altLabel>spectral line width</skos:altLabel>
+		<skos:narrower rdf:resource="#equivalentWidth"/>
+		<skos:narrower rdf:resource="#naturalLineWidth"/>
+		<skos:related rdf:resource="#DopplerBroadening"/>
+		<skos:related rdf:resource="#MilneEddingtonApproximation"/>
+		<skos:related rdf:resource="#TullyFisherRelation"/>
+		<skos:related rdf:resource="#gValue"/>
+		<skos:related rdf:resource="#gfValue"/>
+		<skos:related rdf:resource="#instrumentalProfile"/>
+		<skos:related rdf:resource="#lineBroadening"/>
+		<skos:related rdf:resource="#oscillatorStrength"/>
+		<skos:related rdf:resource="#spectralType"/>
+		<skos:related rdf:resource="#stellarAtmosphere"/>
+		<skos:related rdf:resource="#surfaceGravity"/>
+		<skos:related rdf:resource="#transitionProbability"/>
+	</skos:Concept></env:instance></env:envelope>

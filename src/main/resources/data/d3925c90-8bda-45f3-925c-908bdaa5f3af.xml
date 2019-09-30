@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d3925c90-8bda-45f3-925c-908bdaa5f3af</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#redGiant">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>red giant</skos:prefLabel>
+		<skos:definition>red giant star</skos:definition>
+		<skos:scopeNote>see late-type giant star</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

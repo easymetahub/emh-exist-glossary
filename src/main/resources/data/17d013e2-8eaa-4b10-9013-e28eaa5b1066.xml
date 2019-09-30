@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>17d013e2-8eaa-4b10-9013-e28eaa5b1066</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#stellarObject">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>stellar object</skos:prefLabel>
+		<skos:definition>star-like object, including star, brown dwarf, and evolved stellar core (NS, BH, WD)</skos:definition>
+		<skos:narrower rdf:resource="#blackDwarf"/>
+		<skos:narrower rdf:resource="#brownDwarf"/>
+		<skos:narrower rdf:resource="#neutronStar"/>
+		<skos:narrower rdf:resource="#planetar"/>
+		<skos:narrower rdf:resource="#star"/>
+		<skos:narrower rdf:resource="#stellarBlackHole"/>
+		<skos:narrower rdf:resource="#whiteDwarf"/>
+		<skos:historyNote>FVH+ES: new (2007-OCT)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

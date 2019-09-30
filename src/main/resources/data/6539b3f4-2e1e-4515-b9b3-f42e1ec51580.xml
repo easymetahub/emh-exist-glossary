@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6539b3f4-2e1e-4515-b9b3-f42e1ec51580</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#circularOrbit">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>circular orbit</skos:prefLabel>
+		<skos:definition>circular orbit</skos:definition>
+		<skos:broader rdf:resource="#ellipticalOrbit"/>
+		<skos:related rdf:resource="#hyperbolicOrbit"/>
+		<skos:related rdf:resource="#orbitalMotion"/>
+		<skos:related rdf:resource="#parabolicOrbit"/>
+	</skos:Concept></env:instance></env:envelope>

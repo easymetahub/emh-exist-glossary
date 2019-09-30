@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b5ef3df6-fd03-4527-af3d-f6fd03252707</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#TropicOfCapricorn">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Tropic of Capricorn</skos:prefLabel>
+		<skos:definition>Tropic of Capricorn</skos:definition>
+		<skos:related rdf:resource="#TropicOfCancer"/>
+		<skos:related rdf:resource="#solstice"/>
+		<skos:related rdf:resource="#winterSolstice"/>
+	</skos:Concept></env:instance></env:envelope>

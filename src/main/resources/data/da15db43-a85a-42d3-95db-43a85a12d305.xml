@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>da15db43-a85a-42d3-95db-43a85a12d305</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#EarthMoonSystem">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Earth-Moon system</skos:prefLabel>
+		<skos:definition>Earth-Moon system</skos:definition>
+		<skos:altLabel>Earth Moon system</skos:altLabel>
+		<skos:related rdf:resource="#SolarSystem"/>
+		<skos:related rdf:resource="#annualEquation"/>
+		<skos:related rdf:resource="#equationOfTheCenter"/>
+		<skos:related rdf:resource="#lunarTheory"/>
+		<skos:related rdf:resource="#tidalFriction"/>
+		<skos:related rdf:resource="#twoBodyProblem"/>
+	</skos:Concept></env:instance></env:envelope>

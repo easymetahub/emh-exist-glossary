@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8beca7a1-70a4-45b4-aca7-a170a405b486</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#gammaRayRadiation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>gamma-ray radiation</skos:prefLabel>
+		<skos:definition>gamma-ray radiation</skos:definition>
+		<skos:altLabel>gamma radiation</skos:altLabel>
+		<skos:altLabel>gamma-ray</skos:altLabel>
+		<skos:broader rdf:resource="#electromagneticRadiation"/>
+		<skos:broader rdf:resource="#highEnergyRadiation"/>
+		<skos:broader rdf:resource="#nuclearRadiation"/>
+		<skos:broader rdf:resource="#radiation"/>
+		<skos:narrower rdf:resource="#gammaRayLine"/>
+		<skos:related rdf:resource="#CerenkovRadiation"/>
+		<skos:related rdf:resource="#gammaRayBackground"/>
+		<skos:related rdf:resource="#gammaRayScattering"/>
+		<skos:related rdf:resource="#gammaRaySource"/>
+		<skos:related rdf:resource="#gammaRaySpectrum"/>
+		<skos:related rdf:resource="#pairAnnihilation"/>
+		<skos:related rdf:resource="#pairProduction"/>
+		<skos:related rdf:resource="#radioactivity"/>
+	</skos:Concept></env:instance></env:envelope>

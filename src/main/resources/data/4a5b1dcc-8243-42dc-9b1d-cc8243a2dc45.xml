@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4a5b1dcc-8243-42dc-9b1d-cc8243a2dc45</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#EarthSciences">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Earth sciences</skos:prefLabel>
+		<skos:definition>Earth sciences</skos:definition>
+		<skos:broader rdf:resource="#scientificField"/>
+		<skos:narrower rdf:resource="#geodesy"/>
+		<skos:narrower rdf:resource="#geology"/>
+		<skos:narrower rdf:resource="#geophysics"/>
+		<skos:narrower rdf:resource="#glaciology"/>
+		<skos:related rdf:resource="#Earth"/>
+		<skos:related rdf:resource="#geophysicalObservatory"/>
+	</skos:Concept></env:instance></env:envelope>

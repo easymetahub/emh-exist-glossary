@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2d87e82b-e658-4538-87e8-2be658a538c4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#SeyfertNucleus">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Seyfert nucleus</skos:prefLabel>
+		<skos:definition>Seyfert nucleus</skos:definition>
+		<skos:broader rdf:resource="#activeGalacticNucleus"/>
+		<skos:broader rdf:resource="#compactNucleus"/>
+		<skos:broader rdf:resource="#emissionLineGalaxy"/>
+		<skos:related rdf:resource="#SeyfertGalaxy"/>
+	</skos:Concept></env:instance></env:envelope>

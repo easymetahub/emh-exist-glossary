@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>341199e0-e89f-4b15-9199-e0e89fcb1506</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#planetaryNebula">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>planetary nebula</skos:prefLabel>
+		<skos:definition>planetary nebula</skos:definition>
+		<skos:broader rdf:resource="#emissionNebula"/>
+		<skos:broader rdf:resource="#evolvedStar"/>
+		<skos:broader rdf:resource="#nebula"/>
+		<skos:related rdf:resource="#HarmanSeatonSequence"/>
+		<skos:related rdf:resource="#ansa"/>
+		<skos:related rdf:resource="#centralStar"/>
+		<skos:related rdf:resource="#emissionLineStar"/>
+		<skos:related rdf:resource="#excitingStar"/>
+		<skos:related rdf:resource="#massLoss"/>
+		<skos:related rdf:resource="#ringNebula"/>
+	</skos:Concept></env:instance></env:envelope>

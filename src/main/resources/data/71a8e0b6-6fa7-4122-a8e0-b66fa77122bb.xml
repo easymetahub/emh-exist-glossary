@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>71a8e0b6-6fa7-4122-a8e0-b66fa77122bb</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#apparentSuperluminalMotion">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>apparent superluminal motion</skos:prefLabel>
+		<skos:definition>apparent superluminal motion</skos:definition>
+		<skos:altLabel>superluminal motion</skos:altLabel>
+		<skos:broader rdf:resource="#motion"/>
+		<skos:related rdf:resource="#velocityOfLight"/>
+	</skos:Concept></env:instance></env:envelope>

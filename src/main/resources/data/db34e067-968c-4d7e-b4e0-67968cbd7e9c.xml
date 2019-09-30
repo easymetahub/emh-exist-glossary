@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>db34e067-968c-4d7e-b4e0-67968cbd7e9c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#neodymium">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>neodymium</skos:prefLabel>
+		<skos:definition>neodymium (atomic number 60)</skos:definition>
+		<skos:altLabel>Nd</skos:altLabel>
+		<skos:broader rdf:resource="#fundamentalChemicalElement"/>
+		<skos:broader rdf:resource="#rareEarth"/>
+		<skos:historyNote>FVH: new (2007-OCT-25)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

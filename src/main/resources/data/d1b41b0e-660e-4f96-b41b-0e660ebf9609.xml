@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d1b41b0e-660e-4f96-b41b-0e660ebf9609</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#carbonStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>carbon star</skos:prefLabel>
+		<skos:definition>carbon star</skos:definition>
+		<skos:altLabel>C star</skos:altLabel>
+		<skos:broader rdf:resource="#lateTypeGiant"/>
+		<skos:related rdf:resource="#ChStar"/>
+		<skos:related rdf:resource="#CnStar"/>
+		<skos:related rdf:resource="#RStar"/>
+		<skos:related rdf:resource="#SStar"/>
+		<skos:related rdf:resource="#WolfRayetStar"/>
+	</skos:Concept></env:instance></env:envelope>

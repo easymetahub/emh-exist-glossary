@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3b24e169-cb6d-4820-a4e1-69cb6d28203b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#isophotalDiameter">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>isophotal diameter</skos:prefLabel>
+		<skos:definition>isophotal diameter</skos:definition>
+		<skos:broader rdf:resource="#angularDiameter"/>
+		<skos:broader rdf:resource="#diameter"/>
+		<skos:related rdf:resource="#galaxy"/>
+		<skos:related rdf:resource="#isophot"/>
+		<skos:related rdf:resource="#luminosityDistribution"/>
+		<skos:related rdf:resource="#surfacePhotometry"/>
+		<skos:historyNote>ES: new (2007-OCT-11)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

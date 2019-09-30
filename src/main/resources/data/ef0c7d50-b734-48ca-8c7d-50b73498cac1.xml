@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ef0c7d50-b734-48ca-8c7d-50b73498cac1</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#blueLoop">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>blue loop</skos:prefLabel>
+		<skos:definition>blue loop</skos:definition>
+		<skos:broader rdf:resource="#giantBranch"/>
+		<skos:historyNote>ES: new (2007-OCT-8)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

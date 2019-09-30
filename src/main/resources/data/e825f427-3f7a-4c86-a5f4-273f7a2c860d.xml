@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e825f427-3f7a-4c86-a5f4-273f7a2c860d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#quadrantDetector">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>quadrant detector</skos:prefLabel>
+		<skos:definition>quadrant detector</skos:definition>
+		<skos:related rdf:resource="#autoguider"/>
+		<skos:related rdf:resource="#controlSystem"/>
+		<skos:related rdf:resource="#guideSystem"/>
+		<skos:related rdf:resource="#photomultiplierTube"/>
+	</skos:Concept></env:instance></env:envelope>

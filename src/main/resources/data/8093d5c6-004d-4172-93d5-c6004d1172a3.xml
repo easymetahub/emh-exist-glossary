@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8093d5c6-004d-4172-93d5-c6004d1172a3</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#RosselandOpacity">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Rosseland opacity</skos:prefLabel>
+		<skos:definition>Rosseland opacity</skos:definition>
+		<skos:broader rdf:resource="#opacity"/>
+		<skos:related rdf:resource="#KramersOpacity"/>
+		<skos:related rdf:resource="#absorption"/>
+		<skos:related rdf:resource="#stellarInterior"/>
+	</skos:Concept></env:instance></env:envelope>

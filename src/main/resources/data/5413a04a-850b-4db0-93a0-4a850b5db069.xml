@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5413a04a-850b-4db0-93a0-4a850b5db069</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#photosphere">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>photosphere</skos:prefLabel>
+		<skos:definition>photosphere</skos:definition>
+		<skos:altLabel>reversing layer</skos:altLabel>
+		<skos:related rdf:resource="#Sun"/>
+		<skos:related rdf:resource="#chromosphere"/>
+		<skos:related rdf:resource="#continuumRadiation"/>
+		<skos:related rdf:resource="#facula"/>
+		<skos:related rdf:resource="#granulation"/>
+		<skos:related rdf:resource="#granule"/>
+		<skos:related rdf:resource="#solarSurface"/>
+		<skos:related rdf:resource="#surfaceBrightness"/>
+		<skos:related rdf:resource="#surfaceOfCelestialBody"/>
+		<skos:scopeNote>ALT reversing_layer seems old-fashioned (IAU)!</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

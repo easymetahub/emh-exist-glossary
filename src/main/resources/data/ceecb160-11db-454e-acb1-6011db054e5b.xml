@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ceecb160-11db-454e-acb1-6011db054e5b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#radioRadiation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>radio radiation</skos:prefLabel>
+		<skos:definition>radio radiation</skos:definition>
+		<skos:altLabel>radio wave</skos:altLabel>
+		<skos:broader rdf:resource="#electromagneticRadiation"/>
+		<skos:related rdf:resource="#Jansky"/>
+		<skos:related rdf:resource="#radioBackground"/>
+		<skos:related rdf:resource="#radioFrequency"/>
+		<skos:related rdf:resource="#radioSource"/>
+		<skos:changeNote>FVH: moved BT radiation to BT electromagnetic_radiation and radio_wave to ALT (2007-OCT-8)</skos:changeNote>
+		<skos:scopeNote>synonym: radio emission</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

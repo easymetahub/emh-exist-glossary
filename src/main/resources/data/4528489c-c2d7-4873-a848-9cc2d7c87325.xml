@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4528489c-c2d7-4873-a848-9cc2d7c87325</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#TypeIiSupernova">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Type II supernova</skos:prefLabel>
+		<skos:definition>Type II supernova</skos:definition>
+		<skos:broader rdf:resource="#supernova"/>
+		<skos:related rdf:resource="#TypeIaSupernova"/>
+		<skos:related rdf:resource="#TypeIbSupernova"/>
+		<skos:related rdf:resource="#TypeIcSupernova"/>
+		<skos:historyNote>FVH: new (2007-OCT-1)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

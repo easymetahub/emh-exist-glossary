@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>81100d71-7305-40df-900d-71730550dfcc</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#surfaceBrightness">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>surface brightness</skos:prefLabel>
+		<skos:definition>surface brightness</skos:definition>
+		<skos:broader rdf:resource="#brightness"/>
+		<skos:related rdf:resource="#LGalaxy"/>
+		<skos:related rdf:resource="#gravityDarkening"/>
+		<skos:related rdf:resource="#photosphere"/>
+		<skos:related rdf:resource="#surfacePhotometry"/>
+		<skos:related rdf:resource="#temperature"/>
+		<skos:related rdf:resource="#vonZeipelTheorem"/>
+	</skos:Concept></env:instance></env:envelope>

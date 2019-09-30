@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>fba5eca8-322d-44a2-a5ec-a8322d54a256</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#chargeCoupledDevice">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>charge-coupled device</skos:prefLabel>
+		<skos:definition>charge-coupled device</skos:definition>
+		<skos:altLabel>CCD</skos:altLabel>
+		<skos:altLabel>charge coupled device</skos:altLabel>
+		<skos:broader rdf:resource="#photoelectronicDevice"/>
+		<skos:broader rdf:resource="#semiconductorDevice"/>
+		<skos:related rdf:resource="#CcdDetector"/>
+		<skos:related rdf:resource="#CcdObservation"/>
+		<skos:related rdf:resource="#CcdPhotometry"/>
+		<skos:related rdf:resource="#detector"/>
+		<skos:related rdf:resource="#multiChannelDetector"/>
+		<skos:related rdf:resource="#quantumEfficiency"/>
+		<skos:related rdf:resource="#readOutNoise"/>
+		<skos:related rdf:resource="#twoDimensionalDetector"/>
+		<skos:changeNote>FVH: added RT READ_OUT_NOISE (2007-SEP-21)</skos:changeNote>
+		<skos:scopeNote>use abbreviated form (CCD) when combined with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

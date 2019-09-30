@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4c276e74-a81b-4e36-a76e-74a81b5e36f6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#zenithHourlyRate">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>zenith hourly rate</skos:prefLabel>
+		<skos:definition>zenith hourly rate</skos:definition>
+		<skos:related rdf:resource="#meteorShower"/>
+	</skos:Concept></env:instance></env:envelope>

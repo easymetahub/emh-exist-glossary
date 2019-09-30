@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b8c359e1-283d-48ce-8359-e1283d78ce41</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#coronagraph">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>coronagraph</skos:prefLabel>
+		<skos:definition>coronagraph</skos:definition>
+		<skos:broader rdf:resource="#instrument"/>
+		<skos:broader rdf:resource="#opticalInstrument"/>
+		<skos:related rdf:resource="#camera"/>
+		<skos:related rdf:resource="#solarCorona"/>
+		<skos:related rdf:resource="#solarObservatory"/>
+		<skos:related rdf:resource="#spectroheliograph"/>
+	</skos:Concept></env:instance></env:envelope>

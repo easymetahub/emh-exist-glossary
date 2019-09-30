@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3be2607f-04c4-4c7d-a260-7f04c4fc7d7e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lineIdentification">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>line identification</skos:prefLabel>
+		<skos:definition>line identification</skos:definition>
+		<skos:related rdf:resource="#absorptionLine"/>
+		<skos:related rdf:resource="#emissionLine"/>
+		<skos:related rdf:resource="#spectralLine"/>
+	</skos:Concept></env:instance></env:envelope>

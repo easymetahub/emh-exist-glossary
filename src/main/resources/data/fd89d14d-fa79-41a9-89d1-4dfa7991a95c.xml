@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>fd89d14d-fa79-41a9-89d1-4dfa7991a95c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#infraredSource">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>infrared source</skos:prefLabel>
+		<skos:definition>infrared source</skos:definition>
+		<skos:broader rdf:resource="#source"/>
+		<skos:narrower rdf:resource="#FuOrionisStar"/>
+		<skos:narrower rdf:resource="#HerbigHaroObject"/>
+		<skos:narrower rdf:resource="#OhIrStar"/>
+		<skos:narrower rdf:resource="#cocoonStar"/>
+		<skos:narrower rdf:resource="#extremeCarbonStar"/>
+		<skos:narrower rdf:resource="#flareStar"/>
+		<skos:narrower rdf:resource="#infraredGalaxy"/>
+		<skos:related rdf:resource="#infraredObservatory"/>
+		<skos:related rdf:resource="#starFormation"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2b8e2e39-9ade-4c51-8e2e-399ade5c518e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#collisionSpectroscopy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>collision spectroscopy</skos:prefLabel>
+		<skos:definition>collision spectroscopy</skos:definition>
+		<skos:broader rdf:resource="#spectroscopy"/>
+		<skos:related rdf:resource="#collisionBroadening"/>
+		<skos:related rdf:resource="#collisionStrength"/>
+		<skos:related rdf:resource="#collisionalExcitation"/>
+	</skos:Concept></env:instance></env:envelope>

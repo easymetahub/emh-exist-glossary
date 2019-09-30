@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>adb2e708-91a7-44f0-b2e7-0891a794f008</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#chromosphere">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>chromosphere</skos:prefLabel>
+		<skos:definition>chromosphere</skos:definition>
+		<skos:related rdf:resource="#Sun"/>
+		<skos:related rdf:resource="#coronalLoop"/>
+		<skos:related rdf:resource="#facula"/>
+		<skos:related rdf:resource="#fibrill"/>
+		<skos:related rdf:resource="#flashSpectrum"/>
+		<skos:related rdf:resource="#macroSpicule"/>
+		<skos:related rdf:resource="#mottle"/>
+		<skos:related rdf:resource="#photosphere"/>
+		<skos:related rdf:resource="#plage"/>
+		<skos:related rdf:resource="#prominence"/>
+		<skos:related rdf:resource="#quiescentProminence"/>
+		<skos:related rdf:resource="#solarAtmosphere"/>
+		<skos:related rdf:resource="#solarFilament"/>
+		<skos:related rdf:resource="#spicule"/>
+		<skos:related rdf:resource="#stellarAtmosphere"/>
+		<skos:related rdf:resource="#stellarWind"/>
+		<skos:related rdf:resource="#transitionRegion"/>
+	</skos:Concept></env:instance></env:envelope>

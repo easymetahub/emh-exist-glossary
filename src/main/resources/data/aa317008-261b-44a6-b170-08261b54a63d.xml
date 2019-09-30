@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>aa317008-261b-44a6-b170-08261b54a63d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#spaceAstronomy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>space astronomy</skos:prefLabel>
+		<skos:definition>space astronomy</skos:definition>
+		<skos:broader rdf:resource="#astronomy"/>
+		<skos:narrower rdf:resource="#XRayAstronomy"/>
+		<skos:narrower rdf:resource="#gammaRayAstronomy"/>
+		<skos:narrower rdf:resource="#ultravioletAstronomy"/>
+		<skos:related rdf:resource="#artificialSatellite"/>
+		<skos:related rdf:resource="#spaceObservatory"/>
+		<skos:related rdf:resource="#spaceExploration"/>
+		<skos:related rdf:resource="#spaceProbe"/>
+	</skos:Concept></env:instance></env:envelope>

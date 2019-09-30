@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d1ec9e3a-f0b2-4d22-ac9e-3af0b2ed22c7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#DdoPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>DDO photometry</skos:prefLabel>
+		<skos:definition>DDO photometry</skos:definition>
+		<skos:broader rdf:resource="#mediumBandPhotometry"/>
+		<skos:broader rdf:resource="#photometricSystem"/>
+	</skos:Concept></env:instance></env:envelope>

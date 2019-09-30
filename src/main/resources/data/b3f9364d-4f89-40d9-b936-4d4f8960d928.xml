@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b3f9364d-4f89-40d9-b936-4d4f8960d928</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#force">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>force</skos:prefLabel>
+		<skos:definition>force</skos:definition>
+		<skos:narrower rdf:resource="#centrifugalForce"/>
+		<skos:narrower rdf:resource="#centripetalForce"/>
+		<skos:narrower rdf:resource="#electromagneticForces"/>
+		<skos:narrower rdf:resource="#gravitationalForce"/>
+		<skos:related rdf:resource="#electricField"/>
+		<skos:related rdf:resource="#energy"/>
+		<skos:related rdf:resource="#magneticField"/>
+		<skos:scopeNote>combine with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

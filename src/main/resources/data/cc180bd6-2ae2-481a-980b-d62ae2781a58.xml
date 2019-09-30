@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cc180bd6-2ae2-481a-980b-d62ae2781a58</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#metalLine">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>metal line</skos:prefLabel>
+		<skos:definition>metal line</skos:definition>
+		<skos:broader rdf:resource="#spectralLine"/>
+		<skos:narrower rdf:resource="#CaIiEmissionLine"/>
+		<skos:narrower rdf:resource="#calciumLine"/>
+		<skos:narrower rdf:resource="#carbonLine"/>
+		<skos:narrower rdf:resource="#technetiumLine"/>
+		<skos:related rdf:resource="#absorptionLine"/>
+		<skos:related rdf:resource="#lineBlanketing"/>
+		<skos:related rdf:resource="#rareEarth"/>
+	</skos:Concept></env:instance></env:envelope>

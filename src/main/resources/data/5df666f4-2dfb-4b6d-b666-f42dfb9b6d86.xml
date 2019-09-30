@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5df666f4-2dfb-4b6d-b666-f42dfb9b6d86</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#hydrogenLine">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>hydrogen line</skos:prefLabel>
+		<skos:definition>hydrogen line</skos:definition>
+		<skos:scopeNote>see hydrogen spectrum</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

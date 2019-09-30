@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cb198b46-4c6a-44a1-998b-464c6a34a1a0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#antimatter">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>antimatter</skos:prefLabel>
+		<skos:definition>antimatter</skos:definition>
+		<skos:broader rdf:resource="#matter"/>
+		<skos:narrower rdf:resource="#antiparticle"/>
+	</skos:Concept></env:instance></env:envelope>

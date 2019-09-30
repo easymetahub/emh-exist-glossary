@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9960eec7-efb8-478d-a0ee-c7efb8278d74</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#colorMagnitudeRelation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>color-magnitude relation</skos:prefLabel>
+		<skos:definition>color-magnitude relation</skos:definition>
+		<skos:altLabel>c m diagram</skos:altLabel>
+		<skos:altLabel>c m relation</skos:altLabel>
+		<skos:altLabel>c-m diagram</skos:altLabel>
+		<skos:altLabel>c-m relation</skos:altLabel>
+		<skos:altLabel>color magnitude relation</skos:altLabel>
+		<skos:altLabel>color-magnitude diagram</skos:altLabel>
+		<skos:related rdf:resource="#HertzsprungRussellDiagram"/>
+		<skos:related rdf:resource="#color"/>
+		<skos:related rdf:resource="#photometry"/>
+	</skos:Concept></env:instance></env:envelope>

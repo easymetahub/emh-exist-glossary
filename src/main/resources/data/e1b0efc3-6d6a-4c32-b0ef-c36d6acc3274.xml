@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e1b0efc3-6d6a-4c32-b0ef-c36d6acc3274</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#JulianCalendar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Julian calendar</skos:prefLabel>
+		<skos:definition>Julian calendar</skos:definition>
+		<skos:broader rdf:resource="#calendar"/>
+		<skos:related rdf:resource="#GregorianCalendar"/>
+		<skos:related rdf:resource="#JulianDate"/>
+		<skos:related rdf:resource="#JulianEpoch"/>
+	</skos:Concept></env:instance></env:envelope>

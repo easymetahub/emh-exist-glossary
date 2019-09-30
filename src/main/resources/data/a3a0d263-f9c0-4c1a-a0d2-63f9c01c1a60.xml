@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a3a0d263-f9c0-4c1a-a0d2-63f9c01c1a60</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#interferenceWave">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>interference wave</skos:prefLabel>
+		<skos:definition>interference [wave]</skos:definition>
+		<skos:narrower rdf:resource="#lightInterference"/>
+		<skos:related rdf:resource="#diffraction"/>
+		<skos:related rdf:resource="#interferenceFilter"/>
+		<skos:related rdf:resource="#interferenceFringe"/>
+		<skos:related rdf:resource="#interferenceSpectrosocopy"/>
+		<skos:related rdf:resource="#interferometry"/>
+		<skos:related rdf:resource="#opticalInterferometry"/>
+		<skos:related rdf:resource="#radioInterferometry"/>
+		<skos:related rdf:resource="#shadowBand"/>
+		<skos:related rdf:resource="#waveMotion"/>
+	</skos:Concept></env:instance></env:envelope>

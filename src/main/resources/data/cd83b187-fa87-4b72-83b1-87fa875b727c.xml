@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cd83b187-fa87-4b72-83b1-87fa875b727c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#CapeRiPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Cape RI photometry</skos:prefLabel>
+		<skos:definition>Cape RI photometry</skos:definition>
+		<skos:broader rdf:resource="#broadBandPhotometry"/>
+		<skos:related rdf:resource="#CapePhotometry"/>
+		<skos:related rdf:resource="#JohnsonPhotometry"/>
+	</skos:Concept></env:instance></env:envelope>

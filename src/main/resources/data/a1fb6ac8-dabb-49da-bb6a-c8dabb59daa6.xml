@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a1fb6ac8-dabb-49da-bb6a-c8dabb59daa6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#BalmerSeries">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Balmer series</skos:prefLabel>
+		<skos:definition>Balmer series</skos:definition>
+		<skos:altLabel>Balmer line</skos:altLabel>
+		<skos:broader rdf:resource="#hydrogenSpectrum"/>
+		<skos:narrower rdf:resource="#HAlpha"/>
+		<skos:narrower rdf:resource="#HBeta"/>
+		<skos:narrower rdf:resource="#HDelta"/>
+		<skos:narrower rdf:resource="#HEpsilon"/>
+		<skos:narrower rdf:resource="#HGamma"/>
+		<skos:narrower rdf:resource="#BalmerLimit"/>
+		<skos:related rdf:resource="#absorptionSpectrum"/>
+		<skos:related rdf:resource="#BalmerContinuum"/>
+		<skos:related rdf:resource="#BrackettSeries"/>
+		<skos:related rdf:resource="#LymanSeries"/>
+		<skos:related rdf:resource="#PaschenSeries"/>
+		<skos:related rdf:resource="#PfundSeries"/>
+	</skos:Concept></env:instance></env:envelope>

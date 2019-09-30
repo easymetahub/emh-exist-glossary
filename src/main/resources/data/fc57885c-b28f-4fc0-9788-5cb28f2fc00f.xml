@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>fc57885c-b28f-4fc0-9788-5cb28f2fc00f</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#transverseVelocity">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>transverse velocity</skos:prefLabel>
+		<skos:definition>transverse velocity</skos:definition>
+		<skos:broader rdf:resource="#velocity"/>
+		<skos:related rdf:resource="#properMotion"/>
+		<skos:related rdf:resource="#radialVelocity"/>
+		<skos:related rdf:resource="#spaceMotion"/>
+	</skos:Concept></env:instance></env:envelope>

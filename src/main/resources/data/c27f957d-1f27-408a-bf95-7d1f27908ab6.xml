@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c27f957d-1f27-408a-bf95-7d1f27908ab6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#LargeMagellanicCloud">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Large Magellanic Cloud</skos:prefLabel>
+		<skos:definition>Large Magellanic Cloud</skos:definition>
+		<skos:altLabel>LMC</skos:altLabel>
+		<skos:broader rdf:resource="#MagellanicCloud"/>
+		<skos:related rdf:resource="#SmallMagellanicCloud"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>57f0100d-3d48-405d-b010-0d3d48605d5d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#FourierAnalysis">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Fourier analysis</skos:prefLabel>
+		<skos:definition>Fourier analysis</skos:definition>
+		<skos:altLabel>harmonic analysis</skos:altLabel>
+		<skos:related rdf:resource="#FourierComponent"/>
+		<skos:related rdf:resource="#FourierTransform"/>
+		<skos:related rdf:resource="#fundamentalFrequency"/>
+		<skos:related rdf:resource="#harmonicFrequency"/>
+		<skos:related rdf:resource="#maximumEntropyMethod"/>
+		<skos:related rdf:resource="#multiPeriodicPulsation"/>
+		<skos:related rdf:resource="#overtoneFrequency"/>
+		<skos:related rdf:resource="#waveformAnalysis"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8022c67f-d554-4339-a2c6-7fd554133919</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#HenryDraperSystem">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Henry Draper system</skos:prefLabel>
+		<skos:definition>Henry-Draper system</skos:definition>
+		<skos:altLabel>HD system</skos:altLabel>
+		<skos:altLabel>Harvard classification</skos:altLabel>
+		<skos:broader rdf:resource="#spectralClassification"/>
+		<skos:related rdf:resource="#HenryDraperCatalog"/>
+	</skos:Concept></env:instance></env:envelope>

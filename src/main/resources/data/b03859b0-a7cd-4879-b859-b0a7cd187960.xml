@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b03859b0-a7cd-4879-b859-b0a7cd187960</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#photocathode">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>photocathode</skos:prefLabel>
+		<skos:definition>photocathode</skos:definition>
+		<skos:broader rdf:resource="#cathode"/>
+		<skos:broader rdf:resource="#electrode"/>
+		<skos:related rdf:resource="#imageTube"/>
+		<skos:related rdf:resource="#photomultiplierTube"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>545535d3-79eb-40b9-9535-d379ebd0b9a0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#thermonuclearReaction">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>thermonuclear reaction</skos:prefLabel>
+		<skos:definition>thermonuclear reaction</skos:definition>
+		<skos:scopeNote>see nuclear fusion</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

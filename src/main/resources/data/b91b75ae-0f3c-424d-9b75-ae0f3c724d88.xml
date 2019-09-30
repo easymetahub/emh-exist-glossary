@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b91b75ae-0f3c-424d-9b75-ae0f3c724d88</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#UvPerseiStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>UV Persei star</skos:prefLabel>
+		<skos:definition>UV Persei star</skos:definition>
+		<skos:broader rdf:resource="#cataclysmicVariableStar"/>
+		<skos:related rdf:resource="#UGeminorumStar"/>
+		<skos:related rdf:resource="#dwarfNova"/>
+	</skos:Concept></env:instance></env:envelope>

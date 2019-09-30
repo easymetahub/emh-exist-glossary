@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bf84ca01-7300-4803-84ca-01730028034f</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#nucleosynthesis">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>nucleosynthesis</skos:prefLabel>
+		<skos:definition>nucleosynthesis</skos:definition>
+		<skos:narrower rdf:resource="#carbonBurning"/>
+		<skos:narrower rdf:resource="#heliumBurning"/>
+		<skos:narrower rdf:resource="#hydrogenBurning"/>
+		<skos:narrower rdf:resource="#oxygenBurning"/>
+		<skos:narrower rdf:resource="#siliconBurning"/>
+		<skos:related rdf:resource="#nuclearReaction"/>
+		<skos:related rdf:resource="#pProcess"/>
+		<skos:related rdf:resource="#rProcess"/>
+		<skos:related rdf:resource="#sProcess"/>
+		<skos:related rdf:resource="#stellarInterior"/>
+		<skos:related rdf:resource="#supernova"/>
+	</skos:Concept></env:instance></env:envelope>

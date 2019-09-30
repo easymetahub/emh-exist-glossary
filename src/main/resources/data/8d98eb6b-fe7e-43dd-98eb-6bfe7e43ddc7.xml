@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8d98eb6b-fe7e-43dd-98eb-6bfe7e43ddc7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#particle">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>particle</skos:prefLabel>
+		<skos:definition>particle</skos:definition>
+		<skos:narrower rdf:resource="#alphaParticle"/>
+		<skos:narrower rdf:resource="#boson"/>
+		<skos:narrower rdf:resource="#electron"/>
+		<skos:narrower rdf:resource="#elementaryParticle"/>
+		<skos:narrower rdf:resource="#fundamentalParticle"/>
+		<skos:narrower rdf:resource="#ion"/>
+		<skos:narrower rdf:resource="#lepton"/>
+		<skos:narrower rdf:resource="#neutrino"/>
+		<skos:narrower rdf:resource="#plasma"/>
+		<skos:narrower rdf:resource="#positron"/>
+		<skos:narrower rdf:resource="#proton"/>
+		<skos:narrower rdf:resource="#relativisticParticle"/>
+		<skos:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

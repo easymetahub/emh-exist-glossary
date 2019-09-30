@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0e9816da-8288-49dd-9816-da828809ddda</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#BesselPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Bessel photometry</skos:prefLabel>
+		<skos:definition>Bessel photometry</skos:definition>
+		<skos:altLabel>Bessel UBVRI photometry</skos:altLabel>
+		<skos:broader rdf:resource="#broadBandPhotometry"/>
+		<skos:broader rdf:resource="#photometricSystem"/>
+		<skos:related rdf:resource="#BvPhotometry"/>
+		<skos:related rdf:resource="#BMagnitude"/>
+		<skos:related rdf:resource="#IMagnitude"/>
+		<skos:related rdf:resource="#JohnsonPhotometry"/>
+		<skos:related rdf:resource="#RMagnitude"/>
+		<skos:related rdf:resource="#UMagnitude"/>
+		<skos:related rdf:resource="#VMagnitude"/>
+		<skos:historyNote>FVH: new (2007-SEP-21)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

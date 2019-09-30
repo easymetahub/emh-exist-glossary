@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0667d355-ea8b-4614-a7d3-55ea8be6145b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#starCluster">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>star cluster</skos:prefLabel>
+		<skos:definition>star cluster</skos:definition>
+		<skos:altLabel>cluster of star</skos:altLabel>
+		<skos:broader rdf:resource="#cluster"/>
+		<skos:narrower rdf:resource="#globularStarCluster"/>
+		<skos:narrower rdf:resource="#openStarCluster"/>
+		<skos:related rdf:resource="#PoincareTheorem"/>
+		<skos:related rdf:resource="#clustering"/>
+		<skos:related rdf:resource="#initialMassFunction"/>
+		<skos:related rdf:resource="#integratedMagnitude"/>
+		<skos:related rdf:resource="#luminosityFunction"/>
+		<skos:related rdf:resource="#massFunction"/>
+		<skos:related rdf:resource="#protocluster"/>
+		<skos:related rdf:resource="#relaxationTime"/>
+		<skos:related rdf:resource="#tidalDisruption"/>
+		<skos:related rdf:resource="#tidalRadius"/>
+		<skos:related rdf:resource="#velocityDispersion"/>
+		<skos:related rdf:resource="#velocityDistribution"/>
+		<skos:related rdf:resource="#virialTheorem"/>
+	</skos:Concept></env:instance></env:envelope>

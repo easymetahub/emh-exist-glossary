@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0eacd403-bbc4-40a7-acd4-03bbc4e0a7ef</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#threeBodyProblem">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>three-body problem</skos:prefLabel>
+		<skos:definition>three-body problem</skos:definition>
+		<skos:altLabel>three body problem</skos:altLabel>
+		<skos:related rdf:resource="#NBodyProblem"/>
+		<skos:related rdf:resource="#celestialMechanics"/>
+		<skos:related rdf:resource="#orbit"/>
+		<skos:related rdf:resource="#perturbation"/>
+		<skos:related rdf:resource="#stellarDynamics"/>
+		<skos:related rdf:resource="#twoBodyProblem"/>
+	</skos:Concept></env:instance></env:envelope>

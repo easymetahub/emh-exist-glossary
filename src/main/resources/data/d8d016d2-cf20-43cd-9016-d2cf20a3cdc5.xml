@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d8d016d2-cf20-43cd-9016-d2cf20a3cdc5</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#nearbyStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>nearby star</skos:prefLabel>
+		<skos:definition>nearby star</skos:definition>
+		<skos:narrower rdf:resource="#nearbyDwarf"/>
+		<skos:related rdf:resource="#trigonometricParallax"/>
+	</skos:Concept></env:instance></env:envelope>

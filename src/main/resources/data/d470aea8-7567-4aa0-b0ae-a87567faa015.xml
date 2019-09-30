@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d470aea8-7567-4aa0-b0ae-a87567faa015</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#opticalComponent">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>optical component</skos:prefLabel>
+		<skos:definition>optical component</skos:definition>
+		<skos:narrower rdf:resource="#correctorPlate"/>
+		<skos:narrower rdf:resource="#diffractionGrating"/>
+		<skos:narrower rdf:resource="#fieldCorrector"/>
+		<skos:narrower rdf:resource="#grism"/>
+		<skos:narrower rdf:resource="#interferenceFilter"/>
+		<skos:narrower rdf:resource="#lens"/>
+		<skos:narrower rdf:resource="#mirror"/>
+		<skos:narrower rdf:resource="#opticalFiber"/>
+		<skos:narrower rdf:resource="#opticalFilter"/>
+		<skos:narrower rdf:resource="#opticalWaveguide"/>
+		<skos:narrower rdf:resource="#opticalWindow"/>
+		<skos:scopeNote>not a complete list of terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

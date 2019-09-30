@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f0421bad-7f41-4f8b-821b-ad7f413f8b05</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#metalPoorStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>metal-poor star</skos:prefLabel>
+		<skos:definition>metal-poor star</skos:definition>
+		<skos:altLabel>metal poor star</skos:altLabel>
+		<skos:broader rdf:resource="#star"/>
+		<skos:narrower rdf:resource="#lithiumPoorStar"/>
+		<skos:narrower rdf:resource="#populationIiStar"/>
+		<skos:narrower rdf:resource="#populationIiiStar"/>
+		<skos:narrower rdf:resource="#weakGBandStar"/>
+		<skos:related rdf:resource="#metalAbundance"/>
+		<skos:related rdf:resource="#metalDeficientStar"/>
+		<skos:related rdf:resource="#ultravioletExcessStar"/>
+		<skos:changeNote>FVH: added NT POP II and III STARS (2007-SEP-21)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

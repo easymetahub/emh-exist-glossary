@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cef3ff62-329d-43b3-b3ff-62329d63b3e9</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#openStarCluster">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>open star cluster</skos:prefLabel>
+		<skos:definition>open star cluster</skos:definition>
+		<skos:broader rdf:resource="#starCluster"/>
+		<skos:narrower rdf:resource="#GalacticCluster"/>
+		<skos:narrower rdf:resource="#OCluster"/>
+		<skos:narrower rdf:resource="#youngStarCluster"/>
+		<skos:related rdf:resource="#blueStragglerStar"/>
+		<skos:related rdf:resource="#movingClusterParallax"/>
+		<skos:related rdf:resource="#populationIStar"/>
+		<skos:related rdf:resource="#radiantMovingCluster"/>
+		<skos:related rdf:resource="#spiralArm"/>
+		<skos:related rdf:resource="#starAssociation"/>
+		<skos:related rdf:resource="#turnoffPoint"/>
+	</skos:Concept></env:instance></env:envelope>

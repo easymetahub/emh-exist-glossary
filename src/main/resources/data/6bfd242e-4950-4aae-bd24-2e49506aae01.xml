@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6bfd242e-4950-4aae-bd24-2e49506aae01</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#distance">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>distance</skos:prefLabel>
+		<skos:definition>distance</skos:definition>
+		<skos:related rdf:resource="#BodesLaw"/>
+		<skos:related rdf:resource="#absoluteMagnitude"/>
+		<skos:related rdf:resource="#distanceIndicator"/>
+		<skos:related rdf:resource="#distanceMeasurement"/>
+		<skos:related rdf:resource="#distanceModulus"/>
+		<skos:related rdf:resource="#distanceScale"/>
+		<skos:related rdf:resource="#lightYear"/>
+		<skos:related rdf:resource="#parallax"/>
+		<skos:related rdf:resource="#parsec"/>
+		<skos:related rdf:resource="#rangeFinder"/>
+		<skos:related rdf:resource="#trigonometricParallax"/>
+	</skos:Concept></env:instance></env:envelope>

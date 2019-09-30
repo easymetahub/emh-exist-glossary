@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>22aaf51c-91d7-48d3-aaf5-1c91d7c8d3e7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#period">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>period</skos:prefLabel>
+		<skos:definition>period</skos:definition>
+		<skos:broader rdf:resource="#orbitalElement"/>
+		<skos:broader rdf:resource="#photometricElement"/>
+		<skos:related rdf:resource="#binaryStar"/>
+		<skos:related rdf:resource="#cycle"/>
+		<skos:related rdf:resource="#lightCurve"/>
+		<skos:related rdf:resource="#orbit"/>
+		<skos:related rdf:resource="#phaseWave"/>
+		<skos:related rdf:resource="#planet"/>
+		<skos:related rdf:resource="#pulsatingVariableStar"/>
+		<skos:related rdf:resource="#pulsationMode"/>
+		<skos:related rdf:resource="#rotation"/>
+		<skos:related rdf:resource="#variableStar"/>
+		<skos:related rdf:resource="#velocityCurve"/>
+	</skos:Concept></env:instance></env:envelope>

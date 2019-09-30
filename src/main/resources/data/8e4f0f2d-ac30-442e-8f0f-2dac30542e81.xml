@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8e4f0f2d-ac30-442e-8f0f-2dac30542e81</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#CassegrainFocus">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Cassegrain focus</skos:prefLabel>
+		<skos:definition>Cassegrain focus</skos:definition>
+		<skos:broader rdf:resource="#CassegrainTelescope"/>
+		<skos:broader rdf:resource="#focus"/>
+		<skos:related rdf:resource="#CoudeFocus"/>
+		<skos:related rdf:resource="#NasmythFocus"/>
+		<skos:related rdf:resource="#NewtonianFocus"/>
+		<skos:related rdf:resource="#parabolicAntenna"/>
+		<skos:related rdf:resource="#primeFocus"/>
+		<skos:related rdf:resource="#secondaryMirror"/>
+		<skos:related rdf:resource="#subreflector"/>
+	</skos:Concept></env:instance></env:envelope>

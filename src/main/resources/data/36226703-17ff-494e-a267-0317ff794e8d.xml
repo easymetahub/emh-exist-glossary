@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>36226703-17ff-494e-a267-0317ff794e8d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#chemicalElement">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>chemical element</skos:prefLabel>
+		<skos:definition>chemical element</skos:definition>
+		<skos:narrower rdf:resource="#fundamentalChemicalElement"/>
+		<skos:narrower rdf:resource="#heavyElement"/>
+		<skos:narrower rdf:resource="#isotope"/>
+		<skos:narrower rdf:resource="#traceElement"/>
+		<skos:related rdf:resource="#abundance"/>
+		<skos:related rdf:resource="#atom"/>
+		<skos:related rdf:resource="#curveOfGrowth"/>
+		<skos:related rdf:resource="#elementFormation"/>
+		<skos:related rdf:resource="#metalAbundance"/>
+		<skos:related rdf:resource="#origin"/>
+		<skos:scopeNote>see appendix</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

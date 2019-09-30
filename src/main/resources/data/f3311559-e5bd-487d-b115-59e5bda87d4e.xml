@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f3311559-e5bd-487d-b115-59e5bda87d4e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#MillsCrossAntenna">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Mills cross antenna</skos:prefLabel>
+		<skos:definition>Mills cross antenna</skos:definition>
+		<skos:altLabel>Mills cross antennas</skos:altLabel>
+		<skos:broader rdf:resource="#antenna"/>
+		<skos:broader rdf:resource="#directionalAntenna"/>
+		<skos:broader rdf:resource="#radioTelescope"/>
+		<skos:related rdf:resource="#pencilBeam"/>
+	</skos:Concept></env:instance></env:envelope>

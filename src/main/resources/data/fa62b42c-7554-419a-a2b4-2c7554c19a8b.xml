@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>fa62b42c-7554-419a-a2b4-2c7554c19a8b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#siliconStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>silicon star</skos:prefLabel>
+		<skos:definition>silicon star</skos:definition>
+		<skos:broader rdf:resource="#ApStar"/>
+		<skos:broader rdf:resource="#metalRichStar"/>
+		<skos:related rdf:resource="#silicon"/>
+	</skos:Concept></env:instance></env:envelope>

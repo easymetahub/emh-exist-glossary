@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4a04e3f6-1212-4da9-84e3-f612124da93e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#solarDay">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>solar day</skos:prefLabel>
+		<skos:definition>solar day</skos:definition>
+		<skos:related rdf:resource="#UniversalTime"/>
+		<skos:related rdf:resource="#ephemerisTime"/>
+	</skos:Concept></env:instance></env:envelope>

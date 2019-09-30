@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e4d5ab32-6f43-4f83-95ab-326f439f83ea</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#computing">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>computing</skos:prefLabel>
+		<skos:definition>computing</skos:definition>
+		<skos:narrower rdf:resource="#computerApplication"/>
+		<skos:narrower rdf:resource="#computerModel"/>
+		<skos:narrower rdf:resource="#computerProgram"/>
+		<skos:narrower rdf:resource="#dataProcessing"/>
+		<skos:narrower rdf:resource="#dataRetrieval"/>
+		<skos:narrower rdf:resource="#dataStorage"/>
+		<skos:narrower rdf:resource="#database"/>
+		<skos:related rdf:resource="#computer"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>56a164f6-6b4f-4f08-a164-f66b4faf088d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#irregularVariableStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>irregular variable star</skos:prefLabel>
+		<skos:definition>irregular variable star</skos:definition>
+		<skos:broader rdf:resource="#lateTypeGiant"/>
+		<skos:broader rdf:resource="#pulsatingVariableStar"/>
+		<skos:broader rdf:resource="#variableStar"/>
+		<skos:narrower rdf:resource="#MiraVariableStar"/>
+		<skos:narrower rdf:resource="#RCoronaeBorealisStar"/>
+		<skos:narrower rdf:resource="#RvTauriStar"/>
+		<skos:narrower rdf:resource="#RwAurigaeStar"/>
+		<skos:narrower rdf:resource="#TTauriStar"/>
+		<skos:narrower rdf:resource="#UuHerculisStar"/>
+		<skos:narrower rdf:resource="#dwarfCepheid"/>
+		<skos:narrower rdf:resource="#gammaCassiopeiaeStar"/>
+		<skos:narrower rdf:resource="#softGammaRayRepeater"/>
+		<skos:related rdf:resource="#TAssociation"/>
+		<skos:related rdf:resource="#lateTypeSupergiant"/>
+		<skos:related rdf:resource="#semiRegularVariableStar"/>
+		<skos:related rdf:resource="#supergiant"/>
+	</skos:Concept></env:instance></env:envelope>

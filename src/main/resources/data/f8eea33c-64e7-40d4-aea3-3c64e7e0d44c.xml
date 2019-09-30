@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f8eea33c-64e7-40d4-aea3-3c64e7e0d44c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#gasDynamics">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>gas dynamics</skos:prefLabel>
+		<skos:definition>gas dynamics</skos:definition>
+		<skos:altLabel>gas kinematics</skos:altLabel>
+		<skos:broader rdf:resource="#fluidDynamics"/>
+		<skos:related rdf:resource="#gas"/>
+	</skos:Concept></env:instance></env:envelope>

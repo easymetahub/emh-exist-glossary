@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f325ea33-edbc-4948-a5ea-33edbce948bc</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cosmogony">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>cosmogony</skos:prefLabel>
+		<skos:definition>cosmogony</skos:definition>
+		<skos:broader rdf:resource="#astronomy"/>
+		<skos:narrower rdf:resource="#relativity"/>
+		<skos:related rdf:resource="#cosmology"/>
+		<skos:related rdf:resource="#protocluster"/>
+		<skos:related rdf:resource="#protogalaxy"/>
+		<skos:related rdf:resource="#protoplanetaryNebula"/>
+		<skos:related rdf:resource="#universe"/>
+	</skos:Concept></env:instance></env:envelope>

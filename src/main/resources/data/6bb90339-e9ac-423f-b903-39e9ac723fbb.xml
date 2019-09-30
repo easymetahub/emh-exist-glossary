@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6bb90339-e9ac-423f-b903-39e9ac723fbb</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#FraunhoferLine">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Fraunhofer line</skos:prefLabel>
+		<skos:definition>Fraunhofer line</skos:definition>
+		<skos:broader rdf:resource="#spectralLine"/>
+		<skos:narrower rdf:resource="#BBand"/>
+		<skos:narrower rdf:resource="#GBand"/>
+		<skos:narrower rdf:resource="#HLine"/>
+		<skos:narrower rdf:resource="#KLine"/>
+		<skos:related rdf:resource="#Sun"/>
+		<skos:related rdf:resource="#absorptionSpectrum"/>
+		<skos:scopeNote>not a complete list of terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

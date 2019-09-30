@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>dcda366d-674d-41cd-9a36-6d674d81cd22</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#gammaRayBackground">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>gamma-ray background</skos:prefLabel>
+		<skos:definition>gamma-ray background</skos:definition>
+		<skos:altLabel>gamma ray background</skos:altLabel>
+		<skos:broader rdf:resource="#backgroundRadiation"/>
+		<skos:related rdf:resource="#XRayBackground"/>
+		<skos:related rdf:resource="#gammaRayRadiation"/>
+		<skos:related rdf:resource="#microwaveBackground"/>
+		<skos:related rdf:resource="#radioBackground"/>
+		<skos:related rdf:resource="#ultravioletBackground"/>
+	</skos:Concept></env:instance></env:envelope>

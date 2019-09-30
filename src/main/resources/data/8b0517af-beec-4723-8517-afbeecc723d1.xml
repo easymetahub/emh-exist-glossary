@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8b0517af-beec-4723-8517-afbeecc723d1</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#stellarMotion">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>stellar motion</skos:prefLabel>
+		<skos:definition>stellar motion</skos:definition>
+		<skos:broader rdf:resource="#motion"/>
+		<skos:related rdf:resource="#DopplerEffect"/>
+		<skos:related rdf:resource="#astrometry"/>
+		<skos:related rdf:resource="#LocalStandardOfRest"/>
+		<skos:related rdf:resource="#peculiarMotion"/>
+		<skos:related rdf:resource="#peculiarVelocity"/>
+		<skos:related rdf:resource="#properMotion"/>
+		<skos:related rdf:resource="#radialVelocity"/>
+		<skos:related rdf:resource="#spaceMotion"/>
+		<skos:related rdf:resource="#stellarDynamics"/>
+	</skos:Concept></env:instance></env:envelope>

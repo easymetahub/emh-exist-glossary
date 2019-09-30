@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>1827ec6f-c4a6-4167-a7ec-6fc4a61167c9</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ObSupergiant">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>OB supergiant</skos:prefLabel>
+		<skos:definition>OB supergiant star</skos:definition>
+		<skos:broader rdf:resource="#ObStar"/>
+		<skos:broader rdf:resource="#earlyTypeSupergiant"/>
+		<skos:narrower rdf:resource="#BSupergiant"/>
+		<skos:narrower rdf:resource="#OSupergiant"/>
+	</skos:Concept></env:instance></env:envelope>

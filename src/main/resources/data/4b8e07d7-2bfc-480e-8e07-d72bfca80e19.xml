@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4b8e07d7-2bfc-480e-8e07-d72bfca80e19</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#absoluteTemperatureScale">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>absolute temperature scale</skos:prefLabel>
+		<skos:definition>absolute temperature scale</skos:definition>
+		<skos:broader rdf:resource="#temperatureScale"/>
+		<skos:narrower rdf:resource="#Kelvin"/>
+		<skos:related rdf:resource="#celsiusTemperatureScale"/>
+		<skos:related rdf:resource="#temperature"/>
+		<skos:scopeNote>ES: moved Kelvin from RT to NT (2007-OCT-8)</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6d4ccbe7-a554-42ef-8ccb-e7a554b2efa0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cosmologicalParameter">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>cosmological parameter</skos:prefLabel>
+		<skos:definition>cosmological parameter/constant</skos:definition>
+		<skos:broader rdf:resource="#constant"/>
+		<skos:narrower rdf:resource="#HubbleConstant"/>
+		<skos:narrower rdf:resource="#OmegaParameter"/>
+		<skos:narrower rdf:resource="#cosmologicalConstant"/>
+		<skos:narrower rdf:resource="#decelerationParameter"/>
+		<skos:narrower rdf:resource="#sigma8"/>
+		<skos:related rdf:resource="#cosmologicalDistanceScale"/>
+		<skos:related rdf:resource="#cosmology"/>
+		<skos:historyNote>FVH: new (2007-SEP-21)</skos:historyNote>
+		<skos:changeNote>FVH: renamed *_parameter, since some of them aren't necessarily constant (2007-OCT-26)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

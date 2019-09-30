@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>17882f6e-bbc6-4d3f-882f-6ebbc62d3fba</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#topography">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>topography</skos:prefLabel>
+		<skos:definition>topography</skos:definition>
+		<skos:related rdf:resource="#Earth"/>
+		<skos:related rdf:resource="#planet"/>
+		<skos:related rdf:resource="#satellite"/>
+		<skos:related rdf:resource="#surfaceOfCelestialBody"/>
+		<skos:scopeNote>combine with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

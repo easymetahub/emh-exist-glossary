@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>fbdc2ed8-e636-4ae0-9c2e-d8e6363ae07e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ultravioletExcessStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>ultraviolet excess star</skos:prefLabel>
+		<skos:definition>ultraviolet excess star</skos:definition>
+		<skos:altLabel>UV excess star</skos:altLabel>
+		<skos:narrower rdf:resource="#RwAurigaeStar"/>
+		<skos:related rdf:resource="#metalDeficientStar"/>
+		<skos:related rdf:resource="#metalPoorStar"/>
+	</skos:Concept></env:instance></env:envelope>

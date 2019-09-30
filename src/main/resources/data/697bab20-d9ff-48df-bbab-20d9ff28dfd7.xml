@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>697bab20-d9ff-48df-bbab-20d9ff28dfd7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#dwarfNova">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>dwarf nova</skos:prefLabel>
+		<skos:definition>dwarf nova</skos:definition>
+		<skos:altLabel>DN</skos:altLabel>
+		<skos:broader rdf:resource="#cataclysmicVariableStar"/>
+		<skos:broader rdf:resource="#eruptiveBinaryStar"/>
+		<skos:narrower rdf:resource="#SuUrsaeMajorisStar"/>
+		<skos:narrower rdf:resource="#SxArietisStar"/>
+		<skos:narrower rdf:resource="#UGeminorumStar"/>
+		<skos:narrower rdf:resource="#WzSagittaeStar"/>
+		<skos:narrower rdf:resource="#ZCamelopardalisStar"/>
+		<skos:related rdf:resource="#AmCanumVenaticorumStar"/>
+		<skos:related rdf:resource="#UvPerseiStar"/>
+		<skos:related rdf:resource="#UxUrsaeMajorisStar"/>
+		<skos:related rdf:resource="#XRayBinaryStar"/>
+		<skos:related rdf:resource="#accretionDisk"/>
+		<skos:related rdf:resource="#emissionLineStar"/>
+		<skos:changeNote>FVH: total update (2007-SEP-24)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

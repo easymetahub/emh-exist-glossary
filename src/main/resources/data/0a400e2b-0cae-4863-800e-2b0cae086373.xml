@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0a400e2b-0cae-4863-800e-2b0cae086373</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#dynamicalFriction">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>dynamical friction</skos:prefLabel>
+		<skos:definition>dynamical friction</skos:definition>
+		<skos:broader rdf:resource="#friction"/>
+		<skos:related rdf:resource="#radiativeBraking"/>
+	</skos:Concept></env:instance></env:envelope>

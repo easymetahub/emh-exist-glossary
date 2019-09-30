@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>15981690-5cbb-4f6f-9816-905cbb8f6f20</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#GalacticCoordinateSystem">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Galactic coordinate system</skos:prefLabel>
+		<skos:definition>Galactic coordinate system</skos:definition>
+		<skos:broader rdf:resource="#celestialCoordinateSystem"/>
+		<skos:related rdf:resource="#GalacticAnticenter"/>
+		<skos:related rdf:resource="#GalacticCenter"/>
+		<skos:related rdf:resource="#GalacticLatitude"/>
+		<skos:related rdf:resource="#GalacticLongitude"/>
+		<skos:related rdf:resource="#GalacticPole"/>
+		<skos:related rdf:resource="#MilkyWayGalaxy"/>
+		<skos:changeNote>FVH: capitalized, since only refers to MW (2007-OCT-5)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

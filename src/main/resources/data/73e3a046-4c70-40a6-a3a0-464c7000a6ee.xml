@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>73e3a046-4c70-40a6-a3a0-464c7000a6ee</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#EvershedEffect">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Evershed-effect</skos:prefLabel>
+		<skos:definition>Evershed-effect</skos:definition>
+		<skos:altLabel>Evershed effect</skos:altLabel>
+		<skos:related rdf:resource="#sunspot"/>
+	</skos:Concept></env:instance></env:envelope>

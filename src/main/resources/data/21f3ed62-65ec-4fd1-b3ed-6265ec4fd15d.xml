@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>21f3ed62-65ec-4fd1-b3ed-6265ec4fd15d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#longBaselineInterferometer">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>long baseline interferometer</skos:prefLabel>
+		<skos:definition>long baseline interferometer</skos:definition>
+		<skos:broader rdf:resource="#interferometer"/>
+		<skos:broader rdf:resource="#radioInterferometer"/>
+		<skos:related rdf:resource="#opticalInterferometer"/>
+		<skos:related rdf:resource="#veryLongBaselineInterferometer"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d7c2b3b7-babb-4dbc-82b3-b7babb7dbcac</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#OhSource">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>OH source</skos:prefLabel>
+		<skos:definition>OH source</skos:definition>
+		<skos:broader rdf:resource="#radioSource"/>
+		<skos:narrower rdf:resource="#OhIrStar"/>
+		<skos:related rdf:resource="#hydroxylRadical"/>
+	</skos:Concept></env:instance></env:envelope>

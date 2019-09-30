@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3bc587a7-2a1c-4312-8587-a72a1c031241</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lateTypeGiant">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>late-type giant</skos:prefLabel>
+		<skos:definition>late-type giant star</skos:definition>
+		<skos:altLabel>cool giant star</skos:altLabel>
+		<skos:altLabel>late type giant star</skos:altLabel>
+		<skos:broader rdf:resource="#giant"/>
+		<skos:broader rdf:resource="#lateTypeStar"/>
+		<skos:narrower rdf:resource="#KGiant"/>
+		<skos:narrower rdf:resource="#MGiant"/>
+		<skos:narrower rdf:resource="#MiraVariableStar"/>
+		<skos:narrower rdf:resource="#carbonStar"/>
+		<skos:narrower rdf:resource="#heavyMetalStar"/>
+		<skos:narrower rdf:resource="#irregularVariableStar"/>
+		<skos:narrower rdf:resource="#semiRegularVariableStar"/>
+		<skos:related rdf:resource="#asymptoticGiantBranch"/>
+		<skos:related rdf:resource="#funneling"/>
+		<skos:related rdf:resource="#postAsymptoticGiantBranch"/>
+		<skos:related rdf:resource="#redGiantTip"/>
+	</skos:Concept></env:instance></env:envelope>

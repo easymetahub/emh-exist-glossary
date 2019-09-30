@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>94e84265-fb63-4c17-a842-65fb63ac1780</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#circumstellarMatter">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>circumstellar matter</skos:prefLabel>
+		<skos:definition>circumstellar matter</skos:definition>
+		<skos:altLabel>circumstellar cloud</skos:altLabel>
+		<skos:altLabel>stellar envelope</skos:altLabel>
+		<skos:broader rdf:resource="#matter"/>
+		<skos:narrower rdf:resource="#circumstellarDust"/>
+		<skos:narrower rdf:resource="#circumstellarEnvelope"/>
+		<skos:narrower rdf:resource="#circumstellarGas"/>
+		<skos:narrower rdf:resource="#circumstellarGrain"/>
+		<skos:related rdf:resource="#circumstellarDisk"/>
+		<skos:related rdf:resource="#bipolarOutflow"/>
+		<skos:related rdf:resource="#circumplanetaryMatter"/>
+		<skos:related rdf:resource="#circumstellarDisk"/>
+		<skos:related rdf:resource="#circumstellarShell"/>
+		<skos:related rdf:resource="#corona"/>
+		<skos:related rdf:resource="#expandingEnvelope"/>
+		<skos:related rdf:resource="#gravitatingDisk"/>
+		<skos:related rdf:resource="#interplanetaryMatter"/>
+		<skos:related rdf:resource="#interstellarMatter"/>
+		<skos:related rdf:resource="#massLoss"/>
+	</skos:Concept></env:instance></env:envelope>

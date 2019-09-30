@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a98f41e3-cd9a-4032-8f41-e3cd9a3032ba</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#variableStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>variable star</skos:prefLabel>
+		<skos:definition>variable star</skos:definition>
+		<skos:narrower rdf:resource="#cataclysmicVariableStar"/>
+		<skos:narrower rdf:resource="#eclipsingBinaryStar"/>
+		<skos:narrower rdf:resource="#ellipsoidalVariableStar"/>
+		<skos:narrower rdf:resource="#intrinsicVariableStar"/>
+		<skos:narrower rdf:resource="#irregularVariableStar"/>
+		<skos:narrower rdf:resource="#peculiarVariableStar"/>
+		<skos:narrower rdf:resource="#pulsatingVariableStar"/>
+		<skos:narrower rdf:resource="#semiRegularVariableStar"/>
+		<skos:related rdf:resource="#HAlphaEmissionLineStar"/>
+		<skos:related rdf:resource="#HeIiIonizationZone"/>
+		<skos:related rdf:resource="#OhIrStar"/>
+		<skos:related rdf:resource="#PurkinjeEffect"/>
+		<skos:related rdf:resource="#amplitude"/>
+		<skos:related rdf:resource="#comparisonStar"/>
+		<skos:related rdf:resource="#fundamentalFrequency"/>
+		<skos:related rdf:resource="#highSpeedPhotometer"/>
+		<skos:related rdf:resource="#lightCurve"/>
+		<skos:related rdf:resource="#maximum"/>
+		<skos:related rdf:resource="#minimum"/>
+		<skos:related rdf:resource="#period"/>
+		<skos:related rdf:resource="#periodDetermination"/>
+		<skos:related rdf:resource="#phaseShift"/>
+		<skos:related rdf:resource="#phaseWave"/>
+		<skos:related rdf:resource="#timeResolvedSpectroscopy"/>
+		<skos:related rdf:resource="#velocityCurve"/>
+		<skos:related rdf:resource="#visualObservation"/>
+		<skos:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

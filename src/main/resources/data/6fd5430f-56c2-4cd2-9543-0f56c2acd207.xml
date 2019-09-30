@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6fd5430f-56c2-4cd2-9543-0f56c2acd207</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#velocitySpace">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>velocity space</skos:prefLabel>
+		<skos:definition>velocity space</skos:definition>
+		<skos:related rdf:resource="#phaseSpace"/>
+		<skos:related rdf:resource="#velocity"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b7b348a1-1ece-492d-b348-a11ecec92d2c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#telescope">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>telescope</skos:prefLabel>
+		<skos:definition>telescope</skos:definition>
+		<skos:broader rdf:resource="#opticalInstrument"/>
+		<skos:narrower rdf:resource="#CassegrainTelescope"/>
+		<skos:narrower rdf:resource="#GregorianTelescope"/>
+		<skos:narrower rdf:resource="#automatedTelescope"/>
+		<skos:narrower rdf:resource="#gammaRayTelescope"/>
+		<skos:narrower rdf:resource="#grazingIncidenceTelescope"/>
+		<skos:narrower rdf:resource="#infraredTelescope"/>
+		<skos:narrower rdf:resource="#opticalTelescope"/>
+		<skos:narrower rdf:resource="#radioTelescope"/>
+		<skos:narrower rdf:resource="#solarTelescope"/>
+		<skos:narrower rdf:resource="#spaceTelescope"/>
+		<skos:related rdf:resource="#antenna"/>
+		<skos:related rdf:resource="#controlSystem"/>
+		<skos:related rdf:resource="#dome"/>
+		<skos:related rdf:resource="#drive"/>
+		<skos:related rdf:resource="#focus"/>
+		<skos:related rdf:resource="#guideSystem"/>
+		<skos:related rdf:resource="#observatory"/>
+		<skos:related rdf:resource="#opticalAberration"/>
+		<skos:related rdf:resource="#pointingAccuracy"/>
+		<skos:related rdf:resource="#pointingError"/>
+		<skos:related rdf:resource="#remoteControlSystem"/>
+		<skos:related rdf:resource="#supportSystem"/>
+		<skos:related rdf:resource="#telescopeArray"/>
+		<skos:related rdf:resource="#telescopeConstruction"/>
+		<skos:related rdf:resource="#telescopeDesign"/>
+		<skos:related rdf:resource="#telescopeInstrument"/>
+		<skos:related rdf:resource="#telescopeMirror"/>
+		<skos:related rdf:resource="#telescopeMounting"/>
+		<skos:related rdf:resource="#vignetting"/>
+		<skos:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

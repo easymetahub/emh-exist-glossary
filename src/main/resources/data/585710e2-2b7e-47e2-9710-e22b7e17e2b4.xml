@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>585710e2-2b7e-47e2-9710-e22b7e17e2b4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ObStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>OB star</skos:prefLabel>
+		<skos:definition>OB star</skos:definition>
+		<skos:broader rdf:resource="#earlyTypeStar"/>
+		<skos:broader rdf:resource="#youngStar"/>
+		<skos:narrower rdf:resource="#BStar"/>
+		<skos:narrower rdf:resource="#OStar"/>
+		<skos:narrower rdf:resource="#ObSupergiant"/>
+		<skos:related rdf:resource="#runawayStar"/>
+		<skos:related rdf:resource="#youngStarCluster"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5114eb95-651f-4e5e-94eb-95651fde5e35</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#EdgeworthKuiperBelt">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Edgeworth-Kuiper belt</skos:prefLabel>
+		<skos:definition>Edgeworth-Kuiper belt</skos:definition>
+		<skos:altLabel>Kuiper belt</skos:altLabel>
+		<skos:related rdf:resource="#EdgeworthKuiperBeltObject"/>
+		<skos:related rdf:resource="#SolarSystem"/>
+		<skos:related rdf:resource="#asteroid"/>
+		<skos:related rdf:resource="#transNeptunianObject"/>
+		<skos:historyNote>FVH: new (2007-OCT-2)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

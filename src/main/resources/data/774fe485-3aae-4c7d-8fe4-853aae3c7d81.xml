@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>774fe485-3aae-4c7d-8fe4-853aae3c7d81</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#camera">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>camera</skos:prefLabel>
+		<skos:definition>camera</skos:definition>
+		<skos:broader rdf:resource="#opticalInstrument"/>
+		<skos:broader rdf:resource="#photographicInstrument"/>
+		<skos:narrower rdf:resource="#SchmidtCamera"/>
+		<skos:narrower rdf:resource="#allSkyCamera"/>
+		<skos:narrower rdf:resource="#astrographicCamera"/>
+		<skos:narrower rdf:resource="#ultravioletCamera"/>
+		<skos:narrower rdf:resource="#webcam"/>
+		<skos:related rdf:resource="#allSkyPhotography"/>
+		<skos:related rdf:resource="#cameraLens"/>
+		<skos:related rdf:resource="#coronagraph"/>
+		<skos:related rdf:resource="#filterWheel"/>
+		<skos:related rdf:resource="#flatFieldLamp"/>
+		<skos:related rdf:resource="#photograph"/>
+		<skos:related rdf:resource="#photography"/>
+		<skos:related rdf:resource="#shutter"/>
+		<skos:related rdf:resource="#ultravioletPhotography"/>
+		<skos:related rdf:resource="#wideAngleLens"/>
+		<skos:scopeNote>photographic type only here</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

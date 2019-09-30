@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bce49c01-d4d6-48f7-a49c-01d4d658f709</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#magnetohydrodynamics">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>magnetohydrodynamics</skos:prefLabel>
+		<skos:definition>magnetohydrodynamics</skos:definition>
+		<skos:altLabel>MHD</skos:altLabel>
+		<skos:altLabel>hydromagnetics</skos:altLabel>
+		<skos:narrower rdf:resource="#AlfvenWave"/>
+		<skos:related rdf:resource="#cosmicElectrodynamics"/>
+		<skos:related rdf:resource="#hydrodynamics"/>
+		<skos:related rdf:resource="#magneticField"/>
+		<skos:related rdf:resource="#plasmaPhysics"/>
+		<skos:related rdf:resource="#plasmaWave"/>
+		<skos:related rdf:resource="#synchrotronRadiation"/>
+		<skos:related rdf:resource="#vanAllenRadiationBelt"/>
+		<skos:changeNote>FVH: moved mhd to ALT, ALFVEN_WAVES to NT (2007-SEP-24)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

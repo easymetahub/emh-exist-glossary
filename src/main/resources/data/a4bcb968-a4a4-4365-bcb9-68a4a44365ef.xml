@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a4bcb968-a4a4-4365-bcb9-68a4a44365ef</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#broadBandPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>broad band photometry</skos:prefLabel>
+		<skos:definition>broad-band photometry</skos:definition>
+		<skos:altLabel>wide-band photometry</skos:altLabel>
+		<skos:broader rdf:resource="#CcdPhotometry"/>
+		<skos:broader rdf:resource="#photoelectricPhotometry"/>
+		<skos:broader rdf:resource="#photographicPhotometry"/>
+		<skos:narrower rdf:resource="#BesselPhotometry"/>
+		<skos:narrower rdf:resource="#BvPhotometry"/>
+		<skos:narrower rdf:resource="#CapePhotometry"/>
+		<skos:narrower rdf:resource="#CapeRiPhotometry"/>
+		<skos:narrower rdf:resource="#GunnPhotometry"/>
+		<skos:narrower rdf:resource="#HstPhotometry"/>
+		<skos:narrower rdf:resource="#JohnsonPhotometry"/>
+		<skos:narrower rdf:resource="#KronCousinsPhotometry"/>
+		<skos:narrower rdf:resource="#SloanPhotometry"/>
+		<skos:narrower rdf:resource="#infraredPhotometry"/>
+		<skos:narrower rdf:resource="#rgbPhotometry"/>
+		<skos:narrower rdf:resource="#rguPhotometry"/>
+		<skos:narrower rdf:resource="#twoColorPhotometry"/>
+		<skos:narrower rdf:resource="#ultravioletPhotometry"/>
+		<skos:related rdf:resource="#mediumBandPhotometry"/>
+		<skos:related rdf:resource="#narrowBandPhotometry"/>
+		<skos:changeNote>FVH: added BESSEL_PHOTOMETRY, GUNN_PHOTOMETRY, HST_PHOTOMETRY, KRON_COUSINS_PHOTOMETRY, SLOAN_PHOTOMETRY (2007-SEP-21)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

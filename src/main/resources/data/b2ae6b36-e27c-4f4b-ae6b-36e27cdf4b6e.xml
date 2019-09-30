@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b2ae6b36-e27c-4f4b-ae6b-36e27cdf4b6e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#semiconductorDevice">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>semiconductor device</skos:prefLabel>
+		<skos:definition>semiconductor device</skos:definition>
+		<skos:narrower rdf:resource="#chargeCoupledDevice"/>
+		<skos:narrower rdf:resource="#chargeInjectionDevice"/>
+		<skos:narrower rdf:resource="#chargeTransferDevice"/>
+		<skos:narrower rdf:resource="#photovoltaicCell"/>
+		<skos:related rdf:resource="#GunnDiode"/>
+		<skos:related rdf:resource="#detector"/>
+	</skos:Concept></env:instance></env:envelope>

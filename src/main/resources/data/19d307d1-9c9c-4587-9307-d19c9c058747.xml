@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>19d307d1-9c9c-4587-9307-d19c9c058747</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#futureLightCone">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>future light cone</skos:prefLabel>
+		<skos:definition>future light cone</skos:definition>
+		<skos:broader rdf:resource="#lightCone"/>
+		<skos:related rdf:resource="#pastLightCone"/>
+	</skos:Concept></env:instance></env:envelope>

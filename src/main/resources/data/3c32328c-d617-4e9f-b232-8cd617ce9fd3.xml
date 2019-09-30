@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3c32328c-d617-4e9f-b232-8cd617ce9fd3</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#preMainSequenceStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>pre-main sequence star</skos:prefLabel>
+		<skos:definition>pre-main sequence star</skos:definition>
+		<skos:altLabel>early stage star</skos:altLabel>
+		<skos:altLabel>premainsequence star</skos:altLabel>
+		<skos:broader rdf:resource="#nonMainSequenceStar"/>
+		<skos:broader rdf:resource="#youngStar"/>
+		<skos:narrower rdf:resource="#HerbigHaroObject"/>
+		<skos:narrower rdf:resource="#RwAurigaeStar"/>
+		<skos:narrower rdf:resource="#TTauriStar"/>
+		<skos:narrower rdf:resource="#flashStar"/>
+		<skos:narrower rdf:resource="#protostar"/>
+		<skos:related rdf:resource="#TAssociation"/>
+		<skos:related rdf:resource="#orionPopulationStar"/>
+		<skos:related rdf:resource="#starFormation"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>814f9331-9b8c-4326-8f93-319b8ca3267c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#rotatingBody">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>rotating body</skos:prefLabel>
+		<skos:definition>rotating body</skos:definition>
+		<skos:narrower rdf:resource="#asteroid"/>
+		<skos:narrower rdf:resource="#circumstellarDisk"/>
+		<skos:narrower rdf:resource="#comet"/>
+		<skos:narrower rdf:resource="#dwarfPlanet"/>
+		<skos:narrower rdf:resource="#galaxy"/>
+		<skos:narrower rdf:resource="#planet"/>
+		<skos:narrower rdf:resource="#rotatingStar"/>
+		<skos:related rdf:resource="#rigidBodyRotation"/>
+		<skos:related rdf:resource="#rotation"/>
+	</skos:Concept></env:instance></env:envelope>

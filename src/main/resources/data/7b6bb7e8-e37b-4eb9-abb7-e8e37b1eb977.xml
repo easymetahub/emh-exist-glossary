@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>7b6bb7e8-e37b-4eb9-abb7-e8e37b1eb977</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#gammaCassiopeiaeStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>gamma Cassiopeiae star</skos:prefLabel>
+		<skos:definition>gamma Cassiopeiae star</skos:definition>
+		<skos:broader rdf:resource="#BDwarf"/>
+		<skos:broader rdf:resource="#emissionLineStar"/>
+		<skos:broader rdf:resource="#irregularVariableStar"/>
+		<skos:broader rdf:resource="#shellStar"/>
+	</skos:Concept></env:instance></env:envelope>

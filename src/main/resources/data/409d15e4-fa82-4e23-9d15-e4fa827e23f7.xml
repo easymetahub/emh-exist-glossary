@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>409d15e4-fa82-4e23-9d15-e4fa827e23f7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#celestialMechanics">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>celestial mechanics</skos:prefLabel>
+		<skos:definition>celestial mechanics</skos:definition>
+		<skos:broader rdf:resource="#scientificField"/>
+		<skos:related rdf:resource="#KeplerianOrbit"/>
+		<skos:related rdf:resource="#LagrangianPoint"/>
+		<skos:related rdf:resource="#NBodyProblem"/>
+		<skos:related rdf:resource="#angularVelocity"/>
+		<skos:related rdf:resource="#astrodynamics"/>
+		<skos:related rdf:resource="#astrometry"/>
+		<skos:related rdf:resource="#astronomicalConstant"/>
+		<skos:related rdf:resource="#gravitation"/>
+		<skos:related rdf:resource="#gravitationalWave"/>
+		<skos:related rdf:resource="#lunarTheory"/>
+		<skos:related rdf:resource="#orbitalElement"/>
+		<skos:related rdf:resource="#orbitalEvolution"/>
+		<skos:related rdf:resource="#orbitalMotion"/>
+		<skos:related rdf:resource="#orbitalTheory"/>
+		<skos:related rdf:resource="#orbit"/>
+		<skos:related rdf:resource="#osculatoryElement"/>
+		<skos:related rdf:resource="#perturbation"/>
+		<skos:related rdf:resource="#perturbationTheory"/>
+		<skos:related rdf:resource="#planetaryAlignment"/>
+		<skos:related rdf:resource="#planetaryTheory"/>
+		<skos:related rdf:resource="#precession"/>
+		<skos:related rdf:resource="#threeBodyProblem"/>
+		<skos:related rdf:resource="#twoBodyProblem"/>
+	</skos:Concept></env:instance></env:envelope>

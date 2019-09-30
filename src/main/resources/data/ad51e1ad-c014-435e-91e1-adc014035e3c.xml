@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ad51e1ad-c014-435e-91e1-adc014035e3c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#FLayer">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>F layer</skos:prefLabel>
+		<skos:definition>F layer</skos:definition>
+		<skos:altLabel>F region</skos:altLabel>
+		<skos:related rdf:resource="#EarthAtmosphere"/>
+		<skos:related rdf:resource="#ionosphere"/>
+		<skos:scopeNote>Earth upper atmosphere</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

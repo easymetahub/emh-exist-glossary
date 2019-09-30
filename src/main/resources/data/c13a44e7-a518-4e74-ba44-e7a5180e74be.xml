@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c13a44e7-a518-4e74-ba44-e7a5180e74be</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#stimulatedRadiation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>stimulated radiation</skos:prefLabel>
+		<skos:definition>stimulated radiation</skos:definition>
+		<skos:related rdf:resource="#stimulatedEmission"/>
+	</skos:Concept></env:instance></env:envelope>

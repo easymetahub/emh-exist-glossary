@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c4cdcc63-ebe8-413f-8dcc-63ebe8b13f50</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#properMotion">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>proper motion</skos:prefLabel>
+		<skos:definition>proper motion</skos:definition>
+		<skos:broader rdf:resource="#motion"/>
+		<skos:broader rdf:resource="#spaceMotion"/>
+		<skos:related rdf:resource="#GalacticRotation"/>
+		<skos:related rdf:resource="#kinematics"/>
+		<skos:related rdf:resource="#LocalStandardOfRest"/>
+		<skos:related rdf:resource="#movingClusterParallax"/>
+		<skos:related rdf:resource="#peculiarMotion"/>
+		<skos:related rdf:resource="#photographicAstrometry"/>
+		<skos:related rdf:resource="#radialVelocity"/>
+		<skos:related rdf:resource="#radiantMovingCluster"/>
+		<skos:related rdf:resource="#secularParallax"/>
+		<skos:related rdf:resource="#stellarDynamics"/>
+		<skos:related rdf:resource="#stellarMotion"/>
+		<skos:related rdf:resource="#transverseVelocity"/>
+	</skos:Concept></env:instance></env:envelope>

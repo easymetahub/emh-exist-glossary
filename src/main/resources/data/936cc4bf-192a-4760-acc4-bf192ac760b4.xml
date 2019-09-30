@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>936cc4bf-192a-4760-acc4-bf192ac760b4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#interferometer">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>interferometer</skos:prefLabel>
+		<skos:definition>interferometer</skos:definition>
+		<skos:broader rdf:resource="#instrument"/>
+		<skos:narrower rdf:resource="#FabryPerotInterferometer"/>
+		<skos:narrower rdf:resource="#intensityInterferometer"/>
+		<skos:narrower rdf:resource="#longBaselineInterferometer"/>
+		<skos:narrower rdf:resource="#opticalInterferometer"/>
+		<skos:narrower rdf:resource="#phaseSwitchingInterferometer"/>
+		<skos:narrower rdf:resource="#radioInterferometer"/>
+		<skos:narrower rdf:resource="#veryLongBaselineInterferometer"/>
+		<skos:related rdf:resource="#antenna"/>
+		<skos:related rdf:resource="#array"/>
+		<skos:related rdf:resource="#heterodyne"/>
+		<skos:related rdf:resource="#interferenceFringe"/>
+		<skos:related rdf:resource="#radioTelescope"/>
+		<skos:related rdf:resource="#telescopeArray"/>
+		<skos:scopeNote>see also under interferometry</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

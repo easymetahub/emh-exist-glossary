@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5b844a97-ae58-4f13-844a-97ae581f1339</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#outburst">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>outburst</skos:prefLabel>
+		<skos:definition>outburst</skos:definition>
+		<skos:broader rdf:resource="#burst"/>
+		<skos:broader rdf:resource="#flare"/>
+		<skos:narrower rdf:resource="#opticalOutburst"/>
+		<skos:related rdf:resource="#highState"/>
+		<skos:related rdf:resource="#lowState"/>
+	</skos:Concept></env:instance></env:envelope>

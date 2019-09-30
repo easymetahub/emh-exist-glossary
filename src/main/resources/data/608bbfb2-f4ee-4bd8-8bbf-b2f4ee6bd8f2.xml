@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>608bbfb2-f4ee-4bd8-8bbf-b2f4ee6bd8f2</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#mass">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>mass</skos:prefLabel>
+		<skos:definition>mass</skos:definition>
+		<skos:narrower rdf:resource="#ChandrasekharMass"/>
+		<skos:narrower rdf:resource="#ChandrasekharSchoenbergLimit"/>
+		<skos:related rdf:resource="#gravitation"/>
+		<skos:related rdf:resource="#initialMassFunction"/>
+		<skos:related rdf:resource="#massDensity"/>
+		<skos:related rdf:resource="#massExchange"/>
+		<skos:related rdf:resource="#massFlow"/>
+		<skos:related rdf:resource="#massFunction"/>
+		<skos:related rdf:resource="#massToLightRatio"/>
+		<skos:related rdf:resource="#momentum"/>
+		<skos:related rdf:resource="#spectroscopicBinaryStar"/>
+		<skos:related rdf:resource="#surfaceGravity"/>
+	</skos:Concept></env:instance></env:envelope>

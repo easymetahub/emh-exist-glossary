@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d3c320e2-8b0f-4654-8320-e28b0f265488</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#preGalacticStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>pre-Galactic star</skos:prefLabel>
+		<skos:definition>pre-Galactic star</skos:definition>
+		<skos:altLabel>pregalactic star</skos:altLabel>
+		<skos:broader rdf:resource="#oldStar"/>
+	</skos:Concept></env:instance></env:envelope>

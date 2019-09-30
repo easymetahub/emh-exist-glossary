@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>508eed88-670c-4df3-8eed-88670cbdf3e5</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lens">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>lens</skos:prefLabel>
+		<skos:definition>lens</skos:definition>
+		<skos:broader rdf:resource="#opticalComponent"/>
+		<skos:narrower rdf:resource="#cameraLens"/>
+		<skos:narrower rdf:resource="#correctorPlate"/>
+		<skos:narrower rdf:resource="#fieldCorrector"/>
+		<skos:narrower rdf:resource="#primaryLens"/>
+		<skos:related rdf:resource="#antireflectionCoating"/>
+		<skos:related rdf:resource="#catadioptricSystem"/>
+		<skos:related rdf:resource="#coating"/>
+		<skos:related rdf:resource="#collimator"/>
+		<skos:related rdf:resource="#dioptricSystem"/>
+		<skos:related rdf:resource="#eyepiece"/>
+		<skos:related rdf:resource="#figuring"/>
+		<skos:related rdf:resource="#glass"/>
+		<skos:related rdf:resource="#lensDesign"/>
+		<skos:related rdf:resource="#opticalAberration"/>
+		<skos:related rdf:resource="#opticalInstrument"/>
+		<skos:related rdf:resource="#opticalMaterial"/>
+		<skos:related rdf:resource="#opticalSurface"/>
+		<skos:related rdf:resource="#polishing"/>
+		<skos:related rdf:resource="#refraction"/>
+		<skos:related rdf:resource="#refractiveIndex"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>55fb84f1-af11-4497-bb84-f1af11549715</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#giantBranch">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>giant branch</skos:prefLabel>
+		<skos:definition>giant branch</skos:definition>
+		<skos:altLabel>RGB</skos:altLabel>
+		<skos:altLabel>red giant branch</skos:altLabel>
+		<skos:narrower rdf:resource="#blueLoop"/>
+		<skos:narrower rdf:resource="#redGiantBump"/>
+		<skos:narrower rdf:resource="#redGiantClump"/>
+		<skos:narrower rdf:resource="#redGiantTip"/>
+		<skos:related rdf:resource="#HertzsprungGap"/>
+		<skos:related rdf:resource="#HertzsprungRussellDiagram"/>
+		<skos:related rdf:resource="#instabilityStrip"/>
+		<skos:related rdf:resource="#turnoffPoint"/>
+		<skos:related rdf:resource="#zeroAgeHorizontalBranch"/>
+	</skos:Concept></env:instance></env:envelope>

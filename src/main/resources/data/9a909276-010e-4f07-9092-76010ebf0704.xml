@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9a909276-010e-4f07-9092-76010ebf0704</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#opticalInstrument">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>optical instrument</skos:prefLabel>
+		<skos:definition>optical instrument</skos:definition>
+		<skos:altLabel>optical equipment</skos:altLabel>
+		<skos:narrower rdf:resource="#camera"/>
+		<skos:narrower rdf:resource="#coronagraph"/>
+		<skos:narrower rdf:resource="#monochromator"/>
+		<skos:narrower rdf:resource="#opticalScanners"/>
+		<skos:narrower rdf:resource="#photometer"/>
+		<skos:narrower rdf:resource="#polarimeter"/>
+		<skos:narrower rdf:resource="#seeingMonitor"/>
+		<skos:narrower rdf:resource="#spectrograph"/>
+		<skos:narrower rdf:resource="#telescope"/>
+		<skos:related rdf:resource="#HartmannTest"/>
+		<skos:related rdf:resource="#collimator"/>
+		<skos:related rdf:resource="#fieldCorrector"/>
+		<skos:related rdf:resource="#lens"/>
+		<skos:related rdf:resource="#mirror"/>
+		<skos:related rdf:resource="#modulationTransferFunction"/>
+		<skos:related rdf:resource="#opticalDesign"/>
+		<skos:related rdf:resource="#opticalFiber"/>
+		<skos:related rdf:resource="#opticalMaterial"/>
+		<skos:related rdf:resource="#opticalSystem"/>
+		<skos:related rdf:resource="#opticalTesting"/>
+		<skos:related rdf:resource="#opticalTransferFunction"/>
+		<skos:related rdf:resource="#prism"/>
+		<skos:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

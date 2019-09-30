@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>fb8af2d1-c73f-4dd2-8af2-d1c73f6dd26b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#GalacticRotation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Galactic rotation</skos:prefLabel>
+		<skos:definition>Galactic rotation (Milky Way)</skos:definition>
+		<skos:broader rdf:resource="#galaxyRotationCurve"/>
+		<skos:broader rdf:resource="#rotation"/>
+		<skos:related rdf:resource="#DarkMatter"/>
+		<skos:related rdf:resource="#MilkyWayGalaxy"/>
+		<skos:related rdf:resource="#OortConstant"/>
+		<skos:related rdf:resource="#OortFormulae"/>
+		<skos:related rdf:resource="#cosmicYear"/>
+		<skos:related rdf:resource="#differentialRotation"/>
+		<skos:related rdf:resource="#highVelocityCloud"/>
+		<skos:related rdf:resource="#highVelocityStar"/>
+		<skos:related rdf:resource="#kinematics"/>
+		<skos:related rdf:resource="#properMotion"/>
+		<skos:related rdf:resource="#spaceMotion"/>
+		<skos:related rdf:resource="#stellarDynamics"/>
+		<skos:changeNote>FVH: capitalized, since only refers to MW (2007-OCT-5)</skos:changeNote>
+		<skos:changeNote>see galaxy_rotation_curve for external galaxy</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

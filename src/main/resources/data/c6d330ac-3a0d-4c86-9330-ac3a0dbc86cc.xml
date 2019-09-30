@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c6d330ac-3a0d-4c86-9330-ac3a0dbc86cc</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#luminosityDispersionRelation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>luminosity-dispersion relation</skos:prefLabel>
+		<skos:definition>luminosity-dispersion relation</skos:definition>
+		<skos:broader rdf:resource="#correlation"/>
+		<skos:narrower rdf:resource="#FaberJacksonRelation"/>
+		<skos:narrower rdf:resource="#fundamentalPlane"/>
+		<skos:related rdf:resource="#luminosity"/>
+		<skos:related rdf:resource="#velocityDispersion"/>
+		<skos:historyNote>FVH: new (2007-OCT-9)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

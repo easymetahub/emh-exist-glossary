@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6d944e6f-7939-4b5d-944e-6f7939fb5da0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#reticle">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>reticle</skos:prefLabel>
+		<skos:definition>reticle</skos:definition>
+		<skos:related rdf:resource="#eyepiece"/>
+		<skos:related rdf:resource="#graticule"/>
+		<skos:related rdf:resource="#grid"/>
+	</skos:Concept></env:instance></env:envelope>

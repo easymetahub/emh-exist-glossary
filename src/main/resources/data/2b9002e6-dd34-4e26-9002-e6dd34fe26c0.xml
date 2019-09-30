@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2b9002e6-dd34-4e26-9002-e6dd34fe26c0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#semiRegularVariableStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>semi-regular variable star</skos:prefLabel>
+		<skos:definition>semi-regular variable star</skos:definition>
+		<skos:altLabel>semiregular variable star</skos:altLabel>
+		<skos:broader rdf:resource="#lateTypeGiant"/>
+		<skos:broader rdf:resource="#pulsatingVariableStar"/>
+		<skos:broader rdf:resource="#variableStar"/>
+		<skos:narrower rdf:resource="#RvTauriStar"/>
+		<skos:narrower rdf:resource="#SVulpeculaeStar"/>
+		<skos:related rdf:resource="#MiraVariableStar"/>
+		<skos:related rdf:resource="#irregularVariableStar"/>
+		<skos:related rdf:resource="#supergiant"/>
+	</skos:Concept></env:instance></env:envelope>

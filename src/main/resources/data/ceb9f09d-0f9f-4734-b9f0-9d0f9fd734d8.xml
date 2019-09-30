@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ceb9f09d-0f9f-4734-b9f0-9d0f9fd734d8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#abundance">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>abundance</skos:prefLabel>
+		<skos:definition>abundance</skos:definition>
+		<skos:altLabel>chemical abundance</skos:altLabel>
+		<skos:altLabel>element abundance</skos:altLabel>
+		<skos:altLabel>stellar abundance</skos:altLabel>
+		<skos:narrower rdf:resource="#cosmicAbundance"/>
+		<skos:narrower rdf:resource="#isotopicAbundance"/>
+		<skos:narrower rdf:resource="#metalAbundance"/>
+		<skos:narrower rdf:resource="#overabundance"/>
+		<skos:narrower rdf:resource="#underabundance"/>
+		<skos:related rdf:resource="#CnoAnomaly"/>
+		<skos:related rdf:resource="#abundanceRatio"/>
+		<skos:related rdf:resource="#chemicalComposition"/>
+		<skos:related rdf:resource="#chemicalElement"/>
+		<skos:related rdf:resource="#chemicalEvolution"/>
+		<skos:related rdf:resource="#curveOfGrowth"/>
+		<skos:related rdf:resource="#elementFormation"/>
+		<skos:related rdf:resource="#enrichment"/>
+		<skos:related rdf:resource="#heavyElement"/>
+		<skos:related rdf:resource="#heliumPoorStar"/>
+		<skos:related rdf:resource="#heliumRichStar"/>
+		<skos:related rdf:resource="#peculiarStar"/>
+		<skos:related rdf:resource="#rareEarth"/>
+		<skos:scopeNote>may be combined with element, e.g. helium abundance</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

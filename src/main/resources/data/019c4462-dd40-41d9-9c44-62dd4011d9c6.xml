@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>019c4462-dd40-41d9-9c44-62dd4011d9c6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#allSkyPhotography">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>all-sky photography</skos:prefLabel>
+		<skos:definition>all-sky photography</skos:definition>
+		<skos:altLabel>all sky photography</skos:altLabel>
+		<skos:broader rdf:resource="#photography"/>
+		<skos:related rdf:resource="#allSkyCamera"/>
+		<skos:related rdf:resource="#camera"/>
+		<skos:related rdf:resource="#wideAngleLens"/>
+	</skos:Concept></env:instance></env:envelope>

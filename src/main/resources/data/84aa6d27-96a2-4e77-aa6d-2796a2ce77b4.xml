@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>84aa6d27-96a2-4e77-aa6d-2796a2ce77b4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#populationIiStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>population II star</skos:prefLabel>
+		<skos:definition>Population II star</skos:definition>
+		<skos:altLabel>Pop II star</skos:altLabel>
+		<skos:altLabel>PopII</skos:altLabel>
+		<skos:broader rdf:resource="#metalPoorStar"/>
+		<skos:broader rdf:resource="#oldStar"/>
+		<skos:broader rdf:resource="#star"/>
+		<skos:narrower rdf:resource="#SxPhoenicisStar"/>
+		<skos:narrower rdf:resource="#diskPopulation"/>
+		<skos:narrower rdf:resource="#diskStar"/>
+		<skos:narrower rdf:resource="#haloStar"/>
+		<skos:narrower rdf:resource="#horizontalBranchStar"/>
+		<skos:narrower rdf:resource="#populationIiCepheid"/>
+		<skos:related rdf:resource="#GalacticHalo"/>
+		<skos:related rdf:resource="#galacticNucleus"/>
+		<skos:related rdf:resource="#globularStarCluster"/>
+		<skos:related rdf:resource="#intermediatePopulationStar"/>
+		<skos:related rdf:resource="#stellarPopulation"/>
+		<skos:related rdf:resource="#subluminousStar"/>
+	</skos:Concept></env:instance></env:envelope>

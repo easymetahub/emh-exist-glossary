@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2f8c2920-e83b-4874-8c29-20e83b587477</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#activeGalaxy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>active galaxy</skos:prefLabel>
+		<skos:definition>active galaxy</skos:definition>
+		<skos:altLabel>eruptive galaxy</skos:altLabel>
+		<skos:broader rdf:resource="#XRaySource"/>
+		<skos:broader rdf:resource="#galaxy"/>
+		<skos:related rdf:resource="#XRayFlare"/>
+		<skos:related rdf:resource="#activeGalacticNucleus"/>
+		<skos:related rdf:resource="#compactGalaxy"/>
+		<skos:related rdf:resource="#emissionLineGalaxy"/>
+	</skos:Concept></env:instance></env:envelope>

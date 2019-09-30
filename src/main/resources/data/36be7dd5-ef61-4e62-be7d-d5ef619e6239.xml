@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>36be7dd5-ef61-4e62-be7d-d5ef619e6239</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#SchwarzschildMetric">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Schwarzschild metric</skos:prefLabel>
+		<skos:definition>Schwarzschild metric</skos:definition>
+		<skos:related rdf:resource="#generalTheoryOfRelativity"/>
+		<skos:related rdf:resource="#gravitationalField"/>
+		<skos:related rdf:resource="#ionization"/>
+		<skos:related rdf:resource="#orbit"/>
+		<skos:related rdf:resource="#spaceTimeSingularity"/>
+	</skos:Concept></env:instance></env:envelope>

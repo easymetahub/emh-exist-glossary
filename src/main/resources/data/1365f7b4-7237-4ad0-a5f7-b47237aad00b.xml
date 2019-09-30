@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>1365f7b4-7237-4ad0-a5f7-b47237aad00b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#negativeHIon">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>negative H ion</skos:prefLabel>
+		<skos:definition>negative hydrogen ion</skos:definition>
+		<skos:altLabel>H minus ion</skos:altLabel>
+		<skos:altLabel>H-</skos:altLabel>
+		<skos:altLabel>H- ion</skos:altLabel>
+		<skos:broader rdf:resource="#hydrogen"/>
+		<skos:related rdf:resource="#opacity"/>
+		<skos:related rdf:resource="#stellarAtmosphere"/>
+	</skos:Concept></env:instance></env:envelope>

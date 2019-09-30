@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0fffd5c4-3e19-4acb-bfd5-c43e19cacbd6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#gravitationalLens">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>gravitational lens</skos:prefLabel>
+		<skos:definition>gravitational lens</skos:definition>
+		<skos:changeNote>FVH: effectively new, since old IAU term moved to gravitational_lensing (2007-OCT-08)</skos:changeNote>
+		<skos:scopeNote>refers to the lens themselves, not the lensing process (see gravitational_lensing)</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

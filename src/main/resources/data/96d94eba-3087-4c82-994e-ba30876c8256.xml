@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>96d94eba-3087-4c82-994e-ba30876c8256</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#giant">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>giant</skos:prefLabel>
+		<skos:definition>giant star</skos:definition>
+		<skos:altLabel>CS star</skos:altLabel>
+		<skos:broader rdf:resource="#postMainSequenceStar"/>
+		<skos:narrower rdf:resource="#AGiant"/>
+		<skos:narrower rdf:resource="#BGiant"/>
+		<skos:narrower rdf:resource="#ChStar"/>
+		<skos:narrower rdf:resource="#CnStar"/>
+		<skos:narrower rdf:resource="#FGiant"/>
+		<skos:narrower rdf:resource="#GGiant"/>
+		<skos:narrower rdf:resource="#LbVariableStar"/>
+		<skos:narrower rdf:resource="#MGiant"/>
+		<skos:narrower rdf:resource="#OhIrStar"/>
+		<skos:narrower rdf:resource="#RStar"/>
+		<skos:narrower rdf:resource="#SStar"/>
+		<skos:narrower rdf:resource="#extremeCarbonStar"/>
+		<skos:narrower rdf:resource="#lateTypeGiant"/>
+		<skos:narrower rdf:resource="#peculiarGiant"/>
+		<skos:narrower rdf:resource="#weakGBandStar"/>
+		<skos:related rdf:resource="#carbonBurning"/>
+		<skos:related rdf:resource="#dredgeUp"/>
+		<skos:related rdf:resource="#lithiumStar"/>
+		<skos:related rdf:resource="#luminosityClassification"/>
+		<skos:related rdf:resource="#stellarEvolution"/>
+		<skos:related rdf:resource="#zirconiumStar"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>dba9f050-4e53-4c73-a9f0-504e532c733a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#asteroseismology">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>asteroseismology</skos:prefLabel>
+		<skos:definition>asteroseismology</skos:definition>
+		<skos:altLabel>stellar seismology</skos:altLabel>
+		<skos:broader rdf:resource="#seismology"/>
+		<skos:narrower rdf:resource="#helioseismology"/>
+		<skos:related rdf:resource="#pulsatingVariableStar"/>
+		<skos:related rdf:resource="#pulsation"/>
+		<skos:related rdf:resource="#rapidOscillation"/>
+		<skos:related rdf:resource="#solarOscillation"/>
+		<skos:related rdf:resource="#stellarOscillation"/>
+	</skos:Concept></env:instance></env:envelope>

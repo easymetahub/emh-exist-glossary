@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8360d04e-db1b-4f31-a0d0-4edb1b2f313e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#earlyTypeEmissionStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>early-type emission star</skos:prefLabel>
+		<skos:definition>early-type emission star</skos:definition>
+		<skos:altLabel>early type emission star</skos:altLabel>
+		<skos:broader rdf:resource="#emissionLineStar"/>
+		<skos:narrower rdf:resource="#AeStar"/>
+		<skos:narrower rdf:resource="#BeStar"/>
+		<skos:narrower rdf:resource="#OeStar"/>
+		<skos:narrower rdf:resource="#OefStar"/>
+		<skos:narrower rdf:resource="#OfStar"/>
+		<skos:narrower rdf:resource="#WolfRayetStar"/>
+	</skos:Concept></env:instance></env:envelope>

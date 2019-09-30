@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>098dca05-2d76-4058-8dca-052d7690581d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ZzCetiStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>ZZ Ceti star</skos:prefLabel>
+		<skos:definition>ZZ Ceti star</skos:definition>
+		<skos:broader rdf:resource="#multiPeriodicVariableStar"/>
+		<skos:broader rdf:resource="#pulsatingVariableStar"/>
+		<skos:broader rdf:resource="#whiteDwarf"/>
+		<skos:related rdf:resource="#HeIiIonizationZone"/>
+		<skos:related rdf:resource="#kappaMechanism"/>
+		<skos:related rdf:resource="#nonRadialPulsation"/>
+	</skos:Concept></env:instance></env:envelope>

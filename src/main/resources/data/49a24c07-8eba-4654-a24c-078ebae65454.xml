@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>49a24c07-8eba-4654-a24c-078ebae65454</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#astrophysics">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>astrophysics</skos:prefLabel>
+		<skos:definition>astrophysics</skos:definition>
+		<skos:broader rdf:resource="#scientificField"/>
+		<skos:narrower rdf:resource="#highEnergyAstrophysics"/>
+		<skos:narrower rdf:resource="#theoreticalAstrophysics"/>
+		<skos:related rdf:resource="#cosmology"/>
+		<skos:changeNote>FVH: moved theoretical_astrophysics to NT (2007-OCT-1)</skos:changeNote>
+		<skos:scopeNote>combine with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

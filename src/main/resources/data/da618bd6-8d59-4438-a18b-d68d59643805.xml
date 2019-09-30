@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>da618bd6-8d59-4438-a18b-d68d59643805</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#observingTechnique">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>observing technique</skos:prefLabel>
+		<skos:definition>observing technique</skos:definition>
+		<skos:altLabel>method of observation</skos:altLabel>
+		<skos:narrower rdf:resource="#astrometry"/>
+		<skos:narrower rdf:resource="#interferometry"/>
+		<skos:narrower rdf:resource="#photometry"/>
+		<skos:narrower rdf:resource="#polarimetry"/>
+		<skos:narrower rdf:resource="#radioAstrometry"/>
+		<skos:narrower rdf:resource="#radioInterferometry"/>
+		<skos:narrower rdf:resource="#spectrophotometry"/>
+		<skos:narrower rdf:resource="#spectroscopy"/>
+		<skos:related rdf:resource="#astronomicalTechnique"/>
+		<skos:related rdf:resource="#dataAcquisition"/>
+		<skos:related rdf:resource="#dataProcessing"/>
+		<skos:related rdf:resource="#observation"/>
+		<skos:related rdf:resource="#occultation"/>
+		<skos:related rdf:resource="#photography"/>
+		<skos:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

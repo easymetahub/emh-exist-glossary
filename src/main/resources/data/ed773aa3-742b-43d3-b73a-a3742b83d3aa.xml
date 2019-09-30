@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ed773aa3-742b-43d3-b73a-a3742b83d3aa</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#OmegaLambda">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Omega Lambda</skos:prefLabel>
+		<skos:definition>Omega(Lambda), the cosmological vacuum energy density fraction</skos:definition>
+		<skos:altLabel>Omega(Lambda)</skos:altLabel>
+		<skos:broader rdf:resource="#OmegaParameter"/>
+		<skos:related rdf:resource="#cosmologicalConstant"/>
+		<skos:related rdf:resource="#energyDensity"/>
+		<skos:historyNote>FVH: new (2007-OCT-24)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

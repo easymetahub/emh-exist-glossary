@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>41b9a4f2-2628-48bc-b9a4-f22628d8bc4c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#equivalentWidth">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>equivalent width</skos:prefLabel>
+		<skos:definition>equivalent width</skos:definition>
+		<skos:broader rdf:resource="#lineWidth"/>
+		<skos:related rdf:resource="#absorption"/>
+		<skos:related rdf:resource="#instrumentalProfile"/>
+		<skos:related rdf:resource="#lineBroadening"/>
+		<skos:related rdf:resource="#spectrum"/>
+		<skos:related rdf:resource="#spectralLine"/>
+	</skos:Concept></env:instance></env:envelope>

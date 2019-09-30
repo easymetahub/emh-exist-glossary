@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9a6b7e4b-8037-4052-ab7e-4b803760525f</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#betaCepheiStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>beta Cephei star</skos:prefLabel>
+		<skos:definition>beta Cephei star</skos:definition>
+		<skos:altLabel>beta Canis Majoris star</skos:altLabel>
+		<skos:broader rdf:resource="#earlyTypeVariableStar"/>
+		<skos:broader rdf:resource="#multiPeriodicVariableStar"/>
+		<skos:broader rdf:resource="#pulsatingVariableStar"/>
+		<skos:broader rdf:resource="#shortPeriodVariableStar"/>
+		<skos:related rdf:resource="#nonRadialPulsation"/>
+		<skos:related rdf:resource="#radialPulsation"/>
+	</skos:Concept></env:instance></env:envelope>

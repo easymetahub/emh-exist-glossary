@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>808fef9a-9283-4368-8fef-9a9283d36817</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#visibleRadiation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>visible radiation</skos:prefLabel>
+		<skos:definition>visible radiation</skos:definition>
+		<skos:altLabel>light</skos:altLabel>
+		<skos:broader rdf:resource="#electromagneticRadiation"/>
+		<skos:narrower rdf:resource="#polarizedLight"/>
+		<skos:related rdf:resource="#color"/>
+		<skos:related rdf:resource="#darkness"/>
+		<skos:related rdf:resource="#gravitationalLensing"/>
+		<skos:related rdf:resource="#lightAbsorption"/>
+		<skos:related rdf:resource="#lightInterference"/>
+		<skos:related rdf:resource="#lightScattering"/>
+		<skos:related rdf:resource="#luminescence"/>
+		<skos:related rdf:resource="#refraction"/>
+		<skos:related rdf:resource="#visibleSpectrum"/>
+		<skos:changeNote>FVH: combined with light (2007-OCT-8)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

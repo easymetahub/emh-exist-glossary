@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>7a950f64-9d33-42b9-950f-649d3382b9b4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#LocalStandardOfRest">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Local Standard of Rest</skos:prefLabel>
+		<skos:definition>Local Standard of Rest</skos:definition>
+		<skos:altLabel>LSR</skos:altLabel>
+		<skos:altLabel>L.S.R.</skos:altLabel>
+		<skos:related rdf:resource="#Sun"/>
+		<skos:related rdf:resource="#orbit"/>
+		<skos:related rdf:resource="#peculiarMotion"/>
+		<skos:related rdf:resource="#peculiarVelocity"/>
+		<skos:related rdf:resource="#properMotion"/>
+		<skos:related rdf:resource="#stellarMotion"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>99bd7e07-e591-4ca3-bd7e-07e5914ca32f</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#spaceTelescope">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>space telescope</skos:prefLabel>
+		<skos:definition>space telescope</skos:definition>
+		<skos:broader rdf:resource="#spaceProbeInstrument"/>
+		<skos:broader rdf:resource="#telescope"/>
+		<skos:narrower rdf:resource="#XRayTelescope"/>
+		<skos:narrower rdf:resource="#gammaRayTelescope"/>
+		<skos:narrower rdf:resource="#ultravioletTelescope"/>
+		<skos:related rdf:resource="#artificialSatellite"/>
+		<skos:related rdf:resource="#balloonBorneInstrument"/>
+		<skos:related rdf:resource="#groundBasedAstronomy"/>
+		<skos:related rdf:resource="#rocketBorneInstrument"/>
+		<skos:related rdf:resource="#satelliteBorneInstrument"/>
+		<skos:related rdf:resource="#spaceExploration"/>
+		<skos:related rdf:resource="#spaceObservatory"/>
+		<skos:scopeNote>named telescope not included</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

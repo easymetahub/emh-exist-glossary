@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3c10a924-5285-480f-90a9-245285a80ffc</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#nebula">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>nebula</skos:prefLabel>
+		<skos:definition>nebula</skos:definition>
+		<skos:broader rdf:resource="#interstellarMatter"/>
+		<skos:narrower rdf:resource="#bipolarNebula"/>
+		<skos:narrower rdf:resource="#brightNebula"/>
+		<skos:narrower rdf:resource="#compactNebula"/>
+		<skos:narrower rdf:resource="#darkNebula"/>
+		<skos:narrower rdf:resource="#denseCloud"/>
+		<skos:narrower rdf:resource="#diffuseNebula"/>
+		<skos:narrower rdf:resource="#dustNebula"/>
+		<skos:narrower rdf:resource="#emissionNebula"/>
+		<skos:narrower rdf:resource="#filamentaryNebula"/>
+		<skos:narrower rdf:resource="#gaseousNebula"/>
+		<skos:narrower rdf:resource="#planetaryNebula"/>
+		<skos:narrower rdf:resource="#reflectionNebula"/>
+		<skos:narrower rdf:resource="#ringNebula"/>
+		<skos:related rdf:resource="#OpikTheory"/>
+		<skos:related rdf:resource="#forbiddenLine"/>
+		<skos:related rdf:resource="#forbiddenTransition"/>
+		<skos:related rdf:resource="#nebularFilament"/>
+		<skos:related rdf:resource="#surfacePhotometry"/>
+		<skos:scopeNote>named nebula not included; not including galaxy</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>414a24a8-ee0d-44bf-8a24-a8ee0da4bf59</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#differentialRotation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>differential rotation</skos:prefLabel>
+		<skos:definition>differential rotation</skos:definition>
+		<skos:broader rdf:resource="#rotation"/>
+		<skos:related rdf:resource="#GalacticRotation"/>
+		<skos:related rdf:resource="#galaxy"/>
+		<skos:related rdf:resource="#galaxyRotationCurve"/>
+		<skos:related rdf:resource="#globularStarCluster"/>
+		<skos:related rdf:resource="#tidalDisruption"/>
+		<skos:related rdf:resource="#tidalDistortion"/>
+		<skos:changeNote>FVH: added RT Galactic_rotation, RT galaxy_rotation_curve (2007-OCT-5)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

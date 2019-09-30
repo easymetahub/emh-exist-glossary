@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>44f29143-7b3a-4f9a-b291-437b3a9f9ac5</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#PaschenSeries">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Paschen series</skos:prefLabel>
+		<skos:definition>Paschen series</skos:definition>
+		<skos:altLabel>Paschen line</skos:altLabel>
+		<skos:broader rdf:resource="#hydrogenSpectrum"/>
+		<skos:related rdf:resource="#BalmerSeries"/>
+		<skos:related rdf:resource="#BrackettSeries"/>
+		<skos:related rdf:resource="#LymanSeries"/>
+		<skos:related rdf:resource="#PfundSeries"/>
+	</skos:Concept></env:instance></env:envelope>

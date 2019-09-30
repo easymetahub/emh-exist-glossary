@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a43b7c46-8572-4a77-bb7c-4685729a7707</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#seeingMonitor">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>seeing monitor</skos:prefLabel>
+		<skos:definition>seeing monitor</skos:definition>
+		<skos:broader rdf:resource="#opticalInstrument"/>
+		<skos:narrower rdf:resource="#differentialImageMotionMonitor"/>
+		<skos:related rdf:resource="#opticalObservatory"/>
+		<skos:related rdf:resource="#seeing"/>
+		<skos:related rdf:resource="#siteTesting"/>
+	</skos:Concept></env:instance></env:envelope>

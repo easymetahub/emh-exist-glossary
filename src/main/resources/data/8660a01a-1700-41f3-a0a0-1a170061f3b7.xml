@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8660a01a-1700-41f3-a0a0-1a170061f3b7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ApStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Ap star</skos:prefLabel>
+		<skos:definition>Ap star</skos:definition>
+		<skos:altLabel>peculiar A star</skos:altLabel>
+		<skos:broader rdf:resource="#AStar"/>
+		<skos:broader rdf:resource="#peculiarStar"/>
+		<skos:narrower rdf:resource="#holmiumStar"/>
+		<skos:narrower rdf:resource="#manganeseStar"/>
+		<skos:narrower rdf:resource="#siliconStar"/>
+		<skos:narrower rdf:resource="#spectrumVariableStar"/>
+		<skos:related rdf:resource="#alpha2CanumVenaticorumStar"/>
+		<skos:related rdf:resource="#magneticStar"/>
+		<skos:related rdf:resource="#magneticVariableStar"/>
+		<skos:related rdf:resource="#obliqueRotator"/>
+		<skos:related rdf:resource="#rapidOscillation"/>
+	</skos:Concept></env:instance></env:envelope>

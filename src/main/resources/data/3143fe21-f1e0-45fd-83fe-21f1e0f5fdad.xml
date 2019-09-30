@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3143fe21-f1e0-45fd-83fe-21f1e0f5fdad</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#relativity">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>relativity</skos:prefLabel>
+		<skos:definition>relativity</skos:definition>
+		<skos:broader rdf:resource="#cosmogony"/>
+		<skos:narrower rdf:resource="#generalTheoryOfRelativity"/>
+		<skos:related rdf:resource="#fieldEquation"/>
+		<skos:related rdf:resource="#gravitation"/>
+		<skos:related rdf:resource="#inertialCoordinateSystem"/>
+		<skos:related rdf:resource="#inertialReferenceFrame"/>
+		<skos:related rdf:resource="#relativisticDisk"/>
+		<skos:related rdf:resource="#relativisticEffect"/>
+		<skos:related rdf:resource="#relativisticMechanics"/>
+		<skos:related rdf:resource="#relativisticPlasma"/>
+		<skos:related rdf:resource="#relativisticStar"/>
+		<skos:related rdf:resource="#relativisticVelocity"/>
+	</skos:Concept></env:instance></env:envelope>

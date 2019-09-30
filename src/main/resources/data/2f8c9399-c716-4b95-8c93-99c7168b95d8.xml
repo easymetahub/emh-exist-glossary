@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2f8c9399-c716-4b95-8c93-99c7168b95d8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#geodesy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>geodesy</skos:prefLabel>
+		<skos:definition>geodesy</skos:definition>
+		<skos:broader rdf:resource="#EarthSciences"/>
+		<skos:narrower rdf:resource="#astronomicalGeodesy"/>
+		<skos:narrower rdf:resource="#spaceGeodesy"/>
+		<skos:related rdf:resource="#Earth"/>
+		<skos:related rdf:resource="#atomicClock"/>
+		<skos:related rdf:resource="#geoid"/>
+		<skos:related rdf:resource="#pendulum"/>
+	</skos:Concept></env:instance></env:envelope>

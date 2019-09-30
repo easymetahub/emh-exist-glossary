@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c449e7da-9d45-46ac-89e7-da9d4516acc2</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#meteor">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>meteor</skos:prefLabel>
+		<skos:definition>meteor</skos:definition>
+		<skos:narrower rdf:resource="#bolide"/>
+		<skos:narrower rdf:resource="#fireball"/>
+		<skos:narrower rdf:resource="#meteorite"/>
+		<skos:related rdf:resource="#crater"/>
+		<skos:related rdf:resource="#meteorShower"/>
+		<skos:related rdf:resource="#meteorStream"/>
+		<skos:related rdf:resource="#meteorTrail"/>
+		<skos:related rdf:resource="#meteoriteCrater"/>
+		<skos:related rdf:resource="#meteoriteImpact"/>
+		<skos:related rdf:resource="#meteoroidDustCloud"/>
+		<skos:related rdf:resource="#meteoroid"/>
+		<skos:related rdf:resource="#radiantMeteor"/>
+	</skos:Concept></env:instance></env:envelope>

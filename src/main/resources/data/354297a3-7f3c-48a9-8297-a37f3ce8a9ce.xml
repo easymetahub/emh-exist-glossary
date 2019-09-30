@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>354297a3-7f3c-48a9-8297-a37f3ce8a9ce</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#acousticWave">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>acoustic wave</skos:prefLabel>
+		<skos:definition>acoustic wave</skos:definition>
+		<skos:altLabel>sound</skos:altLabel>
+		<skos:altLabel>sound wave</skos:altLabel>
+		<skos:broader rdf:resource="#wave"/>
+		<skos:related rdf:resource="#acoustics"/>
+		<skos:related rdf:resource="#gravityWave"/>
+		<skos:related rdf:resource="#soundSpeed"/>
+		<skos:related rdf:resource="#wavelength"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b70bcfff-f836-4e54-8bcf-fff836de54e9</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#multiFiberSpectrograph">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>multi-fiber spectrograph</skos:prefLabel>
+		<skos:definition>multi-fiber spectrograph</skos:definition>
+		<skos:broader rdf:resource="#spectrograph"/>
+		<skos:related rdf:resource="#integralFieldSpectrograph"/>
+		<skos:related rdf:resource="#opticalFiber"/>
+		<skos:related rdf:resource="#threeDimensionalSpectrum"/>
+		<skos:historyNote>FVH: new (2007-SEP-21)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

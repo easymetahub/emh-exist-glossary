@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a9fccbfc-9c45-43f1-bccb-fc9c45c3f1af</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#nuclearPhysics">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>nuclear physics</skos:prefLabel>
+		<skos:definition>nuclear physics</skos:definition>
+		<skos:related rdf:resource="#interaction"/>
+		<skos:related rdf:resource="#nuclearAstrophysics"/>
+		<skos:related rdf:resource="#nuclearRadiation"/>
+		<skos:related rdf:resource="#nuclearReaction"/>
+		<skos:related rdf:resource="#strongInteraction"/>
+		<skos:related rdf:resource="#weakInteraction"/>
+	</skos:Concept></env:instance></env:envelope>

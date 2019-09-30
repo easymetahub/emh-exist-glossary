@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>08c1907b-8985-4d78-8190-7b8985dd7851</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#tArray">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>t array</skos:prefLabel>
+		<skos:definition>t array</skos:definition>
+		<skos:broader rdf:resource="#array"/>
+		<skos:broader rdf:resource="#radioInterferometer"/>
+		<skos:related rdf:resource="#yArray"/>
+	</skos:Concept></env:instance></env:envelope>

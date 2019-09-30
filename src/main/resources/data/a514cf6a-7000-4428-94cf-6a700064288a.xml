@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a514cf6a-7000-4428-94cf-6a700064288a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#Cepheid">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Cepheid</skos:prefLabel>
+		<skos:definition>Cepheid</skos:definition>
+		<skos:altLabel>Cepheid variable star</skos:altLabel>
+		<skos:altLabel>bump Cepheid</skos:altLabel>
+		<skos:altLabel>classical Cepheid</skos:altLabel>
+		<skos:altLabel>delta Cephei star</skos:altLabel>
+		<skos:broader rdf:resource="#pulsatingVariableStar"/>
+		<skos:narrower rdf:resource="#doubleModeCepheid"/>
+		<skos:narrower rdf:resource="#youngDiskCepheid"/>
+		<skos:related rdf:resource="#BaadeWesselinkMethod"/>
+		<skos:related rdf:resource="#BlHerculisStar"/>
+		<skos:related rdf:resource="#CepheidDistance"/>
+		<skos:related rdf:resource="#HeIiIonizationZone"/>
+		<skos:related rdf:resource="#RrLyraeStar"/>
+		<skos:related rdf:resource="#WVirginisStar"/>
+		<skos:related rdf:resource="#dwarfCepheid"/>
+		<skos:related rdf:resource="#instabilityStrip"/>
+		<skos:related rdf:resource="#kappaMechanism"/>
+		<skos:related rdf:resource="#periodAgeRelation"/>
+		<skos:related rdf:resource="#periodColorRelation"/>
+		<skos:related rdf:resource="#periodLuminosityColorRelation"/>
+		<skos:related rdf:resource="#periodLuminosityRelation"/>
+		<skos:related rdf:resource="#periodRadiusRelation"/>
+		<skos:related rdf:resource="#periodSpectrumRelation"/>
+		<skos:related rdf:resource="#radialPulsation"/>
+		<skos:related rdf:resource="#radiusLuminosityRelation"/>
+		<skos:scopeNote>most commonly used term</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

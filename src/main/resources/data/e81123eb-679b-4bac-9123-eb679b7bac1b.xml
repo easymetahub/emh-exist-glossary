@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e81123eb-679b-4bac-9123-eb679b7bac1b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#phaseWave">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>phase wave</skos:prefLabel>
+		<skos:definition>phase of a repeating wave</skos:definition>
+		<skos:related rdf:resource="#binaryStar"/>
+		<skos:related rdf:resource="#lightCurve"/>
+		<skos:related rdf:resource="#period"/>
+		<skos:related rdf:resource="#phaseDifference"/>
+		<skos:related rdf:resource="#phaseError"/>
+		<skos:related rdf:resource="#phaseFunction"/>
+		<skos:related rdf:resource="#phaseRotator"/>
+		<skos:related rdf:resource="#phaseSensitiveDetector"/>
+		<skos:related rdf:resource="#phaseShift"/>
+		<skos:related rdf:resource="#phaseSpace"/>
+		<skos:related rdf:resource="#phaseSwitching"/>
+		<skos:related rdf:resource="#phaseSwitchingInterferometer"/>
+		<skos:related rdf:resource="#phasedArray"/>
+		<skos:related rdf:resource="#variableStar"/>
+		<skos:related rdf:resource="#velocityCurve"/>
+	</skos:Concept></env:instance></env:envelope>

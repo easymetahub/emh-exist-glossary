@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>dd9e843b-a2e7-4a32-9e84-3ba2e7da324b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#hierarchicalCosmology">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>hierarchical cosmology</skos:prefLabel>
+		<skos:definition>hierarchical cosmology</skos:definition>
+		<skos:broader rdf:resource="#cosmology"/>
+	</skos:Concept></env:instance></env:envelope>

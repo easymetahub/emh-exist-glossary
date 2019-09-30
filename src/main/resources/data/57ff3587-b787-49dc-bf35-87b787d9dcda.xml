@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>57ff3587-b787-49dc-bf35-87b787d9dcda</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#53PerseiStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>53 Persei star</skos:prefLabel>
+		<skos:definition>53 Persei star</skos:definition>
+		<skos:broader rdf:resource="#BStar"/>
+		<skos:broader rdf:resource="#pulsatingVariableStar"/>
+	</skos:Concept></env:instance></env:envelope>

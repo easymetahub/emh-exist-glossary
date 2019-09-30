@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9ba37d88-7955-4b8d-a37d-8879550b8d22</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cDGalaxy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>cD galaxy</skos:prefLabel>
+		<skos:definition>cD galaxy (compact D galaxy in the Yerkes classification scheme)</skos:definition>
+		<skos:broader rdf:resource="#DGalaxy"/>
+		<skos:broader rdf:resource="#ellipticalGalaxy"/>
+		<skos:broader rdf:resource="#giantGalaxy"/>
+		<skos:broader rdf:resource="#massiveGalaxy"/>
+		<skos:related rdf:resource="#YerkesClassification"/>
+		<skos:related rdf:resource="#galaxyCluster"/>
+		<skos:related rdf:resource="#giantRadioGalaxy"/>
+		<skos:related rdf:resource="#nucleusCelestialObject"/>
+	</skos:Concept></env:instance></env:envelope>

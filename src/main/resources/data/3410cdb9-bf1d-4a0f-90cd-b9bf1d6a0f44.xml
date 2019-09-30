@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3410cdb9-bf1d-4a0f-90cd-b9bf1d6a0f44</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#temperature">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>temperature</skos:prefLabel>
+		<skos:definition>temperature</skos:definition>
+		<skos:narrower rdf:resource="#brightnessTemperature"/>
+		<skos:narrower rdf:resource="#effectiveTemperature"/>
+		<skos:narrower rdf:resource="#electronTemperature"/>
+		<skos:narrower rdf:resource="#ionTemperature"/>
+		<skos:related rdf:resource="#absoluteTemperatureScale"/>
+		<skos:related rdf:resource="#celsiusTemperatureScale"/>
+		<skos:related rdf:resource="#color"/>
+		<skos:related rdf:resource="#emissivity"/>
+		<skos:related rdf:resource="#limbBrightening"/>
+		<skos:related rdf:resource="#limbDarkening"/>
+		<skos:related rdf:resource="#radiativeEquilibrium"/>
+		<skos:related rdf:resource="#spectralType"/>
+		<skos:related rdf:resource="#surfaceBrightness"/>
+		<skos:related rdf:resource="#thermalConductivity"/>
+		<skos:related rdf:resource="#thermodynamics"/>
+		<skos:scopeNote>combine with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

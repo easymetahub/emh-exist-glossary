@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>48e2e41f-11a7-4ef9-a2e4-1f11a7fef903</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#KeplerianOrbit">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Keplerian orbit</skos:prefLabel>
+		<skos:definition>Keplerian orbit</skos:definition>
+		<skos:broader rdf:resource="#orbit"/>
+		<skos:related rdf:resource="#celestialMechanics"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2934dd47-18e9-4c24-b4dd-4718e92c24f0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#atomicClock">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>atomic clock</skos:prefLabel>
+		<skos:definition>atomic clock</skos:definition>
+		<skos:altLabel>caesium clock</skos:altLabel>
+		<skos:altLabel>cesium clock</skos:altLabel>
+		<skos:broader rdf:resource="#clock"/>
+		<skos:broader rdf:resource="#measuringInstrument"/>
+		<skos:related rdf:resource="#atomicTime"/>
+		<skos:related rdf:resource="#geodesy"/>
+		<skos:related rdf:resource="#time"/>
+		<skos:related rdf:resource="#timeStandard"/>
+		<skos:related rdf:resource="#timeSynchronization"/>
+		<skos:related rdf:resource="#veryLongBaselineInterferometry"/>
+	</skos:Concept></env:instance></env:envelope>

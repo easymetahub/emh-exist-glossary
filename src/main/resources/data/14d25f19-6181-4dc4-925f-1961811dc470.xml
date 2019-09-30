@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>14d25f19-6181-4dc4-925f-1961811dc470</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#filter">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>filter</skos:prefLabel>
+		<skos:definition>filter</skos:definition>
+		<skos:narrower rdf:resource="#interferenceFilter"/>
+		<skos:narrower rdf:resource="#neutralDensityFilter"/>
+		<skos:narrower rdf:resource="#opticalFilter"/>
+		<skos:related rdf:resource="#attenuation"/>
+		<skos:related rdf:resource="#filterWheel"/>
+		<skos:changeNote>FVH: added NT NEUTRAL_DENSITY_FILTERS (2007-SEP-21)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

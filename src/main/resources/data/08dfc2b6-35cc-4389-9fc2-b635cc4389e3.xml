@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>08dfc2b6-35cc-4389-9fc2-b635cc4389e3</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#XRayAbsorption">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>X-ray absorption</skos:prefLabel>
+		<skos:definition>X-ray absorption</skos:definition>
+		<skos:broader rdf:resource="#XRaySpectrum"/>
+		<skos:related rdf:resource="#XRayEmission"/>
+	</skos:Concept></env:instance></env:envelope>

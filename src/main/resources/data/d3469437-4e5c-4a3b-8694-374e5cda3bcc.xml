@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d3469437-4e5c-4a3b-8694-374e5cda3bcc</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#periodDensityRelation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>period-density relation</skos:prefLabel>
+		<skos:definition>period-density relation</skos:definition>
+		<skos:altLabel>period density relation</skos:altLabel>
+		<skos:broader rdf:resource="#statisticalRelation"/>
+		<skos:related rdf:resource="#periodAgeRelation"/>
+		<skos:related rdf:resource="#periodColorRelation"/>
+		<skos:related rdf:resource="#periodLuminosityColorRelation"/>
+		<skos:related rdf:resource="#periodLuminosityRelation"/>
+		<skos:related rdf:resource="#periodMassRelation"/>
+		<skos:related rdf:resource="#periodRadiusRelation"/>
+		<skos:related rdf:resource="#periodSpectrumRelation"/>
+		<skos:related rdf:resource="#pulsatingVariableStar"/>
+		<skos:related rdf:resource="#radiusLuminosityRelation"/>
+	</skos:Concept></env:instance></env:envelope>

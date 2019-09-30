@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c514b869-a327-4ff1-94b8-69a327aff1fa</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#GenevaPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Geneva photometry</skos:prefLabel>
+		<skos:definition>Geneva photometry</skos:definition>
+		<skos:altLabel>ubvgri photometry</skos:altLabel>
+		<skos:broader rdf:resource="#mediumBandPhotometry"/>
+		<skos:broader rdf:resource="#photometricSystem"/>
+		<skos:related rdf:resource="#VilniusPhotometry"/>
+	</skos:Concept></env:instance></env:envelope>

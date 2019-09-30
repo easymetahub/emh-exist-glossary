@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0361ef5c-48e3-4327-a1ef-5c48e31327ba</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#pulsatingVariableStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>pulsating variable star</skos:prefLabel>
+		<skos:definition>pulsating variable star</skos:definition>
+		<skos:broader rdf:resource="#intrinsicVariableStar"/>
+		<skos:broader rdf:resource="#variableStar"/>
+		<skos:narrower rdf:resource="#53PerseiStar"/>
+		<skos:narrower rdf:resource="#BlHerculisStar"/>
+		<skos:narrower rdf:resource="#Cepheid"/>
+		<skos:narrower rdf:resource="#MiraVariableStar"/>
+		<skos:narrower rdf:resource="#RrLyraeStar"/>
+		<skos:narrower rdf:resource="#RvTauriStar"/>
+		<skos:narrower rdf:resource="#SVulpeculaeStar"/>
+		<skos:narrower rdf:resource="#SxPhoenicisStar"/>
+		<skos:narrower rdf:resource="#WVirginisStar"/>
+		<skos:narrower rdf:resource="#ZzCetiStar"/>
+		<skos:narrower rdf:resource="#betaCepheiStar"/>
+		<skos:narrower rdf:resource="#deltaDelphiniStar"/>
+		<skos:narrower rdf:resource="#deltaScutiStar"/>
+		<skos:narrower rdf:resource="#doubleModeCepheid"/>
+		<skos:narrower rdf:resource="#doubleModeVariableStar"/>
+		<skos:narrower rdf:resource="#dwarfCepheid"/>
+		<skos:narrower rdf:resource="#irregularVariableStar"/>
+		<skos:narrower rdf:resource="#lambdaEridaniStar"/>
+		<skos:narrower rdf:resource="#longPeriodVariableStar"/>
+		<skos:narrower rdf:resource="#multiPeriodicVariableStar"/>
+		<skos:narrower rdf:resource="#periodicVariableStar"/>
+		<skos:narrower rdf:resource="#semiRegularVariableStar"/>
+		<skos:related rdf:resource="#HeIiIonizationZone"/>
+		<skos:related rdf:resource="#asteroseismology"/>
+		<skos:related rdf:resource="#doubleModePulsation"/>
+		<skos:related rdf:resource="#kappaMechanism"/>
+		<skos:related rdf:resource="#multiPeriodicPulsation"/>
+		<skos:related rdf:resource="#nonRadialPulsation"/>
+		<skos:related rdf:resource="#overtoneMode"/>
+		<skos:related rdf:resource="#period"/>
+		<skos:related rdf:resource="#periodChange"/>
+		<skos:related rdf:resource="#periodColorRelation"/>
+		<skos:related rdf:resource="#periodDensityRelation"/>
+		<skos:related rdf:resource="#periodLuminosityColorRelation"/>
+		<skos:related rdf:resource="#periodLuminosityRelation"/>
+		<skos:related rdf:resource="#periodMassRelation"/>
+		<skos:related rdf:resource="#periodRadiusRelation"/>
+		<skos:related rdf:resource="#periodSpectrumRelation"/>
+		<skos:related rdf:resource="#pulsationMode"/>
+		<skos:related rdf:resource="#pulsationTheory"/>
+	</skos:Concept></env:instance></env:envelope>

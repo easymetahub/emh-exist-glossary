@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>28694a8f-6474-4c88-a94a-8f64746c8838</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#PCygniLineProfile">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>P Cygni line profile</skos:prefLabel>
+		<skos:definition>P Cygni line profile</skos:definition>
+		<skos:broader rdf:resource="#lineProfile"/>
+		<skos:related rdf:resource="#SDoradusStar"/>
+		<skos:related rdf:resource="#emissionLineStar"/>
+		<skos:related rdf:resource="#massLoss"/>
+		<skos:related rdf:resource="#shellStar"/>
+		<skos:related rdf:resource="#symbioticStar"/>
+	</skos:Concept></env:instance></env:envelope>

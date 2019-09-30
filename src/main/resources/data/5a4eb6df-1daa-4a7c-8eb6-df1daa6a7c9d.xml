@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5a4eb6df-1daa-4a7c-8eb6-df1daa6a7c9d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#hydrogenDeficientStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>hydrogen deficient star</skos:prefLabel>
+		<skos:definition>hydrogen-deficient star</skos:definition>
+		<skos:broader rdf:resource="#star"/>
+		<skos:narrower rdf:resource="#AmCanumVenaticorumStar"/>
+		<skos:related rdf:resource="#hydrogen"/>
+		<skos:related rdf:resource="#metalAbundance"/>
+	</skos:Concept></env:instance></env:envelope>

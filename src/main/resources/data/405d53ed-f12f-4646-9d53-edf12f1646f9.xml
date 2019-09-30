@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>405d53ed-f12f-4646-9d53-edf12f1646f9</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ultravioletObservatory">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>ultraviolet observatory</skos:prefLabel>
+		<skos:definition>ultraviolet observatory</skos:definition>
+		<skos:broader rdf:resource="#observatory"/>
+		<skos:narrower rdf:resource="#HubbleSpaceTelescope"/>
+		<skos:related rdf:resource="#ultravioletRadiation"/>
+		<skos:historyNote>FVH: new (2007-NOV-1)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

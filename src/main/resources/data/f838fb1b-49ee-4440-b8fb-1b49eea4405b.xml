@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f838fb1b-49ee-4440-b8fb-1b49eea4405b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#steadyStateTheory">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>steady-state theory</skos:prefLabel>
+		<skos:definition>steady-state theory</skos:definition>
+		<skos:altLabel>steady state theory</skos:altLabel>
+		<skos:broader rdf:resource="#cosmology"/>
+		<skos:related rdf:resource="#BigBangTheory"/>
+		<skos:related rdf:resource="#closedUniverse"/>
+		<skos:related rdf:resource="#openUniverse"/>
+	</skos:Concept></env:instance></env:envelope>

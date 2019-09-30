@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>21e909b0-a6db-4e80-a909-b0a6db1e8034</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#energyLevel">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>energy level</skos:prefLabel>
+		<skos:definition>energy level</skos:definition>
+		<skos:related rdf:resource="#spectrum"/>
+	</skos:Concept></env:instance></env:envelope>

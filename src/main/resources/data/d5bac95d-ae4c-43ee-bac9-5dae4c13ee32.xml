@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d5bac95d-ae4c-43ee-bac9-5dae4c13ee32</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#laser">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>laser</skos:prefLabel>
+		<skos:definition>laser</skos:definition>
+		<skos:related rdf:resource="#coherence"/>
+		<skos:related rdf:resource="#electronPumping"/>
+		<skos:related rdf:resource="#lightCoherence"/>
+		<skos:related rdf:resource="#lunarLaserRanging"/>
+		<skos:related rdf:resource="#maser"/>
+		<skos:related rdf:resource="#opticalRadar"/>
+		<skos:related rdf:resource="#populationInversion"/>
+		<skos:related rdf:resource="#satelliteLaserRanging"/>
+		<skos:related rdf:resource="#stimulatedEmission"/>
+	</skos:Concept></env:instance></env:envelope>

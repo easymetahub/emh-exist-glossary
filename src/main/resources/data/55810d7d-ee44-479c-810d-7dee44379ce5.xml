@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>55810d7d-ee44-479c-810d-7dee44379ce5</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#equatorialMounting">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>equatorial mounting</skos:prefLabel>
+		<skos:definition>equatorial mounting</skos:definition>
+		<skos:broader rdf:resource="#telescopeMounting"/>
+		<skos:narrower rdf:resource="#EnglishMounting"/>
+		<skos:narrower rdf:resource="#GermanMounting"/>
+		<skos:narrower rdf:resource="#forkMounting"/>
+		<skos:narrower rdf:resource="#horseshoeMounting"/>
+		<skos:narrower rdf:resource="#yokeMounting"/>
+		<skos:related rdf:resource="#altazimuthMounting"/>
+		<skos:related rdf:resource="#equatorialCoordinateSystem"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9ebb4c52-f808-4c79-bb4c-52f8083c798e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#multipleStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>multiple star</skos:prefLabel>
+		<skos:definition>multiple star</skos:definition>
+		<skos:narrower rdf:resource="#tripleStar"/>
+		<skos:related rdf:resource="#binaryStar"/>
+		<skos:related rdf:resource="#companionStar"/>
+		<skos:related rdf:resource="#orbitDetermination"/>
+		<skos:related rdf:resource="#orbit"/>
+		<skos:changeNote>FVH: moved triple_star to NT (2007-OCT-1)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

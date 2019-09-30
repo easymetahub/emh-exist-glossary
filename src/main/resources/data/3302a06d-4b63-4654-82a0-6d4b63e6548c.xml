@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3302a06d-4b63-4654-82a0-6d4b63e6548c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#observationalCosmology">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>observational cosmology</skos:prefLabel>
+		<skos:definition>observational cosmology</skos:definition>
+		<skos:related rdf:resource="#HubbleLaw"/>
+		<skos:related rdf:resource="#colorRedshiftRelation"/>
+		<skos:related rdf:resource="#cosmologicalDistanceScale"/>
+		<skos:related rdf:resource="#galaxyCount"/>
+		<skos:related rdf:resource="#galaxyDistribution"/>
+		<skos:related rdf:resource="#observation"/>
+		<skos:related rdf:resource="#radioSourceCount"/>
+		<skos:related rdf:resource="#redshift"/>
+		<skos:related rdf:resource="#redshiftDistanceRelation"/>
+	</skos:Concept></env:instance></env:envelope>

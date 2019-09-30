@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>32366d2b-5d89-4dc7-b66d-2b5d891dc70b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#DarkEnergy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Dark Energy</skos:prefLabel>
+		<skos:definition>Dark Energy</skos:definition>
+		<skos:altLabel>dark energy</skos:altLabel>
+		<skos:related rdf:resource="#DarkMatter"/>
+		<skos:related rdf:resource="#HubbleLaw"/>
+		<skos:related rdf:resource="#coldDarkMatter"/>
+		<skos:related rdf:resource="#cosmologicalConstant"/>
+		<skos:related rdf:resource="#cosmology"/>
+		<skos:related rdf:resource="#earlyUniverse"/>
+		<skos:related rdf:resource="#galaxyCount"/>
+		<skos:related rdf:resource="#galaxyDistribution"/>
+		<skos:related rdf:resource="#generalTheoryOfRelativity"/>
+		<skos:related rdf:resource="#redshiftDistanceRelation"/>
+		<skos:related rdf:resource="#redshiftMagnitudeRelation"/>
+		<skos:related rdf:resource="#spaceTimeCurvature"/>
+		<skos:related rdf:resource="#universe"/>
+		<skos:historyNote>FVH: new (2007-SEP-21)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b224dcad-0528-4e82-a4dc-ad0528be82ce</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ellipticalOrbit">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>elliptical orbit</skos:prefLabel>
+		<skos:definition>elliptical orbit</skos:definition>
+		<skos:altLabel>eccentric orbit</skos:altLabel>
+		<skos:broader rdf:resource="#orbit"/>
+		<skos:broader rdf:resource="#periodicOrbit"/>
+		<skos:narrower rdf:resource="#circularOrbit"/>
+		<skos:related rdf:resource="#annualEquation"/>
+		<skos:related rdf:resource="#eccentricity"/>
+		<skos:related rdf:resource="#equationOfTime"/>
+		<skos:related rdf:resource="#hyperbolicOrbit"/>
+		<skos:related rdf:resource="#parabolicOrbit"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>34f83ec5-c6d1-4aea-b83e-c5c6d1baea01</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#multiPeriodicVariableStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>multi-periodic variable star</skos:prefLabel>
+		<skos:definition>multi-periodic variable star</skos:definition>
+		<skos:altLabel>multiperiodic variable star</skos:altLabel>
+		<skos:broader rdf:resource="#periodicVariableStar"/>
+		<skos:broader rdf:resource="#pulsatingVariableStar"/>
+		<skos:narrower rdf:resource="#Pg1159Star"/>
+		<skos:narrower rdf:resource="#RsCanumVenaticorumStar"/>
+		<skos:narrower rdf:resource="#SxPhoenicisStar"/>
+		<skos:narrower rdf:resource="#ZzCetiStar"/>
+		<skos:narrower rdf:resource="#betaCepheiStar"/>
+		<skos:narrower rdf:resource="#deltaScutiStar"/>
+		<skos:narrower rdf:resource="#doubleModeVariableStar"/>
+		<skos:narrower rdf:resource="#dwarfCepheid"/>
+		<skos:related rdf:resource="#multiPeriodicPulsation"/>
+		<skos:related rdf:resource="#overtoneFrequency"/>
+		<skos:related rdf:resource="#overtoneMode"/>
+		<skos:related rdf:resource="#pulsationMode"/>
+	</skos:Concept></env:instance></env:envelope>

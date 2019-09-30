@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>08b01fd7-3faa-4575-b01f-d73faac575f8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#molecularLine">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>molecular line</skos:prefLabel>
+		<skos:definition>molecular line</skos:definition>
+		<skos:broader rdf:resource="#spectralLine"/>
+		<skos:related rdf:resource="#fineStructure"/>
+		<skos:related rdf:resource="#lateTypeStar"/>
+		<skos:related rdf:resource="#molecularAstrophysics"/>
+		<skos:related rdf:resource="#molecularBand"/>
+		<skos:related rdf:resource="#spectralBand"/>
+	</skos:Concept></env:instance></env:envelope>

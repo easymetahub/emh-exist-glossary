@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>15346708-3c43-4337-b467-083c4393370e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ephemerisTime">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>ephemeris time</skos:prefLabel>
+		<skos:definition>ephemeris time</skos:definition>
+		<skos:broader rdf:resource="#time"/>
+		<skos:related rdf:resource="#UniversalTime"/>
+		<skos:related rdf:resource="#civilTime"/>
+		<skos:related rdf:resource="#meanSolarTime"/>
+		<skos:related rdf:resource="#solarDay"/>
+		<skos:related rdf:resource="#year"/>
+	</skos:Concept></env:instance></env:envelope>

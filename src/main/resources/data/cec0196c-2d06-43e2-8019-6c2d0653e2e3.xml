@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cec0196c-2d06-43e2-8019-6c2d0653e2e3</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#winterSolstice">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>winter solstice</skos:prefLabel>
+		<skos:definition>winter solstice</skos:definition>
+		<skos:broader rdf:resource="#solstice"/>
+		<skos:related rdf:resource="#TropicOfCapricorn"/>
+		<skos:related rdf:resource="#summerSolstice"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5f456243-9540-4d0e-8562-4395402d0eaa</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#circumstellarDisk">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>circumstellar disk</skos:prefLabel>
+		<skos:definition>circumstellar discs	UK</skos:definition>
+		<skos:definition>circumstellar disk</skos:definition>
+		<skos:broader rdf:resource="#disk"/>
+		<skos:broader rdf:resource="#rotatingBody"/>
+		<skos:related rdf:resource="#accretionDisk"/>
+		<skos:related rdf:resource="#circumstellarGas"/>
+		<skos:related rdf:resource="#circumstellarMatter"/>
+		<skos:related rdf:resource="#massLoss"/>
+		<skos:related rdf:resource="#torus"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bb9ffd13-8cd3-47af-9ffd-138cd3a7af1c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#photometer">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>photometer</skos:prefLabel>
+		<skos:definition>photometer</skos:definition>
+		<skos:broader rdf:resource="#opticalInstrument"/>
+		<skos:broader rdf:resource="#telescopeInstrument"/>
+		<skos:narrower rdf:resource="#highSpeedPhotometer"/>
+		<skos:narrower rdf:resource="#photoelectricPhotometer"/>
+		<skos:narrower rdf:resource="#spectrophotometer"/>
+		<skos:related rdf:resource="#CcdDetector"/>
+		<skos:related rdf:resource="#bolometer"/>
+		<skos:related rdf:resource="#infraredDetector"/>
+		<skos:related rdf:resource="#photometry"/>
+		<skos:related rdf:resource="#photomultiplierTube"/>
+		<skos:related rdf:resource="#polarimeter"/>
+		<skos:related rdf:resource="#radiometer"/>
+		<skos:related rdf:resource="#ultravioletDetector"/>
+	</skos:Concept></env:instance></env:envelope>

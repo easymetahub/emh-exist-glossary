@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ce17613e-9011-483f-9761-3e9011f83f12</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#quark">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>quark</skos:prefLabel>
+		<skos:definition>quark</skos:definition>
+		<skos:broader rdf:resource="#elementaryParticle"/>
+		<skos:related rdf:resource="#baryon"/>
+		<skos:related rdf:resource="#lepton"/>
+		<skos:related rdf:resource="#meson"/>
+		<skos:related rdf:resource="#neutronStar"/>
+	</skos:Concept></env:instance></env:envelope>

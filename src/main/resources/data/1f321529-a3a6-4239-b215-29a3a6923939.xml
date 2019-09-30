@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>1f321529-a3a6-4239-b215-29a3a6923939</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#OortCloud">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Oort cloud</skos:prefLabel>
+		<skos:definition>Oort cloud</skos:definition>
+		<skos:altLabel>Oort comet cloud</skos:altLabel>
+		<skos:related rdf:resource="#comet"/>
+		<skos:related rdf:resource="#transNeptunianObject"/>
+	</skos:Concept></env:instance></env:envelope>

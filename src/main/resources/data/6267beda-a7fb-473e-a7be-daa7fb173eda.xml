@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6267beda-a7fb-473e-a7be-daa7fb173eda</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#SwanBand">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Swan band</skos:prefLabel>
+		<skos:definition>Swan band</skos:definition>
+		<skos:broader rdf:resource="#molecularBand"/>
+		<skos:related rdf:resource="#carbonMonoxide"/>
+		<skos:related rdf:resource="#molecularSpectrum"/>
+	</skos:Concept></env:instance></env:envelope>

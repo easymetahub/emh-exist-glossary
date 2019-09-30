@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cde8f491-5ff0-41d4-a8f4-915ff071d4ae</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#virialTheorem">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>virial theorem</skos:prefLabel>
+		<skos:definition>virial theorem</skos:definition>
+		<skos:related rdf:resource="#galaxyCluster"/>
+		<skos:related rdf:resource="#gravitation"/>
+		<skos:related rdf:resource="#radialVelocity"/>
+		<skos:related rdf:resource="#starCluster"/>
+		<skos:related rdf:resource="#velocityDispersion"/>
+		<skos:related rdf:resource="#velocityDistribution"/>
+	</skos:Concept></env:instance></env:envelope>

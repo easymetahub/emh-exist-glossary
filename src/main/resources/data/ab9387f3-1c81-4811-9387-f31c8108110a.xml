@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ab9387f3-1c81-4811-9387-f31c8108110a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#headTailGalaxy">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>head tail galaxy</skos:prefLabel>
+		<skos:definition>head tail galaxy</skos:definition>
+		<skos:broader rdf:resource="#galaxy"/>
+		<skos:broader rdf:resource="#radioGalaxy"/>
+		<skos:broader rdf:resource="#radioSource"/>
+		<skos:related rdf:resource="#radioStructure"/>
+		<skos:related rdf:resource="#tail"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bc265c08-69e0-4e1d-a65c-0869e0fe1d8a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#starCount">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>star count</skos:prefLabel>
+		<skos:definition>star count</skos:definition>
+		<skos:related rdf:resource="#GalacticStructure"/>
+		<skos:related rdf:resource="#massFunction"/>
+		<skos:related rdf:resource="#starDistribution"/>
+		<skos:related rdf:resource="#statistics"/>
+	</skos:Concept></env:instance></env:envelope>

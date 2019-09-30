@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>81b32ff1-5798-483c-b32f-f15798083cf2</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#energyTransfer">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>energy-transfer</skos:prefLabel>
+		<skos:definition>energy-transfer</skos:definition>
+		<skos:altLabel>energy transfer</skos:altLabel>
+		<skos:narrower rdf:resource="#heatTransfer"/>
+		<skos:narrower rdf:resource="#radiativeTransfer"/>
+		<skos:related rdf:resource="#adiabaticProcess"/>
+		<skos:related rdf:resource="#conduction"/>
+		<skos:related rdf:resource="#convection"/>
+		<skos:related rdf:resource="#nonLteTransfer"/>
+		<skos:related rdf:resource="#radiation"/>
+		<skos:related rdf:resource="#thermodynamicEquilibrium"/>
+		<skos:related rdf:resource="#thermodynamics"/>
+	</skos:Concept></env:instance></env:envelope>

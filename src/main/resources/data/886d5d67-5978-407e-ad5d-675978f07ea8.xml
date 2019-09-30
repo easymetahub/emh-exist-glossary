@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>886d5d67-5978-407e-ad5d-675978f07ea8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#nova">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>nova</skos:prefLabel>
+		<skos:definition>nova</skos:definition>
+		<skos:broader rdf:resource="#eruptiveBinaryStar"/>
+		<skos:broader rdf:resource="#highLuminosityStar"/>
+		<skos:narrower rdf:resource="#classicalNova"/>
+		<skos:narrower rdf:resource="#XRayNova"/>
+		<skos:narrower rdf:resource="#fastNova"/>
+		<skos:narrower rdf:resource="#recurrentNova"/>
+		<skos:narrower rdf:resource="#slowNova"/>
+		<skos:narrower rdf:resource="#symbioticNova"/>
+		<skos:related rdf:resource="#massLoss"/>
+		<skos:related rdf:resource="#opticalOutburst"/>
+		<skos:related rdf:resource="#preNova"/>
+		<skos:related rdf:resource="#progenitor"/>
+		<skos:related rdf:resource="#supernova"/>
+	</skos:Concept></env:instance></env:envelope>

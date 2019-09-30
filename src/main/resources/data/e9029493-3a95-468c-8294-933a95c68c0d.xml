@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e9029493-3a95-468c-8294-933a95c68c0d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#controlSystem">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>control system</skos:prefLabel>
+		<skos:definition>control system</skos:definition>
+		<skos:narrower rdf:resource="#autoguider"/>
+		<skos:narrower rdf:resource="#remoteControlSystem"/>
+		<skos:related rdf:resource="#computer"/>
+		<skos:related rdf:resource="#drive"/>
+		<skos:related rdf:resource="#guideSystem"/>
+		<skos:related rdf:resource="#microprocessor"/>
+		<skos:related rdf:resource="#pointingAccuracy"/>
+		<skos:related rdf:resource="#pointingError"/>
+		<skos:related rdf:resource="#quadrantDetector"/>
+		<skos:related rdf:resource="#telescopeInstrument"/>
+		<skos:related rdf:resource="#telescope"/>
+		<skos:related rdf:resource="#tracking"/>
+	</skos:Concept></env:instance></env:envelope>

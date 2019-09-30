@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cebe2ea4-e42a-40c3-be2e-a4e42a50c355</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#surfaceOfCelestialBody">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>surface of celestial body</skos:prefLabel>
+		<skos:definition>surface [celestial body]</skos:definition>
+		<skos:altLabel>surface celestial body</skos:altLabel>
+		<skos:narrower rdf:resource="#canyon"/>
+		<skos:related rdf:resource="#Moon"/>
+		<skos:related rdf:resource="#dustStorm"/>
+		<skos:related rdf:resource="#geology"/>
+		<skos:related rdf:resource="#lunarDome"/>
+		<skos:related rdf:resource="#maria"/>
+		<skos:related rdf:resource="#petrology"/>
+		<skos:related rdf:resource="#photosphere"/>
+		<skos:related rdf:resource="#planet"/>
+		<skos:related rdf:resource="#satellite"/>
+		<skos:related rdf:resource="#topography"/>
+		<skos:related rdf:resource="#volatile"/>
+		<skos:related rdf:resource="#volcano"/>
+		<skos:related rdf:resource="#waterIce"/>
+	</skos:Concept></env:instance></env:envelope>

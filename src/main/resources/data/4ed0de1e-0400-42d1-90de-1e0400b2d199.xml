@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4ed0de1e-0400-42d1-90de-1e0400b2d199</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#gammaRaySource">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>gamma-ray source</skos:prefLabel>
+		<skos:definition>gamma-ray source</skos:definition>
+		<skos:altLabel>gamma ray source</skos:altLabel>
+		<skos:broader rdf:resource="#source"/>
+		<skos:narrower rdf:resource="#softGammaRayRepeater"/>
+		<skos:related rdf:resource="#gammaRayBurst"/>
+		<skos:related rdf:resource="#gammaRayRadiation"/>
+		<skos:related rdf:resource="#opticalIdentification"/>
+	</skos:Concept></env:instance></env:envelope>

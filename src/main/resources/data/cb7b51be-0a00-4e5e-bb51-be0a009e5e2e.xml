@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cb7b51be-0a00-4e5e-bb51-be0a009e5e2e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#vernalEquinox">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>vernal equinox</skos:prefLabel>
+		<skos:definition>vernal equinox</skos:definition>
+		<skos:broader rdf:resource="#equinox"/>
+		<skos:related rdf:resource="#autumnalEquinox"/>
+	</skos:Concept></env:instance></env:envelope>

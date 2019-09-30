@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>15a8d015-5388-4207-a8d0-155388a2074d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#penumbra">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>penumbra</skos:prefLabel>
+		<skos:definition>penumbra</skos:definition>
+		<skos:altLabel>penumbras</skos:altLabel>
+		<skos:related rdf:resource="#WilsonEffect"/>
+		<skos:related rdf:resource="#eclipse"/>
+		<skos:related rdf:resource="#lunarEclipse"/>
+		<skos:related rdf:resource="#penumbralFilament"/>
+		<skos:related rdf:resource="#solarEclipse"/>
+		<skos:related rdf:resource="#sunspot"/>
+		<skos:related rdf:resource="#umbra"/>
+	</skos:Concept></env:instance></env:envelope>

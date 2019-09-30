@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4a68338c-9f21-4512-a833-8c9f2165125d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#HeIiIonizationZone">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>He II ionization zone</skos:prefLabel>
+		<skos:definition>He II ionization zone</skos:definition>
+		<skos:altLabel>He+ ionisation zone	UK</skos:altLabel>
+		<skos:altLabel>He+ ionization zone</skos:altLabel>
+		<skos:related rdf:resource="#Cepheid"/>
+		<skos:related rdf:resource="#ZzCetiStar"/>
+		<skos:related rdf:resource="#deltaScutiStar"/>
+		<skos:related rdf:resource="#kappaMechanism"/>
+		<skos:related rdf:resource="#pulsatingVariableStar"/>
+		<skos:related rdf:resource="#pulsationTheory"/>
+		<skos:related rdf:resource="#radialPulsation"/>
+		<skos:related rdf:resource="#variableStar"/>
+		<skos:changeNote>FVH: replaced + with II for better parsing of token (2007-OCT-12)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

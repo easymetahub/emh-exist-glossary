@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>65417acb-137c-4b5b-817a-cb137cbb5b8b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#twoDimensionalSpectrum">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>two-dimensional spectrum</skos:prefLabel>
+		<skos:definition>two-dimensional spectrum</skos:definition>
+		<skos:altLabel>two dimensional spectrum</skos:altLabel>
+		<skos:broader rdf:resource="#spectrum"/>
+		<skos:related rdf:resource="#extendedObject"/>
+		<skos:related rdf:resource="#longSlitSpectrum"/>
+		<skos:related rdf:resource="#spectrographSlit"/>
+		<skos:related rdf:resource="#twoDimensionalSpectroscopy"/>
+		<skos:scopeNote>FVH: added RT SPECTROGRAPH_SLITS (2007-SEP-21)</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9cf281d5-935d-4346-b281-d5935d7346e6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#apertureSynthesis">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>aperture synthesis</skos:prefLabel>
+		<skos:definition>aperture synthesis</skos:definition>
+		<skos:altLabel>synthetic aperture</skos:altLabel>
+		<skos:related rdf:resource="#aperture"/>
+		<skos:related rdf:resource="#gradingFunction"/>
+		<skos:related rdf:resource="#gratingRing"/>
+		<skos:related rdf:resource="#interferometry"/>
+		<skos:related rdf:resource="#visibilityFunction"/>
+	</skos:Concept></env:instance></env:envelope>

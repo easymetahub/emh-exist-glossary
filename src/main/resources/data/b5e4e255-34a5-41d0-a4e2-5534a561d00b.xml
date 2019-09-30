@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b5e4e255-34a5-41d0-a4e2-5534a561d00b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#radiationScattering">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>radiation scattering</skos:prefLabel>
+		<skos:definition>radiation scattering</skos:definition>
+		<skos:altLabel>electromagnetic wave scattering</skos:altLabel>
+		<skos:narrower rdf:resource="#ComptonScattering"/>
+		<skos:narrower rdf:resource="#RayleighScattering"/>
+		<skos:narrower rdf:resource="#ThomsonScattering"/>
+		<skos:narrower rdf:resource="#XRayScattering"/>
+		<skos:narrower rdf:resource="#lightScattering"/>
+		<skos:related rdf:resource="#ComptonEffect"/>
+		<skos:related rdf:resource="#RamanEffect"/>
+		<skos:related rdf:resource="#electrostaticWave"/>
+		<skos:related rdf:resource="#elementaryParticleScattering"/>
+		<skos:related rdf:resource="#lightPolarization"/>
+		<skos:related rdf:resource="#phaseFunction"/>
+		<skos:related rdf:resource="#photon"/>
+		<skos:related rdf:resource="#scattering"/>
+		<skos:related rdf:resource="#zodiacalLight"/>
+	</skos:Concept></env:instance></env:envelope>

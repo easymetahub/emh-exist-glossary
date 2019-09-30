@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>89eb5f7f-90f9-4852-ab5f-7f90f9a8525d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#aluminumCoating">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>aluminum coating</skos:prefLabel>
+		<skos:definition>aluminium coating	UK</skos:definition>
+		<skos:definition>aluminum coating</skos:definition>
+		<skos:broader rdf:resource="#aluminum"/>
+		<skos:broader rdf:resource="#coating"/>
+		<skos:broader rdf:resource="#thinFilm"/>
+		<skos:related rdf:resource="#aluminizing"/>
+		<skos:related rdf:resource="#mirror"/>
+		<skos:related rdf:resource="#opticalSurface"/>
+		<skos:related rdf:resource="#silverCoating"/>
+		<skos:related rdf:resource="#vacuumTechnique"/>
+		<skos:related rdf:resource="#vaporDeposition"/>
+		<skos:changeNote>FVH: moved aluminium_coating to localized D (2007-SEP-24)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

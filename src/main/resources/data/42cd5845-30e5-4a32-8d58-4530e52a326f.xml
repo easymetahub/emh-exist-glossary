@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>42cd5845-30e5-4a32-8d58-4530e52a326f</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#differentialImageMotionMonitor">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>differential image motion monitor</skos:prefLabel>
+		<skos:definition>differential image-motion monitor</skos:definition>
+		<skos:altLabel>DIMM</skos:altLabel>
+		<skos:broader rdf:resource="#seeingMonitor"/>
+		<skos:historyNote>FVH: new (2007-SEP-21)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

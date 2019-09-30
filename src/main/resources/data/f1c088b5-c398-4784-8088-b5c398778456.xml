@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f1c088b5-c398-4784-8088-b5c398778456</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#property">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>property</skos:prefLabel>
+		<skos:definition>property</skos:definition>
+		<skos:narrower rdf:resource="#magneticProperty"/>
+		<skos:narrower rdf:resource="#mechanicalProperty"/>
+		<skos:narrower rdf:resource="#opticalProperty"/>
+		<skos:narrower rdf:resource="#surfaceProperty"/>
+		<skos:narrower rdf:resource="#thermalProperty"/>
+		<skos:scopeNote>combine with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

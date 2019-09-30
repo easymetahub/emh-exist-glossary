@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>7387db2f-912d-4e86-87db-2f912d4e8660</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#collisionalExcitation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>collisional excitation</skos:prefLabel>
+		<skos:definition>collisional excitation</skos:definition>
+		<skos:broader rdf:resource="#collisionProcess"/>
+		<skos:related rdf:resource="#collisionBroadening"/>
+		<skos:related rdf:resource="#collisionSpectroscopy"/>
+		<skos:related rdf:resource="#collisionStrength"/>
+		<skos:related rdf:resource="#ionizedGas"/>
+		<skos:related rdf:resource="#ion"/>
+		<skos:related rdf:resource="#spectroscopy"/>
+	</skos:Concept></env:instance></env:envelope>

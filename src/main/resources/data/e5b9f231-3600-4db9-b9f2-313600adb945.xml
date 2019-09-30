@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e5b9f231-3600-4db9-b9f2-313600adb945</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#BoseEinsteinNucleus">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Bose-Einstein nucleus</skos:prefLabel>
+		<skos:definition>Bose-Einstein nucleus</skos:definition>
+		<skos:broader rdf:resource="#nucleusAtom"/>
+		<skos:related rdf:resource="#BoseEinsteinStatistics"/>
+		<skos:related rdf:resource="#FermiDiracNucleus"/>
+	</skos:Concept></env:instance></env:envelope>

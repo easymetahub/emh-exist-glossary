@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6ab9c2d2-8da8-4aff-b9c2-d28da8aaff65</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#alpha2CanumVenaticorumStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>alpha2 Canum Venaticorum star</skos:prefLabel>
+		<skos:definition>alpha2 Canum Venaticorum star</skos:definition>
+		<skos:broader rdf:resource="#eruptiveBinaryStar"/>
+		<skos:broader rdf:resource="#magneticVariableStar"/>
+		<skos:related rdf:resource="#ApStar"/>
+		<skos:related rdf:resource="#SxArietisStar"/>
+		<skos:related rdf:resource="#spectrumVariableStar"/>
+		<skos:changeNote>FVH: removed incorrect BT cataclysmic_variable_star (2007-OCT-2)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>24873da8-db27-452b-873d-a8db27b52bc1</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#physicalConstant">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>physical constant</skos:prefLabel>
+		<skos:definition>physical constant</skos:definition>
+		<skos:altLabel>fundamental constant</skos:altLabel>
+		<skos:broader rdf:resource="#constant"/>
+		<skos:narrower rdf:resource="#PlanckConstant"/>
+		<skos:narrower rdf:resource="#gravitationalConstant"/>
+		<skos:narrower rdf:resource="#velocityOfLight"/>
+		<skos:related rdf:resource="#astronomicalConstant"/>
+		<skos:changeNote>FVH: renamed (see constant) (2007-OCT-11)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

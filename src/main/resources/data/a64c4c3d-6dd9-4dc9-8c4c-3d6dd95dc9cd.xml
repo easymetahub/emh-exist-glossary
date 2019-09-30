@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a64c4c3d-6dd9-4dc9-8c4c-3d6dd95dc9cd</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#planePolarization">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>plane polarization</skos:prefLabel>
+		<skos:definition>plane polarization</skos:definition>
+		<skos:altLabel>linear polarization</skos:altLabel>
+		<skos:altLabel>plane polarisation	UK</skos:altLabel>
+		<skos:broader rdf:resource="#lightPolarization"/>
+		<skos:related rdf:resource="#circularPolarization"/>
+		<skos:related rdf:resource="#halfWavePlate"/>
+		<skos:changeNote>FVH: added ALT linear polarization (2007-SEP-21)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

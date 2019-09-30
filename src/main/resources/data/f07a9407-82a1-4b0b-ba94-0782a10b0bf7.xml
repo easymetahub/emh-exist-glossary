@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f07a9407-82a1-4b0b-ba94-0782a10b0bf7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#gravitationalMicrolensing">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>gravitational microlensing</skos:prefLabel>
+		<skos:definition>microlensing</skos:definition>
+		<skos:altLabel>microlensing</skos:altLabel>
+		<skos:broader rdf:resource="#gravitationalLensing"/>
+		<skos:narrower rdf:resource="#planetaryMicrolensing"/>
+		<skos:narrower rdf:resource="#quasarMicrolensing"/>
+		<skos:changeNote>FVH: added gravitational_ as prefix; moved RT to BT gravitational_lensing (2007-OCT-8)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

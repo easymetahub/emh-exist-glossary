@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5bc0f742-09dc-4018-80f7-4209dcf0181a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#redshift">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>redshift</skos:prefLabel>
+		<skos:definition>redshift</skos:definition>
+		<skos:altLabel>red shift</skos:altLabel>
+		<skos:broader rdf:resource="#DopplerEffect"/>
+		<skos:broader rdf:resource="#lineShift"/>
+		<skos:narrower rdf:resource="#gravitationalRedshift"/>
+		<skos:related rdf:resource="#HubbleDiagram"/>
+		<skos:related rdf:resource="#HubbleLaw"/>
+		<skos:related rdf:resource="#LymanAlphaForest"/>
+		<skos:related rdf:resource="#TullyFisherRelation"/>
+		<skos:related rdf:resource="#cosmologicalDistanceScale"/>
+		<skos:related rdf:resource="#cosmology"/>
+		<skos:related rdf:resource="#frequencyShift"/>
+		<skos:related rdf:resource="#kCorrection"/>
+		<skos:related rdf:resource="#observationalCosmology"/>
+		<skos:related rdf:resource="#radialVelocity"/>
+	</skos:Concept></env:instance></env:envelope>

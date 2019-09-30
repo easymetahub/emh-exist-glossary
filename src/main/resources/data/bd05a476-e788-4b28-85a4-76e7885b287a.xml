@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bd05a476-e788-4b28-85a4-76e7885b287a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#missingMass">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>missing mass</skos:prefLabel>
+		<skos:definition>missing mass</skos:definition>
+		<skos:related rdf:resource="#cosmology"/>
+		<skos:related rdf:resource="#galaxyCluster"/>
+		<skos:related rdf:resource="#massToLightRatio"/>
+		<skos:related rdf:resource="#velocityDispersion"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ae3e5253-c4a4-4f4b-be52-53c4a45f4b13</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#TullyFisherRelation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Tully-Fisher relation</skos:prefLabel>
+		<skos:definition>Tully-Fisher relation</skos:definition>
+		<skos:broader rdf:resource="#statisticalRelation"/>
+		<skos:related rdf:resource="#cosmology"/>
+		<skos:related rdf:resource="#galaxy"/>
+		<skos:related rdf:resource="#lineWidth"/>
+		<skos:related rdf:resource="#redshift"/>
+	</skos:Concept></env:instance></env:envelope>

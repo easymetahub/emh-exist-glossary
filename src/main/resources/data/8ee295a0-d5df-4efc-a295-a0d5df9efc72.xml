@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8ee295a0-d5df-4efc-a295-a0d5df9efc72</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#boson">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>boson</skos:prefLabel>
+		<skos:definition>boson</skos:definition>
+		<skos:broader rdf:resource="#elementaryParticle"/>
+		<skos:broader rdf:resource="#particle"/>
+		<skos:narrower rdf:resource="#alphaParticle"/>
+		<skos:narrower rdf:resource="#compositeParticle"/>
+		<skos:narrower rdf:resource="#meson"/>
+		<skos:narrower rdf:resource="#photon"/>
+		<skos:narrower rdf:resource="#pion"/>
+		<skos:related rdf:resource="#BoseEinsteinStatistics"/>
+		<skos:related rdf:resource="#fermion"/>
+		<skos:related rdf:resource="#hadron"/>
+		<skos:related rdf:resource="#lepton"/>
+	</skos:Concept></env:instance></env:envelope>

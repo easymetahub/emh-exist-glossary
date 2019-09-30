@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>04ebe7a8-570d-4e2b-abe7-a8570d2e2bd3</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#oldStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>old star</skos:prefLabel>
+		<skos:definition>old star</skos:definition>
+		<skos:broader rdf:resource="#evolvedStar"/>
+		<skos:narrower rdf:resource="#populationIiStar"/>
+		<skos:narrower rdf:resource="#populationIiiStar"/>
+		<skos:narrower rdf:resource="#preGalacticStar"/>
+		<skos:changeNote>FVH: added NT POPULATION_III_STARS (2007-SEP-21)</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

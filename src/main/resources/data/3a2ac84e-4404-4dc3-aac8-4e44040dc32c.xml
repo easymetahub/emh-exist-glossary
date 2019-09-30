@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3a2ac84e-4404-4dc3-aac8-4e44040dc32c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#GalacticWindow">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Galactic window</skos:prefLabel>
+		<skos:definition>Galactic window (Milky Way)</skos:definition>
+		<skos:broader rdf:resource="#window"/>
+		<skos:related rdf:resource="#GalacticPlane"/>
+		<skos:related rdf:resource="#interstellarAbsorption"/>
+		<skos:changeNote>FVH: capitalized, since only refers to MW (2007-OCT-5)</skos:changeNote>
+		<skos:changeNote>direction of low absorption</skos:changeNote>
+	</skos:Concept></env:instance></env:envelope>

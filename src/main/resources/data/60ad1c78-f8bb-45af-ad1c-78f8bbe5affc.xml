@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>60ad1c78-f8bb-45af-ad1c-78f8bbe5affc</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#year">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>year</skos:prefLabel>
+		<skos:definition>year</skos:definition>
+		<skos:narrower rdf:resource="#anomalisticYear"/>
+		<skos:narrower rdf:resource="#cosmicYear"/>
+		<skos:narrower rdf:resource="#tropicalYear"/>
+		<skos:related rdf:resource="#UniversalTime"/>
+		<skos:related rdf:resource="#ephemerisTime"/>
+		<skos:related rdf:resource="#lightYear"/>
+		<skos:related rdf:resource="#siderealTime"/>
+		<skos:related rdf:resource="#time"/>
+	</skos:Concept></env:instance></env:envelope>

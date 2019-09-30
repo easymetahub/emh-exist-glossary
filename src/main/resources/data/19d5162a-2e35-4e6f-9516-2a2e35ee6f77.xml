@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>19d5162a-2e35-4e6f-9516-2a2e35ee6f77</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#mediumBandPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>medium band photometry</skos:prefLabel>
+		<skos:definition>medium-band photometry</skos:definition>
+		<skos:broader rdf:resource="#CcdPhotometry"/>
+		<skos:broader rdf:resource="#photoelectricPhotometry"/>
+		<skos:narrower rdf:resource="#DdoPhotometry"/>
+		<skos:narrower rdf:resource="#GenevaPhotometry"/>
+		<skos:narrower rdf:resource="#StromgrenPhotometry"/>
+		<skos:narrower rdf:resource="#VilniusPhotometry"/>
+		<skos:narrower rdf:resource="#WalravenPhotometry"/>
+		<skos:narrower rdf:resource="#infraredPhotometry"/>
+		<skos:narrower rdf:resource="#ultravioletPhotometry"/>
+		<skos:related rdf:resource="#broadBandPhotometry"/>
+		<skos:related rdf:resource="#narrowBandPhotometry"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a94be25d-32a9-415b-8be2-5d32a9c15b59</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#KLine">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>K line</skos:prefLabel>
+		<skos:definition>K line</skos:definition>
+		<skos:broader rdf:resource="#FraunhoferLine"/>
+		<skos:broader rdf:resource="#HAndKLine"/>
+		<skos:broader rdf:resource="#calciumLine"/>
+		<skos:related rdf:resource="#HLine"/>
+		<skos:related rdf:resource="#WilsonBappuEffect"/>
+	</skos:Concept></env:instance></env:envelope>

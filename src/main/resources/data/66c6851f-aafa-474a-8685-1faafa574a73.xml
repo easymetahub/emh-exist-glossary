@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>66c6851f-aafa-474a-8685-1faafa574a73</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#quasar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>quasar</skos:prefLabel>
+		<skos:definition>quasar</skos:definition>
+		<skos:altLabel>QSO</skos:altLabel>
+		<skos:altLabel>quasi-stellar galaxy</skos:altLabel>
+		<skos:altLabel>quasi-stellar object</skos:altLabel>
+		<skos:altLabel>quasi-stellar radio_source</skos:altLabel>
+		<skos:broader rdf:resource="#extragalacticObject"/>
+		<skos:broader rdf:resource="#extragalacticRadioSource"/>
+		<skos:narrower rdf:resource="#XRayQuasar"/>
+		<skos:narrower rdf:resource="#radioQuietQuasar"/>
+		<skos:related rdf:resource="#BlLacertaeObject"/>
+		<skos:related rdf:resource="#LymanAlphaForest"/>
+		<skos:related rdf:resource="#XRaySource"/>
+		<skos:related rdf:resource="#absorptionLineSystem"/>
+		<skos:related rdf:resource="#activeGalacticNucleus"/>
+		<skos:related rdf:resource="#blazar"/>
+		<skos:related rdf:resource="#compactGalaxy"/>
+		<skos:related rdf:resource="#doubleQuasar"/>
+		<skos:related rdf:resource="#linerGalaxy"/>
+		<skos:related rdf:resource="#luminousArc"/>
+		<skos:related rdf:resource="#quasarGalaxyPair"/>
+		<skos:related rdf:resource="#quasarMicrolensing"/>
+		<skos:related rdf:resource="#variableSource"/>
+	</skos:Concept></env:instance></env:envelope>

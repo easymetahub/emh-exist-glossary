@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>8f8deab2-c5a4-4a07-8dea-b2c5a4aa07d5</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#SiOMaser">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>SiO maser</skos:prefLabel>
+		<skos:definition>SiO maser</skos:definition>
+		<skos:broader rdf:resource="#maser"/>
+		<skos:related rdf:resource="#OhMaser"/>
+		<skos:related rdf:resource="#interstellarMatter"/>
+		<skos:related rdf:resource="#radioSource"/>
+		<skos:related rdf:resource="#siliconMonoxide"/>
+		<skos:related rdf:resource="#waterMaser"/>
+	</skos:Concept></env:instance></env:envelope>

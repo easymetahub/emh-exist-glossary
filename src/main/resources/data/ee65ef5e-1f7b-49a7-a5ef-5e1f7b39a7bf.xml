@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ee65ef5e-1f7b-49a7-a5ef-5e1f7b39a7bf</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#RAssociation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>R association</skos:prefLabel>
+		<skos:definition>R association</skos:definition>
+		<skos:altLabel>R-association</skos:altLabel>
+		<skos:broader rdf:resource="#starAssociation"/>
+		<skos:related rdf:resource="#reflectionNebula"/>
+		<skos:related rdf:resource="#youngStar"/>
+	</skos:Concept></env:instance></env:envelope>

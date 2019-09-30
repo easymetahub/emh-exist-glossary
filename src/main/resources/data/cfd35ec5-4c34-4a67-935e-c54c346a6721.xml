@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cfd35ec5-4c34-4a67-935e-c54c346a6721</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#tidalDistortion">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>tidal distortion</skos:prefLabel>
+		<skos:definition>tidal distortion</skos:definition>
+		<skos:related rdf:resource="#differentialRotation"/>
+		<skos:related rdf:resource="#interactingGalaxy"/>
+		<skos:related rdf:resource="#tidalDisruption"/>
+		<skos:related rdf:resource="#tidalFriction"/>
+		<skos:related rdf:resource="#tidalInteraction"/>
+	</skos:Concept></env:instance></env:envelope>

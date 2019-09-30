@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>49f3c8ef-e610-45dc-b3c8-efe61095dcde</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#activeSun">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>active Sun</skos:prefLabel>
+		<skos:definition>active Sun</skos:definition>
+		<skos:broader rdf:resource="#Sun"/>
+		<skos:related rdf:resource="#flare"/>
+		<skos:related rdf:resource="#quietSun"/>
+		<skos:related rdf:resource="#solarActivity"/>
+		<skos:related rdf:resource="#solarCycle"/>
+		<skos:related rdf:resource="#sunspot"/>
+	</skos:Concept></env:instance></env:envelope>

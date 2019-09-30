@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ce43ff47-8e5b-45b4-83ff-478e5b75b440</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#photograph">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>photograph</skos:prefLabel>
+		<skos:definition>photograph</skos:definition>
+		<skos:broader rdf:resource="#image"/>
+		<skos:related rdf:resource="#camera"/>
+		<skos:related rdf:resource="#microdensitometer"/>
+		<skos:related rdf:resource="#photogrammetry"/>
+		<skos:related rdf:resource="#photographicDeveloper"/>
+		<skos:related rdf:resource="#photographicEmulsion"/>
+		<skos:related rdf:resource="#photographicFilm"/>
+		<skos:related rdf:resource="#photographicMaterial"/>
+		<skos:related rdf:resource="#photographicPlate"/>
+	</skos:Concept></env:instance></env:envelope>

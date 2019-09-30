@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a8520c33-9f43-4c23-920c-339f432c23c9</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#photoelectricPhotometry">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>photoelectric photometry</skos:prefLabel>
+		<skos:definition>photoelectric photometry</skos:definition>
+		<skos:broader rdf:resource="#photometry"/>
+		<skos:narrower rdf:resource="#broadBandPhotometry"/>
+		<skos:narrower rdf:resource="#mediumBandPhotometry"/>
+		<skos:narrower rdf:resource="#narrowBandPhotometry"/>
+		<skos:related rdf:resource="#CcdPhotometry"/>
+		<skos:related rdf:resource="#photographicPhotometry"/>
+	</skos:Concept></env:instance></env:envelope>

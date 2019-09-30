@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>244f8128-c8f6-4375-8f81-28c8f6f375e6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#thermalInstability">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>thermal instability</skos:prefLabel>
+		<skos:definition>thermal instability</skos:definition>
+		<skos:related rdf:resource="#convection"/>
+		<skos:related rdf:resource="#localThermodynamicEquilibrium"/>
+		<skos:related rdf:resource="#thermalEquilibrium"/>
+		<skos:related rdf:resource="#thermodynamicEquilibrium"/>
+		<skos:related rdf:resource="#turbulenceEarthAtmosphere"/>
+		<skos:related rdf:resource="#turbulenceStarAtmosphere"/>
+	</skos:Concept></env:instance></env:envelope>

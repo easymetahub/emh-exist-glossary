@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>6bbdcd73-f55a-45a7-bdcd-73f55a65a76f</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cloud">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>cloud</skos:prefLabel>
+		<skos:definition>cloud</skos:definition>
+		<skos:narrower rdf:resource="#collapsingCloud"/>
+		<skos:narrower rdf:resource="#dustCloud"/>
+		<skos:narrower rdf:resource="#gasCloud"/>
+		<skos:narrower rdf:resource="#highVelocityCloud"/>
+		<skos:narrower rdf:resource="#noctilucentCloud"/>
+		<skos:narrower rdf:resource="#plasmaCloud"/>
+		<skos:related rdf:resource="#EarthAtmosphere"/>
+		<skos:related rdf:resource="#cloudMonitor"/>
+		<skos:scopeNote>combine with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

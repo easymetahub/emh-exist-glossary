@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>157778f3-3e66-465b-b778-f33e66165be5</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cosmologicalDistanceScale">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>cosmological distance scale</skos:prefLabel>
+		<skos:definition>cosmological distance scale</skos:definition>
+		<skos:broader rdf:resource="#distanceScale"/>
+		<skos:related rdf:resource="#HubbleConstant"/>
+		<skos:related rdf:resource="#cosmologicalParameter"/>
+		<skos:related rdf:resource="#decelerationParameter"/>
+		<skos:related rdf:resource="#observationalCosmology"/>
+		<skos:related rdf:resource="#redshift"/>
+		<skos:related rdf:resource="#redshiftDistanceRelation"/>
+		<skos:related rdf:resource="#redshiftMagnitudeRelation"/>
+	</skos:Concept></env:instance></env:envelope>

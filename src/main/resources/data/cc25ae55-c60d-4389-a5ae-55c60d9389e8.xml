@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cc25ae55-c60d-4389-a5ae-55c60d9389e8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#collapsedStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>collapsed star</skos:prefLabel>
+		<skos:definition>collapsed star</skos:definition>
+		<skos:altLabel>collapsed object</skos:altLabel>
+		<skos:altLabel>collapsing star</skos:altLabel>
+		<skos:broader rdf:resource="#star"/>
+		<skos:narrower rdf:resource="#blackHole"/>
+		<skos:narrower rdf:resource="#neutronStar"/>
+		<skos:narrower rdf:resource="#pulsar"/>
+		<skos:narrower rdf:resource="#stellarBlackHole"/>
+		<skos:related rdf:resource="#degenerateStar"/>
+		<skos:related rdf:resource="#stellarEvolution"/>
+		<skos:related rdf:resource="#whiteDwarf"/>
+	</skos:Concept></env:instance></env:envelope>

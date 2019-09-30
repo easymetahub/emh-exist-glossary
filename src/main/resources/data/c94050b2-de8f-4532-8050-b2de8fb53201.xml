@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c94050b2-de8f-4532-8050-b2de8fb53201</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#reddenedStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>reddened star</skos:prefLabel>
+		<skos:definition>reddened star</skos:definition>
+		<skos:related rdf:resource="#absorption"/>
+		<skos:related rdf:resource="#interstellarAbsorption"/>
+		<skos:related rdf:resource="#interstellarReddening"/>
+		<skos:related rdf:resource="#reddening"/>
+		<skos:related rdf:resource="#reddeningLaw"/>
+	</skos:Concept></env:instance></env:envelope>

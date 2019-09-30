@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ecbc1360-625b-4ce0-bc13-60625b4ce02a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#Mars">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Mars</skos:prefLabel>
+		<skos:definition>Mars</skos:definition>
+		<skos:broader rdf:resource="#planet"/>
+		<skos:related rdf:resource="#SolarSystem"/>
+		<skos:historyNote>FVH: new (2007-SEP-24)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

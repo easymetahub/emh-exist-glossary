@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>5e502427-9521-42d3-9024-279521e2d35d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#observatory">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>observatory</skos:prefLabel>
+		<skos:definition>observatory</skos:definition>
+		<skos:narrower rdf:resource="#antarcticObservatory"/>
+		<skos:narrower rdf:resource="#gammaRayObservatory"/>
+		<skos:narrower rdf:resource="#geophysicalObservatory"/>
+		<skos:narrower rdf:resource="#infraredObservatory"/>
+		<skos:narrower rdf:resource="#opticalObservatory"/>
+		<skos:narrower rdf:resource="#radioObservatory"/>
+		<skos:narrower rdf:resource="#spaceObservatory"/>
+		<skos:narrower rdf:resource="#ultravioletObservatory"/>
+		<skos:narrower rdf:resource="#XRayObservatory"/>
+		<skos:related rdf:resource="#dome"/>
+		<skos:related rdf:resource="#planetarium"/>
+		<skos:related rdf:resource="#siteProtection"/>
+		<skos:related rdf:resource="#siteTesting"/>
+		<skos:related rdf:resource="#telescope"/>
+		<skos:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

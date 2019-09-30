@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>73719a32-7c35-4a90-b19a-327c353a9095</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#CerenkovRadiation">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Cerenkov radiation</skos:prefLabel>
+		<skos:definition>Cerenkov radiation</skos:definition>
+		<skos:altLabel>Cerenkov effect</skos:altLabel>
+		<skos:broader rdf:resource="#electromagneticRadiation"/>
+		<skos:broader rdf:resource="#radiation"/>
+		<skos:related rdf:resource="#CerenkovCounter"/>
+		<skos:related rdf:resource="#cosmicRay"/>
+		<skos:related rdf:resource="#gammaRayRadiation"/>
+		<skos:related rdf:resource="#nuclearRadiation"/>
+		<skos:related rdf:resource="#radiationMechanism"/>
+		<skos:related rdf:resource="#ultravioletRadiation"/>
+		<skos:scopeNote>American spelling</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

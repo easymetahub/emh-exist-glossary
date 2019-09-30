@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c37a362e-f2d9-487d-ba36-2ef2d9487d22</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#map">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>map</skos:prefLabel>
+		<skos:definition>map</skos:definition>
+		<skos:narrower rdf:resource="#XRayMap"/>
+		<skos:narrower rdf:resource="#contourMap"/>
+		<skos:related rdf:resource="#atlas"/>
+		<skos:related rdf:resource="#catalog"/>
+		<skos:related rdf:resource="#findingChart"/>
+		<skos:related rdf:resource="#photogrammetry"/>
+		<skos:related rdf:resource="#planet"/>
+		<skos:related rdf:resource="#radarMapping"/>
+		<skos:related rdf:resource="#skySurvey"/>
+		<skos:related rdf:resource="#starAtlas"/>
+	</skos:Concept></env:instance></env:envelope>

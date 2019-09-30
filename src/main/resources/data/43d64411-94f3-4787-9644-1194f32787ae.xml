@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>43d64411-94f3-4787-9644-1194f32787ae</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#perigee">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>perigee</skos:prefLabel>
+		<skos:definition>perigee</skos:definition>
+		<skos:broader rdf:resource="#apsis"/>
+		<skos:related rdf:resource="#Earth"/>
+		<skos:related rdf:resource="#Moon"/>
+		<skos:related rdf:resource="#apogee"/>
+	</skos:Concept></env:instance></env:envelope>

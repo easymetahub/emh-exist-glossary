@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>84c552ba-4e4c-4c75-8552-ba4e4cec7552</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#age">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>age</skos:prefLabel>
+		<skos:definition>age</skos:definition>
+		<skos:related rdf:resource="#HubbleTime"/>
+		<skos:related rdf:resource="#cosmochronology"/>
+		<skos:related rdf:resource="#relaxationTime"/>
+		<skos:related rdf:resource="#turnoffPoint"/>
+		<skos:scopeNote>combine with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

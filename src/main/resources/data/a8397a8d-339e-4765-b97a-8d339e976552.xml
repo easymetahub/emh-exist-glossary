@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a8397a8d-339e-4765-b97a-8d339e976552</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#photoluminescence">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>photoluminescence</skos:prefLabel>
+		<skos:definition>photoluminescence</skos:definition>
+		<skos:broader rdf:resource="#lightEmission"/>
+		<skos:narrower rdf:resource="#XRayFluorescence"/>
+		<skos:related rdf:resource="#fluorescence"/>
+	</skos:Concept></env:instance></env:envelope>

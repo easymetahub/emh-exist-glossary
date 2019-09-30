@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ccea4075-6b7c-4144-aa40-756b7ce144b6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#readOutNoise">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>read out noise</skos:prefLabel>
+		<skos:definition>read-out noise</skos:definition>
+		<skos:altLabel>RON</skos:altLabel>
+		<skos:broader rdf:resource="#noise"/>
+		<skos:related rdf:resource="#chargeCoupledDevice"/>
+		<skos:historyNote>FVH: new (2007-SEP-21)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2107b14e-784a-4456-87b1-4e784ac45697</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#rareEarth">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>rare earth</skos:prefLabel>
+		<skos:definition>rare earth</skos:definition>
+		<skos:broader rdf:resource="#fundamentalChemicalElement"/>
+		<skos:narrower rdf:resource="#cerium"/>
+		<skos:narrower rdf:resource="#dysprosium"/>
+		<skos:narrower rdf:resource="#erbium"/>
+		<skos:narrower rdf:resource="#europium"/>
+		<skos:narrower rdf:resource="#gadolinium"/>
+		<skos:narrower rdf:resource="#holmium"/>
+		<skos:narrower rdf:resource="#lanthanum"/>
+		<skos:narrower rdf:resource="#lutetium"/>
+		<skos:narrower rdf:resource="#neodymium"/>
+		<skos:narrower rdf:resource="#praseodymium"/>
+		<skos:narrower rdf:resource="#samarium"/>
+		<skos:narrower rdf:resource="#scandium"/>
+		<skos:narrower rdf:resource="#terbium"/>
+		<skos:narrower rdf:resource="#thulium"/>
+		<skos:narrower rdf:resource="#ytterbium"/>
+		<skos:narrower rdf:resource="#yttrium"/>
+		<skos:related rdf:resource="#abundance"/>
+		<skos:related rdf:resource="#metalAbundance"/>
+		<skos:related rdf:resource="#metalLine"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0adc53c5-64f4-4d81-9c53-c564f46d81cd</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#Jupiter">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Jupiter</skos:prefLabel>
+		<skos:definition>Jupiter</skos:definition>
+		<skos:broader rdf:resource="#JovianPlanet"/>
+		<skos:broader rdf:resource="#planet"/>
+		<skos:related rdf:resource="#SolarSystem"/>
+		<skos:historyNote>FVH: new (2007-SEP-24)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

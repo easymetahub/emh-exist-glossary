@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>df2a5f9a-aed9-48fd-aa5f-9aaed9d8fd44</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#youngStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>young star</skos:prefLabel>
+		<skos:definition>young star</skos:definition>
+		<skos:broader rdf:resource="#populationIStar"/>
+		<skos:broader rdf:resource="#star"/>
+		<skos:narrower rdf:resource="#BStar"/>
+		<skos:narrower rdf:resource="#OStar"/>
+		<skos:narrower rdf:resource="#ObStar"/>
+		<skos:narrower rdf:resource="#blueStragglerStar"/>
+		<skos:narrower rdf:resource="#preMainSequenceStar"/>
+		<skos:related rdf:resource="#HIiRegion"/>
+		<skos:related rdf:resource="#ObAssociation"/>
+		<skos:related rdf:resource="#RAssociation"/>
+		<skos:related rdf:resource="#TAssociation"/>
+		<skos:related rdf:resource="#youngStarCluster"/>
+		<skos:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3632dd61-9abf-4ab2-b2dd-619abf0ab280</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#vanadium">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>vanadium</skos:prefLabel>
+		<skos:definition>vanadium (atomic number 23)</skos:definition>
+		<skos:altLabel>V</skos:altLabel>
+		<skos:broader rdf:resource="#fundamentalChemicalElement"/>
+		<skos:historyNote>FVH: new (2007-OCT-25)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

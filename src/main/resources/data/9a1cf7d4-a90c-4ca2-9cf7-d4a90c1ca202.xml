@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9a1cf7d4-a90c-4ca2-9cf7-d4a90c1ca202</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#equatorialCoordinateSystem">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>equatorial coordinate system</skos:prefLabel>
+		<skos:definition>equatorial coordinate system</skos:definition>
+		<skos:altLabel>celestial coordinate</skos:altLabel>
+		<skos:altLabel>equatorial system</skos:altLabel>
+		<skos:broader rdf:resource="#celestialCoordinateSystem"/>
+		<skos:narrower rdf:resource="#celestialEquator"/>
+		<skos:narrower rdf:resource="#celestialPole"/>
+		<skos:narrower rdf:resource="#Declination"/>
+		<skos:narrower rdf:resource="#RightAscension"/>
+		<skos:related rdf:resource="#equatorialMounting"/>
+		<skos:related rdf:resource="#equatorialZone"/>
+	</skos:Concept></env:instance></env:envelope>

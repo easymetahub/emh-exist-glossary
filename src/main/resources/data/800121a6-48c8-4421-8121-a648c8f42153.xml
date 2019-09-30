@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>800121a6-48c8-4421-8121-a648c8f42153</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#solarAtmosphere">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>solar atmosphere</skos:prefLabel>
+		<skos:definition>solar atmosphere</skos:definition>
+		<skos:broader rdf:resource="#stellarAtmosphere"/>
+		<skos:related rdf:resource="#chromosphere"/>
+		<skos:related rdf:resource="#heliopause"/>
+		<skos:related rdf:resource="#heliosphere"/>
+		<skos:related rdf:resource="#limbDarkening"/>
+		<skos:related rdf:resource="#lineFormation"/>
+		<skos:related rdf:resource="#solarActivity"/>
+		<skos:related rdf:resource="#solarCorona"/>
+		<skos:related rdf:resource="#solarPhysics"/>
+		<skos:related rdf:resource="#solarStorm"/>
+		<skos:related rdf:resource="#solarSurface"/>
+		<skos:related rdf:resource="#solarTerrestrialRelation"/>
+		<skos:related rdf:resource="#solarWind"/>
+	</skos:Concept></env:instance></env:envelope>

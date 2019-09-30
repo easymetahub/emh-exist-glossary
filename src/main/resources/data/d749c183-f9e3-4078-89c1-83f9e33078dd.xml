@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d749c183-f9e3-4078-89c1-83f9e33078dd</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#MStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>M star</skos:prefLabel>
+		<skos:definition>M star</skos:definition>
+		<skos:broader rdf:resource="#lateTypeStar"/>
+		<skos:narrower rdf:resource="#MDwarf"/>
+		<skos:narrower rdf:resource="#MGiant"/>
+		<skos:narrower rdf:resource="#MSubdwarf"/>
+		<skos:narrower rdf:resource="#MSubgiant"/>
+		<skos:narrower rdf:resource="#MSupergiant"/>
+		<skos:narrower rdf:resource="#MeStar"/>
+		<skos:related rdf:resource="#spectralType"/>
+		<skos:related rdf:resource="#titaniumOxide"/>
+	</skos:Concept></env:instance></env:envelope>

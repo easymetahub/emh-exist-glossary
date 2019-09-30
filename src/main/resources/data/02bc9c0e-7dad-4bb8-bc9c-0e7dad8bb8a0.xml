@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>02bc9c0e-7dad-4bb8-bc9c-0e7dad8bb8a0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#spectralResolution">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>spectral resolution</skos:prefLabel>
+		<skos:definition>spectral resolution</skos:definition>
+		<skos:broader rdf:resource="#resolution"/>
+		<skos:related rdf:resource="#lineBlending"/>
+	</skos:Concept></env:instance></env:envelope>

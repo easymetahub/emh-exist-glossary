@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2024050a-add3-4077-a405-0aadd3a077ad</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#weakInteraction">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>weak interaction</skos:prefLabel>
+		<skos:definition>weak interaction</skos:definition>
+		<skos:broader rdf:resource="#interaction"/>
+		<skos:narrower rdf:resource="#FermiInteraction"/>
+		<skos:related rdf:resource="#nuclearPhysics"/>
+		<skos:related rdf:resource="#strongInteraction"/>
+		<skos:scopeNote>between atomic particles</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

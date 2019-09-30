@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>666e58f8-4947-43ff-ae58-f84947e3ffb2</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#rocketBorneInstrument">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>rocket-borne instrument</skos:prefLabel>
+		<skos:definition>rocket-borne instrument</skos:definition>
+		<skos:altLabel>rocket borne instrument</skos:altLabel>
+		<skos:related rdf:resource="#XRayAstronomy"/>
+		<skos:related rdf:resource="#airplaneBorneInstrument"/>
+		<skos:related rdf:resource="#balloonBorneInstrument"/>
+		<skos:related rdf:resource="#cosmicRayAstronomy"/>
+		<skos:related rdf:resource="#gammaRayAstronomy"/>
+		<skos:related rdf:resource="#groundBasedAstronomy"/>
+		<skos:related rdf:resource="#infraredObservatory"/>
+		<skos:related rdf:resource="#satelliteBorneInstrument"/>
+		<skos:related rdf:resource="#spaceProbeInstrument"/>
+		<skos:related rdf:resource="#spaceTelescope"/>
+		<skos:related rdf:resource="#ultravioletAstronomy"/>
+	</skos:Concept></env:instance></env:envelope>

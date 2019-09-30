@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a35d3376-8355-4dea-9d33-7683556dea71</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#scattering">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>scattering</skos:prefLabel>
+		<skos:definition>scattering</skos:definition>
+		<skos:narrower rdf:resource="#ComptonScattering"/>
+		<skos:narrower rdf:resource="#MieScattering"/>
+		<skos:narrower rdf:resource="#atmosphericExtinction"/>
+		<skos:narrower rdf:resource="#elementaryParticleScattering"/>
+		<skos:narrower rdf:resource="#gammaRayScattering"/>
+		<skos:narrower rdf:resource="#lightScattering"/>
+		<skos:related rdf:resource="#radiationScattering"/>
+		<skos:related rdf:resource="#reflection"/>
+		<skos:related rdf:resource="#refraction"/>
+	</skos:Concept></env:instance></env:envelope>

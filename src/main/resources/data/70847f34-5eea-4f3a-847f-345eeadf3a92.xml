@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>70847f34-5eea-4f3a-847f-345eeadf3a92</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#effectiveTemperature">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>effective temperature</skos:prefLabel>
+		<skos:definition>effective temperature</skos:definition>
+		<skos:broader rdf:resource="#temperature"/>
+		<skos:related rdf:resource="#electromagneticRadiation"/>
+		<skos:related rdf:resource="#photometry"/>
+		<skos:related rdf:resource="#radiation"/>
+		<skos:related rdf:resource="#standardCandle"/>
+	</skos:Concept></env:instance></env:envelope>

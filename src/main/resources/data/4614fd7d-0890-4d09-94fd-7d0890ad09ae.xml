@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4614fd7d-0890-4d09-94fd-7d0890ad09ae</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#MSubgiant">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>M subgiant</skos:prefLabel>
+		<skos:definition>M subgiant star</skos:definition>
+		<skos:broader rdf:resource="#MStar"/>
+		<skos:broader rdf:resource="#subgiant"/>
+		<skos:related rdf:resource="#MGiant"/>
+	</skos:Concept></env:instance></env:envelope>

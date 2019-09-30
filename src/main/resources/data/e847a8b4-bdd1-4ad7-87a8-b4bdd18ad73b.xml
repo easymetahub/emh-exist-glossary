@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e847a8b4-bdd1-4ad7-87a8-b4bdd18ad73b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#galaxyCluster">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>galaxy cluster</skos:prefLabel>
+		<skos:definition>cluster of galaxies</skos:definition>
+		<skos:altLabel>cluster of galaxies</skos:altLabel>
+		<skos:altLabel>galaxy clustering</skos:altLabel>
+		<skos:broader rdf:resource="#cluster"/>
+		<skos:narrower rdf:resource="#AbellCluster"/>
+		<skos:narrower rdf:resource="#LocalSupercluster"/>
+		<skos:related rdf:resource="#GreatAttractor"/>
+		<skos:related rdf:resource="#SunyaevZeldovichEffect"/>
+		<skos:related rdf:resource="#cDGalaxy"/>
+		<skos:related rdf:resource="#clustering"/>
+		<skos:related rdf:resource="#galaxyCount"/>
+		<skos:related rdf:resource="#galaxyDistribution"/>
+		<skos:related rdf:resource="#galaxyMerger"/>
+		<skos:related rdf:resource="#intergalacticMatter"/>
+		<skos:related rdf:resource="#intraclusterMatter"/>
+		<skos:related rdf:resource="#luminosityFunction"/>
+		<skos:related rdf:resource="#luminousArc"/>
+		<skos:related rdf:resource="#massDistribution"/>
+		<skos:related rdf:resource="#massiveGalaxy"/>
+		<skos:related rdf:resource="#missingMass"/>
+		<skos:related rdf:resource="#multipleGalaxy"/>
+		<skos:related rdf:resource="#protocluster"/>
+		<skos:related rdf:resource="#relaxationTime"/>
+		<skos:related rdf:resource="#supercluster"/>
+		<skos:related rdf:resource="#supergalacticCoordinateSystem"/>
+		<skos:related rdf:resource="#velocityDispersion"/>
+		<skos:related rdf:resource="#velocityDistribution"/>
+		<skos:related rdf:resource="#virialTheorem"/>
+	</skos:Concept></env:instance></env:envelope>

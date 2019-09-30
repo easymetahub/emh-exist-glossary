@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>fbefcbe0-040d-448d-afcb-e0040d948d32</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#reflectingTelescope">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>reflecting telescope</skos:prefLabel>
+		<skos:definition>reflecting telescope</skos:definition>
+		<skos:altLabel>reflector</skos:altLabel>
+		<skos:broader rdf:resource="#opticalTelescope"/>
+		<skos:narrower rdf:resource="#BakerNunnCamera"/>
+		<skos:narrower rdf:resource="#BouwersTelescope"/>
+		<skos:narrower rdf:resource="#MaksutovTelescope"/>
+		<skos:narrower rdf:resource="#RitcheyChretienTelescope"/>
+		<skos:narrower rdf:resource="#SchmidtTelescope"/>
+		<skos:narrower rdf:resource="#coelostat"/>
+		<skos:narrower rdf:resource="#multipleMirrorTelescope"/>
+		<skos:narrower rdf:resource="#wideFieldTelescope"/>
+		<skos:related rdf:resource="#parabolicReflector"/>
+		<skos:related rdf:resource="#primaryMirror"/>
+		<skos:related rdf:resource="#secondaryMirror"/>
+		<skos:related rdf:resource="#tertiaryMirror"/>
+		<skos:scopeNote>refers to optical telescope</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

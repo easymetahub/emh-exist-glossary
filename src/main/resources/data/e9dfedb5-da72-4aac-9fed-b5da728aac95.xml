@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e9dfedb5-da72-4aac-9fed-b5da728aac95</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ephemeris">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>ephemeris</skos:prefLabel>
+		<skos:definition>ephemeris</skos:definition>
+		<skos:related rdf:resource="#almanac"/>
+		<skos:related rdf:resource="#calendar"/>
+		<skos:related rdf:resource="#catalog"/>
+		<skos:related rdf:resource="#fundamentalStar"/>
+		<skos:related rdf:resource="#nauticalAlmanac"/>
+		<skos:related rdf:resource="#time"/>
+	</skos:Concept></env:instance></env:envelope>

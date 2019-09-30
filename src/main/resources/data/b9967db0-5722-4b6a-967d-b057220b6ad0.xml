@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b9967db0-5722-4b6a-967d-b057220b6ad0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#scientificField">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>scientific field</skos:prefLabel>
+		<skos:definition>scientific and related field</skos:definition>
+		<skos:narrower rdf:resource="#EarthSciences"/>
+		<skos:narrower rdf:resource="#aeronomy"/>
+		<skos:narrower rdf:resource="#astrobiology"/>
+		<skos:narrower rdf:resource="#astrology"/>
+		<skos:narrower rdf:resource="#astronomy"/>
+		<skos:narrower rdf:resource="#astrophysics"/>
+		<skos:narrower rdf:resource="#atomicPhysics"/>
+		<skos:narrower rdf:resource="#biology"/>
+		<skos:narrower rdf:resource="#celestialMechanics"/>
+		<skos:narrower rdf:resource="#chemistry"/>
+		<skos:narrower rdf:resource="#engineering"/>
+		<skos:narrower rdf:resource="#fluidMechanics"/>
+		<skos:narrower rdf:resource="#mathematics"/>
+	</skos:Concept></env:instance></env:envelope>

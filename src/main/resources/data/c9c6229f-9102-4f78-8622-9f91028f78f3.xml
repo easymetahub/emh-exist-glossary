@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c9c6229f-9102-4f78-8622-9f91028f78f3</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#heliostat">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>heliostat</skos:prefLabel>
+		<skos:definition>heliostat</skos:definition>
+		<skos:broader rdf:resource="#coelostat"/>
+		<skos:related rdf:resource="#siderostat"/>
+		<skos:related rdf:resource="#solarTelescope"/>
+		<skos:related rdf:resource="#telescopeMounting"/>
+	</skos:Concept></env:instance></env:envelope>

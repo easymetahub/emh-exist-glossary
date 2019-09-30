@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>085e6fba-4d6e-4b42-9e6f-ba4d6e5b42c1</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lateTypeSupergiant">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>late-type supergiant</skos:prefLabel>
+		<skos:definition>late-type supergiant star</skos:definition>
+		<skos:altLabel>cool supergiant star</skos:altLabel>
+		<skos:broader rdf:resource="#lateTypeStar"/>
+		<skos:broader rdf:resource="#supergiant"/>
+		<skos:narrower rdf:resource="#KSupergiant"/>
+		<skos:narrower rdf:resource="#MSupergiant"/>
+		<skos:narrower rdf:resource="#RvTauriStar"/>
+		<skos:related rdf:resource="#irregularVariableStar"/>
+		<skos:related rdf:resource="#longPeriodVariableStar"/>
+	</skos:Concept></env:instance></env:envelope>

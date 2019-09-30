@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0b53605f-54cc-446d-9360-5f54cc546df9</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#spectralClassification">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>spectral classification</skos:prefLabel>
+		<skos:definition>spectral classification</skos:definition>
+		<skos:broader rdf:resource="#classification"/>
+		<skos:narrower rdf:resource="#HenryDraperSystem"/>
+		<skos:narrower rdf:resource="#MkClassification"/>
+		<skos:related rdf:resource="#HenryDraperCatalog"/>
+		<skos:related rdf:resource="#luminosityClassification"/>
+		<skos:related rdf:resource="#spectralType"/>
+	</skos:Concept></env:instance></env:envelope>

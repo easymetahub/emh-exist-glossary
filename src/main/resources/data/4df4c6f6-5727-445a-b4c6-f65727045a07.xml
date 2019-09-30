@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4df4c6f6-5727-445a-b4c6-f65727045a07</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#OhIrStar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>OH IR star</skos:prefLabel>
+		<skos:definition>OH/IR star</skos:definition>
+		<skos:altLabel>OH-IR star</skos:altLabel>
+		<skos:broader rdf:resource="#OhSource"/>
+		<skos:broader rdf:resource="#giant"/>
+		<skos:broader rdf:resource="#infraredSource"/>
+		<skos:related rdf:resource="#OhMaser"/>
+		<skos:related rdf:resource="#hydroxylRadical"/>
+		<skos:related rdf:resource="#variableStar"/>
+	</skos:Concept></env:instance></env:envelope>

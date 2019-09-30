@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>65018fa3-2e91-4737-818f-a32e916737e4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#planetar">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>planetar</skos:prefLabel>
+		<skos:definition>planetar</skos:definition>
+		<skos:broader rdf:resource="#stellarObject"/>
+		<skos:related rdf:resource="#brownDwarf"/>
+		<skos:related rdf:resource="#planet"/>
+		<skos:historyNote>FVH: new (2007-OCT-12)</skos:historyNote>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>87760a67-77ed-40e4-b60a-6777ed00e47a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#HelmholtzKelvinContraction">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Helmholtz-Kelvin contraction</skos:prefLabel>
+		<skos:definition>Helmholtz-Kelvin contraction</skos:definition>
+		<skos:altLabel>Helmholtz Kelvin contraction</skos:altLabel>
+		<skos:altLabel>Kelvin-Helmholtz contraction</skos:altLabel>
+		<skos:related rdf:resource="#KelvinTimescale"/>
+	</skos:Concept></env:instance></env:envelope>

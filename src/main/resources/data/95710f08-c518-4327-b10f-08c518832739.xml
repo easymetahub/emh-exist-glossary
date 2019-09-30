@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>95710f08-c518-4327-b10f-08c518832739</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#sextant">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>sextant</skos:prefLabel>
+		<skos:definition>sextant</skos:definition>
+		<skos:broader rdf:resource="#astrometricInstrument"/>
+		<skos:broader rdf:resource="#instrument"/>
+		<skos:related rdf:resource="#altitudeAngle"/>
+	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>db774371-7d9e-493f-b743-717d9e593fe4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#astronomicalTechnique">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>astronomical technique</skos:prefLabel>
+		<skos:definition>astronomical technique</skos:definition>
+		<skos:narrower rdf:resource="#astrometry"/>
+		<skos:narrower rdf:resource="#interferometry"/>
+		<skos:narrower rdf:resource="#photometry"/>
+		<skos:narrower rdf:resource="#polarimetry"/>
+		<skos:narrower rdf:resource="#spectrophotometry"/>
+		<skos:narrower rdf:resource="#spectroscopy"/>
+		<skos:related rdf:resource="#analysis"/>
+		<skos:related rdf:resource="#observingTechnique"/>
+		<skos:related rdf:resource="#photography"/>
+		<skos:related rdf:resource="#reductionMethod"/>
+		<skos:scopeNote>most used in several wavelength region</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

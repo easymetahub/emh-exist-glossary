@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cf9c755e-f37a-4f66-9c75-5ef37a9f66de</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#CcdDetector">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>CCD detector</skos:prefLabel>
+		<skos:definition>CCD detector</skos:definition>
+		<skos:altLabel>CCD camera</skos:altLabel>
+		<skos:broader rdf:resource="#multiChannelDetector"/>
+		<skos:broader rdf:resource="#twoDimensionalDetector"/>
+		<skos:related rdf:resource="#CcdObservation"/>
+		<skos:related rdf:resource="#CcdPhotometry"/>
+		<skos:related rdf:resource="#biasCalibration"/>
+		<skos:related rdf:resource="#chargeCoupledDevice"/>
+		<skos:related rdf:resource="#darkCurrentCalibration"/>
+		<skos:related rdf:resource="#photometer"/>
+		<skos:related rdf:resource="#televisionDetector"/>
+	</skos:Concept></env:instance></env:envelope>

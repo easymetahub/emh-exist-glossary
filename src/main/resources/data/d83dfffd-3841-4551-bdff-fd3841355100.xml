@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d83dfffd-3841-4551-bdff-fd3841355100</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#echelleSpectrograph">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>echelle spectrograph</skos:prefLabel>
+		<skos:definition>echelle spectrograph</skos:definition>
+		<skos:altLabel>echelle spectrometer</skos:altLabel>
+		<skos:broader rdf:resource="#spectrograph"/>
+		<skos:related rdf:resource="#CoudeSpectrum"/>
+		<skos:related rdf:resource="#echelleSpectrum"/>
+		<skos:related rdf:resource="#highResolutionSpectrum"/>
+		<skos:related rdf:resource="#highResolutionSpectrosopy"/>
+	</skos:Concept></env:instance></env:envelope>

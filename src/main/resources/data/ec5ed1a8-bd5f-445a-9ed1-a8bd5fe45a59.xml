@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ec5ed1a8-bd5f-445a-9ed1-a8bd5fe45a59</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#bulge">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>bulge</skos:prefLabel>
+		<skos:definition>bulge</skos:definition>
+		<skos:narrower rdf:resource="#GalacticBulge"/>
+		<skos:related rdf:resource="#galaxyStructure"/>
+		<skos:scopeNote>combine with other terms</skos:scopeNote>
+	</skos:Concept></env:instance></env:envelope>

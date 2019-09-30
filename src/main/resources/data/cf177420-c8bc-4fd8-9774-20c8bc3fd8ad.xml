@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cf177420-c8bc-4fd8-9774-20c8bc3fd8ad</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#HerbigHaroObject">
+		<skos:inScheme rdf:resource=""/>
+		<skos:prefLabel>Herbig-Haro object</skos:prefLabel>
+		<skos:definition>Herbig-Haro object</skos:definition>
+		<skos:altLabel>HH-object</skos:altLabel>
+		<skos:broader rdf:resource="#emissionLineObject"/>
+		<skos:broader rdf:resource="#emissionNebula"/>
+		<skos:broader rdf:resource="#infraredSource"/>
+		<skos:broader rdf:resource="#intrinsicVariableStar"/>
+		<skos:broader rdf:resource="#preMainSequenceStar"/>
+		<skos:related rdf:resource="#TAssociation"/>
+		<skos:related rdf:resource="#TTauriStar"/>
+		<skos:related rdf:resource="#protostar"/>
+	</skos:Concept></env:instance></env:envelope>
