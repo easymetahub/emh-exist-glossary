@@ -54,6 +54,15 @@ class EMHAcceleratorApp extends PolymerElement {
       app-drawer-layout:not([narrow]) [drawer-toggle] {
         display: none;
       }
+        #userdata {
+          width: 80%;
+        }
+        .close {
+          cursor:pointer;
+          float:right;
+          marginTop: 5px;
+          width: 20px;
+        }
         .counter {
           padding: 0px 0px 0px 16px;
         }
@@ -91,11 +100,46 @@ class EMHAcceleratorApp extends PolymerElement {
         url="modules/who-am-i.xq"  
         handle-as="json"
         last-response="{{user}}"></iron-ajax>
+      <iron-ajax auto="true"  id="whoAmI"
+        url="modules/who-am-i.xq"
+        handle-as="json"
+        on-response="handleUserData"></iron-ajax>
       <iron-ajax id="loginAction" 
-        url="modules/login"  
-        params="[[loginData]]"
+        url="modules/who-am-i.xq"  
         handle-as="json"
         on-response="_onLoginResponse"></iron-ajax>
+      <iron-ajax id="logoutAction" 
+        url="modules/who-am-i.xq"  
+        handle-as="json"
+        on-response="_onLogoutResponse"></iron-ajax>
+      <paper-dialog id="login">
+        <h2>Login</h2>
+        <template is="dom-if" if="[[user.error]]">
+          <p style="color: red;">Invalid password</p>
+        </template>
+        <paper-input label="user" value="{{logindata.user}}"></paper-input>
+        <paper-input label="password" value="{{logindata.password}}" type="password"></paper-input>
+        <div class="buttons">
+          <paper-button dialog-dismiss>Close</paper-button>
+          <paper-button on-click="_attemptUserLogin">Login</paper-button>
+        </div>
+      </paper-dialog>
+      <paper-dialog id="userdata">
+        <h2>Groups</h2>
+        <vaadin-grid  theme="compact wrap-cell-content column-borders row-stripes" items="[[user.groups]]"  height-by-rows>
+          <vaadin-grid-column flex-grow="1">
+            <template class="header">ID</template>
+            <template>[[item.id]]</template>
+          </vaadin-grid-column>
+          <vaadin-grid-column flex-grow="7">
+            <template class="header">Description</template>
+            <template>[[item.description]]</template>
+          </vaadin-grid-column>
+        </vaadin-grid>
+        <div class="buttons">
+          <paper-button dialog-dismiss>Close</paper-button>
+        </div>
+      </paper-dialog>
       <paper-dialog class="wide" id="dialog">
         <h2>Upload RDF(s)</h2>
         <paper-dialog-scrollable>
@@ -112,15 +156,6 @@ class EMHAcceleratorApp extends PolymerElement {
         </paper-dialog-scrollable>
         <div class="buttons">
           <paper-button on-click="_closeUpload">Close</paper-button>
-        </div>
-      </paper-dialog>
-      <paper-dialog class="wide" id="login">
-        <h2>Login</h2>
-        <paper-input label="username" value="{{loginData.user}}"></paper-input>
-        <paper-input label="password" value="{{loginData.password}}" type="password"></paper-input>
-        <div class="buttons">
-          <paper-button dialog-dismiss>Close</paper-button>
-          <paper-button on-click="_attemptUserLogin">Login</paper-button>
         </div>
       </paper-dialog>
       <paper-dialog id="thespinner" modal>
@@ -148,7 +183,10 @@ class EMHAcceleratorApp extends PolymerElement {
             <iron-icon src="icon.png"></iron-icon>
             <div main-title>Glossary</div>
             <paper-slider title="Page size" pin snaps min="10" max="100" step="10" value="{{params.pagelength}}"></paper-slider>
-            <paper-button on-click="_openLoginDialog">[[user.name]]</paper-icon-button>
+            <paper-button on-click="_openLoginDialog" raised>Hello [[user.name]]</paper-button>
+            <template is="dom-if" if="[[_isLoggedIn(user.id)]]">
+              <paper-icon-button on-click="_attemptUserLogout" icon="close" raised></paper-icon-button>
+            </template>
           </app-toolbar>
           </app-header>
           <paper-card>
@@ -183,8 +221,8 @@ class EMHAcceleratorApp extends PolymerElement {
         notify : true,
         observer : 'searchChanged'
       },
-      user: { type: Object, value: { name: 'Guest' }, notify: true },
-      loginData: { type:Object, value: { user: '', password: '' }, notify: true }
+      user: { type: Object, notify: true },
+      logindata: { type: Object, notify: true, value: { user: '', password: '' } }
     };
   }
     static get observers() {
@@ -304,25 +342,70 @@ class EMHAcceleratorApp extends PolymerElement {
     }
 
 
-    _openLoginDialog() {
+    /**
+     *
+     * @private
+     */
+  _openLoginDialog() {
+    if (this.user.id == 'guest') {
       this.$.login.open();
+    } else {
+      this.$.userdata.open();
     }
+  }
 
-    _attemptUserLogin() {
-      var a = this.loginData;
-      this.$.loginAction.generateRequest();
-    }
+    /**
+     *
+     * @private
+     */
+  _attemptUserLogout() {
+    this.$.logoutAction.params = { 'logout' : true };
+    this.$.logoutAction.generateRequest();
+  }
 
-    _onLoginResponse(e) {
-      var resp = e.detail.response;
-      if (resp.status == 'success') {
-        this.$.whoAmI.generateRequest();
-        this._runSearch();
-        this.$.login.close();
-      } else {
-        alert('error');
-      }
+    /**
+     *
+     * @private
+     */
+  _attemptUserLogin() {
+    let a = this.logindata;
+    this.$.loginAction.params = this.logindata;
+    this.$.loginAction.generateRequest();
+  }
+
+    /**
+     *
+     * @param e
+     * @private
+     */
+  _onLoginResponse(e) {
+    let resp = e.detail.response;
+    this.user = resp;
+    if (resp.error) {
+    } else {
+      this.$.login.close();
     }
+  }
+
+    /**
+     *
+     * @param e
+     * @private
+     */
+  _onLogoutResponse(e) {
+    let resp = e.detail.response;
+    this.user = resp;
+  }
+
+    /**
+     *
+     * @param a
+     * @returns {boolean}
+     * @private
+     */
+  _isLoggedIn(a) {
+    return (a != 'guest');
+  }
 
 
     _formatNumber(x) {
