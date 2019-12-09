@@ -92,7 +92,7 @@ class EMHAcceleratorApp extends PolymerElement {
         handle-as="json"
         last-response="{{user}}"></iron-ajax>
       <iron-ajax id="loginAction" 
-        url="modules/login.xqy"  
+        url="modules/login"  
         params="[[loginData]]"
         handle-as="json"
         on-response="_onLoginResponse"></iron-ajax>
@@ -148,7 +148,7 @@ class EMHAcceleratorApp extends PolymerElement {
             <iron-icon src="icon.png"></iron-icon>
             <div main-title>Glossary</div>
             <paper-slider title="Page size" pin snaps min="10" max="100" step="10" value="{{params.pagelength}}"></paper-slider>
-            <paper-button on-click="_openLoginDialog">[[user.username]]</paper-icon-button>
+            <paper-button on-click="_openLoginDialog">[[user.name]]</paper-icon-button>
           </app-toolbar>
           </app-header>
           <paper-card>
@@ -183,8 +183,8 @@ class EMHAcceleratorApp extends PolymerElement {
         notify : true,
         observer : 'searchChanged'
       },
-      user: { type: Object, notify: true },
-      loginData: { type:Object, value: { }, notify: true }
+      user: { type: Object, value: { name: 'Guest' }, notify: true },
+      loginData: { type:Object, value: { user: '', password: '' }, notify: true }
     };
   }
     static get observers() {

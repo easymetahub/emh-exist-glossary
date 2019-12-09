@@ -3,3 +3,8 @@
 /build
 /src/main/polymer/build
 /src/main/polymer/node_modules
+/gradlew.bat
+/gradlew
+/gradle
+/src/main/polymer/base/build
+/src/main/polymer/base/node_modules

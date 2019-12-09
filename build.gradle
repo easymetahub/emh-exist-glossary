@@ -25,27 +25,27 @@ class XQDocFilter extends BaseFilterReader {
  * Polymer 
  */
 
-task npmInstall(type: Exec) {
+task npmInstallBase(type: Exec) {
     String npm = 'npm';
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         npm = 'npm.cmd'
     }
-    workingDir 'src/main/polymer'
+    workingDir 'src/main/polymer/base'
     commandLine npm, 'install'
 }
 
-task polymerBuild(type: Exec) {
+task polymerBuildBase(type: Exec) {
     String polymer = 'polymer';
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         polymer = 'polymer.cmd'
     }
-    workingDir 'src/main/polymer'
+    workingDir 'src/main/polymer/base/'
     commandLine polymer, 'build'
 }
 
-task copyPolymer(type: Copy) {
+task copyPolymerBase(type: Copy) {
   into 'build/default'
-  from 'src/main/polymer/build/default'
+  from 'src/main/polymer/base/build/default'
 }
 
 task copyModules(type: Copy) {
@@ -84,11 +84,11 @@ task buildXAR(type: Zip) {
 
 
 // Task dependencies
-buildXAR.dependsOn copyPolymer
+buildXAR.dependsOn copyPolymerBase
 buildXAR.dependsOn copyModules
 buildXAR.dependsOn copyResources
-copyPolymer.dependsOn polymerBuild
-polymerBuild.dependsOn npmInstall
+copyPolymerBase.dependsOn polymerBuildBase
+polymerBuildBase.dependsOn npmInstallBase
 
 
 

@@ -1,6 +1,6 @@
 xquery version "3.1";
 (:
- : Module Name: File Upload Module
+ : Module Name: Who am I Module
  :
  : Module Version: 1.0
  :
@@ -14,7 +14,7 @@ xquery version "3.1";
  : XQuery
  : Specification March 2017
  :
- : Module Overview: This module handles files being uploaded to the server.
+ : Module Overview: Return the user id, name and groups of the logged in user.
  :
  :)
 
@@ -27,4 +27,4 @@ let $user:= request:get-attribute("com.easymetahub.user")
 let $name := if ($user) then sm:get-account-metadata($user, xs:anyURI('http://axschema.org/namePerson')) else 'Guest'
 let $group := if ($user) then sm:get-user-groups($user) else ('guest')
 return
-    map { "userid" : $user, "name" : $name, "groups" : array { $group } }
+    map { "username" : $user, "name" : $name, "groups" : array { $group } }
