@@ -1,10 +1,20 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-bolometer</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#bolometer">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>bolometer</skosxl:prefLabel>
-		<skosxl:definition>bolometer</skosxl:definition>
-		<skosxl:broader rdf:resource="#instrument"/>
-		<skosxl:related rdf:resource="#bolometricCorrection"/>
-		<skosxl:related rdf:resource="#photometer"/>
-		<skosxl:related rdf:resource="#radiation"/>
-		<skosxl:related rdf:resource="#radiometer"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-bolometer</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#bolometer">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>bolometer</skosxl:prefLabel>
+			<skosxl:definition>bolometer</skosxl:definition>
+			<skosxl:broader rdf:resource="#instrument"/>
+			<skosxl:related rdf:resource="#bolometricCorrection"/>
+			<skosxl:related rdf:resource="#photometer"/>
+			<skosxl:related rdf:resource="#radiation"/>
+			<skosxl:related rdf:resource="#radiometer"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

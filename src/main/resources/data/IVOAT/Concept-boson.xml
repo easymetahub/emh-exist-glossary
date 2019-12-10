@@ -1,16 +1,26 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-boson</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#boson">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>boson</skosxl:prefLabel>
-		<skosxl:definition>boson</skosxl:definition>
-		<skosxl:broader rdf:resource="#elementaryParticle"/>
-		<skosxl:broader rdf:resource="#particle"/>
-		<skosxl:narrower rdf:resource="#alphaParticle"/>
-		<skosxl:narrower rdf:resource="#compositeParticle"/>
-		<skosxl:narrower rdf:resource="#meson"/>
-		<skosxl:narrower rdf:resource="#photon"/>
-		<skosxl:narrower rdf:resource="#pion"/>
-		<skosxl:related rdf:resource="#BoseEinsteinStatistics"/>
-		<skosxl:related rdf:resource="#fermion"/>
-		<skosxl:related rdf:resource="#hadron"/>
-		<skosxl:related rdf:resource="#lepton"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-boson</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#boson">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>boson</skosxl:prefLabel>
+			<skosxl:definition>boson</skosxl:definition>
+			<skosxl:broader rdf:resource="#elementaryParticle"/>
+			<skosxl:broader rdf:resource="#particle"/>
+			<skosxl:narrower rdf:resource="#alphaParticle"/>
+			<skosxl:narrower rdf:resource="#compositeParticle"/>
+			<skosxl:narrower rdf:resource="#meson"/>
+			<skosxl:narrower rdf:resource="#photon"/>
+			<skosxl:narrower rdf:resource="#pion"/>
+			<skosxl:related rdf:resource="#BoseEinsteinStatistics"/>
+			<skosxl:related rdf:resource="#fermion"/>
+			<skosxl:related rdf:resource="#hadron"/>
+			<skosxl:related rdf:resource="#lepton"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

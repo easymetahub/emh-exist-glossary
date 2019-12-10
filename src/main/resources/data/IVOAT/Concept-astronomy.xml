@@ -1,17 +1,27 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-astronomy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#astronomy">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>astronomy</skosxl:prefLabel>
-		<skosxl:definition>astronomy</skosxl:definition>
-		<skosxl:broader rdf:resource="#scientificField"/>
-		<skosxl:narrower rdf:resource="#amateurAstronomy"/>
-		<skosxl:narrower rdf:resource="#archaeoastronomy"/>
-		<skosxl:narrower rdf:resource="#astrobiology"/>
-		<skosxl:narrower rdf:resource="#astrometry"/>
-		<skosxl:narrower rdf:resource="#cosmicRayAstronomy"/>
-		<skosxl:narrower rdf:resource="#cosmogony"/>
-		<skosxl:narrower rdf:resource="#cosmology"/>
-		<skosxl:narrower rdf:resource="#groundBasedAstronomy"/>
-		<skosxl:narrower rdf:resource="#infraredAstronomy"/>
-		<skosxl:narrower rdf:resource="#spaceAstronomy"/>
-		<skosxl:related rdf:resource="#astrology"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-astronomy</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#astronomy">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>astronomy</skosxl:prefLabel>
+			<skosxl:definition>astronomy</skosxl:definition>
+			<skosxl:broader rdf:resource="#scientificField"/>
+			<skosxl:narrower rdf:resource="#amateurAstronomy"/>
+			<skosxl:narrower rdf:resource="#archaeoastronomy"/>
+			<skosxl:narrower rdf:resource="#astrobiology"/>
+			<skosxl:narrower rdf:resource="#astrometry"/>
+			<skosxl:narrower rdf:resource="#cosmicRayAstronomy"/>
+			<skosxl:narrower rdf:resource="#cosmogony"/>
+			<skosxl:narrower rdf:resource="#cosmology"/>
+			<skosxl:narrower rdf:resource="#groundBasedAstronomy"/>
+			<skosxl:narrower rdf:resource="#infraredAstronomy"/>
+			<skosxl:narrower rdf:resource="#spaceAstronomy"/>
+			<skosxl:related rdf:resource="#astrology"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

@@ -1,31 +1,41 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-astrometry</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#astrometry">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>astrometry</skosxl:prefLabel>
-		<skosxl:definition>astrometry</skosxl:definition>
-		<skosxl:altLabel>positional astronomy</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#astronomicalTechnique"/>
-		<skosxl:broader rdf:resource="#astronomy"/>
-		<skosxl:broader rdf:resource="#observingTechnique"/>
-		<skosxl:narrower rdf:resource="#photographicAstrometry"/>
-		<skosxl:narrower rdf:resource="#radioAstrometry"/>
-		<skosxl:narrower rdf:resource="#spaceAstrometry"/>
-		<skosxl:related rdf:resource="#EarthRotation"/>
-		<skosxl:related rdf:resource="#aberration"/>
-		<skosxl:related rdf:resource="#apparentPosition"/>
-		<skosxl:related rdf:resource="#astrometricInstrument"/>
-		<skosxl:related rdf:resource="#astronomicalGeodesy"/>
-		<skosxl:related rdf:resource="#celestialMechanics"/>
-		<skosxl:related rdf:resource="#coordinateSystem"/>
-		<skosxl:related rdf:resource="#equatorPosition"/>
-		<skosxl:related rdf:resource="#fundamentalStar"/>
-		<skosxl:related rdf:resource="#latitudeDetermination"/>
-		<skosxl:related rdf:resource="#meridianCircle"/>
-		<skosxl:related rdf:resource="#opticalPosition"/>
-		<skosxl:related rdf:resource="#parallax"/>
-		<skosxl:related rdf:resource="#precession"/>
-		<skosxl:related rdf:resource="#referenceSystem"/>
-		<skosxl:related rdf:resource="#stellarMotion"/>
-		<skosxl:related rdf:resource="#transitInstrument"/>
-		<skosxl:related rdf:resource="#transit"/>
-		<skosxl:related rdf:resource="#truePosition"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-astrometry</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#astrometry">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>astrometry</skosxl:prefLabel>
+			<skosxl:definition>astrometry</skosxl:definition>
+			<skosxl:altLabel>positional astronomy</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#astronomicalTechnique"/>
+			<skosxl:broader rdf:resource="#astronomy"/>
+			<skosxl:broader rdf:resource="#observingTechnique"/>
+			<skosxl:narrower rdf:resource="#photographicAstrometry"/>
+			<skosxl:narrower rdf:resource="#radioAstrometry"/>
+			<skosxl:narrower rdf:resource="#spaceAstrometry"/>
+			<skosxl:related rdf:resource="#EarthRotation"/>
+			<skosxl:related rdf:resource="#aberration"/>
+			<skosxl:related rdf:resource="#apparentPosition"/>
+			<skosxl:related rdf:resource="#astrometricInstrument"/>
+			<skosxl:related rdf:resource="#astronomicalGeodesy"/>
+			<skosxl:related rdf:resource="#celestialMechanics"/>
+			<skosxl:related rdf:resource="#coordinateSystem"/>
+			<skosxl:related rdf:resource="#equatorPosition"/>
+			<skosxl:related rdf:resource="#fundamentalStar"/>
+			<skosxl:related rdf:resource="#latitudeDetermination"/>
+			<skosxl:related rdf:resource="#meridianCircle"/>
+			<skosxl:related rdf:resource="#opticalPosition"/>
+			<skosxl:related rdf:resource="#parallax"/>
+			<skosxl:related rdf:resource="#precession"/>
+			<skosxl:related rdf:resource="#referenceSystem"/>
+			<skosxl:related rdf:resource="#stellarMotion"/>
+			<skosxl:related rdf:resource="#transitInstrument"/>
+			<skosxl:related rdf:resource="#transit"/>
+			<skosxl:related rdf:resource="#truePosition"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

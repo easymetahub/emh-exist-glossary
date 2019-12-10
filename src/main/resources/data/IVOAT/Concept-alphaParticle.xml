@@ -1,13 +1,23 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-alphaParticle</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#alphaParticle">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>alpha particle</skosxl:prefLabel>
-		<skosxl:definition>alpha particle</skosxl:definition>
-		<skosxl:broader rdf:resource="#boson"/>
-		<skosxl:broader rdf:resource="#compositeParticle"/>
-		<skosxl:broader rdf:resource="#nuclearRadiation"/>
-		<skosxl:broader rdf:resource="#particle"/>
-		<skosxl:related rdf:resource="#electron"/>
-		<skosxl:related rdf:resource="#neutron"/>
-		<skosxl:related rdf:resource="#proton"/>
-		<skosxl:related rdf:resource="#radioactivity"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-alphaParticle</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#alphaParticle">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>alpha particle</skosxl:prefLabel>
+			<skosxl:definition>alpha particle</skosxl:definition>
+			<skosxl:broader rdf:resource="#boson"/>
+			<skosxl:broader rdf:resource="#compositeParticle"/>
+			<skosxl:broader rdf:resource="#nuclearRadiation"/>
+			<skosxl:broader rdf:resource="#particle"/>
+			<skosxl:related rdf:resource="#electron"/>
+			<skosxl:related rdf:resource="#neutron"/>
+			<skosxl:related rdf:resource="#proton"/>
+			<skosxl:related rdf:resource="#radioactivity"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

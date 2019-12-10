@@ -1,12 +1,23 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-airplaneBorneInstrument</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#airplaneBorneInstrument">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>airplane-borne instrument</skosxl:prefLabel>
-		<skosxl:definition>airplane-borne instrument</skosxl:definition>
-		<skosxl:altLabel>airplane borne instrument</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#instrument"/>
-		<skosxl:related rdf:resource="#balloonBorneInstrument"/>
-		<skosxl:related rdf:resource="#groundBasedAstronomy"/>
-		<skosxl:related rdf:resource="#infraredObservatory"/>
-		<skosxl:related rdf:resource="#rocketBorneInstrument"/>
-		<skosxl:related rdf:resource="#satelliteBorneInstrument"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-airplaneBorneInstrument</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#airplaneBorneInstrument">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>airplane-borne instrument</skosxl:prefLabel>
+			<skosxl:definition>airplane-borne instrument</skosxl:definition>
+			<skosxl:altLabel>airplane borne instrument</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#instrument"/>
+			<skosxl:related rdf:resource="#balloonBorneInstrument"/>
+			<skosxl:related rdf:resource="#groundBasedAstronomy"/>
+			<skosxl:related rdf:resource="#infraredObservatory"/>
+			<skosxl:related rdf:resource="#rocketBorneInstrument"/>
+			<skosxl:related rdf:resource="#satelliteBorneInstrument"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

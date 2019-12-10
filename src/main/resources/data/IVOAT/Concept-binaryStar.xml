@@ -1,46 +1,57 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-binaryStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#binaryStar">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>binary star</skosxl:prefLabel>
-		<skosxl:definition>binary star</skosxl:definition>
-		<skosxl:altLabel>binaries</skosxl:altLabel>
-		<skosxl:altLabel>double star</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#binarySystem"/>
-		<skosxl:broader rdf:resource="#star"/>
-		<skosxl:narrower rdf:resource="#AlgolVariableStar"/>
-		<skosxl:narrower rdf:resource="#RsCanumVenaticorumStar"/>
-		<skosxl:narrower rdf:resource="#astrometricBinaryStar"/>
-		<skosxl:narrower rdf:resource="#closeBinaryStar"/>
-		<skosxl:narrower rdf:resource="#contactBinaryStar"/>
-		<skosxl:narrower rdf:resource="#detachedBinaryStar"/>
-		<skosxl:narrower rdf:resource="#eclipsingBinaryStar"/>
-		<skosxl:narrower rdf:resource="#ellipsoidalVariableStar"/>
-		<skosxl:narrower rdf:resource="#eruptiveBinaryStar"/>
-		<skosxl:narrower rdf:resource="#interactingBinaryStar"/>
-		<skosxl:narrower rdf:resource="#semiDetachedBinaryStar"/>
-		<skosxl:narrower rdf:resource="#spectroscopicBinaryStar"/>
-		<skosxl:narrower rdf:resource="#visualBinaryStar"/>
-		<skosxl:narrower rdf:resource="#wideBinaryStar"/>
-		<skosxl:related rdf:resource="#accretion"/>
-		<skosxl:related rdf:resource="#apocenter"/>
-		<skosxl:related rdf:resource="#centerOfMass"/>
-		<skosxl:related rdf:resource="#companionStar"/>
-		<skosxl:related rdf:resource="#dynamicalParallax"/>
-		<skosxl:related rdf:resource="#inclination"/>
-		<skosxl:related rdf:resource="#massLoss"/>
-		<skosxl:related rdf:resource="#massRatio"/>
-		<skosxl:related rdf:resource="#multipleStar"/>
-		<skosxl:related rdf:resource="#occultation"/>
-		<skosxl:related rdf:resource="#orbitDetermination"/>
-		<skosxl:related rdf:resource="#orbit"/>
-		<skosxl:related rdf:resource="#period"/>
-		<skosxl:related rdf:resource="#periodChange"/>
-		<skosxl:related rdf:resource="#periodDetermination"/>
-		<skosxl:related rdf:resource="#phaseWave"/>
-		<skosxl:related rdf:resource="#positionAngle"/>
-		<skosxl:related rdf:resource="#runawayStar"/>
-		<skosxl:related rdf:resource="#semimajorAxis"/>
-		<skosxl:related rdf:resource="#separation"/>
-		<skosxl:related rdf:resource="#twoBodyProblem"/>
-		<skosxl:related rdf:resource="#vonZeipelTheorem"/>
-		<skosxl:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skosxl:scopeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-binaryStar</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#binaryStar">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>binary star</skosxl:prefLabel>
+			<skosxl:definition>binary star</skosxl:definition>
+			<skosxl:altLabel>binaries</skosxl:altLabel>
+			<skosxl:altLabel>double star</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#binarySystem"/>
+			<skosxl:broader rdf:resource="#star"/>
+			<skosxl:narrower rdf:resource="#AlgolVariableStar"/>
+			<skosxl:narrower rdf:resource="#RsCanumVenaticorumStar"/>
+			<skosxl:narrower rdf:resource="#astrometricBinaryStar"/>
+			<skosxl:narrower rdf:resource="#closeBinaryStar"/>
+			<skosxl:narrower rdf:resource="#contactBinaryStar"/>
+			<skosxl:narrower rdf:resource="#detachedBinaryStar"/>
+			<skosxl:narrower rdf:resource="#eclipsingBinaryStar"/>
+			<skosxl:narrower rdf:resource="#ellipsoidalVariableStar"/>
+			<skosxl:narrower rdf:resource="#eruptiveBinaryStar"/>
+			<skosxl:narrower rdf:resource="#interactingBinaryStar"/>
+			<skosxl:narrower rdf:resource="#semiDetachedBinaryStar"/>
+			<skosxl:narrower rdf:resource="#spectroscopicBinaryStar"/>
+			<skosxl:narrower rdf:resource="#visualBinaryStar"/>
+			<skosxl:narrower rdf:resource="#wideBinaryStar"/>
+			<skosxl:related rdf:resource="#accretion"/>
+			<skosxl:related rdf:resource="#apocenter"/>
+			<skosxl:related rdf:resource="#centerOfMass"/>
+			<skosxl:related rdf:resource="#companionStar"/>
+			<skosxl:related rdf:resource="#dynamicalParallax"/>
+			<skosxl:related rdf:resource="#inclination"/>
+			<skosxl:related rdf:resource="#massLoss"/>
+			<skosxl:related rdf:resource="#massRatio"/>
+			<skosxl:related rdf:resource="#multipleStar"/>
+			<skosxl:related rdf:resource="#occultation"/>
+			<skosxl:related rdf:resource="#orbitDetermination"/>
+			<skosxl:related rdf:resource="#orbit"/>
+			<skosxl:related rdf:resource="#period"/>
+			<skosxl:related rdf:resource="#periodChange"/>
+			<skosxl:related rdf:resource="#periodDetermination"/>
+			<skosxl:related rdf:resource="#phaseWave"/>
+			<skosxl:related rdf:resource="#positionAngle"/>
+			<skosxl:related rdf:resource="#runawayStar"/>
+			<skosxl:related rdf:resource="#semimajorAxis"/>
+			<skosxl:related rdf:resource="#separation"/>
+			<skosxl:related rdf:resource="#twoBodyProblem"/>
+			<skosxl:related rdf:resource="#vonZeipelTheorem"/>
+			<skosxl:scopeNote>only the broad classes are shown below; specific type will be found
+				under these, or from the hierarchical list</skosxl:scopeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

@@ -1,18 +1,29 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-activeGalacticNucleus</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#activeGalacticNucleus">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>active galactic nucleus</skosxl:prefLabel>
-		<skosxl:definition>active galactic nucleus</skosxl:definition>
-		<skosxl:altLabel>AGN</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#XRaySource"/>
-		<skosxl:broader rdf:resource="#galacticNucleus"/>
-		<skosxl:broader rdf:resource="#variableSource"/>
-		<skosxl:narrower rdf:resource="#SeyfertNucleus"/>
-		<skosxl:narrower rdf:resource="#blazar"/>
-		<skosxl:related rdf:resource="#BlLacertaeObject"/>
-		<skosxl:related rdf:resource="#activeGalaxy"/>
-		<skosxl:related rdf:resource="#compactNucleus"/>
-		<skosxl:related rdf:resource="#emissionLineGalaxy"/>
-		<skosxl:related rdf:resource="#galaxy"/>
-		<skosxl:related rdf:resource="#quasar"/>
-		<skosxl:related rdf:resource="#radioGalaxy"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-activeGalacticNucleus</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#activeGalacticNucleus">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>active galactic nucleus</skosxl:prefLabel>
+			<skosxl:definition>active galactic nucleus</skosxl:definition>
+			<skosxl:altLabel>AGN</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#XRaySource"/>
+			<skosxl:broader rdf:resource="#galacticNucleus"/>
+			<skosxl:broader rdf:resource="#variableSource"/>
+			<skosxl:narrower rdf:resource="#SeyfertNucleus"/>
+			<skosxl:narrower rdf:resource="#blazar"/>
+			<skosxl:related rdf:resource="#BlLacertaeObject"/>
+			<skosxl:related rdf:resource="#activeGalaxy"/>
+			<skosxl:related rdf:resource="#compactNucleus"/>
+			<skosxl:related rdf:resource="#emissionLineGalaxy"/>
+			<skosxl:related rdf:resource="#galaxy"/>
+			<skosxl:related rdf:resource="#quasar"/>
+			<skosxl:related rdf:resource="#radioGalaxy"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

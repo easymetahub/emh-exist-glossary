@@ -1,13 +1,23 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-celestialPole</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#celestialPole">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>celestial pole</skosxl:prefLabel>
-		<skosxl:definition>celestial pole</skosxl:definition>
-		<skosxl:broader rdf:resource="#equatorialCoordinateSystem"/>
-		<skosxl:broader rdf:resource="#pole"/>
-		<skosxl:narrower rdf:resource="#NorthCelestialPole"/>
-		<skosxl:narrower rdf:resource="#SouthCelestialPole"/>
-		<skosxl:related rdf:resource="#celestialEquator"/>
-		<skosxl:related rdf:resource="#celestialSphere"/>
-		<skosxl:related rdf:resource="#equator"/>
-		<skosxl:related rdf:resource="#polarAxis"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-celestialPole</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#celestialPole">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>celestial pole</skosxl:prefLabel>
+			<skosxl:definition>celestial pole</skosxl:definition>
+			<skosxl:broader rdf:resource="#equatorialCoordinateSystem"/>
+			<skosxl:broader rdf:resource="#pole"/>
+			<skosxl:narrower rdf:resource="#NorthCelestialPole"/>
+			<skosxl:narrower rdf:resource="#SouthCelestialPole"/>
+			<skosxl:related rdf:resource="#celestialEquator"/>
+			<skosxl:related rdf:resource="#celestialSphere"/>
+			<skosxl:related rdf:resource="#equator"/>
+			<skosxl:related rdf:resource="#polarAxis"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

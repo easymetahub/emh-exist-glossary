@@ -1,16 +1,26 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-accretionDisk</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#accretionDisk">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>accretion disk</skosxl:prefLabel>
-		<skosxl:definition>accretion discs	UK</skosxl:definition>
-		<skosxl:definition>accretion disk</skosxl:definition>
-		<skosxl:broader rdf:resource="#disk"/>
-		<skosxl:related rdf:resource="#accretion"/>
-		<skosxl:related rdf:resource="#blackHole"/>
-		<skosxl:related rdf:resource="#circumstellarDisk"/>
-		<skosxl:related rdf:resource="#closeBinaryStar"/>
-		<skosxl:related rdf:resource="#coolingFlow"/>
-		<skosxl:related rdf:resource="#dwarfNova"/>
-		<skosxl:related rdf:resource="#lowMassXRayBinaryStar"/>
-		<skosxl:related rdf:resource="#stellarWind"/>
-		<skosxl:related rdf:resource="#superhump"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-accretionDisk</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#accretionDisk">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>accretion disk</skosxl:prefLabel>
+			<skosxl:definition>accretion discs UK</skosxl:definition>
+			<skosxl:definition>accretion disk</skosxl:definition>
+			<skosxl:broader rdf:resource="#disk"/>
+			<skosxl:related rdf:resource="#accretion"/>
+			<skosxl:related rdf:resource="#blackHole"/>
+			<skosxl:related rdf:resource="#circumstellarDisk"/>
+			<skosxl:related rdf:resource="#closeBinaryStar"/>
+			<skosxl:related rdf:resource="#coolingFlow"/>
+			<skosxl:related rdf:resource="#dwarfNova"/>
+			<skosxl:related rdf:resource="#lowMassXRayBinaryStar"/>
+			<skosxl:related rdf:resource="#stellarWind"/>
+			<skosxl:related rdf:resource="#superhump"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

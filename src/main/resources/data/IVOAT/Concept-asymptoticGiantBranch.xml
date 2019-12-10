@@ -1,9 +1,20 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-asymptoticGiantBranch</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#asymptoticGiantBranch">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>asymptotic giant branch</skosxl:prefLabel>
-		<skosxl:definition>asymptotic giant branch</skosxl:definition>
-		<skosxl:altLabel>AGB</skosxl:altLabel>
-		<skosxl:related rdf:resource="#HertzsprungRussellDiagram"/>
-		<skosxl:related rdf:resource="#lateTypeGiant"/>
-		<skosxl:related rdf:resource="#postAsymptoticGiantBranch"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-asymptoticGiantBranch</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#asymptoticGiantBranch">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>asymptotic giant branch</skosxl:prefLabel>
+			<skosxl:definition>asymptotic giant branch</skosxl:definition>
+			<skosxl:altLabel>AGB</skosxl:altLabel>
+			<skosxl:related rdf:resource="#HertzsprungRussellDiagram"/>
+			<skosxl:related rdf:resource="#lateTypeGiant"/>
+			<skosxl:related rdf:resource="#postAsymptoticGiantBranch"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

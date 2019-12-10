@@ -1,11 +1,22 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-astrophysics</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#astrophysics">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>astrophysics</skosxl:prefLabel>
-		<skosxl:definition>astrophysics</skosxl:definition>
-		<skosxl:broader rdf:resource="#scientificField"/>
-		<skosxl:narrower rdf:resource="#highEnergyAstrophysics"/>
-		<skosxl:narrower rdf:resource="#theoreticalAstrophysics"/>
-		<skosxl:related rdf:resource="#cosmology"/>
-		<skosxl:changeNote>FVH: moved theoretical_astrophysics to NT (2007-OCT-1)</skosxl:changeNote>
-		<skosxl:scopeNote>combine with other terms</skosxl:scopeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-astrophysics</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#astrophysics">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>astrophysics</skosxl:prefLabel>
+			<skosxl:definition>astrophysics</skosxl:definition>
+			<skosxl:broader rdf:resource="#scientificField"/>
+			<skosxl:narrower rdf:resource="#highEnergyAstrophysics"/>
+			<skosxl:narrower rdf:resource="#theoreticalAstrophysics"/>
+			<skosxl:related rdf:resource="#cosmology"/>
+			<skosxl:changeNote>FVH: moved theoretical_astrophysics to NT
+				(2007-OCT-1)</skosxl:changeNote>
+			<skosxl:scopeNote>combine with other terms</skosxl:scopeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

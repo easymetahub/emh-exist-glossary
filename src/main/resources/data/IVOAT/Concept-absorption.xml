@@ -1,24 +1,34 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-absorption</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#absorption">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>absorption</skosxl:prefLabel>
-		<skosxl:definition>absorption</skosxl:definition>
-		<skosxl:narrower rdf:resource="#atmosphericExtinction"/>
-		<skosxl:narrower rdf:resource="#intergalacticAbsorption"/>
-		<skosxl:narrower rdf:resource="#interstellarAbsorption"/>
-		<skosxl:narrower rdf:resource="#lightAbsorption"/>
-		<skosxl:related rdf:resource="#RosselandOpacity"/>
-		<skosxl:related rdf:resource="#atmosphericScattering"/>
-		<skosxl:related rdf:resource="#atmosphericWindow"/>
-		<skosxl:related rdf:resource="#capture"/>
-		<skosxl:related rdf:resource="#equivalentWidth"/>
-		<skosxl:related rdf:resource="#interstellarGas"/>
-		<skosxl:related rdf:resource="#opacity"/>
-		<skosxl:related rdf:resource="#photodissociation"/>
-		<skosxl:related rdf:resource="#photoionization"/>
-		<skosxl:related rdf:resource="#radiation"/>
-		<skosxl:related rdf:resource="#radiativeEquilibrium"/>
-		<skosxl:related rdf:resource="#reddenedStar"/>
-		<skosxl:related rdf:resource="#reddening"/>
-		<skosxl:related rdf:resource="#transmission"/>
-		<skosxl:scopeNote>combine with other terms</skosxl:scopeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-absorption</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#absorption">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>absorption</skosxl:prefLabel>
+			<skosxl:definition>absorption</skosxl:definition>
+			<skosxl:narrower rdf:resource="#atmosphericExtinction"/>
+			<skosxl:narrower rdf:resource="#intergalacticAbsorption"/>
+			<skosxl:narrower rdf:resource="#interstellarAbsorption"/>
+			<skosxl:narrower rdf:resource="#lightAbsorption"/>
+			<skosxl:related rdf:resource="#RosselandOpacity"/>
+			<skosxl:related rdf:resource="#atmosphericScattering"/>
+			<skosxl:related rdf:resource="#atmosphericWindow"/>
+			<skosxl:related rdf:resource="#capture"/>
+			<skosxl:related rdf:resource="#equivalentWidth"/>
+			<skosxl:related rdf:resource="#interstellarGas"/>
+			<skosxl:related rdf:resource="#opacity"/>
+			<skosxl:related rdf:resource="#photodissociation"/>
+			<skosxl:related rdf:resource="#photoionization"/>
+			<skosxl:related rdf:resource="#radiation"/>
+			<skosxl:related rdf:resource="#radiativeEquilibrium"/>
+			<skosxl:related rdf:resource="#reddenedStar"/>
+			<skosxl:related rdf:resource="#reddening"/>
+			<skosxl:related rdf:resource="#transmission"/>
+			<skosxl:scopeNote>combine with other terms</skosxl:scopeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

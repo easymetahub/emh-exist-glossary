@@ -1,13 +1,24 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-cDGalaxy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cDGalaxy">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>cD galaxy</skosxl:prefLabel>
-		<skosxl:definition>cD galaxy (compact D galaxy in the Yerkes classification scheme)</skosxl:definition>
-		<skosxl:broader rdf:resource="#DGalaxy"/>
-		<skosxl:broader rdf:resource="#ellipticalGalaxy"/>
-		<skosxl:broader rdf:resource="#giantGalaxy"/>
-		<skosxl:broader rdf:resource="#massiveGalaxy"/>
-		<skosxl:related rdf:resource="#YerkesClassification"/>
-		<skosxl:related rdf:resource="#galaxyCluster"/>
-		<skosxl:related rdf:resource="#giantRadioGalaxy"/>
-		<skosxl:related rdf:resource="#nucleusCelestialObject"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-cDGalaxy</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cDGalaxy">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>cD galaxy</skosxl:prefLabel>
+			<skosxl:definition>cD galaxy (compact D galaxy in the Yerkes classification
+				scheme)</skosxl:definition>
+			<skosxl:broader rdf:resource="#DGalaxy"/>
+			<skosxl:broader rdf:resource="#ellipticalGalaxy"/>
+			<skosxl:broader rdf:resource="#giantGalaxy"/>
+			<skosxl:broader rdf:resource="#massiveGalaxy"/>
+			<skosxl:related rdf:resource="#YerkesClassification"/>
+			<skosxl:related rdf:resource="#galaxyCluster"/>
+			<skosxl:related rdf:resource="#giantRadioGalaxy"/>
+			<skosxl:related rdf:resource="#nucleusCelestialObject"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

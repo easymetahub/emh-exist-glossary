@@ -1,12 +1,22 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-artificialSatellite</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#artificialSatellite">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>artificial satellite</skosxl:prefLabel>
-		<skosxl:definition>artificial satellite</skosxl:definition>
-		<skosxl:narrower rdf:resource="#geostationarySatellite"/>
-		<skosxl:narrower rdf:resource="#spaceObservatory"/>
-		<skosxl:related rdf:resource="#polarOrbit"/>
-		<skosxl:related rdf:resource="#satelliteLaserRanging"/>
-		<skosxl:related rdf:resource="#spaceAstronomy"/>
-		<skosxl:related rdf:resource="#spaceTelescope"/>
-		<skosxl:related rdf:resource="#spaceVehicle"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-artificialSatellite</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#artificialSatellite">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>artificial satellite</skosxl:prefLabel>
+			<skosxl:definition>artificial satellite</skosxl:definition>
+			<skosxl:narrower rdf:resource="#geostationarySatellite"/>
+			<skosxl:narrower rdf:resource="#spaceObservatory"/>
+			<skosxl:related rdf:resource="#polarOrbit"/>
+			<skosxl:related rdf:resource="#satelliteLaserRanging"/>
+			<skosxl:related rdf:resource="#spaceAstronomy"/>
+			<skosxl:related rdf:resource="#spaceTelescope"/>
+			<skosxl:related rdf:resource="#spaceVehicle"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

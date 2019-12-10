@@ -1,15 +1,26 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-atmosphericExtinction</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#atmosphericExtinction">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>atmospheric extinction</skosxl:prefLabel>
-		<skosxl:definition>atmospheric extinction</skosxl:definition>
-		<skosxl:altLabel>extinction</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#absorption"/>
-		<skosxl:broader rdf:resource="#scattering"/>
-		<skosxl:related rdf:resource="#EarthAtmosphere"/>
-		<skosxl:related rdf:resource="#absorptionCoefficient"/>
-		<skosxl:related rdf:resource="#atmosphericWindow"/>
-		<skosxl:related rdf:resource="#lightAbsorption"/>
-		<skosxl:related rdf:resource="#lightScattering"/>
-		<skosxl:related rdf:resource="#ultravioletExtinction"/>
-		<skosxl:scopeNote>refers to Earth atmosphere</skosxl:scopeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-atmosphericExtinction</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#atmosphericExtinction">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>atmospheric extinction</skosxl:prefLabel>
+			<skosxl:definition>atmospheric extinction</skosxl:definition>
+			<skosxl:altLabel>extinction</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#absorption"/>
+			<skosxl:broader rdf:resource="#scattering"/>
+			<skosxl:related rdf:resource="#EarthAtmosphere"/>
+			<skosxl:related rdf:resource="#absorptionCoefficient"/>
+			<skosxl:related rdf:resource="#atmosphericWindow"/>
+			<skosxl:related rdf:resource="#lightAbsorption"/>
+			<skosxl:related rdf:resource="#lightScattering"/>
+			<skosxl:related rdf:resource="#ultravioletExtinction"/>
+			<skosxl:scopeNote>refers to Earth atmosphere</skosxl:scopeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>
