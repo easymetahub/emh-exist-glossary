@@ -1,0 +1,7 @@
+{
+  "name": "emh-glossary-admin",
+  "short_name": "emh-glossary-admin",
+  "description": "This page is for administering the glossaries in the app",
+  "start_url": "/",
+  "display": "standalone"
+}

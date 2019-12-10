@@ -48,6 +48,29 @@ task copyPolymerBase(type: Copy) {
   from 'src/main/polymer/base/build/default'
 }
 
+task npmInstallAdmin(type: Exec) {
+    String npm = 'npm';
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        npm = 'npm.cmd'
+    }
+    workingDir 'src/main/polymer/admin'
+    commandLine npm, 'install'
+}
+
+task polymerBuildAdmin(type: Exec) {
+    String polymer = 'polymer';
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        polymer = 'polymer.cmd'
+    }
+    workingDir 'src/main/polymer/admin/'
+    commandLine polymer, 'build'
+}
+
+task copyPolymerAdmin(type: Copy) {
+  into 'build/default/admin'
+  from 'src/main/polymer/admin/build/default'
+}
+
 task copyModules(type: Copy) {
   into 'build/default'
   from 'src/main/xquery'
@@ -84,11 +107,16 @@ task buildXAR(type: Zip) {
 
 
 // Task dependencies
-buildXAR.dependsOn copyPolymerBase
 buildXAR.dependsOn copyModules
 buildXAR.dependsOn copyResources
+// Base polymer page
+buildXAR.dependsOn copyPolymerBase
 copyPolymerBase.dependsOn polymerBuildBase
 polymerBuildBase.dependsOn npmInstallBase
+// Admin polymer page
+buildXAR.dependsOn copyPolymerAdmin
+copyPolymerAdmin.dependsOn polymerBuildAdmin
+polymerBuildAdmin.dependsOn npmInstallAdmin
 
 
 
