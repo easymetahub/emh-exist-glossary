@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>248527cd-2b18-483a-8527-cd2b18e83a4d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cosmicRaySource">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>cosmic ray source</skos:prefLabel>
-		<skos:definition>cosmic ray source</skos:definition>
-		<skos:broader rdf:resource="#source"/>
-		<skos:related rdf:resource="#cosmicRay"/>
-	</skos:Concept></env:instance></env:envelope>

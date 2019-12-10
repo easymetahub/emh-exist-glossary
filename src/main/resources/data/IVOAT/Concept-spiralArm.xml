@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spiralArm</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spiralArm">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>spiral arm</skosxl:prefLabel>
+		<skosxl:definition>spiral arm</skosxl:definition>
+		<skosxl:altLabel>arm</skosxl:altLabel>
+		<skosxl:related rdf:resource="#GalacticStructure"/>
+		<skosxl:related rdf:resource="#galaxyStructure"/>
+		<skosxl:related rdf:resource="#gasDistribution"/>
+		<skosxl:related rdf:resource="#interstellarMagneticField"/>
+		<skosxl:related rdf:resource="#interstellarMatter"/>
+		<skosxl:related rdf:resource="#openStarCluster"/>
+		<skosxl:related rdf:resource="#pitchAngle"/>
+		<skosxl:related rdf:resource="#populationIStar"/>
+		<skosxl:related rdf:resource="#spiralGalaxy"/>
+	</skosxl:Concept></env:instance></env:envelope>

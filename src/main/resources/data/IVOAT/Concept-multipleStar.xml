@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-multipleStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#multipleStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>multiple star</skosxl:prefLabel>
+		<skosxl:definition>multiple star</skosxl:definition>
+		<skosxl:narrower rdf:resource="#tripleStar"/>
+		<skosxl:related rdf:resource="#binaryStar"/>
+		<skosxl:related rdf:resource="#companionStar"/>
+		<skosxl:related rdf:resource="#orbitDetermination"/>
+		<skosxl:related rdf:resource="#orbit"/>
+		<skosxl:changeNote>FVH: moved triple_star to NT (2007-OCT-1)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

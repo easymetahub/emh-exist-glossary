@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>30e0c6ed-a59e-478e-a0c6-eda59e778e79</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#zoneOfTotality">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>zone of totality</skos:prefLabel>
-		<skos:definition>zone of totality</skos:definition>
-		<skos:related rdf:resource="#solarEclipse"/>
-		<skos:related rdf:resource="#umbra"/>
-	</skos:Concept></env:instance></env:envelope>

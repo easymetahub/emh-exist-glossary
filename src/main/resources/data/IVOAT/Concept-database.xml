@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-database</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#database">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>database</skosxl:prefLabel>
+		<skosxl:definition>database</skosxl:definition>
+		<skosxl:altLabel>data base</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#computing"/>
+		<skosxl:related rdf:resource="#dataCenter"/>
+		<skosxl:related rdf:resource="#dataRetrieval"/>
+		<skosxl:related rdf:resource="#dataStorage"/>
+		<skosxl:related rdf:resource="#virtualObservatory"/>
+	</skosxl:Concept></env:instance></env:envelope>

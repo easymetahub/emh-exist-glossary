@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-hydratedCarbon</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#hydratedCarbon">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>hydrated carbon</skosxl:prefLabel>
+		<skosxl:definition>CH molecule</skosxl:definition>
+		<skosxl:altLabel>CH</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#carbonCompound"/>
+		<skosxl:broader rdf:resource="#hydrocarbon"/>
+		<skosxl:broader rdf:resource="#interstellarMolecule"/>
+		<skosxl:broader rdf:resource="#molecule"/>
+		<skosxl:changeNote>FVH: moved CH to ALT to conform to standard use in the thesaurus (2007-OCT-5)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-quantumMechanics</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#quantumMechanics">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>quantum mechanics</skosxl:prefLabel>
+		<skosxl:definition>quantum mechanics</skosxl:definition>
+		<skosxl:related rdf:resource="#FermiDiracStatistics"/>
+		<skosxl:related rdf:resource="#quantumTheory"/>
+		<skosxl:related rdf:resource="#relativisticVelocity"/>
+		<skosxl:related rdf:resource="#superconductingTunnelJunction"/>
+	</skosxl:Concept></env:instance></env:envelope>

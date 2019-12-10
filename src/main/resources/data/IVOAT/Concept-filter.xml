@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-filter</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#filter">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>filter</skosxl:prefLabel>
+		<skosxl:definition>filter</skosxl:definition>
+		<skosxl:narrower rdf:resource="#interferenceFilter"/>
+		<skosxl:narrower rdf:resource="#neutralDensityFilter"/>
+		<skosxl:narrower rdf:resource="#opticalFilter"/>
+		<skosxl:related rdf:resource="#attenuation"/>
+		<skosxl:related rdf:resource="#filterWheel"/>
+		<skosxl:changeNote>FVH: added NT NEUTRAL_DENSITY_FILTERS (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

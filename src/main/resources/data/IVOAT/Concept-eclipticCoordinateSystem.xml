@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-eclipticCoordinateSystem</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#eclipticCoordinateSystem">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>ecliptic coordinate system</skosxl:prefLabel>
+		<skosxl:definition>ecliptic coordinate system</skosxl:definition>
+		<skosxl:broader rdf:resource="#celestialCoordinateSystem"/>
+		<skosxl:related rdf:resource="#EarthOrbit"/>
+		<skosxl:related rdf:resource="#ecliptic"/>
+		<skosxl:related rdf:resource="#eclipticLatitude"/>
+		<skosxl:related rdf:resource="#eclipticLongitude"/>
+		<skosxl:related rdf:resource="#eclipticPole"/>
+	</skosxl:Concept></env:instance></env:envelope>

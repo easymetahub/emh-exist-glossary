@@ -1,0 +1,43 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-photometry</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#photometry">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>photometry</skosxl:prefLabel>
+		<skosxl:definition>photometry</skosxl:definition>
+		<skosxl:altLabel>filter photometry</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#astronomicalTechnique"/>
+		<skosxl:broader rdf:resource="#observingTechnique"/>
+		<skosxl:narrower rdf:resource="#CcdPhotometry"/>
+		<skosxl:narrower rdf:resource="#infraredPhotometry"/>
+		<skosxl:narrower rdf:resource="#multiColorPhotometry"/>
+		<skosxl:narrower rdf:resource="#photoelectricPhotometry"/>
+		<skosxl:narrower rdf:resource="#photographicPhotometry"/>
+		<skosxl:narrower rdf:resource="#surfacePhotometry"/>
+		<skosxl:narrower rdf:resource="#ultravioletPhotometry"/>
+		<skosxl:related rdf:resource="#PurkinjeEffect"/>
+		<skosxl:related rdf:resource="#apparentMagnitude"/>
+		<skosxl:related rdf:resource="#automaticPatrolTelescope"/>
+		<skosxl:related rdf:resource="#avalanchePhotodiode"/>
+		<skosxl:related rdf:resource="#color"/>
+		<skosxl:related rdf:resource="#colorEquation"/>
+		<skosxl:related rdf:resource="#colorExcess"/>
+		<skosxl:related rdf:resource="#colorIndex"/>
+		<skosxl:related rdf:resource="#colorLuminosityRelation"/>
+		<skosxl:related rdf:resource="#colorMagnitudeRelation"/>
+		<skosxl:related rdf:resource="#driftScan"/>
+		<skosxl:related rdf:resource="#eRegion"/>
+		<skosxl:related rdf:resource="#effectiveTemperature"/>
+		<skosxl:related rdf:resource="#fRegion"/>
+		<skosxl:related rdf:resource="#interferenceFilter"/>
+		<skosxl:related rdf:resource="#intrinsicColor"/>
+		<skosxl:related rdf:resource="#magnitude"/>
+		<skosxl:related rdf:resource="#opticalFilter"/>
+		<skosxl:related rdf:resource="#photodiode"/>
+		<skosxl:related rdf:resource="#photometer"/>
+		<skosxl:related rdf:resource="#photometricParallax"/>
+		<skosxl:related rdf:resource="#photometricStandardStar"/>
+		<skosxl:related rdf:resource="#photometricSystem"/>
+		<skosxl:related rdf:resource="#polarimetry"/>
+		<skosxl:related rdf:resource="#spectrophotometry"/>
+		<skosxl:related rdf:resource="#standardCandle"/>
+		<skosxl:related rdf:resource="#twoColorDiagram"/>
+		<skosxl:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

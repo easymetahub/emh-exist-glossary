@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-metalLine</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#metalLine">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>metal line</skosxl:prefLabel>
+		<skosxl:definition>metal line</skosxl:definition>
+		<skosxl:broader rdf:resource="#spectralLine"/>
+		<skosxl:narrower rdf:resource="#CaIiEmissionLine"/>
+		<skosxl:narrower rdf:resource="#calciumLine"/>
+		<skosxl:narrower rdf:resource="#carbonLine"/>
+		<skosxl:narrower rdf:resource="#technetiumLine"/>
+		<skosxl:related rdf:resource="#absorptionLine"/>
+		<skosxl:related rdf:resource="#lineBlanketing"/>
+		<skosxl:related rdf:resource="#rareEarth"/>
+	</skosxl:Concept></env:instance></env:envelope>

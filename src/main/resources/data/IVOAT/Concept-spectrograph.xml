@@ -1,0 +1,35 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spectrograph</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spectrograph">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>spectrograph</skosxl:prefLabel>
+		<skosxl:definition>spectrograph</skosxl:definition>
+		<skosxl:broader rdf:resource="#instrument"/>
+		<skosxl:broader rdf:resource="#opticalInstrument"/>
+		<skosxl:broader rdf:resource="#telescopeInstrument"/>
+		<skosxl:narrower rdf:resource="#CoudeSpectrograph"/>
+		<skosxl:narrower rdf:resource="#FabryPerotSpectrograph"/>
+		<skosxl:narrower rdf:resource="#FourierSpectrograph"/>
+		<skosxl:narrower rdf:resource="#XRaySpectrograph"/>
+		<skosxl:narrower rdf:resource="#echelleSpectrograph"/>
+		<skosxl:narrower rdf:resource="#gammaRaySpectrograph"/>
+		<skosxl:narrower rdf:resource="#gratingSpectrograph"/>
+		<skosxl:narrower rdf:resource="#grazingIncidenceSpectrograph"/>
+		<skosxl:narrower rdf:resource="#integralFieldSpectrograph"/>
+		<skosxl:narrower rdf:resource="#multiChannelSpectrograph"/>
+		<skosxl:narrower rdf:resource="#multiFiberSpectrograph"/>
+		<skosxl:narrower rdf:resource="#multiSlitSpectrograph"/>
+		<skosxl:narrower rdf:resource="#opticalSpectrograph"/>
+		<skosxl:narrower rdf:resource="#prismSpectrograph"/>
+		<skosxl:narrower rdf:resource="#radioSpectrograph"/>
+		<skosxl:narrower rdf:resource="#ultravioletSpectrograph"/>
+		<skosxl:related rdf:resource="#VphGrating"/>
+		<skosxl:related rdf:resource="#comparisonLamp"/>
+		<skosxl:related rdf:resource="#diffractionGrating"/>
+		<skosxl:related rdf:resource="#echelleGrating"/>
+		<skosxl:related rdf:resource="#flatFieldLamp"/>
+		<skosxl:related rdf:resource="#grism"/>
+		<skosxl:related rdf:resource="#prism"/>
+		<skosxl:related rdf:resource="#spectrographSlit"/>
+		<skosxl:related rdf:resource="#spectroheliograph"/>
+		<skosxl:related rdf:resource="#spectroscopy"/>
+		<skosxl:changeNote>FVH: added RT SPECTROGRAPH_SLITS, NT INTEGRAL_FIELD_SPECTROGRAPHS, MULTI_FIBER_SPECTROGRAPHS, and MULTI_SLIT_SPECTROGRAPHS (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

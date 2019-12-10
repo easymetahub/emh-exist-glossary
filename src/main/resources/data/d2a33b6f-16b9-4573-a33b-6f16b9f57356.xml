@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d2a33b6f-16b9-4573-a33b-6f16b9f57356</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#forkMounting">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>fork mounting</skos:prefLabel>
-		<skos:definition>fork mounting</skos:definition>
-		<skos:broader rdf:resource="#equatorialMounting"/>
-	</skos:Concept></env:instance></env:envelope>

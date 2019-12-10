@@ -1,0 +1,23 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-interplanetaryMatter</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#interplanetaryMatter">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>interplanetary matter</skosxl:prefLabel>
+		<skosxl:definition>interplanetary matter</skosxl:definition>
+		<skosxl:altLabel>interplanetary medium</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#interplanetaryDust"/>
+		<skosxl:narrower rdf:resource="#interplanetaryGas"/>
+		<skosxl:narrower rdf:resource="#interplanetaryGrain"/>
+		<skosxl:narrower rdf:resource="#meteoroid"/>
+		<skosxl:narrower rdf:resource="#solarWind"/>
+		<skosxl:related rdf:resource="#asteroid"/>
+		<skosxl:related rdf:resource="#circumstellarMatter"/>
+		<skosxl:related rdf:resource="#comet"/>
+		<skosxl:related rdf:resource="#gegenschein"/>
+		<skosxl:related rdf:resource="#heliosphere"/>
+		<skosxl:related rdf:resource="#intergalacticMatter"/>
+		<skosxl:related rdf:resource="#interplanetaryScintillation"/>
+		<skosxl:related rdf:resource="#interstellarMatter"/>
+		<skosxl:related rdf:resource="#meteorite"/>
+		<skosxl:related rdf:resource="#micrometeorite"/>
+		<skosxl:related rdf:resource="#zodiacalDust"/>
+		<skosxl:related rdf:resource="#zodiacalLight"/>
+	</skosxl:Concept></env:instance></env:envelope>

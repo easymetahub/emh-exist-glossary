@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f906b756-b9de-4fef-86b7-56b9debfef8b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cyanopolyene">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>cyanopolyene</skos:prefLabel>
-		<skos:definition>cyanopolyene</skos:definition>
-		<skos:broader rdf:resource="#carbonCompound"/>
-		<skos:changeNote>FVH: corrected spelling (2007-OCT-2)</skos:changeNote>
-	</skos:Concept></env:instance></env:envelope>

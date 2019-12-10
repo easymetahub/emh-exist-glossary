@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-interferometer</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#interferometer">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>interferometer</skosxl:prefLabel>
+		<skosxl:definition>interferometer</skosxl:definition>
+		<skosxl:broader rdf:resource="#instrument"/>
+		<skosxl:narrower rdf:resource="#FabryPerotInterferometer"/>
+		<skosxl:narrower rdf:resource="#intensityInterferometer"/>
+		<skosxl:narrower rdf:resource="#longBaselineInterferometer"/>
+		<skosxl:narrower rdf:resource="#opticalInterferometer"/>
+		<skosxl:narrower rdf:resource="#phaseSwitchingInterferometer"/>
+		<skosxl:narrower rdf:resource="#radioInterferometer"/>
+		<skosxl:narrower rdf:resource="#veryLongBaselineInterferometer"/>
+		<skosxl:related rdf:resource="#antenna"/>
+		<skosxl:related rdf:resource="#array"/>
+		<skosxl:related rdf:resource="#heterodyne"/>
+		<skosxl:related rdf:resource="#interferenceFringe"/>
+		<skosxl:related rdf:resource="#radioTelescope"/>
+		<skosxl:related rdf:resource="#telescopeArray"/>
+		<skosxl:scopeNote>see also under interferometry</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

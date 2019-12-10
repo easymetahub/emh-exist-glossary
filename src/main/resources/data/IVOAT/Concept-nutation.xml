@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-nutation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#nutation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>nutation</skosxl:prefLabel>
+		<skosxl:definition>nutation</skosxl:definition>
+		<skosxl:related rdf:resource="#EarthRotation"/>
+		<skosxl:related rdf:resource="#Moon"/>
+		<skosxl:related rdf:resource="#equationOfTheEquinox"/>
+		<skosxl:related rdf:resource="#polarMotion"/>
+		<skosxl:related rdf:resource="#precession"/>
+	</skosxl:Concept></env:instance></env:envelope>

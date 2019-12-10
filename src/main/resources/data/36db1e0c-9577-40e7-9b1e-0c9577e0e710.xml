@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>36db1e0c-9577-40e7-9b1e-0c9577e0e710</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#funneling">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>funneling</skos:prefLabel>
-		<skos:definition>funneling</skos:definition>
-		<skos:related rdf:resource="#lateTypeGiant"/>
-		<skos:related rdf:resource="#stellarEvolution"/>
-	</skos:Concept></env:instance></env:envelope>

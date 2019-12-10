@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-metalPoorStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#metalPoorStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>metal-poor star</skosxl:prefLabel>
+		<skosxl:definition>metal-poor star</skosxl:definition>
+		<skosxl:altLabel>metal poor star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#star"/>
+		<skosxl:narrower rdf:resource="#lithiumPoorStar"/>
+		<skosxl:narrower rdf:resource="#populationIiStar"/>
+		<skosxl:narrower rdf:resource="#populationIiiStar"/>
+		<skosxl:narrower rdf:resource="#weakGBandStar"/>
+		<skosxl:related rdf:resource="#metalAbundance"/>
+		<skosxl:related rdf:resource="#metalDeficientStar"/>
+		<skosxl:related rdf:resource="#ultravioletExcessStar"/>
+		<skosxl:changeNote>FVH: added NT POP II and III STARS (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

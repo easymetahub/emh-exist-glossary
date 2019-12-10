@@ -1,0 +1,27 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-abundance</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#abundance">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>abundance</skosxl:prefLabel>
+		<skosxl:definition>abundance</skosxl:definition>
+		<skosxl:altLabel>chemical abundance</skosxl:altLabel>
+		<skosxl:altLabel>element abundance</skosxl:altLabel>
+		<skosxl:altLabel>stellar abundance</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#cosmicAbundance"/>
+		<skosxl:narrower rdf:resource="#isotopicAbundance"/>
+		<skosxl:narrower rdf:resource="#metalAbundance"/>
+		<skosxl:narrower rdf:resource="#overabundance"/>
+		<skosxl:narrower rdf:resource="#underabundance"/>
+		<skosxl:related rdf:resource="#CnoAnomaly"/>
+		<skosxl:related rdf:resource="#abundanceRatio"/>
+		<skosxl:related rdf:resource="#chemicalComposition"/>
+		<skosxl:related rdf:resource="#chemicalElement"/>
+		<skosxl:related rdf:resource="#chemicalEvolution"/>
+		<skosxl:related rdf:resource="#curveOfGrowth"/>
+		<skosxl:related rdf:resource="#elementFormation"/>
+		<skosxl:related rdf:resource="#enrichment"/>
+		<skosxl:related rdf:resource="#heavyElement"/>
+		<skosxl:related rdf:resource="#heliumPoorStar"/>
+		<skosxl:related rdf:resource="#heliumRichStar"/>
+		<skosxl:related rdf:resource="#peculiarStar"/>
+		<skosxl:related rdf:resource="#rareEarth"/>
+		<skosxl:scopeNote>may be combined with element, e.g. helium abundance</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

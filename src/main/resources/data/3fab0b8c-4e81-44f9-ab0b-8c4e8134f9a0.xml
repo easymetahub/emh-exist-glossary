@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>3fab0b8c-4e81-44f9-ab0b-8c4e8134f9a0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#historyOfAstronomy">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>history of astronomy</skos:prefLabel>
-		<skos:definition>history of astronomy</skos:definition>
-		<skos:narrower rdf:resource="#archaeoastronomy"/>
-		<skos:scopeNote>combine with other terms</skos:scopeNote>
-	</skos:Concept></env:instance></env:envelope>

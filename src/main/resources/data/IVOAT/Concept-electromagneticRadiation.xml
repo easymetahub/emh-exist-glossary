@@ -1,0 +1,46 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-electromagneticRadiation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#electromagneticRadiation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>electromagnetic radiation</skosxl:prefLabel>
+		<skosxl:definition>electromagnetic radiation</skosxl:definition>
+		<skosxl:altLabel>electromagnetic wave</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#radiation"/>
+		<skosxl:broader rdf:resource="#wave"/>
+		<skosxl:narrower rdf:resource="#CerenkovRadiation"/>
+		<skosxl:narrower rdf:resource="#XRayRadiation"/>
+		<skosxl:narrower rdf:resource="#blackBodyRadiation"/>
+		<skosxl:narrower rdf:resource="#bremsstrahlung"/>
+		<skosxl:narrower rdf:resource="#continuumRadiation"/>
+		<skosxl:narrower rdf:resource="#cyclotronRadiation"/>
+		<skosxl:narrower rdf:resource="#gammaRayRadiation"/>
+		<skosxl:narrower rdf:resource="#infraredRadiation"/>
+		<skosxl:narrower rdf:resource="#microwaveRadiation"/>
+		<skosxl:narrower rdf:resource="#millimeterRadiation"/>
+		<skosxl:narrower rdf:resource="#polarizedLight"/>
+		<skosxl:narrower rdf:resource="#polarizedRadiation"/>
+		<skosxl:narrower rdf:resource="#radioRadiation"/>
+		<skosxl:narrower rdf:resource="#submillimeterRadiation"/>
+		<skosxl:narrower rdf:resource="#synchrotronRadiation"/>
+		<skosxl:narrower rdf:resource="#thermalRadiation"/>
+		<skosxl:narrower rdf:resource="#ultravioletRadiation"/>
+		<skosxl:narrower rdf:resource="#visibleRadiation"/>
+		<skosxl:related rdf:resource="#PlanckBlackBodyFormula"/>
+		<skosxl:related rdf:resource="#color"/>
+		<skosxl:related rdf:resource="#darkness"/>
+		<skosxl:related rdf:resource="#effectiveTemperature"/>
+		<skosxl:related rdf:resource="#electrostaticWave"/>
+		<skosxl:related rdf:resource="#fluxDensity"/>
+		<skosxl:related rdf:resource="#gravitationalLensing"/>
+		<skosxl:related rdf:resource="#lamp"/>
+		<skosxl:related rdf:resource="#lightAbsorption"/>
+		<skosxl:related rdf:resource="#lightInterference"/>
+		<skosxl:related rdf:resource="#lightPolarization"/>
+		<skosxl:related rdf:resource="#lightScattering"/>
+		<skosxl:related rdf:resource="#luminescence"/>
+		<skosxl:related rdf:resource="#photon"/>
+		<skosxl:related rdf:resource="#radiativeEquilibrium"/>
+		<skosxl:related rdf:resource="#recombinationLine"/>
+		<skosxl:related rdf:resource="#refraction"/>
+		<skosxl:related rdf:resource="#solarConstant"/>
+		<skosxl:related rdf:resource="#wavelength"/>
+		<skosxl:changeNote>FVH+ES: moved radiation to BT, lots of NT and RT from electromagnetic_wave (2007-OCT-8)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

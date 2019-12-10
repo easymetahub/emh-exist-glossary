@@ -1,0 +1,18 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-peculiarStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#peculiarStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>peculiar star</skosxl:prefLabel>
+		<skosxl:definition>peculiar star</skosxl:definition>
+		<skosxl:broader rdf:resource="#peculiarObject"/>
+		<skosxl:narrower rdf:resource="#ApStar"/>
+		<skosxl:narrower rdf:resource="#BpStar"/>
+		<skosxl:narrower rdf:resource="#heavyMetalStar"/>
+		<skosxl:narrower rdf:resource="#holmiumStar"/>
+		<skosxl:narrower rdf:resource="#magneticStar"/>
+		<skosxl:narrower rdf:resource="#peculiarGiant"/>
+		<skosxl:narrower rdf:resource="#peculiarVariableStar"/>
+		<skosxl:related rdf:resource="#abnormalSpectrum"/>
+		<skosxl:related rdf:resource="#abundance"/>
+		<skosxl:related rdf:resource="#chemicalComposition"/>
+		<skosxl:related rdf:resource="#emissionLineStar"/>
+		<skosxl:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

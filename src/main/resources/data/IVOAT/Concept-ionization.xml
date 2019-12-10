@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-ionization</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#ionization">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>ionization</skosxl:prefLabel>
+		<skosxl:definition>ionization</skosxl:definition>
+		<skosxl:altLabel>ionisation	UK</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#photoionization"/>
+		<skosxl:related rdf:resource="#SchwarzschildMetric"/>
+		<skosxl:related rdf:resource="#StromgrenSphere"/>
+		<skosxl:related rdf:resource="#corona"/>
+		<skosxl:related rdf:resource="#ionDensity"/>
+		<skosxl:related rdf:resource="#ionizationEquilibrium"/>
+		<skosxl:related rdf:resource="#shock"/>
+	</skosxl:Concept></env:instance></env:envelope>

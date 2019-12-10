@@ -1,0 +1,31 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-radioSource</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#radioSource">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>radio source</skosxl:prefLabel>
+		<skosxl:definition>radio source</skosxl:definition>
+		<skosxl:broader rdf:resource="#source"/>
+		<skosxl:narrower rdf:resource="#OhSource"/>
+		<skosxl:narrower rdf:resource="#compactSource"/>
+		<skosxl:narrower rdf:resource="#discreteRadioSource"/>
+		<skosxl:narrower rdf:resource="#extendedSource"/>
+		<skosxl:narrower rdf:resource="#extragalacticRadioSource"/>
+		<skosxl:narrower rdf:resource="#headTailGalaxy"/>
+		<skosxl:narrower rdf:resource="#pulsar"/>
+		<skosxl:narrower rdf:resource="#radioStar"/>
+		<skosxl:narrower rdf:resource="#variableSource"/>
+		<skosxl:related rdf:resource="#SiOMaser"/>
+		<skosxl:related rdf:resource="#bipolarOutflow"/>
+		<skosxl:related rdf:resource="#galaxyEncounter"/>
+		<skosxl:related rdf:resource="#interplanetaryScintillation"/>
+		<skosxl:related rdf:resource="#interstellarScintillation"/>
+		<skosxl:related rdf:resource="#ionosphericScintillation"/>
+		<skosxl:related rdf:resource="#jet"/>
+		<skosxl:related rdf:resource="#lobe"/>
+		<skosxl:related rdf:resource="#maser"/>
+		<skosxl:related rdf:resource="#opticalIdentification"/>
+		<skosxl:related rdf:resource="#radioCore"/>
+		<skosxl:related rdf:resource="#radioJet"/>
+		<skosxl:related rdf:resource="#radioRadiation"/>
+		<skosxl:related rdf:resource="#radioSourceCount"/>
+		<skosxl:related rdf:resource="#supernovaRemnant"/>
+		<skosxl:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

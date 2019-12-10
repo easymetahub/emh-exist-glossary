@@ -1,0 +1,17 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-flareStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#flareStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>flare star</skosxl:prefLabel>
+		<skosxl:definition>flare star</skosxl:definition>
+		<skosxl:broader rdf:resource="#dwarf"/>
+		<skosxl:broader rdf:resource="#emissionLineStar"/>
+		<skosxl:broader rdf:resource="#infraredSource"/>
+		<skosxl:broader rdf:resource="#radioStar"/>
+		<skosxl:narrower rdf:resource="#ByDraconisStar"/>
+		<skosxl:narrower rdf:resource="#UvCetiStar"/>
+		<skosxl:narrower rdf:resource="#redDwarfFlareStar"/>
+		<skosxl:related rdf:resource="#TAssociation"/>
+		<skosxl:related rdf:resource="#flashStar"/>
+		<skosxl:related rdf:resource="#opticalFlare"/>
+		<skosxl:related rdf:resource="#opticalOutburst"/>
+		<skosxl:related rdf:resource="#radioFlare"/>
+	</skosxl:Concept></env:instance></env:envelope>

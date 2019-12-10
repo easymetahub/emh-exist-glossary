@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-opticalRadar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#opticalRadar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>optical radar</skosxl:prefLabel>
+		<skosxl:definition>optical radar</skosxl:definition>
+		<skosxl:broader rdf:resource="#radar"/>
+		<skosxl:related rdf:resource="#laserRanging"/>
+		<skosxl:related rdf:resource="#laser"/>
+		<skosxl:related rdf:resource="#lunarLaserRanging"/>
+		<skosxl:related rdf:resource="#satelliteLaserRanging"/>
+	</skosxl:Concept></env:instance></env:envelope>

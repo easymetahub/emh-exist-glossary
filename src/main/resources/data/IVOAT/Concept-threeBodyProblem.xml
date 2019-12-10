@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-threeBodyProblem</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#threeBodyProblem">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>three-body problem</skosxl:prefLabel>
+		<skosxl:definition>three-body problem</skosxl:definition>
+		<skosxl:altLabel>three body problem</skosxl:altLabel>
+		<skosxl:related rdf:resource="#NBodyProblem"/>
+		<skosxl:related rdf:resource="#celestialMechanics"/>
+		<skosxl:related rdf:resource="#orbit"/>
+		<skosxl:related rdf:resource="#perturbation"/>
+		<skosxl:related rdf:resource="#stellarDynamics"/>
+		<skosxl:related rdf:resource="#twoBodyProblem"/>
+	</skosxl:Concept></env:instance></env:envelope>

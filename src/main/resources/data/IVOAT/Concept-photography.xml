@@ -1,0 +1,26 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-photography</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#photography">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>photography</skosxl:prefLabel>
+		<skosxl:definition>photography</skosxl:definition>
+		<skosxl:altLabel>astrophotography</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#allSkyPhotography"/>
+		<skosxl:narrower rdf:resource="#colorPhotography"/>
+		<skosxl:narrower rdf:resource="#falseColorPhotography"/>
+		<skosxl:narrower rdf:resource="#spectrography"/>
+		<skosxl:narrower rdf:resource="#streakPhotography"/>
+		<skosxl:narrower rdf:resource="#ultravioletPhotography"/>
+		<skosxl:related rdf:resource="#HdCurve"/>
+		<skosxl:related rdf:resource="#astronomicalTechnique"/>
+		<skosxl:related rdf:resource="#camera"/>
+		<skosxl:related rdf:resource="#darkroom"/>
+		<skosxl:related rdf:resource="#edgeEffect"/>
+		<skosxl:related rdf:resource="#image"/>
+		<skosxl:related rdf:resource="#microphotometer"/>
+		<skosxl:related rdf:resource="#observingTechnique"/>
+		<skosxl:related rdf:resource="#photogrammetry"/>
+		<skosxl:related rdf:resource="#photographicEmulsion"/>
+		<skosxl:related rdf:resource="#photographicFilm"/>
+		<skosxl:related rdf:resource="#photographicPlate"/>
+		<skosxl:related rdf:resource="#photographicProcessing"/>
+		<skosxl:related rdf:resource="#unsharpMasking"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-opticalInterferometer</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#opticalInterferometer">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>optical interferometer</skosxl:prefLabel>
+		<skosxl:definition>optical interferometer</skosxl:definition>
+		<skosxl:altLabel>stellar interferometer</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#interferometer"/>
+		<skosxl:narrower rdf:resource="#MichelsonInterferometer"/>
+		<skosxl:narrower rdf:resource="#intensityInterferometer"/>
+		<skosxl:related rdf:resource="#longBaselineInterferometer"/>
+	</skosxl:Concept></env:instance></env:envelope>

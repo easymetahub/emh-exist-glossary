@@ -1,0 +1,22 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-ultravioletRadiation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#ultravioletRadiation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>ultraviolet radiation</skosxl:prefLabel>
+		<skosxl:definition>ultraviolet radiation</skosxl:definition>
+		<skosxl:altLabel>ultraviolet_light</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#electromagneticRadiation"/>
+		<skosxl:broader rdf:resource="#radiation"/>
+		<skosxl:narrower rdf:resource="#extremeUltravioletRadiation"/>
+		<skosxl:narrower rdf:resource="#farUltravioletRadiation"/>
+		<skosxl:narrower rdf:resource="#nearUltravioletRadiation"/>
+		<skosxl:narrower rdf:resource="#ultravioletBackground"/>
+		<skosxl:narrower rdf:resource="#ultravioletContinuum"/>
+		<skosxl:related rdf:resource="#CerenkovRadiation"/>
+		<skosxl:related rdf:resource="#LymanContinuum"/>
+		<skosxl:related rdf:resource="#LymanSeries"/>
+		<skosxl:related rdf:resource="#blackBodyRadiation"/>
+		<skosxl:related rdf:resource="#lineBlanketing"/>
+		<skosxl:related rdf:resource="#ultravioletObservatory"/>
+		<skosxl:related rdf:resource="#ultravioletPhotometry"/>
+		<skosxl:related rdf:resource="#ultravioletSpectrograph"/>
+		<skosxl:changeNote>FVH: change BT electromagnetic_wave to BT electromagnetic_radiation (2007-OCT-8)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,25 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-nebula</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#nebula">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>nebula</skosxl:prefLabel>
+		<skosxl:definition>nebula</skosxl:definition>
+		<skosxl:broader rdf:resource="#interstellarMatter"/>
+		<skosxl:narrower rdf:resource="#bipolarNebula"/>
+		<skosxl:narrower rdf:resource="#brightNebula"/>
+		<skosxl:narrower rdf:resource="#compactNebula"/>
+		<skosxl:narrower rdf:resource="#darkNebula"/>
+		<skosxl:narrower rdf:resource="#denseCloud"/>
+		<skosxl:narrower rdf:resource="#diffuseNebula"/>
+		<skosxl:narrower rdf:resource="#dustNebula"/>
+		<skosxl:narrower rdf:resource="#emissionNebula"/>
+		<skosxl:narrower rdf:resource="#filamentaryNebula"/>
+		<skosxl:narrower rdf:resource="#gaseousNebula"/>
+		<skosxl:narrower rdf:resource="#planetaryNebula"/>
+		<skosxl:narrower rdf:resource="#reflectionNebula"/>
+		<skosxl:narrower rdf:resource="#ringNebula"/>
+		<skosxl:related rdf:resource="#OpikTheory"/>
+		<skosxl:related rdf:resource="#forbiddenLine"/>
+		<skosxl:related rdf:resource="#forbiddenTransition"/>
+		<skosxl:related rdf:resource="#nebularFilament"/>
+		<skosxl:related rdf:resource="#surfacePhotometry"/>
+		<skosxl:scopeNote>named nebula not included; not including galaxy</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

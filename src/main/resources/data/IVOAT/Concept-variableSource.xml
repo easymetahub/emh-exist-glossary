@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-variableSource</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#variableSource">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>variable source</skosxl:prefLabel>
+		<skosxl:definition>variable source</skosxl:definition>
+		<skosxl:broader rdf:resource="#radioSource"/>
+		<skosxl:broader rdf:resource="#source"/>
+		<skosxl:narrower rdf:resource="#BlLacertaeObject"/>
+		<skosxl:narrower rdf:resource="#UvCetiStar"/>
+		<skosxl:narrower rdf:resource="#activeGalacticNucleus"/>
+		<skosxl:related rdf:resource="#highState"/>
+		<skosxl:related rdf:resource="#lowState"/>
+		<skosxl:related rdf:resource="#quasar"/>
+	</skosxl:Concept></env:instance></env:envelope>

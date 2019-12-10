@@ -1,0 +1,28 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-emissionLine</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#emissionLine">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>emission line</skosxl:prefLabel>
+		<skosxl:definition>emission line</skosxl:definition>
+		<skosxl:broader rdf:resource="#spectralLine"/>
+		<skosxl:narrower rdf:resource="#CaIiEmissionLine"/>
+		<skosxl:narrower rdf:resource="#XRayLine"/>
+		<skosxl:narrower rdf:resource="#coronalLine"/>
+		<skosxl:narrower rdf:resource="#forbiddenLine"/>
+		<skosxl:narrower rdf:resource="#recombinationLine"/>
+		<skosxl:related rdf:resource="#HIiRegion"/>
+		<skosxl:related rdf:resource="#NeumannLine"/>
+		<skosxl:related rdf:resource="#atomicProcess"/>
+		<skosxl:related rdf:resource="#emissionLineGalaxy"/>
+		<skosxl:related rdf:resource="#emissionLineObject"/>
+		<skosxl:related rdf:resource="#emissionLineStar"/>
+		<skosxl:related rdf:resource="#emissionNebula"/>
+		<skosxl:related rdf:resource="#emissionProcess"/>
+		<skosxl:related rdf:resource="#emissionSpectrum"/>
+		<skosxl:related rdf:resource="#flashSpectrum"/>
+		<skosxl:related rdf:resource="#lineFormation"/>
+		<skosxl:related rdf:resource="#lineIdentification"/>
+		<skosxl:related rdf:resource="#lineIntensitite"/>
+		<skosxl:related rdf:resource="#lineProfile"/>
+		<skosxl:related rdf:resource="#lineRatio"/>
+		<skosxl:related rdf:resource="#spectrum"/>
+		<skosxl:related rdf:resource="#spectroscopicAnalysis"/>
+	</skosxl:Concept></env:instance></env:envelope>

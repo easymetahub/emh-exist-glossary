@@ -1,0 +1,28 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-antenna</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#antenna">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>antenna</skosxl:prefLabel>
+		<skosxl:definition>antenna</skosxl:definition>
+		<skosxl:altLabel>aerials</skosxl:altLabel>
+		<skosxl:altLabel>antennas</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#radarEquipment"/>
+		<skosxl:narrower rdf:resource="#CassegrainAntenna"/>
+		<skosxl:narrower rdf:resource="#MillsCrossAntenna"/>
+		<skosxl:narrower rdf:resource="#YagiAntenna"/>
+		<skosxl:narrower rdf:resource="#dipoleAntenna"/>
+		<skosxl:narrower rdf:resource="#directionalAntenna"/>
+		<skosxl:narrower rdf:resource="#hornAntenna"/>
+		<skosxl:narrower rdf:resource="#lensAntenna"/>
+		<skosxl:narrower rdf:resource="#microwaveAntenna"/>
+		<skosxl:narrower rdf:resource="#parabolicAntenna"/>
+		<skosxl:narrower rdf:resource="#radioAntenna"/>
+		<skosxl:narrower rdf:resource="#reflectorAntenna"/>
+		<skosxl:related rdf:resource="#array"/>
+		<skosxl:related rdf:resource="#currentSheet"/>
+		<skosxl:related rdf:resource="#current"/>
+		<skosxl:related rdf:resource="#dishAntenna"/>
+		<skosxl:related rdf:resource="#feedHorn"/>
+		<skosxl:related rdf:resource="#interferometer"/>
+		<skosxl:related rdf:resource="#radar"/>
+		<skosxl:related rdf:resource="#radioTelescope"/>
+		<skosxl:related rdf:resource="#telescope"/>
+	</skosxl:Concept></env:instance></env:envelope>

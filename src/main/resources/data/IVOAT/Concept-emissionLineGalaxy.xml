@@ -1,0 +1,17 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-emissionLineGalaxy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#emissionLineGalaxy">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>emission line galaxy</skosxl:prefLabel>
+		<skosxl:definition>emission line galaxy</skosxl:definition>
+		<skosxl:broader rdf:resource="#emissionLineObject"/>
+		<skosxl:broader rdf:resource="#galaxy"/>
+		<skosxl:broader rdf:resource="#peculiarGalaxy"/>
+		<skosxl:narrower rdf:resource="#MarkarianGalaxy"/>
+		<skosxl:narrower rdf:resource="#SeyfertNucleus"/>
+		<skosxl:narrower rdf:resource="#linerGalaxy"/>
+		<skosxl:related rdf:resource="#HIiRegion"/>
+		<skosxl:related rdf:resource="#HaroGalaxy"/>
+		<skosxl:related rdf:resource="#SeyfertGalaxy"/>
+		<skosxl:related rdf:resource="#activeGalacticNucleus"/>
+		<skosxl:related rdf:resource="#activeGalaxy"/>
+		<skosxl:related rdf:resource="#emissionLine"/>
+	</skosxl:Concept></env:instance></env:envelope>

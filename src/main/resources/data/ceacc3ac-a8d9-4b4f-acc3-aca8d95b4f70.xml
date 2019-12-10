@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ceacc3ac-a8d9-4b4f-acc3-aca8d95b4f70</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#antimony">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>antimony</skos:prefLabel>
-		<skos:definition>antimony (atomic number 51)</skos:definition>
-		<skos:altLabel>Sb</skos:altLabel>
-		<skos:broader rdf:resource="#fundamentalChemicalElement"/>
-		<skos:historyNote>FVH: new (2007-OCT-25)</skos:historyNote>
-	</skos:Concept></env:instance></env:envelope>

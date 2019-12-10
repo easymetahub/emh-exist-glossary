@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-oldStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#oldStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>old star</skosxl:prefLabel>
+		<skosxl:definition>old star</skosxl:definition>
+		<skosxl:broader rdf:resource="#evolvedStar"/>
+		<skosxl:narrower rdf:resource="#populationIiStar"/>
+		<skosxl:narrower rdf:resource="#populationIiiStar"/>
+		<skosxl:narrower rdf:resource="#preGalacticStar"/>
+		<skosxl:changeNote>FVH: added NT POPULATION_III_STARS (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

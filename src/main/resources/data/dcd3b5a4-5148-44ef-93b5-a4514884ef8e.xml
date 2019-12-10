@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>dcd3b5a4-5148-44ef-93b5-a4514884ef8e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#phasedArray">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>phased array</skos:prefLabel>
-		<skos:definition>phased array</skos:definition>
-		<skos:broader rdf:resource="#array"/>
-		<skos:related rdf:resource="#phaseWave"/>
-		<skos:related rdf:resource="#radioInterferometer"/>
-	</skos:Concept></env:instance></env:envelope>

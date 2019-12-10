@@ -1,0 +1,28 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-blackHole</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#blackHole">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>black hole</skosxl:prefLabel>
+		<skosxl:definition>black hole</skosxl:definition>
+		<skosxl:broader rdf:resource="#collapsedStar"/>
+		<skosxl:broader rdf:resource="#compactObject"/>
+		<skosxl:broader rdf:resource="#degenerateMatter"/>
+		<skosxl:broader rdf:resource="#relativisticStar"/>
+		<skosxl:narrower rdf:resource="#KerrBlackHole"/>
+		<skosxl:narrower rdf:resource="#stellarBlackHole"/>
+		<skosxl:related rdf:resource="#HawkingRadiation"/>
+		<skosxl:related rdf:resource="#KruskalDiagram"/>
+		<skosxl:related rdf:resource="#PenroseProcess"/>
+		<skosxl:related rdf:resource="#SchwarzschildRadius"/>
+		<skosxl:related rdf:resource="#XRayBinaryStar"/>
+		<skosxl:related rdf:resource="#accretionDisk"/>
+		<skosxl:related rdf:resource="#ergosphere"/>
+		<skosxl:related rdf:resource="#eventHorizon"/>
+		<skosxl:related rdf:resource="#galacticNucleus"/>
+		<skosxl:related rdf:resource="#gravitationalCollapse"/>
+		<skosxl:related rdf:resource="#gravitationalLensing"/>
+		<skosxl:related rdf:resource="#massiveObject"/>
+		<skosxl:related rdf:resource="#nakedSingularity"/>
+		<skosxl:related rdf:resource="#relativisticAstrophysics"/>
+		<skosxl:related rdf:resource="#spaceTimeSingularity"/>
+		<skosxl:related rdf:resource="#supernovaRemnant"/>
+		<skosxl:related rdf:resource="#whiteHole"/>
+	</skosxl:Concept></env:instance></env:envelope>

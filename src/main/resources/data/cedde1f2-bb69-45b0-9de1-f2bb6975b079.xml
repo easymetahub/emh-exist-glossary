@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>cedde1f2-bb69-45b0-9de1-f2bb6975b079</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#particleInteraction">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>particle interaction</skos:prefLabel>
-		<skos:definition>particle interaction</skos:definition>
-		<skos:related rdf:resource="#elementaryParticle"/>
-	</skos:Concept></env:instance></env:envelope>

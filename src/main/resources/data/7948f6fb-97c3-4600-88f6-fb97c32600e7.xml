@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>7948f6fb-97c3-4600-88f6-fb97c32600e7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cluster">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>cluster</skos:prefLabel>
-		<skos:definition>cluster</skos:definition>
-		<skos:narrower rdf:resource="#galaxyCluster"/>
-		<skos:narrower rdf:resource="#protocluster"/>
-		<skos:narrower rdf:resource="#starCluster"/>
-	</skos:Concept></env:instance></env:envelope>

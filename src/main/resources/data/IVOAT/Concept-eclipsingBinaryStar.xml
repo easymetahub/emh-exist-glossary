@@ -1,0 +1,25 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-eclipsingBinaryStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#eclipsingBinaryStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>eclipsing binary star</skosxl:prefLabel>
+		<skosxl:definition>eclipsing binary star</skosxl:definition>
+		<skosxl:altLabel>eclipsing star</skosxl:altLabel>
+		<skosxl:altLabel>eclipsing variable star</skosxl:altLabel>
+		<skosxl:altLabel>photometric binary star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#binaryStar"/>
+		<skosxl:broader rdf:resource="#variableStar"/>
+		<skosxl:narrower rdf:resource="#AlgolVariableStar"/>
+		<skosxl:narrower rdf:resource="#DqHerculisStar"/>
+		<skosxl:narrower rdf:resource="#RCanisMajorisStar"/>
+		<skosxl:narrower rdf:resource="#WUrsaeMajorisStar"/>
+		<skosxl:narrower rdf:resource="#betaLyraeStar"/>
+		<skosxl:narrower rdf:resource="#upsilonSagittariiStar"/>
+		<skosxl:related rdf:resource="#RocheLobe"/>
+		<skosxl:related rdf:resource="#contactBinaryStar"/>
+		<skosxl:related rdf:resource="#eclipse"/>
+		<skosxl:related rdf:resource="#ellipsoidalVariableStar"/>
+		<skosxl:related rdf:resource="#interactingBinaryStar"/>
+		<skosxl:related rdf:resource="#partialEclipse"/>
+		<skosxl:related rdf:resource="#photometricElement"/>
+		<skosxl:related rdf:resource="#spectroscopicBinaryStar"/>
+		<skosxl:related rdf:resource="#totalEclipse"/>
+	</skosxl:Concept></env:instance></env:envelope>

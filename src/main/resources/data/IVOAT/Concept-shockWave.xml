@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-shockWave</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#shockWave">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>shock wave</skosxl:prefLabel>
+		<skosxl:definition>shock wave</skosxl:definition>
+		<skosxl:narrower rdf:resource="#bowShock"/>
+		<skosxl:narrower rdf:resource="#ionizingShockWave"/>
+		<skosxl:related rdf:resource="#RankineHugoniotRelation"/>
+		<skosxl:related rdf:resource="#jumpCondition"/>
+		<skosxl:related rdf:resource="#soundSpeed"/>
+		<skosxl:related rdf:resource="#supernovaEnvelope"/>
+		<skosxl:related rdf:resource="#velocityField"/>
+		<skosxl:related rdf:resource="#wavePropagation"/>
+	</skosxl:Concept></env:instance></env:envelope>

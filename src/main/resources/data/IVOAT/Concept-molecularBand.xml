@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-molecularBand</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#molecularBand">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>molecular band</skosxl:prefLabel>
+		<skosxl:definition>molecular band</skosxl:definition>
+		<skosxl:broader rdf:resource="#spectralBand"/>
+		<skosxl:narrower rdf:resource="#BBand"/>
+		<skosxl:narrower rdf:resource="#GBand"/>
+		<skosxl:narrower rdf:resource="#PhillipsBand"/>
+		<skosxl:narrower rdf:resource="#SwanBand"/>
+		<skosxl:related rdf:resource="#lateTypeStar"/>
+		<skosxl:related rdf:resource="#molecularAstrophysics"/>
+		<skosxl:related rdf:resource="#molecularLine"/>
+		<skosxl:related rdf:resource="#molecularSpectrum"/>
+		<skosxl:related rdf:resource="#zirconiumStar"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>73e3f597-be03-460f-a3f5-97be03d60f17</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cosmologicalModel">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>cosmological model</skos:prefLabel>
-		<skos:definition>cosmological model</skos:definition>
-		<skos:scopeNote>see under cosmology</skos:scopeNote>
-	</skos:Concept></env:instance></env:envelope>

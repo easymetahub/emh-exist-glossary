@@ -1,0 +1,17 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-earlyTypeStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#earlyTypeStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>early-type star</skosxl:prefLabel>
+		<skosxl:definition>early-type star</skosxl:definition>
+		<skosxl:altLabel>blue star</skosxl:altLabel>
+		<skosxl:altLabel>early type star</skosxl:altLabel>
+		<skosxl:altLabel>hot star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#ultravioletSource"/>
+		<skosxl:narrower rdf:resource="#AStar"/>
+		<skosxl:narrower rdf:resource="#BStar"/>
+		<skosxl:narrower rdf:resource="#OStar"/>
+		<skosxl:narrower rdf:resource="#ObStar"/>
+		<skosxl:narrower rdf:resource="#earlyTypeVariableStar"/>
+		<skosxl:narrower rdf:resource="#faintBlueStar"/>
+		<skosxl:related rdf:resource="#orionPopulationStar"/>
+		<skosxl:scopeNote>see also gas</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

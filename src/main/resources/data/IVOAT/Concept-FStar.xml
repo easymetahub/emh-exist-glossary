@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-FStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#FStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>F star</skosxl:prefLabel>
+		<skosxl:definition>F star</skosxl:definition>
+		<skosxl:broader rdf:resource="#intermediateTypeStar"/>
+		<skosxl:narrower rdf:resource="#FDwarf"/>
+		<skosxl:narrower rdf:resource="#FGiant"/>
+		<skosxl:narrower rdf:resource="#FSubdwarf"/>
+		<skosxl:narrower rdf:resource="#FSubgiant"/>
+		<skosxl:narrower rdf:resource="#FSupergiant"/>
+		<skosxl:related rdf:resource="#spectralType"/>
+	</skosxl:Concept></env:instance></env:envelope>

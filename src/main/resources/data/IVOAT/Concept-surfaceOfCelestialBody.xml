@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-surfaceOfCelestialBody</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#surfaceOfCelestialBody">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>surface of celestial body</skosxl:prefLabel>
+		<skosxl:definition>surface [celestial body]</skosxl:definition>
+		<skosxl:altLabel>surface celestial body</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#canyon"/>
+		<skosxl:related rdf:resource="#Moon"/>
+		<skosxl:related rdf:resource="#dustStorm"/>
+		<skosxl:related rdf:resource="#geology"/>
+		<skosxl:related rdf:resource="#lunarDome"/>
+		<skosxl:related rdf:resource="#maria"/>
+		<skosxl:related rdf:resource="#petrology"/>
+		<skosxl:related rdf:resource="#photosphere"/>
+		<skosxl:related rdf:resource="#planet"/>
+		<skosxl:related rdf:resource="#satellite"/>
+		<skosxl:related rdf:resource="#topography"/>
+		<skosxl:related rdf:resource="#volatile"/>
+		<skosxl:related rdf:resource="#volcano"/>
+		<skosxl:related rdf:resource="#waterIce"/>
+	</skosxl:Concept></env:instance></env:envelope>

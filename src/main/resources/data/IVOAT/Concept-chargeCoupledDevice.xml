@@ -1,0 +1,19 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-chargeCoupledDevice</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#chargeCoupledDevice">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>charge-coupled device</skosxl:prefLabel>
+		<skosxl:definition>charge-coupled device</skosxl:definition>
+		<skosxl:altLabel>CCD</skosxl:altLabel>
+		<skosxl:altLabel>charge coupled device</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#photoelectronicDevice"/>
+		<skosxl:broader rdf:resource="#semiconductorDevice"/>
+		<skosxl:related rdf:resource="#CcdDetector"/>
+		<skosxl:related rdf:resource="#CcdObservation"/>
+		<skosxl:related rdf:resource="#CcdPhotometry"/>
+		<skosxl:related rdf:resource="#detector"/>
+		<skosxl:related rdf:resource="#multiChannelDetector"/>
+		<skosxl:related rdf:resource="#quantumEfficiency"/>
+		<skosxl:related rdf:resource="#readOutNoise"/>
+		<skosxl:related rdf:resource="#twoDimensionalDetector"/>
+		<skosxl:changeNote>FVH: added RT READ_OUT_NOISE (2007-SEP-21)</skosxl:changeNote>
+		<skosxl:scopeNote>use abbreviated form (CCD) when combined with other terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

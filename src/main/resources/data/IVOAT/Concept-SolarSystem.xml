@@ -1,0 +1,38 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-SolarSystem</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#SolarSystem">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Solar System</skosxl:prefLabel>
+		<skosxl:definition>Solar System</skosxl:definition>
+		<skosxl:broader rdf:resource="#planetarySystem"/>
+		<skosxl:related rdf:resource="#BodesLaw"/>
+		<skosxl:related rdf:resource="#Ceres"/>
+		<skosxl:related rdf:resource="#Earth"/>
+		<skosxl:related rdf:resource="#EarthMoonSystem"/>
+		<skosxl:related rdf:resource="#EdgeworthKuiperBelt"/>
+		<skosxl:related rdf:resource="#Jupiter"/>
+		<skosxl:related rdf:resource="#KreutzSungrazer"/>
+		<skosxl:related rdf:resource="#Mars"/>
+		<skosxl:related rdf:resource="#Mercury"/>
+		<skosxl:related rdf:resource="#Neptune"/>
+		<skosxl:related rdf:resource="#Pluto"/>
+		<skosxl:related rdf:resource="#Saturn"/>
+		<skosxl:related rdf:resource="#Sun"/>
+		<skosxl:related rdf:resource="#Uranus"/>
+		<skosxl:related rdf:resource="#Venus"/>
+		<skosxl:related rdf:resource="#asteroid"/>
+		<skosxl:related rdf:resource="#comet"/>
+		<skosxl:related rdf:resource="#extrasolarPlanet"/>
+		<skosxl:related rdf:resource="#origin"/>
+		<skosxl:related rdf:resource="#planetaryAlignment"/>
+		<skosxl:related rdf:resource="#planetaryTheory"/>
+		<skosxl:related rdf:resource="#planetesimal"/>
+		<skosxl:related rdf:resource="#planet"/>
+		<skosxl:related rdf:resource="#preSolarNebula"/>
+		<skosxl:related rdf:resource="#protoplanet"/>
+		<skosxl:related rdf:resource="#satellite"/>
+		<skosxl:related rdf:resource="#solarNebula"/>
+		<skosxl:related rdf:resource="#solarPlanetaryRelation"/>
+		<skosxl:related rdf:resource="#synodicPeriod"/>
+		<skosxl:related rdf:resource="#transNeptunianObject"/>
+		<skosxl:related rdf:resource="#transplutonianPlanet"/>
+		<skosxl:scopeNote>not a complete list of terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

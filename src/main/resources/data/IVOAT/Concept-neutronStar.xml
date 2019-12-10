@@ -1,0 +1,21 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-neutronStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#neutronStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>neutron star</skosxl:prefLabel>
+		<skosxl:definition>neutron star</skosxl:definition>
+		<skosxl:broader rdf:resource="#collapsedStar"/>
+		<skosxl:broader rdf:resource="#compactObject"/>
+		<skosxl:broader rdf:resource="#degenerateStar"/>
+		<skosxl:broader rdf:resource="#relativisticStar"/>
+		<skosxl:broader rdf:resource="#stellarObject"/>
+		<skosxl:narrower rdf:resource="#HzHerculisStar"/>
+		<skosxl:narrower rdf:resource="#magnetar"/>
+		<skosxl:related rdf:resource="#AlfvenSurface"/>
+		<skosxl:related rdf:resource="#XRayBinaryStar"/>
+		<skosxl:related rdf:resource="#XRayBurst"/>
+		<skosxl:related rdf:resource="#XRayPulsar"/>
+		<skosxl:related rdf:resource="#lowMassXRayBinaryStar"/>
+		<skosxl:related rdf:resource="#pulsar"/>
+		<skosxl:related rdf:resource="#quark"/>
+		<skosxl:related rdf:resource="#relativisticAstrophysics"/>
+		<skosxl:related rdf:resource="#supernovaRemnant"/>
+	</skosxl:Concept></env:instance></env:envelope>

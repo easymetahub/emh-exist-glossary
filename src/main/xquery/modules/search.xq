@@ -29,12 +29,12 @@ import module namespace custom="http://easymetahub.com/emh-glossary/library/cust
 import module namespace config="http://exist-db.org/apps/emh-glossary/config" at "config.xqm";
 
 declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-declare namespace skos="http://www.w3.org/2008/05/skos#";
+declare namespace skos="http://www.w3.org/2004/02/skos/core#";
+declare namespace skosxl="http://www.w3.org/2008/05/skos#";
 declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#";
 declare namespace dc="http://purl.org/dc/elements/1.1/";
-declare namespace search = "http://marklogic.com/data-hub/search";
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
-declare namespace env = "http://marklogic.com/data-hub/envelope";
+declare namespace env = "http://exist-db.org/data/envelope";
 
 declare option output:method "json";
 declare option output:media-type "application/json";
@@ -42,7 +42,7 @@ declare option output:media-type "application/json";
 let $q := if (fn:string-length(request:get-parameter('q', "")) gt 0) then request:get-parameter('q', "") else ()
 let $debug := if (fn:string-length(request:get-parameter('debug', "")) gt 0) then fn:true() else fn:false()
 
-let $total-count := fn:count(fn:collection($config:data-root)//skos:Concept)
+let $total-count := fn:count(fn:collection($config:data-root)//skosxl:Concept)
 
 let $start := xs:positiveInteger(request:get-parameter('start', '1'))
 let $page-length := xs:positiveInteger(request:get-parameter('pagelength', '10'))
@@ -70,7 +70,7 @@ let $facets-map :=
 let $query-results := 
     if (fn:string-length($q) gt 0 or fn:count($facets-param) gt 0)
     then collection($config:data-root)//env:envelope[ft:query(., $q, $facets-map)]
-    else collection($config:data-root)//env:envelope[env:instance/skos:Concept]
+    else collection($config:data-root)//env:envelope[env:instance/skosxl:Concept]
 
 let $query-results2 := 
     if (fn:count($query-results) = 0)

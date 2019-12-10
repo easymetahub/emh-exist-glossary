@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2d2f09ab-a44c-4421-af09-aba44c1421ea</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#apparentIntensity">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>apparent intensity</skos:prefLabel>
-		<skos:definition>apparent intensity</skos:definition>
-		<skos:broader rdf:resource="#intensity"/>
-	</skos:Concept></env:instance></env:envelope>

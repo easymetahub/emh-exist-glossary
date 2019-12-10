@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-protoplanetaryNebula</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#protoplanetaryNebula">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>protoplanetary nebula</skosxl:prefLabel>
+		<skosxl:definition>protoplanetary nebula</skosxl:definition>
+		<skosxl:altLabel>proplyds</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#collapsingCloud"/>
+		<skosxl:related rdf:resource="#cosmogony"/>
+		<skosxl:related rdf:resource="#protoplanet"/>
+		<skosxl:related rdf:resource="#solarNebula"/>
+		<skosxl:changeNote>FVH: added ALT proplyd (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

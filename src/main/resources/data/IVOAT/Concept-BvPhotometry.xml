@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-BvPhotometry</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#BvPhotometry">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>BV photometry</skosxl:prefLabel>
+		<skosxl:definition>BV photometry</skosxl:definition>
+		<skosxl:broader rdf:resource="#broadBandPhotometry"/>
+		<skosxl:broader rdf:resource="#twoColorPhotometry"/>
+		<skosxl:related rdf:resource="#BesselPhotometry"/>
+		<skosxl:related rdf:resource="#JohnsonPhotometry"/>
+		<skosxl:changeNote>FVH: added NT BESSEL_PHOTOMETRY, moved TWO-COLOR to BT and JOHNSON to NT (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

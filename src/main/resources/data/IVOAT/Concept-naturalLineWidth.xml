@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-naturalLineWidth</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#naturalLineWidth">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>natural line width</skosxl:prefLabel>
+		<skosxl:definition>natural line width</skosxl:definition>
+		<skosxl:broader rdf:resource="#lineWidth"/>
+		<skosxl:related rdf:resource="#DopplerBroadening"/>
+		<skosxl:related rdf:resource="#StarkBroadening"/>
+		<skosxl:related rdf:resource="#ZeemanSplitting"/>
+		<skosxl:related rdf:resource="#lineBroadening"/>
+		<skosxl:related rdf:resource="#naturalLineBroadening"/>
+		<skosxl:related rdf:resource="#pressureBroadening"/>
+		<skosxl:related rdf:resource="#spectralLine"/>
+	</skosxl:Concept></env:instance></env:envelope>

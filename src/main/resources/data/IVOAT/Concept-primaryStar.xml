@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-primaryStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#primaryStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>primary star</skosxl:prefLabel>
+		<skosxl:definition>primary star</skosxl:definition>
+		<skosxl:broader rdf:resource="#companionStar"/>
+		<skosxl:related rdf:resource="#secondaryStar"/>
+		<skosxl:related rdf:resource="#tertiaryStar"/>
+		<skosxl:historyNote>ES: new (2007-OCT-8)</skosxl:historyNote>
+	</skosxl:Concept></env:instance></env:envelope>

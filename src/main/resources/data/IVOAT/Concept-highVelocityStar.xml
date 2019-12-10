@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-highVelocityStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#highVelocityStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>high-velocity star</skosxl:prefLabel>
+		<skosxl:definition>high-velocity star</skosxl:definition>
+		<skosxl:altLabel>high velocity star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#star"/>
+		<skosxl:related rdf:resource="#GalacticRotation"/>
+		<skosxl:related rdf:resource="#MilkyWayGalaxy"/>
+		<skosxl:related rdf:resource="#highVelocityCloud"/>
+		<skosxl:related rdf:resource="#orbit"/>
+		<skosxl:related rdf:resource="#runawayStar"/>
+		<skosxl:related rdf:resource="#velocity"/>
+	</skosxl:Concept></env:instance></env:envelope>

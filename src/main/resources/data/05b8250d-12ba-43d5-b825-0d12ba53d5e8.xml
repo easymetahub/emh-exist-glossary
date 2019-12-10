@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>05b8250d-12ba-43d5-b825-0d12ba53d5e8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#XRayIdentification">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>X-ray identification</skos:prefLabel>
-		<skos:definition>X-ray identification</skos:definition>
-		<skos:related rdf:resource="#XRaySource"/>
-		<skos:related rdf:resource="#opticalIdentification"/>
-	</skos:Concept></env:instance></env:envelope>

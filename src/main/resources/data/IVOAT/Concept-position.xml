@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-position</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#position">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>position</skosxl:prefLabel>
+		<skosxl:definition>position</skosxl:definition>
+		<skosxl:narrower rdf:resource="#apparentPosition"/>
+		<skosxl:narrower rdf:resource="#truePosition"/>
+		<skosxl:related rdf:resource="#coordinateSystem"/>
+		<skosxl:related rdf:resource="#fundamentalSystem"/>
+		<skosxl:related rdf:resource="#referenceSystem"/>
+		<skosxl:related rdf:resource="#sphericalCoordinate"/>
+		<skosxl:related rdf:resource="#standardStar"/>
+		<skosxl:scopeNote>combine with other terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

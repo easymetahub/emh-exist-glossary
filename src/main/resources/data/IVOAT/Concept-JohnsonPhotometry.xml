@@ -1,0 +1,25 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-JohnsonPhotometry</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#JohnsonPhotometry">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Johnson photometry</skosxl:prefLabel>
+		<skosxl:definition>Johnson photometry</skosxl:definition>
+		<skosxl:altLabel>Johnson-Morgan filter system</skosxl:altLabel>
+		<skosxl:altLabel>UBV photometry</skosxl:altLabel>
+		<skosxl:altLabel>UBVRI photometry</skosxl:altLabel>
+		<skosxl:altLabel>UBVRIJKL photometry</skosxl:altLabel>
+		<skosxl:altLabel>three-color photometry</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#broadBandPhotometry"/>
+		<skosxl:broader rdf:resource="#photometricSystem"/>
+		<skosxl:related rdf:resource="#BMagnitude"/>
+		<skosxl:related rdf:resource="#BesselPhotometry"/>
+		<skosxl:related rdf:resource="#BvPhotometry"/>
+		<skosxl:related rdf:resource="#CapePhotometry"/>
+		<skosxl:related rdf:resource="#CapeRiPhotometry"/>
+		<skosxl:related rdf:resource="#IMagnitude"/>
+		<skosxl:related rdf:resource="#KronCousinsPhotometry"/>
+		<skosxl:related rdf:resource="#RMagnitude"/>
+		<skosxl:related rdf:resource="#UMagnitude"/>
+		<skosxl:related rdf:resource="#VMagnitude"/>
+		<skosxl:related rdf:resource="#eRegion"/>
+		<skosxl:related rdf:resource="#fRegion"/>
+		<skosxl:related rdf:resource="#twoColorPhotometry"/>
+	</skosxl:Concept></env:instance></env:envelope>

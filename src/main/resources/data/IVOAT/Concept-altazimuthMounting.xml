@@ -1,0 +1,14 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-altazimuthMounting</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#altazimuthMounting">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>altazimuth mounting</skosxl:prefLabel>
+		<skosxl:definition>altazimuth mounting</skosxl:definition>
+		<skosxl:altLabel>alt-azimuth mounting</skosxl:altLabel>
+		<skosxl:altLabel>azimuth mounting</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#telescopeMounting"/>
+		<skosxl:related rdf:resource="#altitudeAngle"/>
+		<skosxl:related rdf:resource="#azimuth"/>
+		<skosxl:related rdf:resource="#equatorialMounting"/>
+		<skosxl:related rdf:resource="#horizonCoordinateSystem"/>
+		<skosxl:related rdf:resource="#siderostat"/>
+		<skosxl:related rdf:resource="#verticalCircle"/>
+	</skosxl:Concept></env:instance></env:envelope>

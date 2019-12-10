@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e34af175-561e-4f89-8af1-75561eef89cc</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#KSubdwarf">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>K subdwarf</skos:prefLabel>
-		<skos:definition>K subdwarf star</skos:definition>
-		<skos:broader rdf:resource="#KStar"/>
-		<skos:broader rdf:resource="#subdwarf"/>
-		<skos:related rdf:resource="#KDwarf"/>
-	</skos:Concept></env:instance></env:envelope>

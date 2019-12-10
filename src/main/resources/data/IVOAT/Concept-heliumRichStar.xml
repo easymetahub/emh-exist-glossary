@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-heliumRichStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#heliumRichStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>helium-rich star</skosxl:prefLabel>
+		<skosxl:definition>helium-rich star</skosxl:definition>
+		<skosxl:altLabel>helium rich star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#star"/>
+		<skosxl:narrower rdf:resource="#DbStar"/>
+		<skosxl:related rdf:resource="#abundance"/>
+		<skosxl:related rdf:resource="#metalAbundance"/>
+		<skosxl:changeNote>FVH: added NT DB_STARS (2007-OCT-1)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

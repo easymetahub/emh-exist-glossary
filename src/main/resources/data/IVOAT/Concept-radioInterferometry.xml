@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-radioInterferometry</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#radioInterferometry">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>radio interferometry</skosxl:prefLabel>
+		<skosxl:definition>radio interferometry</skosxl:definition>
+		<skosxl:broader rdf:resource="#interferometry"/>
+		<skosxl:broader rdf:resource="#observingTechnique"/>
+		<skosxl:narrower rdf:resource="#longBaselineInterferometry"/>
+		<skosxl:narrower rdf:resource="#veryLongBaselineInterferometry"/>
+		<skosxl:related rdf:resource="#interferenceWave"/>
+		<skosxl:related rdf:resource="#radioInterferometer"/>
+		<skosxl:related rdf:resource="#timeSynchronization"/>
+		<skosxl:scopeNote>see radio interferometer</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

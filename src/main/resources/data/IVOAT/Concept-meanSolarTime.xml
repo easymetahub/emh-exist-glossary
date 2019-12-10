@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-meanSolarTime</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#meanSolarTime">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>mean solar time</skosxl:prefLabel>
+		<skosxl:definition>mean solar time</skosxl:definition>
+		<skosxl:broader rdf:resource="#time"/>
+		<skosxl:related rdf:resource="#UniversalTime"/>
+		<skosxl:related rdf:resource="#civilTime"/>
+		<skosxl:related rdf:resource="#ephemerisTime"/>
+		<skosxl:related rdf:resource="#equationOfTime"/>
+	</skosxl:Concept></env:instance></env:envelope>

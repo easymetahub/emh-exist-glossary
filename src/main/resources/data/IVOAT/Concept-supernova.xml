@@ -1,0 +1,35 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-supernova</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#supernova">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>supernova</skosxl:prefLabel>
+		<skosxl:definition>supernova</skosxl:definition>
+		<skosxl:altLabel>SN</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#highLuminosityStar"/>
+		<skosxl:broader rdf:resource="#star"/>
+		<skosxl:narrower rdf:resource="#TypeIaSupernova"/>
+		<skosxl:narrower rdf:resource="#TypeIbSupernova"/>
+		<skosxl:narrower rdf:resource="#TypeIcSupernova"/>
+		<skosxl:narrower rdf:resource="#TypeIiSupernova"/>
+		<skosxl:narrower rdf:resource="#hypernova"/>
+		<skosxl:related rdf:resource="#OpikTheory"/>
+		<skosxl:related rdf:resource="#cataclysmicVariableStar"/>
+		<skosxl:related rdf:resource="#eProcess"/>
+		<skosxl:related rdf:resource="#frozenInElement"/>
+		<skosxl:related rdf:resource="#gravitationalCollapse"/>
+		<skosxl:related rdf:resource="#massLoss"/>
+		<skosxl:related rdf:resource="#neutrino"/>
+		<skosxl:related rdf:resource="#nova"/>
+		<skosxl:related rdf:resource="#nuclearFusion"/>
+		<skosxl:related rdf:resource="#nucleosynthesis"/>
+		<skosxl:related rdf:resource="#opticalOutburst"/>
+		<skosxl:related rdf:resource="#pProcess"/>
+		<skosxl:related rdf:resource="#preSupernova"/>
+		<skosxl:related rdf:resource="#progenitor"/>
+		<skosxl:related rdf:resource="#pulsar"/>
+		<skosxl:related rdf:resource="#rProcess"/>
+		<skosxl:related rdf:resource="#runawayStar"/>
+		<skosxl:related rdf:resource="#sProcess"/>
+		<skosxl:related rdf:resource="#shock"/>
+		<skosxl:related rdf:resource="#supernovaEnvelope"/>
+		<skosxl:related rdf:resource="#supportSystem"/>
+		<skosxl:changeNote>FVH: moved presupernovas from UF to RT (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

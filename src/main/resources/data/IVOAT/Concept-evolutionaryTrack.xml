@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-evolutionaryTrack</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#evolutionaryTrack">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>evolutionary track</skosxl:prefLabel>
+		<skosxl:definition>evolutionary track</skosxl:definition>
+		<skosxl:narrower rdf:resource="#HayashiTrack"/>
+		<skosxl:narrower rdf:resource="#HenyeyTrack"/>
+		<skosxl:related rdf:resource="#HertzsprungRussellDiagram"/>
+		<skosxl:related rdf:resource="#stellarEvolution"/>
+	</skosxl:Concept></env:instance></env:envelope>

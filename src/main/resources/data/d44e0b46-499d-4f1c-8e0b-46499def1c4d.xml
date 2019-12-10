@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d44e0b46-499d-4f1c-8e0b-46499def1c4d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#ringDivision">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>ring division</skos:prefLabel>
-		<skos:definition>ring division</skos:definition>
-		<skos:related rdf:resource="#planetaryRing"/>
-		<skos:related rdf:resource="#planet"/>
-	</skos:Concept></env:instance></env:envelope>

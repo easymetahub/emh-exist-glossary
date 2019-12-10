@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4fb5a85e-cb97-4b47-b5a8-5ecb97ab4735</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#TrojanGroup">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Trojan group</skos:prefLabel>
-		<skos:definition>Trojan group</skos:definition>
-		<skos:broader rdf:resource="#minorPlanetFamily"/>
-		<skos:related rdf:resource="#AmorGroup"/>
-		<skos:related rdf:resource="#ApolloGroup"/>
-	</skos:Concept></env:instance></env:envelope>

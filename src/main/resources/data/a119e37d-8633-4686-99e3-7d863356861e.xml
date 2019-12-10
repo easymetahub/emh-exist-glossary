@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a119e37d-8633-4686-99e3-7d863356861e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#magneticDisturbances">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>magnetic disturbances</skos:prefLabel>
-		<skos:definition>magnetic disturbances</skos:definition>
-		<skos:related rdf:resource="#aurora"/>
-		<skos:related rdf:resource="#magneticProperty"/>
-	</skos:Concept></env:instance></env:envelope>

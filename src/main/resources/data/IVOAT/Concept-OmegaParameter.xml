@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-OmegaParameter</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#OmegaParameter">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Omega parameter</skosxl:prefLabel>
+		<skosxl:definition>the cosmological density fraction parameter, Omega</skosxl:definition>
+		<skosxl:broader rdf:resource="#cosmologicalParameter"/>
+		<skosxl:narrower rdf:resource="#OmegaBaryon"/>
+		<skosxl:narrower rdf:resource="#OmegaLambda"/>
+		<skosxl:narrower rdf:resource="#OmegaMass"/>
+		<skosxl:related rdf:resource="#cosmology"/>
+		<skosxl:related rdf:resource="#energyDensity"/>
+		<skosxl:related rdf:resource="#massDensity"/>
+		<skosxl:historyNote>FVH: new (2007-SEP-21)</skosxl:historyNote>
+	</skosxl:Concept></env:instance></env:envelope>

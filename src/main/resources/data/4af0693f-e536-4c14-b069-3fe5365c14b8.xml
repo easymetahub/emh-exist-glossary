@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>4af0693f-e536-4c14-b069-3fe5365c14b8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#OortConstant">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Oort constant</skos:prefLabel>
-		<skos:definition>Oort constant</skos:definition>
-		<skos:broader rdf:resource="#astronomicalConstant"/>
-		<skos:related rdf:resource="#GalacticRotation"/>
-		<skos:related rdf:resource="#GalacticStructure"/>
-	</skos:Concept></env:instance></env:envelope>

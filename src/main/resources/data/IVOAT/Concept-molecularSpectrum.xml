@@ -1,0 +1,19 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-molecularSpectrum</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#molecularSpectrum">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>molecular spectrum</skosxl:prefLabel>
+		<skosxl:definition>molecular spectrum</skosxl:definition>
+		<skosxl:broader rdf:resource="#spectrum"/>
+		<skosxl:narrower rdf:resource="#PhillipsBand"/>
+		<skosxl:narrower rdf:resource="#pBranch"/>
+		<skosxl:related rdf:resource="#BBand"/>
+		<skosxl:related rdf:resource="#GBand"/>
+		<skosxl:related rdf:resource="#RamanSpectroscopy"/>
+		<skosxl:related rdf:resource="#SwanBand"/>
+		<skosxl:related rdf:resource="#lateTypeStar"/>
+		<skosxl:related rdf:resource="#molecularBand"/>
+		<skosxl:related rdf:resource="#molecule"/>
+		<skosxl:related rdf:resource="#organicMolecule"/>
+		<skosxl:related rdf:resource="#qBranch"/>
+		<skosxl:related rdf:resource="#spectralBand"/>
+		<skosxl:related rdf:resource="#vibrationalSpectrum"/>
+	</skosxl:Concept></env:instance></env:envelope>

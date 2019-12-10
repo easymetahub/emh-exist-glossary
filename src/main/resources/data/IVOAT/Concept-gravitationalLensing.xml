@@ -1,0 +1,25 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-gravitationalLensing</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#gravitationalLensing">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>gravitational lensing</skosxl:prefLabel>
+		<skosxl:definition>gravitational lensing</skosxl:definition>
+		<skosxl:narrower rdf:resource="#gravitationalLensingShear"/>
+		<skosxl:narrower rdf:resource="#gravitationalMicrolensing"/>
+		<skosxl:narrower rdf:resource="#strongGravitationalLensing"/>
+		<skosxl:narrower rdf:resource="#weakGravitationalLensing"/>
+		<skosxl:related rdf:resource="#EinsteinRing"/>
+		<skosxl:related rdf:resource="#blackHole"/>
+		<skosxl:related rdf:resource="#causticCrossing"/>
+		<skosxl:related rdf:resource="#caustic"/>
+		<skosxl:related rdf:resource="#cuspCrossing"/>
+		<skosxl:related rdf:resource="#cusp"/>
+		<skosxl:related rdf:resource="#doubleQuasar"/>
+		<skosxl:related rdf:resource="#electromagneticRadiation"/>
+		<skosxl:related rdf:resource="#gravitation"/>
+		<skosxl:related rdf:resource="#gravitationalDeflection"/>
+		<skosxl:related rdf:resource="#gravitationallyLensedSource"/>
+		<skosxl:related rdf:resource="#luminousArc"/>
+		<skosxl:related rdf:resource="#massDistribution"/>
+		<skosxl:related rdf:resource="#visibleRadiation"/>
+		<skosxl:related rdf:resource="#whiteHole"/>
+		<skosxl:changeNote>FVH: removed RT white_hole, added NT gravitational_microlensing etc. (2007-OCT-8)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

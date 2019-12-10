@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>c40fac0c-2ee9-4e66-8fac-0c2ee9ae668d</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#carbonMonosulfide">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>carbon monosulfide</skos:prefLabel>
-		<skos:definition>carbon monosulfide</skos:definition>
-		<skos:altLabel>CS</skos:altLabel>
-		<skos:broader rdf:resource="#carbonCompound"/>
-	</skos:Concept></env:instance></env:envelope>

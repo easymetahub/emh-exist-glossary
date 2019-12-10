@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-solarCorona</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#solarCorona">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>solar corona</skosxl:prefLabel>
+		<skosxl:definition>solar corona</skosxl:definition>
+		<skosxl:broader rdf:resource="#corona"/>
+		<skosxl:narrower rdf:resource="#mRegion"/>
+		<skosxl:related rdf:resource="#KCorona"/>
+		<skosxl:related rdf:resource="#Sun"/>
+		<skosxl:related rdf:resource="#coronagraph"/>
+		<skosxl:related rdf:resource="#coronalDimming"/>
+		<skosxl:related rdf:resource="#coronalHole"/>
+		<skosxl:related rdf:resource="#coronalLine"/>
+		<skosxl:related rdf:resource="#coronalLoop"/>
+		<skosxl:related rdf:resource="#coronalMassEjection"/>
+		<skosxl:related rdf:resource="#coronalPlume"/>
+		<skosxl:related rdf:resource="#coronalTransient"/>
+		<skosxl:related rdf:resource="#coronalWave"/>
+		<skosxl:related rdf:resource="#solarAtmosphere"/>
+		<skosxl:related rdf:resource="#transitionRegion"/>
+	</skosxl:Concept></env:instance></env:envelope>

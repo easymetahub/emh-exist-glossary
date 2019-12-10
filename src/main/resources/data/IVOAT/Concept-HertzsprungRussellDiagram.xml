@@ -1,0 +1,28 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-HertzsprungRussellDiagram</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#HertzsprungRussellDiagram">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Hertzsprung-Russell diagram</skosxl:prefLabel>
+		<skosxl:definition>Hertzsprung-Russell diagram</skosxl:definition>
+		<skosxl:altLabel>HR diagram</skosxl:altLabel>
+		<skosxl:altLabel>Hertzsprung Russell diagram</skosxl:altLabel>
+		<skosxl:related rdf:resource="#HarmanSeatonSequence"/>
+		<skosxl:related rdf:resource="#HayashiTrack"/>
+		<skosxl:related rdf:resource="#HenyeyTrack"/>
+		<skosxl:related rdf:resource="#HertzsprungGap"/>
+		<skosxl:related rdf:resource="#HessDiagram"/>
+		<skosxl:related rdf:resource="#absoluteMagnitude"/>
+		<skosxl:related rdf:resource="#asymptoticGiantBranch"/>
+		<skosxl:related rdf:resource="#colorLuminosityRelation"/>
+		<skosxl:related rdf:resource="#colorMagnitudeRelation"/>
+		<skosxl:related rdf:resource="#evolutionaryTrack"/>
+		<skosxl:related rdf:resource="#giantBranch"/>
+		<skosxl:related rdf:resource="#instabilityStrip"/>
+		<skosxl:related rdf:resource="#luminosity"/>
+		<skosxl:related rdf:resource="#mainSequence"/>
+		<skosxl:related rdf:resource="#postAsymptoticGiantBranch"/>
+		<skosxl:related rdf:resource="#redGiantTip"/>
+		<skosxl:related rdf:resource="#spectrum"/>
+		<skosxl:related rdf:resource="#stellarEvolution"/>
+		<skosxl:related rdf:resource="#turnoffPoint"/>
+		<skosxl:related rdf:resource="#zeroAgeHorizontalBranch"/>
+		<skosxl:related rdf:resource="#zeroAgeMainSequence"/>
+	</skosxl:Concept></env:instance></env:envelope>

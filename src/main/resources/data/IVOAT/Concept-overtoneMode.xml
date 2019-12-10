@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-overtoneMode</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#overtoneMode">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>overtone mode</skosxl:prefLabel>
+		<skosxl:definition>overtone mode</skosxl:definition>
+		<skosxl:altLabel>overtones</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#pulsationMode"/>
+		<skosxl:related rdf:resource="#fundamentalMode"/>
+		<skosxl:related rdf:resource="#multiPeriodicVariableStar"/>
+		<skosxl:related rdf:resource="#overtoneFrequency"/>
+		<skosxl:related rdf:resource="#pulsatingVariableStar"/>
+		<skosxl:scopeNote>of pulsation frequency, not Fourier component of non-sinusoidal variation</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

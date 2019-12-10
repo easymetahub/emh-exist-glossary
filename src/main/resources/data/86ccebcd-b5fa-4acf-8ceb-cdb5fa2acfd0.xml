@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>86ccebcd-b5fa-4acf-8ceb-cdb5fa2acfd0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#descendingNode">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>descending node</skos:prefLabel>
-		<skos:definition>descending node</skos:definition>
-		<skos:broader rdf:resource="#node"/>
-		<skos:changeNote>FVH: moved NODES to BT (2007-OCT-1)</skos:changeNote>
-	</skos:Concept></env:instance></env:envelope>

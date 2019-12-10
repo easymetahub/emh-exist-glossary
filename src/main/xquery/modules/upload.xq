@@ -26,8 +26,8 @@ xquery version "3.1";
  :)
 import module namespace custom="http://easymetahub.com/emh-glossary/library/custom" at "custom/custom.xqm";
 
-declare namespace error="http://marklogic.com/xdmp/error";
 declare namespace skos="http://www.w3.org/2004/02/skos/core#";
+declare namespace skosxl="http://www.w3.org/2008/05/skos#";
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 
 declare option output:method "json";

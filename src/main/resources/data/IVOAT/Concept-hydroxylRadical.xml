@@ -1,0 +1,17 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-hydroxylRadical</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#hydroxylRadical">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>hydroxyl radical</skosxl:prefLabel>
+		<skosxl:definition>hydroxyl radical</skosxl:definition>
+		<skosxl:altLabel>OH</skosxl:altLabel>
+		<skosxl:altLabel>OH radical</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#interstellarMolecule"/>
+		<skosxl:broader rdf:resource="#ion"/>
+		<skosxl:broader rdf:resource="#radical"/>
+		<skosxl:related rdf:resource="#OhAbsorption"/>
+		<skosxl:related rdf:resource="#OhCloud"/>
+		<skosxl:related rdf:resource="#OhEmission"/>
+		<skosxl:related rdf:resource="#OhIrStar"/>
+		<skosxl:related rdf:resource="#OhLine"/>
+		<skosxl:related rdf:resource="#OhMaser"/>
+		<skosxl:related rdf:resource="#OhSource"/>
+	</skosxl:Concept></env:instance></env:envelope>

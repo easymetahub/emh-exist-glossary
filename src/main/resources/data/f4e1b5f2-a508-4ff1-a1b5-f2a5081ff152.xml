@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>f4e1b5f2-a508-4ff1-a1b5-f2a5081ff152</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#counting">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>counting</skos:prefLabel>
-		<skos:definition>counting</skos:definition>
-		<skos:altLabel>count</skos:altLabel>
-		<skos:related rdf:resource="#counter"/>
-		<skos:related rdf:resource="#dataAcquisition"/>
-	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-nuclearPhysics</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#nuclearPhysics">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>nuclear physics</skosxl:prefLabel>
+		<skosxl:definition>nuclear physics</skosxl:definition>
+		<skosxl:related rdf:resource="#interaction"/>
+		<skosxl:related rdf:resource="#nuclearAstrophysics"/>
+		<skosxl:related rdf:resource="#nuclearRadiation"/>
+		<skosxl:related rdf:resource="#nuclearReaction"/>
+		<skosxl:related rdf:resource="#strongInteraction"/>
+		<skosxl:related rdf:resource="#weakInteraction"/>
+	</skosxl:Concept></env:instance></env:envelope>

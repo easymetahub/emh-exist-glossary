@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-stellarMotion</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#stellarMotion">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>stellar motion</skosxl:prefLabel>
+		<skosxl:definition>stellar motion</skosxl:definition>
+		<skosxl:broader rdf:resource="#motion"/>
+		<skosxl:related rdf:resource="#DopplerEffect"/>
+		<skosxl:related rdf:resource="#astrometry"/>
+		<skosxl:related rdf:resource="#LocalStandardOfRest"/>
+		<skosxl:related rdf:resource="#peculiarMotion"/>
+		<skosxl:related rdf:resource="#peculiarVelocity"/>
+		<skosxl:related rdf:resource="#properMotion"/>
+		<skosxl:related rdf:resource="#radialVelocity"/>
+		<skosxl:related rdf:resource="#spaceMotion"/>
+		<skosxl:related rdf:resource="#stellarDynamics"/>
+	</skosxl:Concept></env:instance></env:envelope>

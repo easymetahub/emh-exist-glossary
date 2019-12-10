@@ -1,0 +1,8 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-sigma8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#sigma8">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>sigma8</skosxl:prefLabel>
+		<skosxl:definition>the normalization factor of the cosmological matter power spectrum</skosxl:definition>
+		<skosxl:altLabel>sigma_8</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#cosmologicalParameter"/>
+		<skosxl:historyNote>FVH: new (2007-OCT-24)</skosxl:historyNote>
+	</skosxl:Concept></env:instance></env:envelope>

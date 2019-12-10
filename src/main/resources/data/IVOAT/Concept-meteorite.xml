@@ -1,0 +1,25 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-meteorite</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#meteorite">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>meteorite</skosxl:prefLabel>
+		<skosxl:definition>meteorite</skosxl:definition>
+		<skosxl:broader rdf:resource="#meteor"/>
+		<skosxl:narrower rdf:resource="#achondrite"/>
+		<skosxl:narrower rdf:resource="#aerolite"/>
+		<skosxl:narrower rdf:resource="#ataxite"/>
+		<skosxl:narrower rdf:resource="#australite"/>
+		<skosxl:narrower rdf:resource="#bediasite"/>
+		<skosxl:narrower rdf:resource="#chondrite"/>
+		<skosxl:narrower rdf:resource="#ironMeteorite"/>
+		<skosxl:narrower rdf:resource="#micrometeorite"/>
+		<skosxl:narrower rdf:resource="#moldavite"/>
+		<skosxl:narrower rdf:resource="#tektite"/>
+		<skosxl:related rdf:resource="#NeumannLine"/>
+		<skosxl:related rdf:resource="#ablation"/>
+		<skosxl:related rdf:resource="#asteroid"/>
+		<skosxl:related rdf:resource="#collision"/>
+		<skosxl:related rdf:resource="#comet"/>
+		<skosxl:related rdf:resource="#impactCrater"/>
+		<skosxl:related rdf:resource="#interplanetaryMatter"/>
+		<skosxl:related rdf:resource="#meteoriteCrater"/>
+		<skosxl:related rdf:resource="#meteoriteImpact"/>
+	</skosxl:Concept></env:instance></env:envelope>

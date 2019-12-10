@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>fb71a8fa-e438-4f7b-b1a8-fae4385f7bea</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#intercloudGas">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>intercloud gas</skos:prefLabel>
-		<skos:definition>intercloud gas</skos:definition>
-		<skos:broader rdf:resource="#intercloudMatter"/>
-	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,19 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-OStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#OStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>O star</skosxl:prefLabel>
+		<skosxl:definition>O star</skosxl:definition>
+		<skosxl:broader rdf:resource="#ObStar"/>
+		<skosxl:broader rdf:resource="#earlyTypeStar"/>
+		<skosxl:broader rdf:resource="#youngStar"/>
+		<skosxl:narrower rdf:resource="#ODwarf"/>
+		<skosxl:narrower rdf:resource="#OGiant"/>
+		<skosxl:narrower rdf:resource="#OSubdwarf"/>
+		<skosxl:narrower rdf:resource="#OSupergiant"/>
+		<skosxl:narrower rdf:resource="#OeStar"/>
+		<skosxl:narrower rdf:resource="#OefStar"/>
+		<skosxl:narrower rdf:resource="#OfStar"/>
+		<skosxl:related rdf:resource="#OCluster"/>
+		<skosxl:related rdf:resource="#WolfRayetStar"/>
+		<skosxl:related rdf:resource="#earlyTypeVariableStar"/>
+		<skosxl:related rdf:resource="#spectralType"/>
+	</skosxl:Concept></env:instance></env:envelope>

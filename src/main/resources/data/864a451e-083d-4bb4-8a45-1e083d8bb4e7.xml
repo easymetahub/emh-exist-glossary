@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>864a451e-083d-4bb4-8a45-1e083d8bb4e7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#MaunderMinimum">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Maunder minimum</skos:prefLabel>
-		<skos:definition>Maunder minimum</skos:definition>
-		<skos:related rdf:resource="#solarActivity"/>
-		<skos:related rdf:resource="#sunspotCycle"/>
-		<skos:related rdf:resource="#sunspotNumber"/>
-	</skos:Concept></env:instance></env:envelope>

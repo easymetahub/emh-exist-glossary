@@ -1,0 +1,24 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spaceObservatory</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spaceObservatory">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>space observatory</skosxl:prefLabel>
+		<skosxl:definition>space observatory</skosxl:definition>
+		<skosxl:altLabel>orbiting observatory</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#observatory"/>
+		<skosxl:broader rdf:resource="#artificialSatellite"/>
+		<skosxl:narrower rdf:resource="#HubbleSpaceTelescope"/>
+		<skosxl:narrower rdf:resource="#IrasSatellite"/>
+		<skosxl:narrower rdf:resource="#XRayObservatory"/>
+		<skosxl:narrower rdf:resource="#gammaRayObservatory"/>
+		<skosxl:related rdf:resource="#infraredObservatory"/>
+		<skosxl:related rdf:resource="#spaceAstrometry"/>
+		<skosxl:related rdf:resource="#spaceAstronomy"/>
+		<skosxl:related rdf:resource="#spaceBiology"/>
+		<skosxl:related rdf:resource="#spaceExploration"/>
+		<skosxl:related rdf:resource="#spaceGeodesy"/>
+		<skosxl:related rdf:resource="#spaceProbe"/>
+		<skosxl:related rdf:resource="#spaceResearch"/>
+		<skosxl:related rdf:resource="#spaceTelescope"/>
+		<skosxl:related rdf:resource="#ultravioletAstronomy"/>
+		<skosxl:related rdf:resource="#XRayAstronomy"/>
+		<skosxl:changeNote>FVH: merged with orbiting_observatory (2007-NOV-15)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

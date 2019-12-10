@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-interstellarAbsorption</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#interstellarAbsorption">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>interstellar absorption</skosxl:prefLabel>
+		<skosxl:definition>interstellar absorption</skosxl:definition>
+		<skosxl:altLabel>interstellar extinction</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#absorption"/>
+		<skosxl:narrower rdf:resource="#OhAbsorption"/>
+		<skosxl:related rdf:resource="#GalacticWindow"/>
+		<skosxl:related rdf:resource="#RayleighScattering"/>
+		<skosxl:related rdf:resource="#WolfDiagram"/>
+		<skosxl:related rdf:resource="#absorptionCoefficient"/>
+		<skosxl:related rdf:resource="#intergalacticAbsorption"/>
+		<skosxl:related rdf:resource="#interstellarDust"/>
+		<skosxl:related rdf:resource="#interstellarGas"/>
+		<skosxl:related rdf:resource="#interstellarReddening"/>
+		<skosxl:related rdf:resource="#lightAbsorption"/>
+		<skosxl:related rdf:resource="#reddenedStar"/>
+		<skosxl:related rdf:resource="#reddening"/>
+		<skosxl:related rdf:resource="#window"/>
+	</skosxl:Concept></env:instance></env:envelope>

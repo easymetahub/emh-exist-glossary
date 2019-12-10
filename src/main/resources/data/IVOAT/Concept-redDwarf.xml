@@ -1,0 +1,6 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-redDwarf</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#redDwarf">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>red dwarf</skosxl:prefLabel>
+		<skosxl:definition>red dwarf star</skosxl:definition>
+		<skosxl:scopeNote>see late-type dwarf star</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

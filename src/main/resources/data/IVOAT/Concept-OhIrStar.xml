@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-OhIrStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#OhIrStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>OH IR star</skosxl:prefLabel>
+		<skosxl:definition>OH/IR star</skosxl:definition>
+		<skosxl:altLabel>OH-IR star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#OhSource"/>
+		<skosxl:broader rdf:resource="#giant"/>
+		<skosxl:broader rdf:resource="#infraredSource"/>
+		<skosxl:related rdf:resource="#OhMaser"/>
+		<skosxl:related rdf:resource="#hydroxylRadical"/>
+		<skosxl:related rdf:resource="#variableStar"/>
+	</skosxl:Concept></env:instance></env:envelope>

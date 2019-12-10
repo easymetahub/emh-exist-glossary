@@ -1,0 +1,33 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-stellarEvolution</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#stellarEvolution">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>stellar evolution</skosxl:prefLabel>
+		<skosxl:definition>stellar evolution</skosxl:definition>
+		<skosxl:broader rdf:resource="#evolution"/>
+		<skosxl:related rdf:resource="#HenyeyTrack"/>
+		<skosxl:related rdf:resource="#HertzsprungRussellDiagram"/>
+		<skosxl:related rdf:resource="#KerrBlackHole"/>
+		<skosxl:related rdf:resource="#birthRate"/>
+		<skosxl:related rdf:resource="#carbonBurning"/>
+		<skosxl:related rdf:resource="#chemicalEvolution"/>
+		<skosxl:related rdf:resource="#collapsedStar"/>
+		<skosxl:related rdf:resource="#cosmology"/>
+		<skosxl:related rdf:resource="#eProcess"/>
+		<skosxl:related rdf:resource="#evolutionaryTrack"/>
+		<skosxl:related rdf:resource="#funneling"/>
+		<skosxl:related rdf:resource="#giant"/>
+		<skosxl:related rdf:resource="#gravitationalEquilibrium"/>
+		<skosxl:related rdf:resource="#heliumBurning"/>
+		<skosxl:related rdf:resource="#hydrogenBurning"/>
+		<skosxl:related rdf:resource="#initialMassFunction"/>
+		<skosxl:related rdf:resource="#innerCore"/>
+		<skosxl:related rdf:resource="#instabilityStrip"/>
+		<skosxl:related rdf:resource="#luminosityFunction"/>
+		<skosxl:related rdf:resource="#massLoss"/>
+		<skosxl:related rdf:resource="#protostar"/>
+		<skosxl:related rdf:resource="#solarInterior"/>
+		<skosxl:related rdf:resource="#starFormation"/>
+		<skosxl:related rdf:resource="#starburstGalaxy"/>
+		<skosxl:related rdf:resource="#stellarBlackHole"/>
+		<skosxl:related rdf:resource="#stellarInterior"/>
+		<skosxl:changeNote>FVH: moved STAR_ORIGIN to RT (2007-OCT-1)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

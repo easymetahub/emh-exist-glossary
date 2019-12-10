@@ -1,0 +1,29 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-elementaryParticle</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#elementaryParticle">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>elementary particle</skosxl:prefLabel>
+		<skosxl:definition>elementary particle</skosxl:definition>
+		<skosxl:broader rdf:resource="#particle"/>
+		<skosxl:narrower rdf:resource="#antiparticle"/>
+		<skosxl:narrower rdf:resource="#axion"/>
+		<skosxl:narrower rdf:resource="#baryon"/>
+		<skosxl:narrower rdf:resource="#boson"/>
+		<skosxl:narrower rdf:resource="#graviton"/>
+		<skosxl:narrower rdf:resource="#hadron"/>
+		<skosxl:narrower rdf:resource="#lepton"/>
+		<skosxl:narrower rdf:resource="#meson"/>
+		<skosxl:narrower rdf:resource="#neutrino"/>
+		<skosxl:narrower rdf:resource="#neutron"/>
+		<skosxl:narrower rdf:resource="#proton"/>
+		<skosxl:narrower rdf:resource="#photon"/>
+		<skosxl:narrower rdf:resource="#pion"/>
+		<skosxl:narrower rdf:resource="#quark"/>
+		<skosxl:related rdf:resource="#DarkMatter"/>
+		<skosxl:related rdf:resource="#FeynmanDiagram"/>
+		<skosxl:related rdf:resource="#particleAcceleration"/>
+		<skosxl:related rdf:resource="#particleCreation"/>
+		<skosxl:related rdf:resource="#particleEscape"/>
+		<skosxl:related rdf:resource="#particleInteraction"/>
+		<skosxl:related rdf:resource="#particleProduction"/>
+		<skosxl:related rdf:resource="#plasma"/>
+		<skosxl:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

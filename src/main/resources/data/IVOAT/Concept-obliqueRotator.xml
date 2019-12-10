@@ -1,0 +1,8 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-obliqueRotator</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#obliqueRotator">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>oblique rotator</skosxl:prefLabel>
+		<skosxl:definition>oblique rotator</skosxl:definition>
+		<skosxl:related rdf:resource="#ApStar"/>
+		<skosxl:related rdf:resource="#magneticStar"/>
+		<skosxl:related rdf:resource="#spectrumVariableStar"/>
+	</skosxl:Concept></env:instance></env:envelope>

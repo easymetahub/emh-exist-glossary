@@ -1,0 +1,28 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-plasma</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#plasma">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>plasma</skosxl:prefLabel>
+		<skosxl:definition>plasma</skosxl:definition>
+		<skosxl:altLabel>cosmic plasma</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#particle"/>
+		<skosxl:narrower rdf:resource="#collisionalPlasma"/>
+		<skosxl:narrower rdf:resource="#lowTemperaturePlasma"/>
+		<skosxl:narrower rdf:resource="#relativisticPlasma"/>
+		<skosxl:narrower rdf:resource="#solarWind"/>
+		<skosxl:narrower rdf:resource="#stellarWind"/>
+		<skosxl:related rdf:resource="#HIiRegion"/>
+		<skosxl:related rdf:resource="#HoltsmarkApproximation"/>
+		<skosxl:related rdf:resource="#elementaryParticle"/>
+		<skosxl:related rdf:resource="#energeticParticle"/>
+		<skosxl:related rdf:resource="#ionizedGas"/>
+		<skosxl:related rdf:resource="#ion"/>
+		<skosxl:related rdf:resource="#plasmaCloud"/>
+		<skosxl:related rdf:resource="#plasmaJet"/>
+		<skosxl:related rdf:resource="#plasmaLoop"/>
+		<skosxl:related rdf:resource="#plasmaPhysics"/>
+		<skosxl:related rdf:resource="#plasmaWave"/>
+		<skosxl:related rdf:resource="#plasmapause"/>
+		<skosxl:related rdf:resource="#radiationBelt"/>
+		<skosxl:related rdf:resource="#radiativeRecombination"/>
+		<skosxl:related rdf:resource="#thermodynamics"/>
+		<skosxl:related rdf:resource="#viscosity"/>
+	</skosxl:Concept></env:instance></env:envelope>

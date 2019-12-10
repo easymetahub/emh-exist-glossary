@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2787fcfc-34f8-4d37-87fc-fc34f8cd3741</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#periastron">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>periastron</skos:prefLabel>
-		<skos:definition>periastron</skos:definition>
-		<skos:broader rdf:resource="#apsis"/>
-		<skos:related rdf:resource="#apastron"/>
-		<skos:related rdf:resource="#periapsis"/>
-	</skos:Concept></env:instance></env:envelope>

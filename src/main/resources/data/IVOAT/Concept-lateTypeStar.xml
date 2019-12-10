@@ -1,0 +1,21 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lateTypeStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lateTypeStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>late-type star</skosxl:prefLabel>
+		<skosxl:definition>late-type star</skosxl:definition>
+		<skosxl:altLabel>cool star</skosxl:altLabel>
+		<skosxl:altLabel>late type star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#star"/>
+		<skosxl:narrower rdf:resource="#KStar"/>
+		<skosxl:narrower rdf:resource="#MStar"/>
+		<skosxl:narrower rdf:resource="#NStar"/>
+		<skosxl:narrower rdf:resource="#RStar"/>
+		<skosxl:narrower rdf:resource="#SStar"/>
+		<skosxl:narrower rdf:resource="#lateTypeDwarf"/>
+		<skosxl:narrower rdf:resource="#lateTypeGiant"/>
+		<skosxl:narrower rdf:resource="#lateTypeSubdwarf"/>
+		<skosxl:narrower rdf:resource="#lateTypeSupergiant"/>
+		<skosxl:related rdf:resource="#WilsonBappuEffect"/>
+		<skosxl:related rdf:resource="#molecularBand"/>
+		<skosxl:related rdf:resource="#molecularLine"/>
+		<skosxl:related rdf:resource="#molecularSpectrum"/>
+	</skosxl:Concept></env:instance></env:envelope>

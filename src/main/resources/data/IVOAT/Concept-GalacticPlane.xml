@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-GalacticPlane</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#GalacticPlane">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Galactic plane</skosxl:prefLabel>
+		<skosxl:definition>Galactic plane (Milky Way)</skosxl:definition>
+		<skosxl:related rdf:resource="#GalacticBulge"/>
+		<skosxl:related rdf:resource="#GalacticLatitude"/>
+		<skosxl:related rdf:resource="#GalacticPole"/>
+		<skosxl:related rdf:resource="#GalacticWindow"/>
+		<skosxl:related rdf:resource="#MilkyWayGalaxy"/>
+		<skosxl:related rdf:resource="#diskPopulation"/>
+		<skosxl:related rdf:resource="#diskStar"/>
+		<skosxl:changeNote>FVH: capitalized, since only refers to MW (2007-OCT-5)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

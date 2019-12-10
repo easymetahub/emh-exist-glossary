@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>101b5998-b348-4e14-9b59-98b3482e14cd</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#dichroicMirror">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>dichroic mirror</skos:prefLabel>
-		<skos:definition>dichroic mirror</skos:definition>
-		<skos:broader rdf:resource="#mirror"/>
-		<skos:related rdf:resource="#opticalFilm"/>
-		<skos:related rdf:resource="#opticalFilter"/>
-	</skos:Concept></env:instance></env:envelope>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bf39c026-0c54-439d-b9c0-260c54939db6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#twoSpectrumBinaryStar">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>two-spectrum binary star</skos:prefLabel>
-		<skos:definition>two-spectrum binary star</skos:definition>
-		<skos:altLabel>spectrum binary star</skos:altLabel>
-		<skos:altLabel>two spectrum binary star</skos:altLabel>
-		<skos:broader rdf:resource="#spectroscopicBinaryStar"/>
-	</skos:Concept></env:instance></env:envelope>

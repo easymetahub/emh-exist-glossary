@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-antireflectionCoating</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#antireflectionCoating">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>antireflection coating</skosxl:prefLabel>
+		<skosxl:definition>antireflection coating</skosxl:definition>
+		<skosxl:broader rdf:resource="#coating"/>
+		<skosxl:broader rdf:resource="#opticalFilm"/>
+		<skosxl:broader rdf:resource="#thinFilm"/>
+		<skosxl:related rdf:resource="#lens"/>
+		<skosxl:related rdf:resource="#opticalSurface"/>
+	</skosxl:Concept></env:instance></env:envelope>

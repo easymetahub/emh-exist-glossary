@@ -1,0 +1,14 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-colorMagnitudeRelation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#colorMagnitudeRelation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>color-magnitude relation</skosxl:prefLabel>
+		<skosxl:definition>color-magnitude relation</skosxl:definition>
+		<skosxl:altLabel>c m diagram</skosxl:altLabel>
+		<skosxl:altLabel>c m relation</skosxl:altLabel>
+		<skosxl:altLabel>c-m diagram</skosxl:altLabel>
+		<skosxl:altLabel>c-m relation</skosxl:altLabel>
+		<skosxl:altLabel>color magnitude relation</skosxl:altLabel>
+		<skosxl:altLabel>color-magnitude diagram</skosxl:altLabel>
+		<skosxl:related rdf:resource="#HertzsprungRussellDiagram"/>
+		<skosxl:related rdf:resource="#color"/>
+		<skosxl:related rdf:resource="#photometry"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-massRatio</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#massRatio">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>mass-ratio</skosxl:prefLabel>
+		<skosxl:definition>mass-ratio</skosxl:definition>
+		<skosxl:altLabel>mass ratio</skosxl:altLabel>
+		<skosxl:related rdf:resource="#binaryStar"/>
+		<skosxl:related rdf:resource="#initialMassFunction"/>
+		<skosxl:related rdf:resource="#massFunction"/>
+	</skosxl:Concept></env:instance></env:envelope>

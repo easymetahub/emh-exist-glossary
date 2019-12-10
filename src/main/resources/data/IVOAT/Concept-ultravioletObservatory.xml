@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-ultravioletObservatory</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#ultravioletObservatory">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>ultraviolet observatory</skosxl:prefLabel>
+		<skosxl:definition>ultraviolet observatory</skosxl:definition>
+		<skosxl:broader rdf:resource="#observatory"/>
+		<skosxl:narrower rdf:resource="#HubbleSpaceTelescope"/>
+		<skosxl:related rdf:resource="#ultravioletRadiation"/>
+		<skosxl:historyNote>FVH: new (2007-NOV-1)</skosxl:historyNote>
+	</skosxl:Concept></env:instance></env:envelope>

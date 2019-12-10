@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spaceAstronomy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spaceAstronomy">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>space astronomy</skosxl:prefLabel>
+		<skosxl:definition>space astronomy</skosxl:definition>
+		<skosxl:broader rdf:resource="#astronomy"/>
+		<skosxl:narrower rdf:resource="#XRayAstronomy"/>
+		<skosxl:narrower rdf:resource="#gammaRayAstronomy"/>
+		<skosxl:narrower rdf:resource="#ultravioletAstronomy"/>
+		<skosxl:related rdf:resource="#artificialSatellite"/>
+		<skosxl:related rdf:resource="#spaceObservatory"/>
+		<skosxl:related rdf:resource="#spaceExploration"/>
+		<skosxl:related rdf:resource="#spaceProbe"/>
+	</skosxl:Concept></env:instance></env:envelope>

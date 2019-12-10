@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e815e01f-e8c2-4dfe-95e0-1fe8c2ddfec5</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#gammaRayLine">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>gamma-ray line</skos:prefLabel>
-		<skos:definition>gamma-ray line</skos:definition>
-		<skos:altLabel>gamma ray line</skos:altLabel>
-		<skos:broader rdf:resource="#gammaRayRadiation"/>
-		<skos:changeNote>FVH: moved RT gamma-ray to BT gamma-ray_radiation (2007-OCT-8)</skos:changeNote>
-	</skos:Concept></env:instance></env:envelope>

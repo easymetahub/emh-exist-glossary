@@ -1,0 +1,16 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-radioInterferometer</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#radioInterferometer">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>radio interferometer</skosxl:prefLabel>
+		<skosxl:definition>radio interferometer</skosxl:definition>
+		<skosxl:broader rdf:resource="#interferometer"/>
+		<skosxl:broader rdf:resource="#radioTelescope"/>
+		<skosxl:narrower rdf:resource="#longBaselineInterferometer"/>
+		<skosxl:narrower rdf:resource="#tArray"/>
+		<skosxl:narrower rdf:resource="#veryLongBaselineInterferometer"/>
+		<skosxl:narrower rdf:resource="#yArray"/>
+		<skosxl:related rdf:resource="#array"/>
+		<skosxl:related rdf:resource="#pencilBeam"/>
+		<skosxl:related rdf:resource="#phasedArray"/>
+		<skosxl:related rdf:resource="#radioInterferometry"/>
+		<skosxl:related rdf:resource="#radioObservatory"/>
+	</skosxl:Concept></env:instance></env:envelope>

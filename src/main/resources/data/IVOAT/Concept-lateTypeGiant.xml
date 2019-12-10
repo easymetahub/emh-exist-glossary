@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lateTypeGiant</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lateTypeGiant">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>late-type giant</skosxl:prefLabel>
+		<skosxl:definition>late-type giant star</skosxl:definition>
+		<skosxl:altLabel>cool giant star</skosxl:altLabel>
+		<skosxl:altLabel>late type giant star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#giant"/>
+		<skosxl:broader rdf:resource="#lateTypeStar"/>
+		<skosxl:narrower rdf:resource="#KGiant"/>
+		<skosxl:narrower rdf:resource="#MGiant"/>
+		<skosxl:narrower rdf:resource="#MiraVariableStar"/>
+		<skosxl:narrower rdf:resource="#carbonStar"/>
+		<skosxl:narrower rdf:resource="#heavyMetalStar"/>
+		<skosxl:narrower rdf:resource="#irregularVariableStar"/>
+		<skosxl:narrower rdf:resource="#semiRegularVariableStar"/>
+		<skosxl:related rdf:resource="#asymptoticGiantBranch"/>
+		<skosxl:related rdf:resource="#funneling"/>
+		<skosxl:related rdf:resource="#postAsymptoticGiantBranch"/>
+		<skosxl:related rdf:resource="#redGiantTip"/>
+	</skosxl:Concept></env:instance></env:envelope>

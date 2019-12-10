@@ -1,0 +1,16 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-openStarCluster</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#openStarCluster">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>open star cluster</skosxl:prefLabel>
+		<skosxl:definition>open star cluster</skosxl:definition>
+		<skosxl:broader rdf:resource="#starCluster"/>
+		<skosxl:narrower rdf:resource="#GalacticCluster"/>
+		<skosxl:narrower rdf:resource="#OCluster"/>
+		<skosxl:narrower rdf:resource="#youngStarCluster"/>
+		<skosxl:related rdf:resource="#blueStragglerStar"/>
+		<skosxl:related rdf:resource="#movingClusterParallax"/>
+		<skosxl:related rdf:resource="#populationIStar"/>
+		<skosxl:related rdf:resource="#radiantMovingCluster"/>
+		<skosxl:related rdf:resource="#spiralArm"/>
+		<skosxl:related rdf:resource="#starAssociation"/>
+		<skosxl:related rdf:resource="#turnoffPoint"/>
+	</skosxl:Concept></env:instance></env:envelope>

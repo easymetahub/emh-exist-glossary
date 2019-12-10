@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lightAbsorption</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lightAbsorption">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>light absorption</skosxl:prefLabel>
+		<skosxl:definition>light absorption</skosxl:definition>
+		<skosxl:broader rdf:resource="#absorption"/>
+		<skosxl:related rdf:resource="#atmosphericExtinction"/>
+		<skosxl:related rdf:resource="#electromagneticRadiation"/>
+		<skosxl:related rdf:resource="#interstellarAbsorption"/>
+		<skosxl:related rdf:resource="#interstellarReddening"/>
+		<skosxl:related rdf:resource="#lightScattering"/>
+		<skosxl:related rdf:resource="#visibleRadiation"/>
+	</skosxl:Concept></env:instance></env:envelope>

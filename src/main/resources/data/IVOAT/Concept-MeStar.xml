@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-MeStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#MeStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Me star</skosxl:prefLabel>
+		<skosxl:definition>Me star</skosxl:definition>
+		<skosxl:broader rdf:resource="#MStar"/>
+		<skosxl:broader rdf:resource="#emissionLineStar"/>
+		<skosxl:related rdf:resource="#MeVariableStar"/>
+		<skosxl:related rdf:resource="#lateTypeVariableStar"/>
+	</skosxl:Concept></env:instance></env:envelope>

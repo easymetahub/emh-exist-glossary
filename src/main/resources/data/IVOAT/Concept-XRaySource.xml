@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-XRaySource</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#XRaySource">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>X-ray source</skosxl:prefLabel>
+		<skosxl:definition>X-ray source</skosxl:definition>
+		<skosxl:broader rdf:resource="#source"/>
+		<skosxl:narrower rdf:resource="#RsCanumVenaticorumStar"/>
+		<skosxl:narrower rdf:resource="#XRayBinaryStar"/>
+		<skosxl:narrower rdf:resource="#activeGalacticNucleus"/>
+		<skosxl:narrower rdf:resource="#activeGalaxy"/>
+		<skosxl:related rdf:resource="#SeyfertGalaxy"/>
+		<skosxl:related rdf:resource="#XRayIdentification"/>
+		<skosxl:related rdf:resource="#XRayRadiation"/>
+		<skosxl:related rdf:resource="#XRayStar"/>
+		<skosxl:related rdf:resource="#eruptiveBinaryStar"/>
+		<skosxl:related rdf:resource="#opticalIdentification"/>
+		<skosxl:related rdf:resource="#quasar"/>
+		<skosxl:related rdf:resource="#radioGalaxy"/>
+		<skosxl:related rdf:resource="#relativisticStar"/>
+		<skosxl:related rdf:resource="#supernovaRemnant"/>
+	</skosxl:Concept></env:instance></env:envelope>

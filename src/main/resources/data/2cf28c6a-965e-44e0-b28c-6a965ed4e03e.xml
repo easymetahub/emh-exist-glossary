@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2cf28c6a-965e-44e0-b28c-6a965ed4e03e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#radon">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>radon</skos:prefLabel>
-		<skos:definition>radon (atomic number 86)</skos:definition>
-		<skos:altLabel>Rn</skos:altLabel>
-		<skos:broader rdf:resource="#fundamentalChemicalElement"/>
-		<skos:historyNote>FVH: new (2007-OCT-25)</skos:historyNote>
-	</skos:Concept></env:instance></env:envelope>

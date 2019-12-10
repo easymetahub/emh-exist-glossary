@@ -1,0 +1,21 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lightScattering</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lightScattering">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>light scattering</skosxl:prefLabel>
+		<skosxl:definition>light scattering</skosxl:definition>
+		<skosxl:broader rdf:resource="#radiationScattering"/>
+		<skosxl:broader rdf:resource="#scattering"/>
+		<skosxl:narrower rdf:resource="#ComptonScattering"/>
+		<skosxl:narrower rdf:resource="#RayleighScattering"/>
+		<skosxl:narrower rdf:resource="#ThomsonScattering"/>
+		<skosxl:related rdf:resource="#RamanSpectrum"/>
+		<skosxl:related rdf:resource="#afterglow"/>
+		<skosxl:related rdf:resource="#atmosphericExtinction"/>
+		<skosxl:related rdf:resource="#brillouinSpectrum"/>
+		<skosxl:related rdf:resource="#electromagneticRadiation"/>
+		<skosxl:related rdf:resource="#halo"/>
+		<skosxl:related rdf:resource="#interstellarReddening"/>
+		<skosxl:related rdf:resource="#lightAbsorption"/>
+		<skosxl:related rdf:resource="#luminescence"/>
+		<skosxl:related rdf:resource="#visibleRadiation"/>
+		<skosxl:related rdf:resource="#zodiacalLight"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>484dac46-7921-4d13-8dac-467921ed13ed</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#acoustics">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>acoustics</skos:prefLabel>
-		<skos:definition>acoustics</skos:definition>
-		<skos:related rdf:resource="#acousticWave"/>
-	</skos:Concept></env:instance></env:envelope>

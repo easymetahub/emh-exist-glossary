@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-interplanetaryGrain</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#interplanetaryGrain">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>interplanetary grain</skosxl:prefLabel>
+		<skosxl:definition>interplanetary grain</skosxl:definition>
+		<skosxl:broader rdf:resource="#grain"/>
+		<skosxl:broader rdf:resource="#interplanetaryMatter"/>
+		<skosxl:narrower rdf:resource="#meteoroid"/>
+		<skosxl:related rdf:resource="#adsorption"/>
+		<skosxl:related rdf:resource="#graphite"/>
+		<skosxl:related rdf:resource="#interplanetaryGas"/>
+	</skosxl:Concept></env:instance></env:envelope>

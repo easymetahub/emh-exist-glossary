@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-pressureBroadening</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#pressureBroadening">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>pressure broadening</skosxl:prefLabel>
+		<skosxl:definition>pressure broadening</skosxl:definition>
+		<skosxl:broader rdf:resource="#lineBroadening"/>
+		<skosxl:related rdf:resource="#DopplerBroadening"/>
+		<skosxl:related rdf:resource="#ZeemanSplitting"/>
+		<skosxl:related rdf:resource="#lineSpectrum"/>
+		<skosxl:related rdf:resource="#naturalLineWidth"/>
+		<skosxl:related rdf:resource="#spectroscopy"/>
+	</skosxl:Concept></env:instance></env:envelope>

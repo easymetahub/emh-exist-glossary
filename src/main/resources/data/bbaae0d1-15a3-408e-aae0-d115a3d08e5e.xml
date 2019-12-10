@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bbaae0d1-15a3-408e-aae0-d115a3d08e5e</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#numericalIntegration">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>numerical integration</skos:prefLabel>
-		<skos:definition>numerical integration</skos:definition>
-		<skos:related rdf:resource="#numericalAnalysis"/>
-		<skos:related rdf:resource="#numericalMethod"/>
-	</skos:Concept></env:instance></env:envelope>

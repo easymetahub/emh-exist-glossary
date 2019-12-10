@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b90c208b-b028-4c9d-8c20-8bb0280c9df8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#cryostat">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>cryostat</skos:prefLabel>
-		<skos:definition>cryostat</skos:definition>
-		<skos:related rdf:resource="#cryogenics"/>
-		<skos:related rdf:resource="#temperatureControl"/>
-	</skos:Concept></env:instance></env:envelope>

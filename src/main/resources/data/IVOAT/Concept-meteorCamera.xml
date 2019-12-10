@@ -1,0 +1,6 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-meteorCamera</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#meteorCamera">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>meteor camera</skosxl:prefLabel>
+		<skosxl:definition>meteor camera</skosxl:definition>
+		<skosxl:narrower rdf:resource="#BakerNunnCamera"/>
+	</skosxl:Concept></env:instance></env:envelope>

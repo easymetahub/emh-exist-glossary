@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-RwAurigaeStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#RwAurigaeStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>RW Aurigae star</skosxl:prefLabel>
+		<skosxl:definition>RW Aurigae star</skosxl:definition>
+		<skosxl:broader rdf:resource="#emissionLineStar"/>
+		<skosxl:broader rdf:resource="#irregularVariableStar"/>
+		<skosxl:broader rdf:resource="#preMainSequenceStar"/>
+		<skosxl:broader rdf:resource="#ultravioletExcessStar"/>
+		<skosxl:related rdf:resource="#HAlphaEmissionLineStar"/>
+		<skosxl:related rdf:resource="#TAssociation"/>
+		<skosxl:related rdf:resource="#TTauriStar"/>
+	</skosxl:Concept></env:instance></env:envelope>

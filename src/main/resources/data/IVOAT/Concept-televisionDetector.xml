@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-televisionDetector</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#televisionDetector">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>television detector</skosxl:prefLabel>
+		<skosxl:definition>television detector</skosxl:definition>
+		<skosxl:altLabel>TV camera</skosxl:altLabel>
+		<skosxl:altLabel>television camera tube</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#multiChannelDetector"/>
+		<skosxl:broader rdf:resource="#photoelectronicDevice"/>
+		<skosxl:broader rdf:resource="#twoDimensionalDetector"/>
+		<skosxl:related rdf:resource="#CcdDetector"/>
+		<skosxl:related rdf:resource="#television"/>
+		<skosxl:related rdf:resource="#televisionCamera"/>
+	</skosxl:Concept></env:instance></env:envelope>

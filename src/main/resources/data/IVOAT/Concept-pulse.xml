@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-pulse</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#pulse">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>pulse</skosxl:prefLabel>
+		<skosxl:definition>pulse</skosxl:definition>
+		<skosxl:related rdf:resource="#pulseCounter"/>
+		<skosxl:related rdf:resource="#pulseCounting"/>
+		<skosxl:related rdf:resource="#pulseDuration"/>
+		<skosxl:related rdf:resource="#pulseEnergy"/>
+		<skosxl:related rdf:resource="#pulseIntensity"/>
+		<skosxl:related rdf:resource="#pulseProfile"/>
+		<skosxl:related rdf:resource="#pulseStructure"/>
+		<skosxl:related rdf:resource="#pulseWidth"/>
+		<skosxl:related rdf:resource="#pulseWindow"/>
+		<skosxl:scopeNote>combine with other terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

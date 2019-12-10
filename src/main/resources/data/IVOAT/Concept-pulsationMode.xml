@@ -1,0 +1,14 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-pulsationMode</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#pulsationMode">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>pulsation mode</skosxl:prefLabel>
+		<skosxl:definition>pulsation mode</skosxl:definition>
+		<skosxl:narrower rdf:resource="#fundamentalMode"/>
+		<skosxl:narrower rdf:resource="#overtoneMode"/>
+		<skosxl:related rdf:resource="#multiPeriodicPulsation"/>
+		<skosxl:related rdf:resource="#multiPeriodicVariableStar"/>
+		<skosxl:related rdf:resource="#nonRadialPulsation"/>
+		<skosxl:related rdf:resource="#period"/>
+		<skosxl:related rdf:resource="#pulsatingVariableStar"/>
+		<skosxl:related rdf:resource="#pulsationTheory"/>
+		<skosxl:related rdf:resource="#pulsation"/>
+	</skosxl:Concept></env:instance></env:envelope>

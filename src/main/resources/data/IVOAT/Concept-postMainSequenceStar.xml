@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-postMainSequenceStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#postMainSequenceStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>post-main sequence star</skosxl:prefLabel>
+		<skosxl:definition>post-main sequence star</skosxl:definition>
+		<skosxl:altLabel>post main sequence star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#evolvedStar"/>
+		<skosxl:broader rdf:resource="#nonMainSequenceStar"/>
+		<skosxl:narrower rdf:resource="#giant"/>
+		<skosxl:narrower rdf:resource="#subgiant"/>
+		<skosxl:narrower rdf:resource="#supergiant"/>
+		<skosxl:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list; excluding advanced evolution</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

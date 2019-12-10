@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-meteorStream</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#meteorStream">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>meteor stream</skosxl:prefLabel>
+		<skosxl:definition>meteor stream</skosxl:definition>
+		<skosxl:related rdf:resource="#asteroid"/>
+		<skosxl:related rdf:resource="#comet"/>
+		<skosxl:related rdf:resource="#meteorShower"/>
+		<skosxl:related rdf:resource="#meteorTrail"/>
+		<skosxl:related rdf:resource="#meteor"/>
+		<skosxl:related rdf:resource="#radiantMeteor"/>
+	</skosxl:Concept></env:instance></env:envelope>

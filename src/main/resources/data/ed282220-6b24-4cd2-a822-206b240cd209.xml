@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>ed282220-6b24-4cd2-a822-206b240cd209</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#barredSpiralGalaxy">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>barred spiral galaxy</skos:prefLabel>
-		<skos:definition>barred spiral galaxy</skos:definition>
-		<skos:broader rdf:resource="#galaxy"/>
-		<skos:broader rdf:resource="#spiralGalaxy"/>
-		<skos:narrower rdf:resource="#BGalaxy"/>
-	</skos:Concept></env:instance></env:envelope>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>96f28214-7b65-4d81-b282-147b656d8142</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#arrayProcessor">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>array processor</skos:prefLabel>
-		<skos:definition>array processor</skos:definition>
-		<skos:broader rdf:resource="#computer"/>
-		<skos:related rdf:resource="#detectorArray"/>
-	</skos:Concept></env:instance></env:envelope>

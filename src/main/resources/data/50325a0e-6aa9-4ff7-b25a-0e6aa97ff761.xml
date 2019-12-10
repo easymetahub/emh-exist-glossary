@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>50325a0e-6aa9-4ff7-b25a-0e6aa97ff761</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#mechanicalProperty">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>mechanical property</skos:prefLabel>
-		<skos:definition>mechanical property</skos:definition>
-		<skos:broader rdf:resource="#property"/>
-		<skos:scopeNote>combine with other terms</skos:scopeNote>
-	</skos:Concept></env:instance></env:envelope>

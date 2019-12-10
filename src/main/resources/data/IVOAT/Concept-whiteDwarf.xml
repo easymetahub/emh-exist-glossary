@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-whiteDwarf</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#whiteDwarf">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>white dwarf</skosxl:prefLabel>
+		<skosxl:definition>white dwarf star</skosxl:definition>
+		<skosxl:broader rdf:resource="#compactObject"/>
+		<skosxl:broader rdf:resource="#degenerateDwarf"/>
+		<skosxl:broader rdf:resource="#evolvedStar"/>
+		<skosxl:broader rdf:resource="#stellarObject"/>
+		<skosxl:narrower rdf:resource="#DaStar"/>
+		<skosxl:narrower rdf:resource="#DbStar"/>
+		<skosxl:narrower rdf:resource="#DoStar"/>
+		<skosxl:narrower rdf:resource="#ZzCetiStar"/>
+		<skosxl:related rdf:resource="#ChandrasekharMass"/>
+		<skosxl:related rdf:resource="#XRayPulsar"/>
+		<skosxl:related rdf:resource="#blackDwarf"/>
+		<skosxl:related rdf:resource="#cataclysmicVariableStar"/>
+		<skosxl:related rdf:resource="#collapsedStar"/>
+		<skosxl:related rdf:resource="#supernovaRemnant"/>
+		<skosxl:changeNote>FVH: moved DA_star to NT, added DB_STARS (2007-OCT-1)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

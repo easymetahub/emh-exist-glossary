@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>9dbc8ba6-4a25-425f-bc8b-a64a25225fc4</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#singularity">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>singularity</skos:prefLabel>
-		<skos:definition>singularity</skos:definition>
-		<skos:narrower rdf:resource="#nakedSingularity"/>
-		<skos:narrower rdf:resource="#spaceTimeSingularity"/>
-	</skos:Concept></env:instance></env:envelope>

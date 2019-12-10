@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-TSubdwarf</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#TSubdwarf">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>T subdwarf</skosxl:prefLabel>
+		<skosxl:definition>T subdwarf</skosxl:definition>
+		<skosxl:broader rdf:resource="#brownDwarf"/>
+		<skosxl:broader rdf:resource="#subdwarf"/>
+		<skosxl:related rdf:resource="#TDwarf"/>
+		<skosxl:historyNote>FVH: new (2007-OCT-9)</skosxl:historyNote>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,21 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-galaxyStructure</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#galaxyStructure">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>galaxy structure</skosxl:prefLabel>
+		<skosxl:definition>structure of galaxy</skosxl:definition>
+		<skosxl:altLabel>content of galaxy</skosxl:altLabel>
+		<skosxl:altLabel>structure of galaxy</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#structure"/>
+		<skosxl:narrower rdf:resource="#GalacticStructure"/>
+		<skosxl:related rdf:resource="#bulge"/>
+		<skosxl:related rdf:resource="#galacticNucleus"/>
+		<skosxl:related rdf:resource="#galaxy"/>
+		<skosxl:related rdf:resource="#galaxyRotationCurve"/>
+		<skosxl:related rdf:resource="#halo"/>
+		<skosxl:related rdf:resource="#interstellarMatter"/>
+		<skosxl:related rdf:resource="#kinematics"/>
+		<skosxl:related rdf:resource="#massDistribution"/>
+		<skosxl:related rdf:resource="#pitchAngle"/>
+		<skosxl:related rdf:resource="#spiralArm"/>
+		<skosxl:changeNote>FVH: new, since Galactic_structure only refers to Milky Way; moved content_of_galaxy to ALT (2007-OCT-5)</skosxl:changeNote>
+		<skosxl:changeNote>FVH: renamed galaxy_structure to remove _of_ (2007-OCT-24)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

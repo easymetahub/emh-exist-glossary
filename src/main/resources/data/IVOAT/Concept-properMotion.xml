@@ -1,0 +1,19 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-properMotion</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#properMotion">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>proper motion</skosxl:prefLabel>
+		<skosxl:definition>proper motion</skosxl:definition>
+		<skosxl:broader rdf:resource="#motion"/>
+		<skosxl:broader rdf:resource="#spaceMotion"/>
+		<skosxl:related rdf:resource="#GalacticRotation"/>
+		<skosxl:related rdf:resource="#kinematics"/>
+		<skosxl:related rdf:resource="#LocalStandardOfRest"/>
+		<skosxl:related rdf:resource="#movingClusterParallax"/>
+		<skosxl:related rdf:resource="#peculiarMotion"/>
+		<skosxl:related rdf:resource="#photographicAstrometry"/>
+		<skosxl:related rdf:resource="#radialVelocity"/>
+		<skosxl:related rdf:resource="#radiantMovingCluster"/>
+		<skosxl:related rdf:resource="#secularParallax"/>
+		<skosxl:related rdf:resource="#stellarDynamics"/>
+		<skosxl:related rdf:resource="#stellarMotion"/>
+		<skosxl:related rdf:resource="#transverseVelocity"/>
+	</skosxl:Concept></env:instance></env:envelope>

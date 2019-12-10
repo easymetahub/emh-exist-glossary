@@ -1,0 +1,18 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-satellite</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#satellite">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>satellite</skosxl:prefLabel>
+		<skosxl:definition>satellite</skosxl:definition>
+		<skosxl:narrower rdf:resource="#Moon"/>
+		<skosxl:narrower rdf:resource="#galileanSatellite"/>
+		<skosxl:narrower rdf:resource="#planetSatellite"/>
+		<skosxl:related rdf:resource="#SolarSystem"/>
+		<skosxl:related rdf:resource="#globalPositioningSystem"/>
+		<skosxl:related rdf:resource="#planetesimal"/>
+		<skosxl:related rdf:resource="#planet"/>
+		<skosxl:related rdf:resource="#protoplanet"/>
+		<skosxl:related rdf:resource="#rill"/>
+		<skosxl:related rdf:resource="#surfaceOfCelestialBody"/>
+		<skosxl:related rdf:resource="#topography"/>
+		<skosxl:related rdf:resource="#volcano"/>
+		<skosxl:scopeNote>natural satellite; see artifical_satellite</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

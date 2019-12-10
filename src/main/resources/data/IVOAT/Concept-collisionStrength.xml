@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-collisionStrength</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#collisionStrength">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>collision strength</skosxl:prefLabel>
+		<skosxl:definition>collision strength</skosxl:definition>
+		<skosxl:related rdf:resource="#collisionBroadening"/>
+		<skosxl:related rdf:resource="#collisionProcess"/>
+		<skosxl:related rdf:resource="#collisionSpectroscopy"/>
+		<skosxl:related rdf:resource="#collisionalExcitation"/>
+	</skosxl:Concept></env:instance></env:envelope>

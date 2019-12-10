@@ -1,0 +1,8 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-RankineHugoniotRelation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#RankineHugoniotRelation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Rankine-Hugoniot relation</skosxl:prefLabel>
+		<skosxl:definition>Rankine-Hugoniot relation</skosxl:definition>
+		<skosxl:related rdf:resource="#density"/>
+		<skosxl:related rdf:resource="#pressure"/>
+		<skosxl:related rdf:resource="#shockWave"/>
+	</skosxl:Concept></env:instance></env:envelope>

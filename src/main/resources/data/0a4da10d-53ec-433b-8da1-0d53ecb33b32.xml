@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>0a4da10d-53ec-433b-8da1-0d53ecb33b32</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#composition">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>composition</skos:prefLabel>
-		<skos:definition>composition</skos:definition>
-		<skos:related rdf:resource="#planet"/>
-		<skos:scopeNote>combine with other terms</skos:scopeNote>
-	</skos:Concept></env:instance></env:envelope>

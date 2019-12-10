@@ -1,0 +1,27 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-cataclysmicVariableStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cataclysmicVariableStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>cataclysmic variable star</skosxl:prefLabel>
+		<skosxl:definition>cataclysmic variable star</skosxl:definition>
+		<skosxl:altLabel>CV</skosxl:altLabel>
+		<skosxl:altLabel>cataclysmic binary star</skosxl:altLabel>
+		<skosxl:altLabel>eruptive variable star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#XRayBinaryStar"/>
+		<skosxl:broader rdf:resource="#closeBinaryStar"/>
+		<skosxl:broader rdf:resource="#eruptiveBinaryStar"/>
+		<skosxl:broader rdf:resource="#interactingBinaryStar"/>
+		<skosxl:broader rdf:resource="#variableStar"/>
+		<skosxl:narrower rdf:resource="#AmHerculisStar"/>
+		<skosxl:narrower rdf:resource="#SxArietisStar"/>
+		<skosxl:narrower rdf:resource="#UvPerseiStar"/>
+		<skosxl:narrower rdf:resource="#dwarfNova"/>
+		<skosxl:narrower rdf:resource="#novaLikeVariable"/>
+		<skosxl:narrower rdf:resource="#classicalNova"/>
+		<skosxl:related rdf:resource="#eruption"/>
+		<skosxl:related rdf:resource="#lowMassXRayBinaryStar"/>
+		<skosxl:related rdf:resource="#massExchange"/>
+		<skosxl:related rdf:resource="#massLoss"/>
+		<skosxl:related rdf:resource="#opticalOutburst"/>
+		<skosxl:related rdf:resource="#supernova"/>
+		<skosxl:related rdf:resource="#symbioticStar"/>
+		<skosxl:related rdf:resource="#whiteDwarf"/>
+	</skosxl:Concept></env:instance></env:envelope>

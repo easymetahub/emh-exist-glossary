@@ -1,0 +1,25 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spectralType</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spectralType">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>spectral type</skosxl:prefLabel>
+		<skosxl:definition>spectral type</skosxl:definition>
+		<skosxl:related rdf:resource="#AStar"/>
+		<skosxl:related rdf:resource="#BStar"/>
+		<skosxl:related rdf:resource="#FStar"/>
+		<skosxl:related rdf:resource="#GStar"/>
+		<skosxl:related rdf:resource="#KStar"/>
+		<skosxl:related rdf:resource="#LDwarf"/>
+		<skosxl:related rdf:resource="#MStar"/>
+		<skosxl:related rdf:resource="#NStar"/>
+		<skosxl:related rdf:resource="#OStar"/>
+		<skosxl:related rdf:resource="#RStar"/>
+		<skosxl:related rdf:resource="#SStar"/>
+		<skosxl:related rdf:resource="#TDwarf"/>
+		<skosxl:related rdf:resource="#lineWidth"/>
+		<skosxl:related rdf:resource="#luminosityClass"/>
+		<skosxl:related rdf:resource="#luminosityClassification"/>
+		<skosxl:related rdf:resource="#spectralClassification"/>
+		<skosxl:related rdf:resource="#spectralLine"/>
+		<skosxl:related rdf:resource="#standardStar"/>
+		<skosxl:related rdf:resource="#temperature"/>
+		<skosxl:scopeNote>not a complete list of terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-orbitalElement</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#orbitalElement">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>orbital element</skosxl:prefLabel>
+		<skosxl:definition>orbital element</skosxl:definition>
+		<skosxl:narrower rdf:resource="#apsis"/>
+		<skosxl:narrower rdf:resource="#centerOfMass"/>
+		<skosxl:narrower rdf:resource="#eccentricity"/>
+		<skosxl:narrower rdf:resource="#inclination"/>
+		<skosxl:narrower rdf:resource="#orbitalAnomaly"/>
+		<skosxl:narrower rdf:resource="#osculatoryElement"/>
+		<skosxl:narrower rdf:resource="#period"/>
+		<skosxl:narrower rdf:resource="#positionAngle"/>
+		<skosxl:narrower rdf:resource="#semimajorAxis"/>
+		<skosxl:related rdf:resource="#acceleration"/>
+		<skosxl:related rdf:resource="#celestialMechanics"/>
+		<skosxl:related rdf:resource="#orbit"/>
+		<skosxl:related rdf:resource="#regressionOfNode"/>
+		<skosxl:changeNote>FVH: removed element_of_orbit (2007-SEP-24)</skosxl:changeNote>
+		<skosxl:scopeNote>see also orbit</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

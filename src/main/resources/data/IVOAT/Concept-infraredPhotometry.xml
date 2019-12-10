@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-infraredPhotometry</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#infraredPhotometry">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>infrared photometry</skosxl:prefLabel>
+		<skosxl:definition>infrared photometry</skosxl:definition>
+		<skosxl:broader rdf:resource="#broadBandPhotometry"/>
+		<skosxl:broader rdf:resource="#mediumBandPhotometry"/>
+		<skosxl:broader rdf:resource="#photometry"/>
+		<skosxl:related rdf:resource="#HMagnitude"/>
+		<skosxl:related rdf:resource="#IMagnitude"/>
+		<skosxl:related rdf:resource="#JMagnitude"/>
+		<skosxl:related rdf:resource="#KMagnitude"/>
+		<skosxl:related rdf:resource="#LMagnitude"/>
+		<skosxl:related rdf:resource="#MMagnitude"/>
+		<skosxl:related rdf:resource="#NMagnitude"/>
+		<skosxl:related rdf:resource="#OMagnitude"/>
+		<skosxl:related rdf:resource="#PMagnitude"/>
+		<skosxl:related rdf:resource="#QMagnitude"/>
+		<skosxl:related rdf:resource="#farInfraredRadiation"/>
+		<skosxl:related rdf:resource="#nearInfraredRadiation"/>
+	</skosxl:Concept></env:instance></env:envelope>

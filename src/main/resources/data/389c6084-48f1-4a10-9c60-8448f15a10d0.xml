@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>389c6084-48f1-4a10-9c60-8448f15a10d0</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#intergalacticCloud">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>intergalactic cloud</skos:prefLabel>
-		<skos:definition>intergalactic cloud</skos:definition>
-		<skos:broader rdf:resource="#intergalacticMatter"/>
-		<skos:related rdf:resource="#intergalacticGas"/>
-	</skos:Concept></env:instance></env:envelope>

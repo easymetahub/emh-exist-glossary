@@ -1,0 +1,34 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-Moon</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Moon">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Moon</skosxl:prefLabel>
+		<skosxl:definition>Moon</skosxl:definition>
+		<skosxl:broader rdf:resource="#satellite"/>
+		<skosxl:related rdf:resource="#Earthshine"/>
+		<skosxl:related rdf:resource="#anomalisticMonth"/>
+		<skosxl:related rdf:resource="#apogee"/>
+		<skosxl:related rdf:resource="#crater"/>
+		<skosxl:related rdf:resource="#crust"/>
+		<skosxl:related rdf:resource="#crustalDynamics"/>
+		<skosxl:related rdf:resource="#equationOfTheCenter"/>
+		<skosxl:related rdf:resource="#libration"/>
+		<skosxl:related rdf:resource="#lunarDome"/>
+		<skosxl:related rdf:resource="#lunarEclipse"/>
+		<skosxl:related rdf:resource="#lunarLaserRanging"/>
+		<skosxl:related rdf:resource="#lunarOccultation"/>
+		<skosxl:related rdf:resource="#lunarTheory"/>
+		<skosxl:related rdf:resource="#mantle"/>
+		<skosxl:related rdf:resource="#maria"/>
+		<skosxl:related rdf:resource="#mascon"/>
+		<skosxl:related rdf:resource="#moonquake"/>
+		<skosxl:related rdf:resource="#nutation"/>
+		<skosxl:related rdf:resource="#occultation"/>
+		<skosxl:related rdf:resource="#perigee"/>
+		<skosxl:related rdf:resource="#phaseAngle"/>
+		<skosxl:related rdf:resource="#phaseDefect"/>
+		<skosxl:related rdf:resource="#ray"/>
+		<skosxl:related rdf:resource="#regressionOfNode"/>
+		<skosxl:related rdf:resource="#selenology"/>
+		<skosxl:related rdf:resource="#solarEclipse"/>
+		<skosxl:related rdf:resource="#surfaceOfCelestialBody"/>
+		<skosxl:scopeNote>Earth's satellite; see under satellite or planet for more rts; see also lunar</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

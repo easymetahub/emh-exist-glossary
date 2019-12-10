@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-opticalSystem</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#opticalSystem">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>optical system</skosxl:prefLabel>
+		<skosxl:definition>optical system</skosxl:definition>
+		<skosxl:narrower rdf:resource="#catadioptricSystem"/>
+		<skosxl:narrower rdf:resource="#catoptricSystem"/>
+		<skosxl:narrower rdf:resource="#dioptricSystem"/>
+		<skosxl:related rdf:resource="#aperture"/>
+		<skosxl:related rdf:resource="#chromaticAberration"/>
+		<skosxl:related rdf:resource="#comaticAberration"/>
+		<skosxl:related rdf:resource="#distortion"/>
+		<skosxl:related rdf:resource="#fieldCurvature"/>
+		<skosxl:related rdf:resource="#opticalAberration"/>
+		<skosxl:related rdf:resource="#opticalInstrument"/>
+	</skosxl:Concept></env:instance></env:envelope>

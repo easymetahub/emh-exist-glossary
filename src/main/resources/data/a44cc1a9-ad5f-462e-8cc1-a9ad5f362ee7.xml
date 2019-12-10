@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a44cc1a9-ad5f-462e-8cc1-a9ad5f362ee7</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#specialTheoryOfRelativity">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>special theory of relativity</skos:prefLabel>
-		<skos:definition>special theory of relativity</skos:definition>
-		<skos:broader rdf:resource="#generalTheoryOfRelativity"/>
-		<skos:related rdf:resource="#space"/>
-	</skos:Concept></env:instance></env:envelope>

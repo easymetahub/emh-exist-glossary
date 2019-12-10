@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-nearInfraredRadiation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#nearInfraredRadiation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>near infrared radiation</skosxl:prefLabel>
+		<skosxl:definition>near infrared radiation</skosxl:definition>
+		<skosxl:broader rdf:resource="#infraredRadiation"/>
+		<skosxl:related rdf:resource="#HMagnitude"/>
+		<skosxl:related rdf:resource="#IMagnitude"/>
+		<skosxl:related rdf:resource="#JMagnitude"/>
+		<skosxl:related rdf:resource="#KMagnitude"/>
+		<skosxl:related rdf:resource="#LMagnitude"/>
+		<skosxl:related rdf:resource="#farInfraredRadiation"/>
+		<skosxl:related rdf:resource="#infraredPhotometry"/>
+	</skosxl:Concept></env:instance></env:envelope>

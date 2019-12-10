@@ -1,0 +1,7 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-mathematicalModel</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#mathematicalModel">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>mathematical model</skosxl:prefLabel>
+		<skosxl:definition>mathematical model</skosxl:definition>
+		<skosxl:related rdf:resource="#computerModel"/>
+		<skosxl:changeNote>FVH: changed COMPUTER_MODELS from U to RT (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

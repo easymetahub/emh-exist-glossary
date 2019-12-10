@@ -1,0 +1,65 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-cosmology</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cosmology">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>cosmology</skosxl:prefLabel>
+		<skosxl:definition>cosmology</skosxl:definition>
+		<skosxl:broader rdf:resource="#astronomy"/>
+		<skosxl:narrower rdf:resource="#BianchiCosmology"/>
+		<skosxl:narrower rdf:resource="#BigBangTheory"/>
+		<skosxl:narrower rdf:resource="#EinsteinUniverse"/>
+		<skosxl:narrower rdf:resource="#FriedmannUniverse"/>
+		<skosxl:narrower rdf:resource="#GoedelUniverse"/>
+		<skosxl:narrower rdf:resource="#LemaitreUniverse"/>
+		<skosxl:narrower rdf:resource="#closedUniverse"/>
+		<skosxl:narrower rdf:resource="#deSitterUniverse"/>
+		<skosxl:narrower rdf:resource="#diracCosmology"/>
+		<skosxl:narrower rdf:resource="#expandingUniverse"/>
+		<skosxl:narrower rdf:resource="#hierarchicalCosmology"/>
+		<skosxl:narrower rdf:resource="#inflationaryUniverse"/>
+		<skosxl:narrower rdf:resource="#openUniverse"/>
+		<skosxl:narrower rdf:resource="#oscillatingUniverse"/>
+		<skosxl:narrower rdf:resource="#primordialFireball"/>
+		<skosxl:narrower rdf:resource="#quantumCosmology"/>
+		<skosxl:narrower rdf:resource="#relativisticCosmology"/>
+		<skosxl:narrower rdf:resource="#steadyStateTheory"/>
+		<skosxl:related rdf:resource="#DarkEnergy"/>
+		<skosxl:related rdf:resource="#DarkMatter"/>
+		<skosxl:related rdf:resource="#HubbleConstant"/>
+		<skosxl:related rdf:resource="#HubbleDiagram"/>
+		<skosxl:related rdf:resource="#HubbleLaw"/>
+		<skosxl:related rdf:resource="#HubbleRadius"/>
+		<skosxl:related rdf:resource="#HubbleTime"/>
+		<skosxl:related rdf:resource="#OmegaParameter"/>
+		<skosxl:related rdf:resource="#TullyFisherRelation"/>
+		<skosxl:related rdf:resource="#TypeIaSupernova"/>
+		<skosxl:related rdf:resource="#anthropicPrinciple"/>
+		<skosxl:related rdf:resource="#astrophysics"/>
+		<skosxl:related rdf:resource="#coldDarkMatter"/>
+		<skosxl:related rdf:resource="#colorRedshiftRelation"/>
+		<skosxl:related rdf:resource="#cosmicAbundance"/>
+		<skosxl:related rdf:resource="#cosmicString"/>
+		<skosxl:related rdf:resource="#cosmochemistry"/>
+		<skosxl:related rdf:resource="#cosmochronology"/>
+		<skosxl:related rdf:resource="#cosmogony"/>
+		<skosxl:related rdf:resource="#cosmologicalConstant"/>
+		<skosxl:related rdf:resource="#cosmologicalParameter"/>
+		<skosxl:related rdf:resource="#earlyUniverse"/>
+		<skosxl:related rdf:resource="#galaxyCount"/>
+		<skosxl:related rdf:resource="#galaxyDistribution"/>
+		<skosxl:related rdf:resource="#galaxyEvolution"/>
+		<skosxl:related rdf:resource="#generalTheoryOfRelativity"/>
+		<skosxl:related rdf:resource="#largeScaleStructure"/>
+		<skosxl:related rdf:resource="#microwaveBackground"/>
+		<skosxl:related rdf:resource="#missingMass"/>
+		<skosxl:related rdf:resource="#protocluster"/>
+		<skosxl:related rdf:resource="#protogalaxy"/>
+		<skosxl:related rdf:resource="#redshift"/>
+		<skosxl:related rdf:resource="#redshiftDistanceRelation"/>
+		<skosxl:related rdf:resource="#redshiftMagnitudeRelation"/>
+		<skosxl:related rdf:resource="#relativisticAstrophysics"/>
+		<skosxl:related rdf:resource="#relativisticVelocity"/>
+		<skosxl:related rdf:resource="#spaceTimeCurvature"/>
+		<skosxl:related rdf:resource="#stellarEvolution"/>
+		<skosxl:related rdf:resource="#universe"/>
+		<skosxl:related rdf:resource="#whiteHole"/>
+		<skosxl:changeNote>FVH: added RT DARK_ENERGY, RT LARGE_SCALE_STRUCTURE (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

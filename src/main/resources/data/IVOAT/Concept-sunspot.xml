@@ -1,0 +1,23 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-sunspot</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#sunspot">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>sunspot</skosxl:prefLabel>
+		<skosxl:definition>sunspot</skosxl:definition>
+		<skosxl:altLabel>sun spot</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#starspot"/>
+		<skosxl:related rdf:resource="#EvershedEffect"/>
+		<skosxl:related rdf:resource="#WilsonEffect"/>
+		<skosxl:related rdf:resource="#activeSun"/>
+		<skosxl:related rdf:resource="#bipolarGroup"/>
+		<skosxl:related rdf:resource="#butterflyDiagram"/>
+		<skosxl:related rdf:resource="#emergingFlux"/>
+		<skosxl:related rdf:resource="#magneticField"/>
+		<skosxl:related rdf:resource="#magneticStorm"/>
+		<skosxl:related rdf:resource="#penumbra"/>
+		<skosxl:related rdf:resource="#plage"/>
+		<skosxl:related rdf:resource="#prominence"/>
+		<skosxl:related rdf:resource="#solarActivity"/>
+		<skosxl:related rdf:resource="#solarFilament"/>
+		<skosxl:related rdf:resource="#sunspotCycle"/>
+		<skosxl:related rdf:resource="#umbra"/>
+		<skosxl:changeNote>FVH: added ALT sun_spot, BT starspot (2007-OCT-8)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

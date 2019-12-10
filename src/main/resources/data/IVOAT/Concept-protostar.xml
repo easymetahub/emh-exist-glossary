@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-protostar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#protostar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>protostar</skosxl:prefLabel>
+		<skosxl:definition>protostar</skosxl:definition>
+		<skosxl:broader rdf:resource="#gaseousSphere"/>
+		<skosxl:broader rdf:resource="#preMainSequenceStar"/>
+		<skosxl:related rdf:resource="#BokGlobule"/>
+		<skosxl:related rdf:resource="#HerbigHaroObject"/>
+		<skosxl:related rdf:resource="#TTauriStar"/>
+		<skosxl:related rdf:resource="#birthRate"/>
+		<skosxl:related rdf:resource="#collapsingCloud"/>
+		<skosxl:related rdf:resource="#cometaryGlobule"/>
+		<skosxl:related rdf:resource="#starFormation"/>
+		<skosxl:related rdf:resource="#stellarEvolution"/>
+	</skosxl:Concept></env:instance></env:envelope>

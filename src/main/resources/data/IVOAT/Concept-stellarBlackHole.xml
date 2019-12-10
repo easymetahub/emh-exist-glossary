@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-stellarBlackHole</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#stellarBlackHole">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>stellar black hole</skosxl:prefLabel>
+		<skosxl:definition>stellar black hole</skosxl:definition>
+		<skosxl:broader rdf:resource="#blackHole"/>
+		<skosxl:broader rdf:resource="#collapsedStar"/>
+		<skosxl:broader rdf:resource="#stellarObject"/>
+		<skosxl:related rdf:resource="#hypernova"/>
+		<skosxl:related rdf:resource="#stellarEvolution"/>
+	</skosxl:Concept></env:instance></env:envelope>

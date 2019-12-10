@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lowMassStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lowMassStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>low-mass star</skosxl:prefLabel>
+		<skosxl:definition>low-mass star</skosxl:definition>
+		<skosxl:altLabel>low mass star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#star"/>
+		<skosxl:narrower rdf:resource="#HzHerculisStar"/>
+		<skosxl:narrower rdf:resource="#blackDwarf"/>
+		<skosxl:related rdf:resource="#TDwarf"/>
+		<skosxl:related rdf:resource="#brownDwarf"/>
+		<skosxl:related rdf:resource="#dwarf"/>
+		<skosxl:related rdf:resource="#lowLuminosityStar"/>
+		<skosxl:related rdf:resource="#lowMassXRayBinaryStar"/>
+		<skosxl:changeNote>FVH+ES: moved brown_dwarf to RT (2007-OCT-11)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

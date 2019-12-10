@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-luminosityDispersionRelation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#luminosityDispersionRelation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>luminosity-dispersion relation</skosxl:prefLabel>
+		<skosxl:definition>luminosity-dispersion relation</skosxl:definition>
+		<skosxl:broader rdf:resource="#correlation"/>
+		<skosxl:narrower rdf:resource="#FaberJacksonRelation"/>
+		<skosxl:narrower rdf:resource="#fundamentalPlane"/>
+		<skosxl:related rdf:resource="#luminosity"/>
+		<skosxl:related rdf:resource="#velocityDispersion"/>
+		<skosxl:historyNote>FVH: new (2007-OCT-9)</skosxl:historyNote>
+	</skosxl:Concept></env:instance></env:envelope>

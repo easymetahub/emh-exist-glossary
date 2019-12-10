@@ -1,0 +1,32 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spectroscopy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spectroscopy">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>spectroscopy</skosxl:prefLabel>
+		<skosxl:definition>spectroscopy</skosxl:definition>
+		<skosxl:altLabel>spectrometry</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#astronomicalTechnique"/>
+		<skosxl:broader rdf:resource="#observingTechnique"/>
+		<skosxl:narrower rdf:resource="#FourierTransformSpectroscopy"/>
+		<skosxl:narrower rdf:resource="#RamanSpectroscopy"/>
+		<skosxl:narrower rdf:resource="#XRaySpectroscopy"/>
+		<skosxl:narrower rdf:resource="#absorptionSpectroscopy"/>
+		<skosxl:narrower rdf:resource="#collisionSpectroscopy"/>
+		<skosxl:narrower rdf:resource="#gammaRaySpectroscopy"/>
+		<skosxl:narrower rdf:resource="#highResolutionSpectrosopy"/>
+		<skosxl:narrower rdf:resource="#interferenceSpectrosocopy"/>
+		<skosxl:narrower rdf:resource="#microwaveSpectroscopy"/>
+		<skosxl:narrower rdf:resource="#opticalSpectroscopy"/>
+		<skosxl:narrower rdf:resource="#spectrography"/>
+		<skosxl:narrower rdf:resource="#threeDimensionalSpectroscopy"/>
+		<skosxl:narrower rdf:resource="#timeResolvedSpectroscopy"/>
+		<skosxl:narrower rdf:resource="#twoDimensionalSpectroscopy"/>
+		<skosxl:related rdf:resource="#collisionalExcitation"/>
+		<skosxl:related rdf:resource="#continuousSpectrum"/>
+		<skosxl:related rdf:resource="#heterodyne"/>
+		<skosxl:related rdf:resource="#pressureBroadening"/>
+		<skosxl:related rdf:resource="#radialVelocity"/>
+		<skosxl:related rdf:resource="#reseaux"/>
+		<skosxl:related rdf:resource="#spectrum"/>
+		<skosxl:related rdf:resource="#spectrograph"/>
+		<skosxl:related rdf:resource="#spectrophotometry"/>
+		<skosxl:scopeNote>not a complete list of terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

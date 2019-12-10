@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-magneticField</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#magneticField">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>magnetic field</skosxl:prefLabel>
+		<skosxl:definition>magnetic field</skosxl:definition>
+		<skosxl:narrower rdf:resource="#emergingFlux"/>
+		<skosxl:narrower rdf:resource="#geomagneticField"/>
+		<skosxl:narrower rdf:resource="#interplanetaryMagneticField"/>
+		<skosxl:narrower rdf:resource="#interstellarMagneticField"/>
+		<skosxl:related rdf:resource="#PaschenBackEffect"/>
+		<skosxl:related rdf:resource="#dynamoTheory"/>
+		<skosxl:related rdf:resource="#force"/>
+		<skosxl:related rdf:resource="#magneticMonopole"/>
+		<skosxl:related rdf:resource="#magneticPole"/>
+		<skosxl:related rdf:resource="#magneticProperty"/>
+		<skosxl:related rdf:resource="#magneticVariableStar"/>
+		<skosxl:related rdf:resource="#magnetohydrodynamics"/>
+		<skosxl:related rdf:resource="#magnetosphere"/>
+		<skosxl:related rdf:resource="#paleomagnetism"/>
+		<skosxl:related rdf:resource="#sunspot"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>883c8a2e-ba48-4218-bc8a-2eba48121806</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#phaseDefect">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>phase defect</skos:prefLabel>
-		<skos:definition>phase defect</skos:definition>
-		<skos:related rdf:resource="#Moon"/>
-		<skos:related rdf:resource="#lunarPhase"/>
-		<skos:related rdf:resource="#obliquityOfEcliptic"/>
-	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,28 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-comet</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#comet">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>comet</skosxl:prefLabel>
+		<skosxl:definition>comet</skosxl:definition>
+		<skosxl:broader rdf:resource="#rotatingBody"/>
+		<skosxl:narrower rdf:resource="#KreutzSungrazer"/>
+		<skosxl:narrower rdf:resource="#aperiodicComet"/>
+		<skosxl:narrower rdf:resource="#longPeriodComet"/>
+		<skosxl:narrower rdf:resource="#periodicComet"/>
+		<skosxl:related rdf:resource="#OortCloud"/>
+		<skosxl:related rdf:resource="#SolarSystem"/>
+		<skosxl:related rdf:resource="#coma"/>
+		<skosxl:related rdf:resource="#dirtySnowballTheory"/>
+		<skosxl:related rdf:resource="#dust"/>
+		<skosxl:related rdf:resource="#envelope"/>
+		<skosxl:related rdf:resource="#halo"/>
+		<skosxl:related rdf:resource="#interplanetaryMatter"/>
+		<skosxl:related rdf:resource="#jet"/>
+		<skosxl:related rdf:resource="#meteorStream"/>
+		<skosxl:related rdf:resource="#meteorite"/>
+		<skosxl:related rdf:resource="#meteoroidDustCloud"/>
+		<skosxl:related rdf:resource="#meteoroid"/>
+		<skosxl:related rdf:resource="#nucleusCelestialObject"/>
+		<skosxl:related rdf:resource="#parabolicOrbit"/>
+		<skosxl:related rdf:resource="#streamer"/>
+		<skosxl:related rdf:resource="#tail"/>
+		<skosxl:scopeNote>named comet not included</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

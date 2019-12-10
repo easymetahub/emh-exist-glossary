@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-NGalaxy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#NGalaxy">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>N galaxy</skosxl:prefLabel>
+		<skosxl:definition>N galaxy</skosxl:definition>
+		<skosxl:broader rdf:resource="#compactGalaxy"/>
+		<skosxl:broader rdf:resource="#galaxy"/>
+		<skosxl:related rdf:resource="#YerkesClassification"/>
+		<skosxl:related rdf:resource="#galacticNucleus"/>
+		<skosxl:related rdf:resource="#giantRadioGalaxy"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-galacticNucleus</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#galacticNucleus">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>galactic nucleus</skosxl:prefLabel>
+		<skosxl:definition>galactic nucleus</skosxl:definition>
+		<skosxl:broader rdf:resource="#nucleusCelestialObject"/>
+		<skosxl:narrower rdf:resource="#GalacticCenter"/>
+		<skosxl:narrower rdf:resource="#activeGalacticNucleus"/>
+		<skosxl:narrower rdf:resource="#compactNucleus"/>
+		<skosxl:related rdf:resource="#GalacticStructure"/>
+		<skosxl:related rdf:resource="#NGalaxy"/>
+		<skosxl:related rdf:resource="#blackHole"/>
+		<skosxl:related rdf:resource="#galaxyStructure"/>
+		<skosxl:related rdf:resource="#massiveObject"/>
+		<skosxl:related rdf:resource="#populationIiStar"/>
+	</skosxl:Concept></env:instance></env:envelope>

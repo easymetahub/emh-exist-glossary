@@ -1,0 +1,33 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-radioTelescope</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#radioTelescope">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>radio telescope</skosxl:prefLabel>
+		<skosxl:definition>radio telescope</skosxl:definition>
+		<skosxl:broader rdf:resource="#telescope"/>
+		<skosxl:narrower rdf:resource="#CassegrainAntenna"/>
+		<skosxl:narrower rdf:resource="#MillsCrossAntenna"/>
+		<skosxl:narrower rdf:resource="#YagiAntenna"/>
+		<skosxl:narrower rdf:resource="#dishAntenna"/>
+		<skosxl:narrower rdf:resource="#radarTelescope"/>
+		<skosxl:narrower rdf:resource="#radioInterferometer"/>
+		<skosxl:narrower rdf:resource="#radioheliograph"/>
+		<skosxl:narrower rdf:resource="#veryLongBaselineInterferometer"/>
+		<skosxl:related rdf:resource="#antennaDesign"/>
+		<skosxl:related rdf:resource="#antenna"/>
+		<skosxl:related rdf:resource="#apodization"/>
+		<skosxl:related rdf:resource="#array"/>
+		<skosxl:related rdf:resource="#beamSwitching"/>
+		<skosxl:related rdf:resource="#beamwidth"/>
+		<skosxl:related rdf:resource="#feedHorn"/>
+		<skosxl:related rdf:resource="#halfWaveDipole"/>
+		<skosxl:related rdf:resource="#interferometer"/>
+		<skosxl:related rdf:resource="#parabolicReflector"/>
+		<skosxl:related rdf:resource="#phaseRotator"/>
+		<skosxl:related rdf:resource="#phaseSwitching"/>
+		<skosxl:related rdf:resource="#radarEquipment"/>
+		<skosxl:related rdf:resource="#radioAntenna"/>
+		<skosxl:related rdf:resource="#radioObservatory"/>
+		<skosxl:related rdf:resource="#receiver"/>
+		<skosxl:related rdf:resource="#shapedReflector"/>
+		<skosxl:related rdf:resource="#subreflector"/>
+		<skosxl:scopeNote>not a complete list of terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

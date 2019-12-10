@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a072a8b3-aeb6-43d0-b2a8-b3aeb6f3d0ac</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#trueAnomaly">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>true anomaly</skos:prefLabel>
-		<skos:definition>true anomaly</skos:definition>
-		<skos:broader rdf:resource="#orbitalAnomaly"/>
-		<skos:changeNote>FVH: moved ANOMALY to BT (2007-OCT-1)</skos:changeNote>
-	</skos:Concept></env:instance></env:envelope>

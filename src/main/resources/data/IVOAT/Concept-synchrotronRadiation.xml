@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-synchrotronRadiation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#synchrotronRadiation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>synchrotron radiation</skosxl:prefLabel>
+		<skosxl:definition>synchrotron radiation</skosxl:definition>
+		<skosxl:broader rdf:resource="#electromagneticRadiation"/>
+		<skosxl:broader rdf:resource="#radiation"/>
+		<skosxl:narrower rdf:resource="#cyclotronRadiation"/>
+		<skosxl:narrower rdf:resource="#gyrosynchrotronRadiation"/>
+		<skosxl:related rdf:resource="#RazinEffect"/>
+		<skosxl:related rdf:resource="#bremsstrahlung"/>
+		<skosxl:related rdf:resource="#magnetohydrodynamics"/>
+		<skosxl:related rdf:resource="#nonThermalSource"/>
+		<skosxl:related rdf:resource="#radiationMechanism"/>
+		<skosxl:related rdf:resource="#relativisticElectron"/>
+	</skosxl:Concept></env:instance></env:envelope>

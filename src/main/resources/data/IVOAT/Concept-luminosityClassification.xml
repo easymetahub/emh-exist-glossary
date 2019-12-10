@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-luminosityClassification</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#luminosityClassification">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>luminosity classification</skosxl:prefLabel>
+		<skosxl:definition>luminosity classification</skosxl:definition>
+		<skosxl:broader rdf:resource="#classification"/>
+		<skosxl:related rdf:resource="#dwarf"/>
+		<skosxl:related rdf:resource="#giant"/>
+		<skosxl:related rdf:resource="#luminosityClass"/>
+		<skosxl:related rdf:resource="#spectralClassification"/>
+		<skosxl:related rdf:resource="#spectralType"/>
+		<skosxl:related rdf:resource="#subgiant"/>
+		<skosxl:related rdf:resource="#surfaceGravity"/>
+	</skosxl:Concept></env:instance></env:envelope>

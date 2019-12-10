@@ -1,0 +1,16 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-balloonBorneInstrument</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#balloonBorneInstrument">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>balloon-borne instrument</skosxl:prefLabel>
+		<skosxl:definition>balloon-borne instrument</skosxl:definition>
+		<skosxl:altLabel>balloon borne instrument</skosxl:altLabel>
+		<skosxl:related rdf:resource="#XRayAstronomy"/>
+		<skosxl:related rdf:resource="#airplaneBorneInstrument"/>
+		<skosxl:related rdf:resource="#cosmicRayAstronomy"/>
+		<skosxl:related rdf:resource="#gammaRayAstronomy"/>
+		<skosxl:related rdf:resource="#groundBasedAstronomy"/>
+		<skosxl:related rdf:resource="#rocketBorneInstrument"/>
+		<skosxl:related rdf:resource="#satelliteBorneInstrument"/>
+		<skosxl:related rdf:resource="#spaceProbeInstrument"/>
+		<skosxl:related rdf:resource="#spaceTelescope"/>
+		<skosxl:related rdf:resource="#ultravioletAstronomy"/>
+	</skosxl:Concept></env:instance></env:envelope>

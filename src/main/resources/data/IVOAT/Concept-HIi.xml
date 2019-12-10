@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-HIi</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#HIi">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>H II</skosxl:prefLabel>
+		<skosxl:definition>H II</skosxl:definition>
+		<skosxl:altLabel>ionized hydrogen</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#hydrogen"/>
+		<skosxl:broader rdf:resource="#ionizedGas"/>
+		<skosxl:related rdf:resource="#HIiRegion"/>
+	</skosxl:Concept></env:instance></env:envelope>

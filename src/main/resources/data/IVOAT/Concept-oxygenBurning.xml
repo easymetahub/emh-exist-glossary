@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-oxygenBurning</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#oxygenBurning">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>oxygen burning</skosxl:prefLabel>
+		<skosxl:definition>oxygen burning</skosxl:definition>
+		<skosxl:broader rdf:resource="#nuclearFusion"/>
+		<skosxl:broader rdf:resource="#nucleosynthesis"/>
+		<skosxl:related rdf:resource="#carbonBurning"/>
+		<skosxl:related rdf:resource="#heliumBurning"/>
+		<skosxl:related rdf:resource="#hydrogenBurning"/>
+		<skosxl:related rdf:resource="#oxygen"/>
+		<skosxl:related rdf:resource="#stellarInterior"/>
+	</skosxl:Concept></env:instance></env:envelope>

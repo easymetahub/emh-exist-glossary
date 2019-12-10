@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-highVelocityCloud</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#highVelocityCloud">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>high-velocity cloud</skosxl:prefLabel>
+		<skosxl:definition>high-velocity cloud</skosxl:definition>
+		<skosxl:altLabel>HVC</skosxl:altLabel>
+		<skosxl:altLabel>high velocity cloud</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#cloud"/>
+		<skosxl:related rdf:resource="#GalacticRotation"/>
+		<skosxl:related rdf:resource="#MilkyWayGalaxy"/>
+		<skosxl:related rdf:resource="#highVelocityStar"/>
+		<skosxl:related rdf:resource="#velocity"/>
+		<skosxl:changeNote>FVH: added ALT HVC (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

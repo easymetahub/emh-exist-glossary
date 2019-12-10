@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lateTypeSupergiant</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lateTypeSupergiant">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>late-type supergiant</skosxl:prefLabel>
+		<skosxl:definition>late-type supergiant star</skosxl:definition>
+		<skosxl:altLabel>cool supergiant star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#lateTypeStar"/>
+		<skosxl:broader rdf:resource="#supergiant"/>
+		<skosxl:narrower rdf:resource="#KSupergiant"/>
+		<skosxl:narrower rdf:resource="#MSupergiant"/>
+		<skosxl:narrower rdf:resource="#RvTauriStar"/>
+		<skosxl:related rdf:resource="#irregularVariableStar"/>
+		<skosxl:related rdf:resource="#longPeriodVariableStar"/>
+	</skosxl:Concept></env:instance></env:envelope>

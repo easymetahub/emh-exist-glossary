@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spaceTimeSingularity</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spaceTimeSingularity">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>space-time singularity</skosxl:prefLabel>
+		<skosxl:definition>space-time singularity</skosxl:definition>
+		<skosxl:broader rdf:resource="#singularity"/>
+		<skosxl:related rdf:resource="#SchwarzschildMetric"/>
+		<skosxl:related rdf:resource="#blackHole"/>
+		<skosxl:related rdf:resource="#nakedSingularity"/>
+		<skosxl:related rdf:resource="#quantumCosmology"/>
+	</skosxl:Concept></env:instance></env:envelope>

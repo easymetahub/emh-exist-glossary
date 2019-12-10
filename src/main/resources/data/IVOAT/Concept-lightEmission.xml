@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lightEmission</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lightEmission">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>light emission</skosxl:prefLabel>
+		<skosxl:definition>light emission</skosxl:definition>
+		<skosxl:narrower rdf:resource="#photoluminescence"/>
+		<skosxl:related rdf:resource="#aurora"/>
+		<skosxl:related rdf:resource="#chemiluminescence"/>
+		<skosxl:related rdf:resource="#continuousSpectrum"/>
+		<skosxl:related rdf:resource="#emissionSpectrum"/>
+		<skosxl:related rdf:resource="#luminescence"/>
+	</skosxl:Concept></env:instance></env:envelope>

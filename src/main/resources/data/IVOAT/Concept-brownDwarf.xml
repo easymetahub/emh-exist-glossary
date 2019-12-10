@@ -1,0 +1,15 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-brownDwarf</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#brownDwarf">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>brown dwarf</skosxl:prefLabel>
+		<skosxl:definition>brown dwarf</skosxl:definition>
+		<skosxl:broader rdf:resource="#lateTypeDwarf"/>
+		<skosxl:broader rdf:resource="#lateTypeSubdwarf"/>
+		<skosxl:broader rdf:resource="#stellarObject"/>
+		<skosxl:narrower rdf:resource="#LDwarf"/>
+		<skosxl:narrower rdf:resource="#LSubdwarf"/>
+		<skosxl:narrower rdf:resource="#TDwarf"/>
+		<skosxl:narrower rdf:resource="#TSubdwarf"/>
+		<skosxl:related rdf:resource="#dwarf"/>
+		<skosxl:related rdf:resource="#lowMassStar"/>
+		<skosxl:related rdf:resource="#planetar"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,18 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-scientificField</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#scientificField">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>scientific field</skosxl:prefLabel>
+		<skosxl:definition>scientific and related field</skosxl:definition>
+		<skosxl:narrower rdf:resource="#EarthSciences"/>
+		<skosxl:narrower rdf:resource="#aeronomy"/>
+		<skosxl:narrower rdf:resource="#astrobiology"/>
+		<skosxl:narrower rdf:resource="#astrology"/>
+		<skosxl:narrower rdf:resource="#astronomy"/>
+		<skosxl:narrower rdf:resource="#astrophysics"/>
+		<skosxl:narrower rdf:resource="#atomicPhysics"/>
+		<skosxl:narrower rdf:resource="#biology"/>
+		<skosxl:narrower rdf:resource="#celestialMechanics"/>
+		<skosxl:narrower rdf:resource="#chemistry"/>
+		<skosxl:narrower rdf:resource="#engineering"/>
+		<skosxl:narrower rdf:resource="#fluidMechanics"/>
+		<skosxl:narrower rdf:resource="#mathematics"/>
+	</skosxl:Concept></env:instance></env:envelope>

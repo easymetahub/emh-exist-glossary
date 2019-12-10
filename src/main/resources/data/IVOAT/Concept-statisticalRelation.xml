@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-statisticalRelation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#statisticalRelation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>statistical relation</skosxl:prefLabel>
+		<skosxl:definition>statistical relation</skosxl:definition>
+		<skosxl:narrower rdf:resource="#FaberJacksonRelation"/>
+		<skosxl:narrower rdf:resource="#HubbleDiagram"/>
+		<skosxl:narrower rdf:resource="#HubbleLaw"/>
+		<skosxl:narrower rdf:resource="#TullyFisherRelation"/>
+		<skosxl:narrower rdf:resource="#massLuminosityRelation"/>
+		<skosxl:narrower rdf:resource="#massRadiusRelation"/>
+		<skosxl:narrower rdf:resource="#periodAgeRelation"/>
+		<skosxl:narrower rdf:resource="#periodColorRelation"/>
+		<skosxl:narrower rdf:resource="#periodDensityRelation"/>
+		<skosxl:narrower rdf:resource="#periodLuminosityColorRelation"/>
+		<skosxl:narrower rdf:resource="#periodLuminosityRelation"/>
+		<skosxl:narrower rdf:resource="#periodMassRelation"/>
+		<skosxl:narrower rdf:resource="#periodRadiusRelation"/>
+		<skosxl:narrower rdf:resource="#periodSpectrumRelation"/>
+		<skosxl:narrower rdf:resource="#radiusLuminosityRelation"/>
+	</skosxl:Concept></env:instance></env:envelope>

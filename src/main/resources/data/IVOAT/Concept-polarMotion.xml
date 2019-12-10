@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-polarMotion</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#polarMotion">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>polar motion</skosxl:prefLabel>
+		<skosxl:definition>polar motion</skosxl:definition>
+		<skosxl:broader rdf:resource="#motion"/>
+		<skosxl:related rdf:resource="#ChandlerWobble"/>
+		<skosxl:related rdf:resource="#EarthRotation"/>
+		<skosxl:related rdf:resource="#latitudeVariation"/>
+		<skosxl:related rdf:resource="#nutation"/>
+		<skosxl:related rdf:resource="#precession"/>
+	</skosxl:Concept></env:instance></env:envelope>

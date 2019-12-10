@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>38d8e0f6-df48-494f-98e0-f6df48d94ffd</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#radioheliograph">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>radioheliograph</skos:prefLabel>
-		<skos:definition>radioheliograph</skos:definition>
-		<skos:broader rdf:resource="#radioTelescope"/>
-		<skos:broader rdf:resource="#solarTelescope"/>
-	</skos:Concept></env:instance></env:envelope>

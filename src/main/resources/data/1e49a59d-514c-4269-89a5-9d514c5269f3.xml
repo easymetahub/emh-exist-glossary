@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>1e49a59d-514c-4269-89a5-9d514c5269f3</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#adaption">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>adaption</skos:prefLabel>
-		<skos:definition>adaption</skos:definition>
-		<skos:scopeNote>combine with other terms</skos:scopeNote>
-	</skos:Concept></env:instance></env:envelope>

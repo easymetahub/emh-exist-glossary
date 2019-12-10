@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>401458c8-9d5f-44d1-9458-c89d5fb4d14b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#microdensitometry">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>microdensitometry</skos:prefLabel>
-		<skos:definition>microdensitometry</skos:definition>
-		<skos:scopeNote>see microdensitometer</skos:scopeNote>
-	</skos:Concept></env:instance></env:envelope>

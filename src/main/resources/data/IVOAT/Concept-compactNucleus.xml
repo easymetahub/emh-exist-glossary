@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-compactNucleus</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#compactNucleus">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>compact nucleus</skosxl:prefLabel>
+		<skosxl:definition>compact nucleus</skosxl:definition>
+		<skosxl:broader rdf:resource="#galacticNucleus"/>
+		<skosxl:broader rdf:resource="#nucleusCelestialObject"/>
+		<skosxl:narrower rdf:resource="#SeyfertNucleus"/>
+		<skosxl:related rdf:resource="#SeyfertGalaxy"/>
+		<skosxl:related rdf:resource="#activeGalacticNucleus"/>
+		<skosxl:related rdf:resource="#compactSource"/>
+	</skosxl:Concept></env:instance></env:envelope>

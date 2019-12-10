@@ -1,0 +1,14 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-upperAtmosphere</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#upperAtmosphere">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>upper atmosphere</skosxl:prefLabel>
+		<skosxl:definition>upper atmosphere</skosxl:definition>
+		<skosxl:related rdf:resource="#EarthAtmosphere"/>
+		<skosxl:related rdf:resource="#aurora"/>
+		<skosxl:related rdf:resource="#exosphere"/>
+		<skosxl:related rdf:resource="#ionosphere"/>
+		<skosxl:related rdf:resource="#magnetosphere"/>
+		<skosxl:related rdf:resource="#mesosphere"/>
+		<skosxl:related rdf:resource="#thermosphere"/>
+		<skosxl:related rdf:resource="#vanAllenRadiationBelt"/>
+		<skosxl:scopeNote>Earth's atmosphere</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

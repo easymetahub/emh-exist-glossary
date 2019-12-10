@@ -1,0 +1,18 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-stellarDynamics</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#stellarDynamics">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>stellar dynamics</skosxl:prefLabel>
+		<skosxl:definition>stellar dynamics</skosxl:definition>
+		<skosxl:related rdf:resource="#FokkerPlanckEquation"/>
+		<skosxl:related rdf:resource="#GalacticRotation"/>
+		<skosxl:related rdf:resource="#NBodyProblem"/>
+		<skosxl:related rdf:resource="#PoincareTheorem"/>
+		<skosxl:related rdf:resource="#closeEncounter"/>
+		<skosxl:related rdf:resource="#encounter"/>
+		<skosxl:related rdf:resource="#galaxyRotationCurve"/>
+		<skosxl:related rdf:resource="#properMotion"/>
+		<skosxl:related rdf:resource="#radialVelocity"/>
+		<skosxl:related rdf:resource="#relaxationTime"/>
+		<skosxl:related rdf:resource="#stellarMotion"/>
+		<skosxl:related rdf:resource="#threeBodyProblem"/>
+		<skosxl:related rdf:resource="#twoBodyProblem"/>
+	</skosxl:Concept></env:instance></env:envelope>

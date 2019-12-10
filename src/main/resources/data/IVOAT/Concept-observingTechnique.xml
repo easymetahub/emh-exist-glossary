@@ -1,0 +1,21 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-observingTechnique</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#observingTechnique">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>observing technique</skosxl:prefLabel>
+		<skosxl:definition>observing technique</skosxl:definition>
+		<skosxl:altLabel>method of observation</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#astrometry"/>
+		<skosxl:narrower rdf:resource="#interferometry"/>
+		<skosxl:narrower rdf:resource="#photometry"/>
+		<skosxl:narrower rdf:resource="#polarimetry"/>
+		<skosxl:narrower rdf:resource="#radioAstrometry"/>
+		<skosxl:narrower rdf:resource="#radioInterferometry"/>
+		<skosxl:narrower rdf:resource="#spectrophotometry"/>
+		<skosxl:narrower rdf:resource="#spectroscopy"/>
+		<skosxl:related rdf:resource="#astronomicalTechnique"/>
+		<skosxl:related rdf:resource="#dataAcquisition"/>
+		<skosxl:related rdf:resource="#dataProcessing"/>
+		<skosxl:related rdf:resource="#observation"/>
+		<skosxl:related rdf:resource="#occultation"/>
+		<skosxl:related rdf:resource="#photography"/>
+		<skosxl:scopeNote>only the broad classes are shown below; specific type will be found under these, or from the hierarchical list</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

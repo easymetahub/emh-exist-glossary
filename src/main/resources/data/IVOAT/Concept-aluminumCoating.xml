@@ -1,0 +1,16 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-aluminumCoating</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#aluminumCoating">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>aluminum coating</skosxl:prefLabel>
+		<skosxl:definition>aluminium coating	UK</skosxl:definition>
+		<skosxl:definition>aluminum coating</skosxl:definition>
+		<skosxl:broader rdf:resource="#aluminum"/>
+		<skosxl:broader rdf:resource="#coating"/>
+		<skosxl:broader rdf:resource="#thinFilm"/>
+		<skosxl:related rdf:resource="#aluminizing"/>
+		<skosxl:related rdf:resource="#mirror"/>
+		<skosxl:related rdf:resource="#opticalSurface"/>
+		<skosxl:related rdf:resource="#silverCoating"/>
+		<skosxl:related rdf:resource="#vacuumTechnique"/>
+		<skosxl:related rdf:resource="#vaporDeposition"/>
+		<skosxl:changeNote>FVH: moved aluminium_coating to localized D (2007-SEP-24)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

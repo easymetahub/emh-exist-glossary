@@ -1,0 +1,30 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-Cepheid</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#Cepheid">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Cepheid</skosxl:prefLabel>
+		<skosxl:definition>Cepheid</skosxl:definition>
+		<skosxl:altLabel>Cepheid variable star</skosxl:altLabel>
+		<skosxl:altLabel>bump Cepheid</skosxl:altLabel>
+		<skosxl:altLabel>classical Cepheid</skosxl:altLabel>
+		<skosxl:altLabel>delta Cephei star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#pulsatingVariableStar"/>
+		<skosxl:narrower rdf:resource="#doubleModeCepheid"/>
+		<skosxl:narrower rdf:resource="#youngDiskCepheid"/>
+		<skosxl:related rdf:resource="#BaadeWesselinkMethod"/>
+		<skosxl:related rdf:resource="#BlHerculisStar"/>
+		<skosxl:related rdf:resource="#CepheidDistance"/>
+		<skosxl:related rdf:resource="#HeIiIonizationZone"/>
+		<skosxl:related rdf:resource="#RrLyraeStar"/>
+		<skosxl:related rdf:resource="#WVirginisStar"/>
+		<skosxl:related rdf:resource="#dwarfCepheid"/>
+		<skosxl:related rdf:resource="#instabilityStrip"/>
+		<skosxl:related rdf:resource="#kappaMechanism"/>
+		<skosxl:related rdf:resource="#periodAgeRelation"/>
+		<skosxl:related rdf:resource="#periodColorRelation"/>
+		<skosxl:related rdf:resource="#periodLuminosityColorRelation"/>
+		<skosxl:related rdf:resource="#periodLuminosityRelation"/>
+		<skosxl:related rdf:resource="#periodRadiusRelation"/>
+		<skosxl:related rdf:resource="#periodSpectrumRelation"/>
+		<skosxl:related rdf:resource="#radialPulsation"/>
+		<skosxl:related rdf:resource="#radiusLuminosityRelation"/>
+		<skosxl:scopeNote>most commonly used term</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

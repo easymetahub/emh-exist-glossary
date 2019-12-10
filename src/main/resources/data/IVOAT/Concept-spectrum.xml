@@ -1,0 +1,42 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spectrum</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spectrum">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>spectrum</skosxl:prefLabel>
+		<skosxl:definition>spectrum</skosxl:definition>
+		<skosxl:narrower rdf:resource="#abnormalSpectrum"/>
+		<skosxl:narrower rdf:resource="#absorptionSpectrum"/>
+		<skosxl:narrower rdf:resource="#atomicSpectrum"/>
+		<skosxl:narrower rdf:resource="#brillouinSpectrum"/>
+		<skosxl:narrower rdf:resource="#continuousSpectrum"/>
+		<skosxl:narrower rdf:resource="#echelleSpectrum"/>
+		<skosxl:narrower rdf:resource="#emissionSpectrum"/>
+		<skosxl:narrower rdf:resource="#hydrogenSpectrum"/>
+		<skosxl:narrower rdf:resource="#microwaveSpectrum"/>
+		<skosxl:narrower rdf:resource="#molecularSpectrum"/>
+		<skosxl:narrower rdf:resource="#radioSpectrum"/>
+		<skosxl:narrower rdf:resource="#threeDimensionalSpectrum"/>
+		<skosxl:narrower rdf:resource="#twoDimensionalSpectrum"/>
+		<skosxl:narrower rdf:resource="#vibrationalSpectrum"/>
+		<skosxl:narrower rdf:resource="#visibleSpectrum"/>
+		<skosxl:related rdf:resource="#HertzsprungRussellDiagram"/>
+		<skosxl:related rdf:resource="#MkClassification"/>
+		<skosxl:related rdf:resource="#absorptionLine"/>
+		<skosxl:related rdf:resource="#bremsstrahlung"/>
+		<skosxl:related rdf:resource="#contiuum"/>
+		<skosxl:related rdf:resource="#diffractionGrating"/>
+		<skosxl:related rdf:resource="#emissionLine"/>
+		<skosxl:related rdf:resource="#energyLevel"/>
+		<skosxl:related rdf:resource="#equivalentWidth"/>
+		<skosxl:related rdf:resource="#fluorescence"/>
+		<skosxl:related rdf:resource="#forbiddenLine"/>
+		<skosxl:related rdf:resource="#forbiddenTransition"/>
+		<skosxl:related rdf:resource="#freeFreeEmission"/>
+		<skosxl:related rdf:resource="#hyperfineLine"/>
+		<skosxl:related rdf:resource="#prism"/>
+		<skosxl:related rdf:resource="#recombinationLine"/>
+		<skosxl:related rdf:resource="#resonanceLine"/>
+		<skosxl:related rdf:resource="#selfAbsorption"/>
+		<skosxl:related rdf:resource="#spectroscopicAnalysis"/>
+		<skosxl:related rdf:resource="#spectroscopy"/>
+		<skosxl:related rdf:resource="#stimulatedEmission"/>
+		<skosxl:scopeNote>not a complete list of terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

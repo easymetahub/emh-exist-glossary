@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bfac7efd-929d-49a0-ac7e-fd929d49a091</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#FourierSpectrograph">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Fourier spectrograph</skos:prefLabel>
-		<skos:definition>Fourier spectrograph</skos:definition>
-		<skos:altLabel>Fourier spectrometer</skos:altLabel>
-		<skos:broader rdf:resource="#spectrograph"/>
-	</skos:Concept></env:instance></env:envelope>

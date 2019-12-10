@@ -1,0 +1,14 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lightCurve</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lightCurve">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>light curve</skosxl:prefLabel>
+		<skosxl:definition>light curve</skosxl:definition>
+		<skosxl:broader rdf:resource="#photometricElement"/>
+		<skosxl:related rdf:resource="#magnitude"/>
+		<skosxl:related rdf:resource="#maximum"/>
+		<skosxl:related rdf:resource="#minimum"/>
+		<skosxl:related rdf:resource="#period"/>
+		<skosxl:related rdf:resource="#phaseShift"/>
+		<skosxl:related rdf:resource="#phaseWave"/>
+		<skosxl:related rdf:resource="#variableStar"/>
+		<skosxl:related rdf:resource="#velocityCurve"/>
+	</skosxl:Concept></env:instance></env:envelope>

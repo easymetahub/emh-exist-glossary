@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-quantumEfficiency</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#quantumEfficiency">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>quantum efficiency</skosxl:prefLabel>
+		<skosxl:definition>quantum efficiency</skosxl:definition>
+		<skosxl:altLabel>Q.E.</skosxl:altLabel>
+		<skosxl:altLabel>QE</skosxl:altLabel>
+		<skosxl:related rdf:resource="#cathode"/>
+		<skosxl:related rdf:resource="#chargeCoupledDevice"/>
+		<skosxl:related rdf:resource="#detector"/>
+		<skosxl:related rdf:resource="#imageTube"/>
+		<skosxl:related rdf:resource="#photographicEmulsion"/>
+		<skosxl:related rdf:resource="#photomultiplierTube"/>
+	</skosxl:Concept></env:instance></env:envelope>

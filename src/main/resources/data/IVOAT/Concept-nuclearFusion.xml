@@ -1,0 +1,21 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-nuclearFusion</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#nuclearFusion">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>nuclear fusion</skosxl:prefLabel>
+		<skosxl:definition>nuclear fusion</skosxl:definition>
+		<skosxl:broader rdf:resource="#fusion"/>
+		<skosxl:broader rdf:resource="#nuclearReaction"/>
+		<skosxl:narrower rdf:resource="#carbonBurning"/>
+		<skosxl:narrower rdf:resource="#heliumBurning"/>
+		<skosxl:narrower rdf:resource="#oxygenBurning"/>
+		<skosxl:narrower rdf:resource="#siliconBurning"/>
+		<skosxl:related rdf:resource="#carbonFlash"/>
+		<skosxl:related rdf:resource="#carbonNitrogenCycle"/>
+		<skosxl:related rdf:resource="#eProcess"/>
+		<skosxl:related rdf:resource="#heliumFlash"/>
+		<skosxl:related rdf:resource="#heliumShellFlash"/>
+		<skosxl:related rdf:resource="#hydrogenBurning"/>
+		<skosxl:related rdf:resource="#protonProtonReaction"/>
+		<skosxl:related rdf:resource="#shellBurning"/>
+		<skosxl:related rdf:resource="#stellarInterior"/>
+		<skosxl:related rdf:resource="#supernova"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>b2c2de89-f7d1-4738-82de-89f7d1a7388c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#lead">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>lead</skos:prefLabel>
-		<skos:definition>lead (atomic number 82)</skos:definition>
-		<skos:altLabel>Pb</skos:altLabel>
-		<skos:broader rdf:resource="#fundamentalChemicalElement"/>
-		<skos:historyNote>FVH: new (2007-OCT-25)</skos:historyNote>
-	</skos:Concept></env:instance></env:envelope>

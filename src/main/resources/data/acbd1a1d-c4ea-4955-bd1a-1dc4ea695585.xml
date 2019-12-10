@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>acbd1a1d-c4ea-4955-bd1a-1dc4ea695585</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#telescopeConstruction">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>telescope construction</skos:prefLabel>
-		<skos:definition>telescope construction</skos:definition>
-		<skos:related rdf:resource="#telescope"/>
-	</skos:Concept></env:instance></env:envelope>

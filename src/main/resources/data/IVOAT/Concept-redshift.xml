@@ -1,0 +1,19 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-redshift</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#redshift">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>redshift</skosxl:prefLabel>
+		<skosxl:definition>redshift</skosxl:definition>
+		<skosxl:altLabel>red shift</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#DopplerEffect"/>
+		<skosxl:broader rdf:resource="#lineShift"/>
+		<skosxl:narrower rdf:resource="#gravitationalRedshift"/>
+		<skosxl:related rdf:resource="#HubbleDiagram"/>
+		<skosxl:related rdf:resource="#HubbleLaw"/>
+		<skosxl:related rdf:resource="#LymanAlphaForest"/>
+		<skosxl:related rdf:resource="#TullyFisherRelation"/>
+		<skosxl:related rdf:resource="#cosmologicalDistanceScale"/>
+		<skosxl:related rdf:resource="#cosmology"/>
+		<skosxl:related rdf:resource="#frequencyShift"/>
+		<skosxl:related rdf:resource="#kCorrection"/>
+		<skosxl:related rdf:resource="#observationalCosmology"/>
+		<skosxl:related rdf:resource="#radialVelocity"/>
+	</skosxl:Concept></env:instance></env:envelope>

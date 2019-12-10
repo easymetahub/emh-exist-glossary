@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-focus</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#focus">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>focus</skosxl:prefLabel>
+		<skosxl:definition>focus</skosxl:definition>
+		<skosxl:narrower rdf:resource="#CassegrainFocus"/>
+		<skosxl:narrower rdf:resource="#CoudeFocus"/>
+		<skosxl:narrower rdf:resource="#NasmythFocus"/>
+		<skosxl:narrower rdf:resource="#NewtonianFocus"/>
+		<skosxl:narrower rdf:resource="#primeFocus"/>
+		<skosxl:related rdf:resource="#focalLength"/>
+		<skosxl:related rdf:resource="#opticalAberration"/>
+		<skosxl:related rdf:resource="#telescope"/>
+	</skosxl:Concept></env:instance></env:envelope>

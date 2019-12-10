@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-electrostaticWave</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#electrostaticWave">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>electrostatic wave</skosxl:prefLabel>
+		<skosxl:definition>electrostatic wave</skosxl:definition>
+		<skosxl:related rdf:resource="#electricCharge"/>
+		<skosxl:related rdf:resource="#electricField"/>
+		<skosxl:related rdf:resource="#electromagneticRadiation"/>
+		<skosxl:related rdf:resource="#radiationScattering"/>
+	</skosxl:Concept></env:instance></env:envelope>

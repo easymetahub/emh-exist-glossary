@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>bd891274-45e8-40a5-8912-7445e8a0a5d8</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#quiescentProminence">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>quiescent prominence</skos:prefLabel>
-		<skos:definition>quiescent prominence</skos:definition>
-		<skos:broader rdf:resource="#prominence"/>
-		<skos:related rdf:resource="#Sun"/>
-		<skos:related rdf:resource="#chromosphere"/>
-	</skos:Concept></env:instance></env:envelope>

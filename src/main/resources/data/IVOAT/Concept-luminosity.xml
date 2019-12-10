@@ -1,0 +1,19 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-luminosity</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#luminosity">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>luminosity</skosxl:prefLabel>
+		<skosxl:definition>luminosity</skosxl:definition>
+		<skosxl:narrower rdf:resource="#XRayLuminosity"/>
+		<skosxl:narrower rdf:resource="#ultravioletLuminosity"/>
+		<skosxl:related rdf:resource="#HertzsprungRussellDiagram"/>
+		<skosxl:related rdf:resource="#MkClassification"/>
+		<skosxl:related rdf:resource="#absoluteMagnitude"/>
+		<skosxl:related rdf:resource="#brightness"/>
+		<skosxl:related rdf:resource="#flux"/>
+		<skosxl:related rdf:resource="#fluxDensity"/>
+		<skosxl:related rdf:resource="#intensity"/>
+		<skosxl:related rdf:resource="#luminosityClass"/>
+		<skosxl:related rdf:resource="#luminosityDispersionRelation"/>
+		<skosxl:related rdf:resource="#massToLightRatio"/>
+		<skosxl:related rdf:resource="#surfaceGravity"/>
+		<skosxl:changeNote>FVH: removed UF absolute_intensity as unphysical misnomer (2007-SEP-24)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

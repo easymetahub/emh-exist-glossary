@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>640a6b6b-a108-4626-8a6b-6ba10836264c</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#LocalSupercluster">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Local Supercluster</skos:prefLabel>
-		<skos:definition>Local Supercluster of galaxies</skos:definition>
-		<skos:broader rdf:resource="#galaxyCluster"/>
-		<skos:related rdf:resource="#GreatAttractor"/>
-		<skos:related rdf:resource="#galaxy"/>
-	</skos:Concept></env:instance></env:envelope>

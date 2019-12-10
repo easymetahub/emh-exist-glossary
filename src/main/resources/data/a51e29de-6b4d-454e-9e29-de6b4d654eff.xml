@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a51e29de-6b4d-454e-9e29-de6b4d654eff</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#RazinEffect">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Razin effect</skos:prefLabel>
-		<skos:definition>Razin effect</skos:definition>
-		<skos:related rdf:resource="#synchrotronRadiation"/>
-		<skos:scopeNote>also Razin-Tsytovich effect</skos:scopeNote>
-	</skos:Concept></env:instance></env:envelope>

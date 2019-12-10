@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a8b47b7f-3c06-43ba-b47b-7f3c0693ba08</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#HubbleRadius">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Hubble radius</skos:prefLabel>
-		<skos:definition>Hubble radius</skos:definition>
-		<skos:related rdf:resource="#BigBangTheory"/>
-		<skos:related rdf:resource="#cosmology"/>
-	</skos:Concept></env:instance></env:envelope>

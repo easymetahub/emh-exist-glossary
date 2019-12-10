@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-locationInFront</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#locationInFront">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>location in front</skosxl:prefLabel>
+		<skosxl:definition>location in front of something else</skosxl:definition>
+		<skosxl:broader rdf:resource="#location"/>
+		<skosxl:related rdf:resource="#lineOfSight"/>
+		<skosxl:related rdf:resource="#locationBehind"/>
+		<skosxl:related rdf:resource="#locationBetween"/>
+		<skosxl:historyNote>FVH: new (2007-SEP-21)</skosxl:historyNote>
+	</skosxl:Concept></env:instance></env:envelope>

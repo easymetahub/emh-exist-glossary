@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-fundamentalFrequency</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#fundamentalFrequency">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>fundamental frequency</skosxl:prefLabel>
+		<skosxl:definition>fundamental frequency</skosxl:definition>
+		<skosxl:related rdf:resource="#FourierAnalysis"/>
+		<skosxl:related rdf:resource="#fundamentalMode"/>
+		<skosxl:related rdf:resource="#harmonicFrequency"/>
+		<skosxl:related rdf:resource="#overtoneFrequency"/>
+		<skosxl:related rdf:resource="#variableStar"/>
+	</skosxl:Concept></env:instance></env:envelope>

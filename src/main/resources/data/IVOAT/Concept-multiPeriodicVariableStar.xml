@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-multiPeriodicVariableStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#multiPeriodicVariableStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>multi-periodic variable star</skosxl:prefLabel>
+		<skosxl:definition>multi-periodic variable star</skosxl:definition>
+		<skosxl:altLabel>multiperiodic variable star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#periodicVariableStar"/>
+		<skosxl:broader rdf:resource="#pulsatingVariableStar"/>
+		<skosxl:narrower rdf:resource="#Pg1159Star"/>
+		<skosxl:narrower rdf:resource="#RsCanumVenaticorumStar"/>
+		<skosxl:narrower rdf:resource="#SxPhoenicisStar"/>
+		<skosxl:narrower rdf:resource="#ZzCetiStar"/>
+		<skosxl:narrower rdf:resource="#betaCepheiStar"/>
+		<skosxl:narrower rdf:resource="#deltaScutiStar"/>
+		<skosxl:narrower rdf:resource="#doubleModeVariableStar"/>
+		<skosxl:narrower rdf:resource="#dwarfCepheid"/>
+		<skosxl:related rdf:resource="#multiPeriodicPulsation"/>
+		<skosxl:related rdf:resource="#overtoneFrequency"/>
+		<skosxl:related rdf:resource="#overtoneMode"/>
+		<skosxl:related rdf:resource="#pulsationMode"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-veryLongBaselineInterferometer</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#veryLongBaselineInterferometer">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>very long baseline interferometer</skosxl:prefLabel>
+		<skosxl:definition>very long baseline interferometer</skosxl:definition>
+		<skosxl:altLabel>VLBI</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#array"/>
+		<skosxl:broader rdf:resource="#interferometer"/>
+		<skosxl:broader rdf:resource="#radioInterferometer"/>
+		<skosxl:broader rdf:resource="#radioTelescope"/>
+		<skosxl:narrower rdf:resource="#VeryLargeArray"/>
+		<skosxl:related rdf:resource="#longBaselineInterferometer"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>14a648b7-737c-47ed-a648-b7737c97ed5b</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#KruskalDiagram">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Kruskal diagram</skos:prefLabel>
-		<skos:definition>Kruskal diagram</skos:definition>
-		<skos:related rdf:resource="#blackHole"/>
-	</skos:Concept></env:instance></env:envelope>

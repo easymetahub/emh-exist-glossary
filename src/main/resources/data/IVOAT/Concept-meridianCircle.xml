@@ -1,0 +1,10 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-meridianCircle</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#meridianCircle">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>meridian circle</skosxl:prefLabel>
+		<skosxl:definition>meridian circle</skosxl:definition>
+		<skosxl:broader rdf:resource="#transitInstrument"/>
+		<skosxl:related rdf:resource="#astrometry"/>
+		<skosxl:related rdf:resource="#meridian"/>
+		<skosxl:related rdf:resource="#quadrant"/>
+		<skosxl:related rdf:resource="#verticalCircle"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,20 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-lineWidth</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#lineWidth">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>line width</skosxl:prefLabel>
+		<skosxl:definition>line width</skosxl:definition>
+		<skosxl:altLabel>spectral line width</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#equivalentWidth"/>
+		<skosxl:narrower rdf:resource="#naturalLineWidth"/>
+		<skosxl:related rdf:resource="#DopplerBroadening"/>
+		<skosxl:related rdf:resource="#MilneEddingtonApproximation"/>
+		<skosxl:related rdf:resource="#TullyFisherRelation"/>
+		<skosxl:related rdf:resource="#gValue"/>
+		<skosxl:related rdf:resource="#gfValue"/>
+		<skosxl:related rdf:resource="#instrumentalProfile"/>
+		<skosxl:related rdf:resource="#lineBroadening"/>
+		<skosxl:related rdf:resource="#oscillatorStrength"/>
+		<skosxl:related rdf:resource="#spectralType"/>
+		<skosxl:related rdf:resource="#stellarAtmosphere"/>
+		<skosxl:related rdf:resource="#surfaceGravity"/>
+		<skosxl:related rdf:resource="#transitionProbability"/>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>a47ea32c-409a-45bc-bea3-2c409a65bc8a</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#BGalaxy">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>B galaxy</skos:prefLabel>
-		<skos:definition>barred galaxy (Yerkes classification scheme)</skos:definition>
-		<skos:broader rdf:resource="#barredSpiralGalaxy"/>
-		<skos:related rdf:resource="#YerkesClassification"/>
-		<skos:historyNote>FVH+AG: new (2007-OCT-26)</skos:historyNote>
-	</skos:Concept></env:instance></env:envelope>

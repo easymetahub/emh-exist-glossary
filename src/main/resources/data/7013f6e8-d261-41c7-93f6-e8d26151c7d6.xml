@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>7013f6e8-d261-41c7-93f6-e8d26151c7d6</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#dustNebula">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>dust nebula</skos:prefLabel>
-		<skos:definition>dust nebula</skos:definition>
-		<skos:broader rdf:resource="#interstellarMatter"/>
-		<skos:broader rdf:resource="#nebula"/>
-		<skos:related rdf:resource="#dust"/>
-	</skos:Concept></env:instance></env:envelope>

@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-negativeHIon</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#negativeHIon">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>negative H ion</skosxl:prefLabel>
+		<skosxl:definition>negative hydrogen ion</skosxl:definition>
+		<skosxl:altLabel>H minus ion</skosxl:altLabel>
+		<skosxl:altLabel>H-</skosxl:altLabel>
+		<skosxl:altLabel>H- ion</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#hydrogen"/>
+		<skosxl:related rdf:resource="#opacity"/>
+		<skosxl:related rdf:resource="#stellarAtmosphere"/>
+	</skosxl:Concept></env:instance></env:envelope>

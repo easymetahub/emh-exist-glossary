@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>e7f57905-8e30-4f3c-b579-058e306f3c91</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#quantumFieldTheory">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>quantum field theory</skos:prefLabel>
-		<skos:definition>quantum field theory</skos:definition>
-		<skos:related rdf:resource="#electromagneticField"/>
-		<skos:related rdf:resource="#gravitationalField"/>
-		<skos:related rdf:resource="#quantumTheory"/>
-	</skos:Concept></env:instance></env:envelope>

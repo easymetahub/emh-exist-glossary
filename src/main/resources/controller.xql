@@ -8,7 +8,7 @@ declare variable $exist:controller external;
 declare variable $exist:prefix external;
 declare variable $exist:root external;
 
-let $user := login:set-user("com.easymetahub.login", (), false())
+let $user := login:set-user("com.easymetahub.glossary", (), false())
 return
     if ($exist:path eq '') 
     then

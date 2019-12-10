@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-IMagnitude</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#IMagnitude">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>I magnitude</skosxl:prefLabel>
+		<skosxl:definition>I magnitude</skosxl:definition>
+		<skosxl:broader rdf:resource="#apparentMagnitude"/>
+		<skosxl:related rdf:resource="#BesselPhotometry"/>
+		<skosxl:related rdf:resource="#JohnsonPhotometry"/>
+		<skosxl:related rdf:resource="#KronCousinsPhotometry"/>
+		<skosxl:related rdf:resource="#infraredPhotometry"/>
+		<skosxl:related rdf:resource="#nearInfraredRadiation"/>
+	</skosxl:Concept></env:instance></env:envelope>

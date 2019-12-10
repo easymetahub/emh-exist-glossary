@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-transNeptunianObject</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#transNeptunianObject">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>trans-Neptunian object</skosxl:prefLabel>
+		<skosxl:definition>trans-Neptunian object</skosxl:definition>
+		<skosxl:altLabel>TNO</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#EdgeworthKuiperBeltObject"/>
+		<skosxl:related rdf:resource="#EdgeworthKuiperBelt"/>
+		<skosxl:related rdf:resource="#OortCloud"/>
+		<skosxl:related rdf:resource="#SolarSystem"/>
+		<skosxl:related rdf:resource="#asteroid"/>
+		<skosxl:historyNote>FVH: new (2007-OCT-2)</skosxl:historyNote>
+	</skosxl:Concept></env:instance></env:envelope>

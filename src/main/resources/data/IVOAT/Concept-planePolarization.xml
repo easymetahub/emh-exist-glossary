@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-planePolarization</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#planePolarization">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>plane polarization</skosxl:prefLabel>
+		<skosxl:definition>plane polarization</skosxl:definition>
+		<skosxl:altLabel>linear polarization</skosxl:altLabel>
+		<skosxl:altLabel>plane polarisation	UK</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#lightPolarization"/>
+		<skosxl:related rdf:resource="#circularPolarization"/>
+		<skosxl:related rdf:resource="#halfWavePlate"/>
+		<skosxl:changeNote>FVH: added ALT linear polarization (2007-SEP-21)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

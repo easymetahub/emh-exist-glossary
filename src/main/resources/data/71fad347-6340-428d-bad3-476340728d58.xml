@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>71fad347-6340-428d-bad3-476340728d58</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#OefStar">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>Oef star</skos:prefLabel>
-		<skos:definition>Oef star</skos:definition>
-		<skos:broader rdf:resource="#OStar"/>
-		<skos:broader rdf:resource="#earlyTypeEmissionStar"/>
-		<skos:related rdf:resource="#OfStar"/>
-	</skos:Concept></env:instance></env:envelope>

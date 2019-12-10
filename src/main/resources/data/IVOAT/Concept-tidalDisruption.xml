@@ -1,0 +1,12 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-tidalDisruption</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#tidalDisruption">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>tidal disruption</skosxl:prefLabel>
+		<skosxl:definition>tidal disruption</skosxl:definition>
+		<skosxl:related rdf:resource="#RocheLimit"/>
+		<skosxl:related rdf:resource="#differentialRotation"/>
+		<skosxl:related rdf:resource="#starCluster"/>
+		<skosxl:related rdf:resource="#tidalDistortion"/>
+		<skosxl:related rdf:resource="#tidalFriction"/>
+		<skosxl:related rdf:resource="#tidalInteraction"/>
+		<skosxl:related rdf:resource="#tidalRadius"/>
+	</skosxl:Concept></env:instance></env:envelope>

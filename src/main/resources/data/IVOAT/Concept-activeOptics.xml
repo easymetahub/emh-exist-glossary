@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-activeOptics</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#activeOptics">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>active optics</skosxl:prefLabel>
+		<skosxl:definition>active optics</skosxl:definition>
+		<skosxl:broader rdf:resource="#optics"/>
+		<skosxl:related rdf:resource="#adaptiveOptics"/>
+		<skosxl:related rdf:resource="#atmosphericRefraction"/>
+		<skosxl:related rdf:resource="#multipleMirrorTelescope"/>
+		<skosxl:related rdf:resource="#seeing"/>
+		<skosxl:related rdf:resource="#tipTiltMirror"/>
+	</skosxl:Concept></env:instance></env:envelope>

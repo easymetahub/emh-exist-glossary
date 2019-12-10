@@ -1,0 +1,16 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-AStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#AStar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>A star</skosxl:prefLabel>
+		<skosxl:definition>A star</skosxl:definition>
+		<skosxl:broader rdf:resource="#earlyTypeStar"/>
+		<skosxl:narrower rdf:resource="#ADwarf"/>
+		<skosxl:narrower rdf:resource="#AGiant"/>
+		<skosxl:narrower rdf:resource="#ASubdwarf"/>
+		<skosxl:narrower rdf:resource="#ASubgiant"/>
+		<skosxl:narrower rdf:resource="#ASupergiant"/>
+		<skosxl:narrower rdf:resource="#AeStar"/>
+		<skosxl:narrower rdf:resource="#AmStar"/>
+		<skosxl:narrower rdf:resource="#ApStar"/>
+		<skosxl:related rdf:resource="#earlyTypeVariableStar"/>
+		<skosxl:related rdf:resource="#spectralType"/>
+	</skosxl:Concept></env:instance></env:envelope>

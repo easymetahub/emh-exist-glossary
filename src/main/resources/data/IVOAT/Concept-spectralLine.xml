@@ -1,0 +1,35 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-spectralLine</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#spectralLine">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>spectral line</skosxl:prefLabel>
+		<skosxl:definition>spectral line</skosxl:definition>
+		<skosxl:altLabel>spectrum line</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#DLine"/>
+		<skosxl:narrower rdf:resource="#FraunhoferLine"/>
+		<skosxl:narrower rdf:resource="#absorptionLine"/>
+		<skosxl:narrower rdf:resource="#calciumLine"/>
+		<skosxl:narrower rdf:resource="#carbonLine"/>
+		<skosxl:narrower rdf:resource="#cyanogenLine"/>
+		<skosxl:narrower rdf:resource="#emissionLine"/>
+		<skosxl:narrower rdf:resource="#hyperfineLine"/>
+		<skosxl:narrower rdf:resource="#metalLine"/>
+		<skosxl:narrower rdf:resource="#molecularLine"/>
+		<skosxl:narrower rdf:resource="#technetiumLine"/>
+		<skosxl:narrower rdf:resource="#telluricLine"/>
+		<skosxl:narrower rdf:resource="#ultravioletLine"/>
+		<skosxl:related rdf:resource="#equivalentWidth"/>
+		<skosxl:related rdf:resource="#fineStructure"/>
+		<skosxl:related rdf:resource="#instrumentalProfile"/>
+		<skosxl:related rdf:resource="#lineBlanketing"/>
+		<skosxl:related rdf:resource="#lineBlending"/>
+		<skosxl:related rdf:resource="#lineBroadening"/>
+		<skosxl:related rdf:resource="#lineFormation"/>
+		<skosxl:related rdf:resource="#lineIdentification"/>
+		<skosxl:related rdf:resource="#lineIntensitite"/>
+		<skosxl:related rdf:resource="#lineProfile"/>
+		<skosxl:related rdf:resource="#lineRatio"/>
+		<skosxl:related rdf:resource="#naturalLineBroadening"/>
+		<skosxl:related rdf:resource="#naturalLineWidth"/>
+		<skosxl:related rdf:resource="#spectralType"/>
+		<skosxl:related rdf:resource="#transitionProbability"/>
+		<skosxl:scopeNote>not a complete list of terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

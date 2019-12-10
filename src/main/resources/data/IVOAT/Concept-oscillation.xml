@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-oscillation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#oscillation">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>oscillation</skosxl:prefLabel>
+		<skosxl:definition>oscillation</skosxl:definition>
+		<skosxl:related rdf:resource="#amplitude"/>
+		<skosxl:related rdf:resource="#decayOscillation"/>
+		<skosxl:related rdf:resource="#eFoldingTime"/>
+		<skosxl:related rdf:resource="#pendulum"/>
+		<skosxl:related rdf:resource="#wave"/>
+		<skosxl:scopeNote>combine with other terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

@@ -1,0 +1,22 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-imageTube</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#imageTube">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>image tube</skosxl:prefLabel>
+		<skosxl:definition>image tube</skosxl:definition>
+		<skosxl:altLabel>image converters</skosxl:altLabel>
+		<skosxl:altLabel>image intensifier</skosxl:altLabel>
+		<skosxl:altLabel>light amplifier</skosxl:altLabel>
+		<skosxl:altLabel>photoelectric image tube</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#multiChannelDetector"/>
+		<skosxl:broader rdf:resource="#photoelectricInstrument"/>
+		<skosxl:broader rdf:resource="#photoelectronicDevice"/>
+		<skosxl:broader rdf:resource="#twoDimensionalDetector"/>
+		<skosxl:related rdf:resource="#amplifier"/>
+		<skosxl:related rdf:resource="#electrode"/>
+		<skosxl:related rdf:resource="#electronicCamera"/>
+		<skosxl:related rdf:resource="#microchannelPlate"/>
+		<skosxl:related rdf:resource="#phosphorescence"/>
+		<skosxl:related rdf:resource="#phosphorescentScintillation"/>
+		<skosxl:related rdf:resource="#photocathode"/>
+		<skosxl:related rdf:resource="#quantumEfficiency"/>
+		<skosxl:related rdf:resource="#scintillationCounter"/>
+	</skosxl:Concept></env:instance></env:envelope>

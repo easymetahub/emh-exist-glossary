@@ -1,0 +1,13 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-massExchange</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#massExchange">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>mass exchange</skosxl:prefLabel>
+		<skosxl:definition>mass-exchange</skosxl:definition>
+		<skosxl:altLabel>exchange of mass</skosxl:altLabel>
+		<skosxl:related rdf:resource="#cataclysmicVariableStar"/>
+		<skosxl:related rdf:resource="#contactBinaryStar"/>
+		<skosxl:related rdf:resource="#eruptiveBinaryStar"/>
+		<skosxl:related rdf:resource="#mass"/>
+		<skosxl:related rdf:resource="#massFlow"/>
+		<skosxl:related rdf:resource="#massLoss"/>
+		<skosxl:related rdf:resource="#massTransfer"/>
+	</skosxl:Concept></env:instance></env:envelope>

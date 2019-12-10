@@ -1,0 +1,9 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-relativisticEffect</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#relativisticEffect">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>relativistic effect</skosxl:prefLabel>
+		<skosxl:definition>relativistic effect</skosxl:definition>
+		<skosxl:related rdf:resource="#relativisticDisk"/>
+		<skosxl:related rdf:resource="#relativisticElectron"/>
+		<skosxl:related rdf:resource="#relativisticPlasma"/>
+		<skosxl:related rdf:resource="#relativity"/>
+	</skosxl:Concept></env:instance></env:envelope>

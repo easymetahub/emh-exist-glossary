@@ -33,21 +33,21 @@ import module namespace emhjson="http://easymetahub.com/emh-glossary/library/jso
 import module namespace kwic="http://exist-db.org/xquery/kwic";
 
 declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-declare namespace skos="http://www.w3.org/2008/05/skos#";
+declare namespace skos="http://www.w3.org/2004/02/skos/core#";
+declare namespace skosxl="http://www.w3.org/2008/05/skos#";
 declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#";
 declare namespace dc="http://purl.org/dc/elements/1.1/";
-declare namespace env = "http://marklogic.com/data-hub/envelope";
-declare namespace search = "http://marklogic.com/data-hub/search";
+declare namespace env = "http://exist-db.org/data/envelope";
 
 (:~
  : Look up the Concept whose rdf:about value equals the $name parameter.
  :
- : @param $name The value that relates to the rdf:about attribute of a skos:Concept
- : @return The skos:prefLabel of a skos:Concept
+ : @param $name The value that relates to the rdf:about attribute of a skosxl:Concept
+ : @return The skosxl:prefLabel of a skosxl:Concept
  :)
 declare function custom:prefLabel($name as xs:string)
 {
-    collection($config:data-root)//skos:Concept[@rdf:about = $name]/skos:prefLabel/text()
+    collection($config:data-root)//skosxl:Concept[@rdf:about = $name]/skosxl:prefLabel/text()
 };
 
 (:~
@@ -136,17 +136,17 @@ declare function custom:facet-object($facet as map(*), $facet-name as xs:string,
 declare function custom:result-object($result as node(), $index as xs:integer, $show-snippets as xs:boolean)
 {
     let $uri := fn:base-uri($result)
-    let $concept := $result//skos:Concept
+    let $concept := $result//skosxl:Concept
     return
         map {
             'index' : $index,
             'concept' : map {
-                            'term' : emhjson:concept-value($concept/skos:prefLabel),
+                            'term' : emhjson:concept-value($concept/skosxl:prefLabel),
                             'about' : emhjson:concept-value($concept/@rdf:about),
-                            'definition' : array { for $definition in $concept/skos:definition return emhjson:concept-value($definition) },
-                            'altLabel' : emhjson:concept-value($concept/skos:altLabel),
+                            'definition' : array { for $definition in $concept/skosxl:definition return emhjson:concept-value($definition) },
+                            'altLabel' : emhjson:concept-value($concept/skosxl:altLabel),
                             'related' : array { 
-                                            for $related in $concept/skos:related 
+                                            for $related in $concept/skosxl:related 
                                             let $prefLabel := custom:prefLabel($related/@rdf:resource)
                                             return 
                                                 map {
@@ -156,7 +156,7 @@ declare function custom:result-object($result as node(), $index as xs:integer, $
                                                 }
                                         },
                             'broader' : array { 
-                                            for $broader in $concept/skos:broader
+                                            for $broader in $concept/skosxl:broader
                                             let $prefLabel := custom:prefLabel($broader/@rdf:resource)
                                             return 
                                                 map {
@@ -166,7 +166,7 @@ declare function custom:result-object($result as node(), $index as xs:integer, $
                                                 }
                                         },
                             'narrower' : array { 
-                                            for $narrower in $concept/skos:narrower
+                                            for $narrower in $concept/skosxl:narrower
                                             let $prefLabel := custom:prefLabel($narrower/@rdf:resource)
                                             return 
                                                 map { 
@@ -225,10 +225,13 @@ as map(*)
             "message" : fn:concat("Glossary ", $glossary, " already exists")
         }
     else
-    (:let $mkdir := xmldb:create-collection($config:data-root, $glossary):)
+    let $mkdir := xmldb:create-collection($config:data-root, $glossary)
     let $nodes :=
         for $node at $index in $file//rdf:RDF/*
-        let $id := util:uuid()
+        let $rdfabout := fn:replace($node/@rdf:about/string(), "#", "")
+        let $id := if (fn:string-length($rdfabout) gt 0) 
+                    then $node/local-name() || "-" || $rdfabout
+                    else $node/local-name()
         let $envelope :=
             element { "env:envelope" } {
                 element { "env:headers" } {
@@ -239,7 +242,7 @@ as map(*)
                 element { "env:instance" } { $node }
             }
         let $stored :=
-            xmldb:store($config:data-root, $id || '.xml', $envelope)
+            xmldb:store($config:data-root || "/" || $glossary, $id || '.xml', $envelope)
         return ()
     return 
         map {

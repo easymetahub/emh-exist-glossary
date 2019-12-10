@@ -1,0 +1,28 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-pulsar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#pulsar">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>pulsar</skosxl:prefLabel>
+		<skosxl:definition>pulsar</skosxl:definition>
+		<skosxl:broader rdf:resource="#collapsedStar"/>
+		<skosxl:broader rdf:resource="#degenerateStar"/>
+		<skosxl:broader rdf:resource="#evolvedStar"/>
+		<skosxl:broader rdf:resource="#radioSource"/>
+		<skosxl:broader rdf:resource="#relativisticStar"/>
+		<skosxl:narrower rdf:resource="#XRayPulsar"/>
+		<skosxl:narrower rdf:resource="#binaryPulsar"/>
+		<skosxl:narrower rdf:resource="#opticalPulsar"/>
+		<skosxl:narrower rdf:resource="#radioPulsar"/>
+		<skosxl:related rdf:resource="#frequencyShift"/>
+		<skosxl:related rdf:resource="#glitch"/>
+		<skosxl:related rdf:resource="#neutronStar"/>
+		<skosxl:related rdf:resource="#precursorPulse"/>
+		<skosxl:related rdf:resource="#pulseDuration"/>
+		<skosxl:related rdf:resource="#pulseEnergy"/>
+		<skosxl:related rdf:resource="#pulseIntensity"/>
+		<skosxl:related rdf:resource="#pulseProfile"/>
+		<skosxl:related rdf:resource="#pulseStructure"/>
+		<skosxl:related rdf:resource="#pulseWidth"/>
+		<skosxl:related rdf:resource="#pulseWindow"/>
+		<skosxl:related rdf:resource="#rapidOscillation"/>
+		<skosxl:related rdf:resource="#supernovaRemnant"/>
+		<skosxl:related rdf:resource="#supernova"/>
+	</skosxl:Concept></env:instance></env:envelope>

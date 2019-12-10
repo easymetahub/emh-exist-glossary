@@ -1,0 +1,22 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-starCluster</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#starCluster">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>star cluster</skosxl:prefLabel>
+		<skosxl:definition>star cluster</skosxl:definition>
+		<skosxl:altLabel>cluster of star</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#cluster"/>
+		<skosxl:narrower rdf:resource="#globularStarCluster"/>
+		<skosxl:narrower rdf:resource="#openStarCluster"/>
+		<skosxl:related rdf:resource="#PoincareTheorem"/>
+		<skosxl:related rdf:resource="#clustering"/>
+		<skosxl:related rdf:resource="#initialMassFunction"/>
+		<skosxl:related rdf:resource="#integratedMagnitude"/>
+		<skosxl:related rdf:resource="#luminosityFunction"/>
+		<skosxl:related rdf:resource="#massFunction"/>
+		<skosxl:related rdf:resource="#protocluster"/>
+		<skosxl:related rdf:resource="#relaxationTime"/>
+		<skosxl:related rdf:resource="#tidalDisruption"/>
+		<skosxl:related rdf:resource="#tidalRadius"/>
+		<skosxl:related rdf:resource="#velocityDispersion"/>
+		<skosxl:related rdf:resource="#velocityDistribution"/>
+		<skosxl:related rdf:resource="#virialTheorem"/>
+	</skosxl:Concept></env:instance></env:envelope>

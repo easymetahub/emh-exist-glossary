@@ -1,0 +1,11 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-counter</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#counter">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>counter</skosxl:prefLabel>
+		<skosxl:definition>counter</skosxl:definition>
+		<skosxl:altLabel>count</skosxl:altLabel>
+		<skosxl:broader rdf:resource="#measuringInstrument"/>
+		<skosxl:narrower rdf:resource="#scintillationCounter"/>
+		<skosxl:related rdf:resource="#counting"/>
+		<skosxl:related rdf:resource="#dataAcquisition"/>
+		<skosxl:related rdf:resource="#photonCountingSystem"/>
+	</skosxl:Concept></env:instance></env:envelope>

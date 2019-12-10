@@ -1,0 +1,16 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-magnetohydrodynamics</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#magnetohydrodynamics">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>magnetohydrodynamics</skosxl:prefLabel>
+		<skosxl:definition>magnetohydrodynamics</skosxl:definition>
+		<skosxl:altLabel>MHD</skosxl:altLabel>
+		<skosxl:altLabel>hydromagnetics</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#AlfvenWave"/>
+		<skosxl:related rdf:resource="#cosmicElectrodynamics"/>
+		<skosxl:related rdf:resource="#hydrodynamics"/>
+		<skosxl:related rdf:resource="#magneticField"/>
+		<skosxl:related rdf:resource="#plasmaPhysics"/>
+		<skosxl:related rdf:resource="#plasmaWave"/>
+		<skosxl:related rdf:resource="#synchrotronRadiation"/>
+		<skosxl:related rdf:resource="#vanAllenRadiationBelt"/>
+		<skosxl:changeNote>FVH: moved mhd to ALT, ALFVEN_WAVES to NT (2007-SEP-24)</skosxl:changeNote>
+	</skosxl:Concept></env:instance></env:envelope>

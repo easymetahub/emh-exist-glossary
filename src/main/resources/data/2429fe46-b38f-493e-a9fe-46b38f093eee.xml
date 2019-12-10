@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>2429fe46-b38f-493e-a9fe-46b38f093eee</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#multiColorPhotometry">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>multi-color photometry</skos:prefLabel>
-		<skos:definition>multi-color photometry</skos:definition>
-		<skos:altLabel>multicolor photometry</skos:altLabel>
-		<skos:broader rdf:resource="#photometry"/>
-	</skos:Concept></env:instance></env:envelope>

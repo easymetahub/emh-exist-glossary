@@ -1,0 +1,8 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-contourMap</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#contourMap">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>contour map</skosxl:prefLabel>
+		<skosxl:definition>contour map</skosxl:definition>
+		<skosxl:broader rdf:resource="#map"/>
+		<skosxl:related rdf:resource="#isophot"/>
+		<skosxl:related rdf:resource="#radioStructure"/>
+	</skosxl:Concept></env:instance></env:envelope>

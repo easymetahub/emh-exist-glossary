@@ -1,0 +1,30 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-massLoss</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#massLoss">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>mass-loss</skosxl:prefLabel>
+		<skosxl:definition>mass-loss</skosxl:definition>
+		<skosxl:altLabel>mass loss</skosxl:altLabel>
+		<skosxl:altLabel>mass-ejection</skosxl:altLabel>
+		<skosxl:narrower rdf:resource="#bipolarOutflow"/>
+		<skosxl:narrower rdf:resource="#coronalMassEjection"/>
+		<skosxl:narrower rdf:resource="#jet"/>
+		<skosxl:narrower rdf:resource="#stellarWind"/>
+		<skosxl:related rdf:resource="#FuOrionisStar"/>
+		<skosxl:related rdf:resource="#PCygniLineProfile"/>
+		<skosxl:related rdf:resource="#WolfRayetStar"/>
+		<skosxl:related rdf:resource="#binaryStar"/>
+		<skosxl:related rdf:resource="#cataclysmicVariableStar"/>
+		<skosxl:related rdf:resource="#circumstellarDisk"/>
+		<skosxl:related rdf:resource="#circumstellarEnvelope"/>
+		<skosxl:related rdf:resource="#circumstellarMatter"/>
+		<skosxl:related rdf:resource="#circumstellarShell"/>
+		<skosxl:related rdf:resource="#corona"/>
+		<skosxl:related rdf:resource="#eruptiveBinaryStar"/>
+		<skosxl:related rdf:resource="#massExchange"/>
+		<skosxl:related rdf:resource="#massFlow"/>
+		<skosxl:related rdf:resource="#massTransfer"/>
+		<skosxl:related rdf:resource="#massiveStar"/>
+		<skosxl:related rdf:resource="#nova"/>
+		<skosxl:related rdf:resource="#planetaryNebula"/>
+		<skosxl:related rdf:resource="#stellarEvolution"/>
+		<skosxl:related rdf:resource="#supernova"/>
+	</skosxl:Concept></env:instance></env:envelope>

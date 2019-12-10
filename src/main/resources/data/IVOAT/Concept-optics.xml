@@ -1,0 +1,18 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-optics</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#optics">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>optics</skosxl:prefLabel>
+		<skosxl:definition>optics</skosxl:definition>
+		<skosxl:narrower rdf:resource="#activeOptics"/>
+		<skosxl:narrower rdf:resource="#adaptiveOptics"/>
+		<skosxl:narrower rdf:resource="#astronomicalOptics"/>
+		<skosxl:narrower rdf:resource="#fiberOptics"/>
+		<skosxl:related rdf:resource="#adjustment"/>
+		<skosxl:related rdf:resource="#angularResolution"/>
+		<skosxl:related rdf:resource="#collimation"/>
+		<skosxl:related rdf:resource="#opticalAberration"/>
+		<skosxl:related rdf:resource="#opticalProperty"/>
+		<skosxl:related rdf:resource="#refractiveIndex"/>
+		<skosxl:related rdf:resource="#resolution"/>
+		<skosxl:related rdf:resource="#transmission"/>
+		<skosxl:scopeNote>combine with other terms</skosxl:scopeNote>
+	</skosxl:Concept></env:instance></env:envelope>

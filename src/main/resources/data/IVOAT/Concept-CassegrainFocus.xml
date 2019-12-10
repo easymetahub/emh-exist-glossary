@@ -1,0 +1,14 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-CassegrainFocus</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#CassegrainFocus">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>Cassegrain focus</skosxl:prefLabel>
+		<skosxl:definition>Cassegrain focus</skosxl:definition>
+		<skosxl:broader rdf:resource="#CassegrainTelescope"/>
+		<skosxl:broader rdf:resource="#focus"/>
+		<skosxl:related rdf:resource="#CoudeFocus"/>
+		<skosxl:related rdf:resource="#NasmythFocus"/>
+		<skosxl:related rdf:resource="#NewtonianFocus"/>
+		<skosxl:related rdf:resource="#parabolicAntenna"/>
+		<skosxl:related rdf:resource="#primeFocus"/>
+		<skosxl:related rdf:resource="#secondaryMirror"/>
+		<skosxl:related rdf:resource="#subreflector"/>
+	</skosxl:Concept></env:instance></env:envelope>

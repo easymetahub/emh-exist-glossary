@@ -1,0 +1,25 @@
+<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-apparentMagnitude</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#apparentMagnitude">
+		<skosxl:inScheme rdf:resource=""/>
+		<skosxl:prefLabel>apparent magnitude</skosxl:prefLabel>
+		<skosxl:definition>apparent magnitude</skosxl:definition>
+		<skosxl:broader rdf:resource="#magnitude"/>
+		<skosxl:narrower rdf:resource="#BMagnitude"/>
+		<skosxl:narrower rdf:resource="#HMagnitude"/>
+		<skosxl:narrower rdf:resource="#IMagnitude"/>
+		<skosxl:narrower rdf:resource="#JMagnitude"/>
+		<skosxl:narrower rdf:resource="#KMagnitude"/>
+		<skosxl:narrower rdf:resource="#LMagnitude"/>
+		<skosxl:narrower rdf:resource="#MMagnitude"/>
+		<skosxl:narrower rdf:resource="#NMagnitude"/>
+		<skosxl:narrower rdf:resource="#OMagnitude"/>
+		<skosxl:narrower rdf:resource="#PMagnitude"/>
+		<skosxl:narrower rdf:resource="#QMagnitude"/>
+		<skosxl:narrower rdf:resource="#RMagnitude"/>
+		<skosxl:narrower rdf:resource="#UMagnitude"/>
+		<skosxl:narrower rdf:resource="#VMagnitude"/>
+		<skosxl:narrower rdf:resource="#photoelectricMagnitude"/>
+		<skosxl:narrower rdf:resource="#photographicMagnitude"/>
+		<skosxl:narrower rdf:resource="#photovisualMagnitude"/>
+		<skosxl:related rdf:resource="#photometricSystem"/>
+		<skosxl:related rdf:resource="#photometry"/>
+	</skosxl:Concept></env:instance></env:envelope>

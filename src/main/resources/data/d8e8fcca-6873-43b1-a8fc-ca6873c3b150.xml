@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<env:envelope xmlns:env="http://marklogic.com/data-hub/envelope"><env:headers><env:id>d8e8fcca-6873-43b1-a8fc-ca6873c3b150</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-09-23T20:54:46.878-04:00</env:timestamp></env:headers><env:instance><skos:Concept xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2008/05/skos#" rdf:about="#catastropheTheory">
-		<skos:inScheme rdf:resource=""/>
-		<skos:prefLabel>catastrophe theory</skos:prefLabel>
-		<skos:definition>catastrophe theory</skos:definition>
-		<skos:related rdf:resource="#mathematicalAnalysis"/>
-	</skos:Concept></env:instance></env:envelope>
