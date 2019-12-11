@@ -1,10 +1,20 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-flashStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#flashStar">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>flash star</skosxl:prefLabel>
-		<skosxl:definition>flash star</skosxl:definition>
-		<skosxl:broader rdf:resource="#emissionLineStar"/>
-		<skosxl:broader rdf:resource="#preMainSequenceStar"/>
-		<skosxl:related rdf:resource="#TAssociation"/>
-		<skosxl:related rdf:resource="#UvCetiStar"/>
-		<skosxl:related rdf:resource="#flareStar"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-flashStar</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#flashStar">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>flash star</skosxl:prefLabel>
+			<skosxl:definition>flash star</skosxl:definition>
+			<skosxl:broader rdf:resource="#emissionLineStar"/>
+			<skosxl:broader rdf:resource="#preMainSequenceStar"/>
+			<skosxl:related rdf:resource="#TAssociation"/>
+			<skosxl:related rdf:resource="#UvCetiStar"/>
+			<skosxl:related rdf:resource="#flareStar"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

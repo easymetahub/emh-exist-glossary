@@ -1,71 +1,81 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-galaxy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#galaxy">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>galaxy</skosxl:prefLabel>
-		<skosxl:definition>galaxy</skosxl:definition>
-		<skosxl:broader rdf:resource="#extragalacticObject"/>
-		<skosxl:broader rdf:resource="#rotatingBody"/>
-		<skosxl:narrower rdf:resource="#BlLacertaeObject"/>
-		<skosxl:narrower rdf:resource="#DGalaxy"/>
-		<skosxl:narrower rdf:resource="#HaroGalaxy"/>
-		<skosxl:narrower rdf:resource="#LGalaxy"/>
-		<skosxl:narrower rdf:resource="#MagellanicCloud"/>
-		<skosxl:narrower rdf:resource="#MilkyWayGalaxy"/>
-		<skosxl:narrower rdf:resource="#NGalaxy"/>
-		<skosxl:narrower rdf:resource="#activeGalaxy"/>
-		<skosxl:narrower rdf:resource="#barredSpiralGalaxy"/>
-		<skosxl:narrower rdf:resource="#bipolarGalaxy"/>
-		<skosxl:narrower rdf:resource="#blueGalaxy"/>
-		<skosxl:narrower rdf:resource="#brightGalaxy"/>
-		<skosxl:narrower rdf:resource="#companionGalaxy"/>
-		<skosxl:narrower rdf:resource="#diskGalaxy"/>
-		<skosxl:narrower rdf:resource="#doubleGalaxy"/>
-		<skosxl:narrower rdf:resource="#dwarfGalaxy"/>
-		<skosxl:narrower rdf:resource="#earlyTypeGalaxy"/>
-		<skosxl:narrower rdf:resource="#ellipticalGalaxy"/>
-		<skosxl:narrower rdf:resource="#emissionLineGalaxy"/>
-		<skosxl:narrower rdf:resource="#faintGalaxy"/>
-		<skosxl:narrower rdf:resource="#fieldGalaxy"/>
-		<skosxl:narrower rdf:resource="#giantGalaxy"/>
-		<skosxl:narrower rdf:resource="#headTailGalaxy"/>
-		<skosxl:narrower rdf:resource="#hypergalaxy"/>
-		<skosxl:narrower rdf:resource="#infraredGalaxy"/>
-		<skosxl:narrower rdf:resource="#interactingGalaxy"/>
-		<skosxl:narrower rdf:resource="#irregularGalaxy"/>
-		<skosxl:narrower rdf:resource="#lateTypeGalaxy"/>
-		<skosxl:narrower rdf:resource="#lenticularGalaxy"/>
-		<skosxl:narrower rdf:resource="#massiveGalaxy"/>
-		<skosxl:narrower rdf:resource="#multipleGalaxy"/>
-		<skosxl:narrower rdf:resource="#nearbyGalaxy"/>
-		<skosxl:narrower rdf:resource="#peculiarGalaxy"/>
-		<skosxl:narrower rdf:resource="#primordialGalaxy"/>
-		<skosxl:narrower rdf:resource="#protogalaxy"/>
-		<skosxl:narrower rdf:resource="#radioGalaxy"/>
-		<skosxl:narrower rdf:resource="#ringGalaxy"/>
-		<skosxl:narrower rdf:resource="#spiralGalaxy"/>
-		<skosxl:narrower rdf:resource="#starburstGalaxy"/>
-		<skosxl:related rdf:resource="#FanaroffRileyClass"/>
-		<skosxl:related rdf:resource="#HolmbergRadius"/>
-		<skosxl:related rdf:resource="#HubbleClassification"/>
-		<skosxl:related rdf:resource="#HubbleDiagram"/>
-		<skosxl:related rdf:resource="#TullyFisherRelation"/>
-		<skosxl:related rdf:resource="#YerkesClassification"/>
-		<skosxl:related rdf:resource="#activeGalacticNucleus"/>
-		<skosxl:related rdf:resource="#collision"/>
-		<skosxl:related rdf:resource="#coma"/>
-		<skosxl:related rdf:resource="#coolingFlow"/>
-		<skosxl:related rdf:resource="#differentialRotation"/>
-		<skosxl:related rdf:resource="#edgeEffect"/>
-		<skosxl:related rdf:resource="#evolution"/>
-		<skosxl:related rdf:resource="#galaxyStructure"/>
-		<skosxl:related rdf:resource="#halo"/>
-		<skosxl:related rdf:resource="#integratedMagnitude"/>
-		<skosxl:related rdf:resource="#isophotalDiameter"/>
-		<skosxl:related rdf:resource="#LocalSupercluster"/>
-		<skosxl:related rdf:resource="#luminosityFunction"/>
-		<skosxl:related rdf:resource="#massDistribution"/>
-		<skosxl:related rdf:resource="#massToLightRatio"/>
-		<skosxl:related rdf:resource="#origin"/>
-		<skosxl:related rdf:resource="#quasarGalaxyPair"/>
-		<skosxl:related rdf:resource="#surfacePhotometry"/>
-		<skosxl:related rdf:resource="#velocityField"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-galaxy</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#galaxy">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>galaxy</skosxl:prefLabel>
+			<skosxl:definition>galaxy</skosxl:definition>
+			<skosxl:broader rdf:resource="#extragalacticObject"/>
+			<skosxl:broader rdf:resource="#rotatingBody"/>
+			<skosxl:narrower rdf:resource="#BlLacertaeObject"/>
+			<skosxl:narrower rdf:resource="#DGalaxy"/>
+			<skosxl:narrower rdf:resource="#HaroGalaxy"/>
+			<skosxl:narrower rdf:resource="#LGalaxy"/>
+			<skosxl:narrower rdf:resource="#MagellanicCloud"/>
+			<skosxl:narrower rdf:resource="#MilkyWayGalaxy"/>
+			<skosxl:narrower rdf:resource="#NGalaxy"/>
+			<skosxl:narrower rdf:resource="#activeGalaxy"/>
+			<skosxl:narrower rdf:resource="#barredSpiralGalaxy"/>
+			<skosxl:narrower rdf:resource="#bipolarGalaxy"/>
+			<skosxl:narrower rdf:resource="#blueGalaxy"/>
+			<skosxl:narrower rdf:resource="#brightGalaxy"/>
+			<skosxl:narrower rdf:resource="#companionGalaxy"/>
+			<skosxl:narrower rdf:resource="#diskGalaxy"/>
+			<skosxl:narrower rdf:resource="#doubleGalaxy"/>
+			<skosxl:narrower rdf:resource="#dwarfGalaxy"/>
+			<skosxl:narrower rdf:resource="#earlyTypeGalaxy"/>
+			<skosxl:narrower rdf:resource="#ellipticalGalaxy"/>
+			<skosxl:narrower rdf:resource="#emissionLineGalaxy"/>
+			<skosxl:narrower rdf:resource="#faintGalaxy"/>
+			<skosxl:narrower rdf:resource="#fieldGalaxy"/>
+			<skosxl:narrower rdf:resource="#giantGalaxy"/>
+			<skosxl:narrower rdf:resource="#headTailGalaxy"/>
+			<skosxl:narrower rdf:resource="#hypergalaxy"/>
+			<skosxl:narrower rdf:resource="#infraredGalaxy"/>
+			<skosxl:narrower rdf:resource="#interactingGalaxy"/>
+			<skosxl:narrower rdf:resource="#irregularGalaxy"/>
+			<skosxl:narrower rdf:resource="#lateTypeGalaxy"/>
+			<skosxl:narrower rdf:resource="#lenticularGalaxy"/>
+			<skosxl:narrower rdf:resource="#massiveGalaxy"/>
+			<skosxl:narrower rdf:resource="#multipleGalaxy"/>
+			<skosxl:narrower rdf:resource="#nearbyGalaxy"/>
+			<skosxl:narrower rdf:resource="#peculiarGalaxy"/>
+			<skosxl:narrower rdf:resource="#primordialGalaxy"/>
+			<skosxl:narrower rdf:resource="#protogalaxy"/>
+			<skosxl:narrower rdf:resource="#radioGalaxy"/>
+			<skosxl:narrower rdf:resource="#ringGalaxy"/>
+			<skosxl:narrower rdf:resource="#spiralGalaxy"/>
+			<skosxl:narrower rdf:resource="#starburstGalaxy"/>
+			<skosxl:related rdf:resource="#FanaroffRileyClass"/>
+			<skosxl:related rdf:resource="#HolmbergRadius"/>
+			<skosxl:related rdf:resource="#HubbleClassification"/>
+			<skosxl:related rdf:resource="#HubbleDiagram"/>
+			<skosxl:related rdf:resource="#TullyFisherRelation"/>
+			<skosxl:related rdf:resource="#YerkesClassification"/>
+			<skosxl:related rdf:resource="#activeGalacticNucleus"/>
+			<skosxl:related rdf:resource="#collision"/>
+			<skosxl:related rdf:resource="#coma"/>
+			<skosxl:related rdf:resource="#coolingFlow"/>
+			<skosxl:related rdf:resource="#differentialRotation"/>
+			<skosxl:related rdf:resource="#edgeEffect"/>
+			<skosxl:related rdf:resource="#evolution"/>
+			<skosxl:related rdf:resource="#galaxyStructure"/>
+			<skosxl:related rdf:resource="#halo"/>
+			<skosxl:related rdf:resource="#integratedMagnitude"/>
+			<skosxl:related rdf:resource="#isophotalDiameter"/>
+			<skosxl:related rdf:resource="#LocalSupercluster"/>
+			<skosxl:related rdf:resource="#luminosityFunction"/>
+			<skosxl:related rdf:resource="#massDistribution"/>
+			<skosxl:related rdf:resource="#massToLightRatio"/>
+			<skosxl:related rdf:resource="#origin"/>
+			<skosxl:related rdf:resource="#quasarGalaxyPair"/>
+			<skosxl:related rdf:resource="#surfacePhotometry"/>
+			<skosxl:related rdf:resource="#velocityField"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

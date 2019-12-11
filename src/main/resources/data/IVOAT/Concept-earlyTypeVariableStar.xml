@@ -1,14 +1,25 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-earlyTypeVariableStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#earlyTypeVariableStar">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>early-type variable star</skosxl:prefLabel>
-		<skosxl:definition>early-type variable star</skosxl:definition>
-		<skosxl:altLabel>early type variable star</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#earlyTypeStar"/>
-		<skosxl:narrower rdf:resource="#SDoradusStar"/>
-		<skosxl:narrower rdf:resource="#SxArietisStar"/>
-		<skosxl:narrower rdf:resource="#betaCepheiStar"/>
-		<skosxl:narrower rdf:resource="#luminousBlueVariableStar"/>
-		<skosxl:related rdf:resource="#AStar"/>
-		<skosxl:related rdf:resource="#BStar"/>
-		<skosxl:related rdf:resource="#OStar"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-earlyTypeVariableStar</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#earlyTypeVariableStar">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>early-type variable star</skosxl:prefLabel>
+			<skosxl:definition>early-type variable star</skosxl:definition>
+			<skosxl:altLabel>early type variable star</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#earlyTypeStar"/>
+			<skosxl:narrower rdf:resource="#SDoradusStar"/>
+			<skosxl:narrower rdf:resource="#SxArietisStar"/>
+			<skosxl:narrower rdf:resource="#betaCepheiStar"/>
+			<skosxl:narrower rdf:resource="#luminousBlueVariableStar"/>
+			<skosxl:related rdf:resource="#AStar"/>
+			<skosxl:related rdf:resource="#BStar"/>
+			<skosxl:related rdf:resource="#OStar"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

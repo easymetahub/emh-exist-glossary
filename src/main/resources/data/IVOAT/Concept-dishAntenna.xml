@@ -1,10 +1,20 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-dishAntenna</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#dishAntenna">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>dish antenna</skosxl:prefLabel>
-		<skosxl:definition>dish antenna</skosxl:definition>
-		<skosxl:altLabel>dish antennas</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#radioTelescope"/>
-		<skosxl:related rdf:resource="#antenna"/>
-		<skosxl:related rdf:resource="#parabolicReflector"/>
-		<skosxl:related rdf:resource="#radarTelescope"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-dishAntenna</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#dishAntenna">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>dish antenna</skosxl:prefLabel>
+			<skosxl:definition>dish antenna</skosxl:definition>
+			<skosxl:altLabel>dish antennas</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#radioTelescope"/>
+			<skosxl:related rdf:resource="#antenna"/>
+			<skosxl:related rdf:resource="#parabolicReflector"/>
+			<skosxl:related rdf:resource="#radarTelescope"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

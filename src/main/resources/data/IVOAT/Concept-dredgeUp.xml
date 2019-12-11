@@ -1,10 +1,20 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-dredgeUp</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#dredgeUp">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>dredge up</skosxl:prefLabel>
-		<skosxl:definition>dredge up</skosxl:definition>
-		<skosxl:related rdf:resource="#convection"/>
-		<skosxl:related rdf:resource="#giant"/>
-		<skosxl:related rdf:resource="#metalAbundance"/>
-		<skosxl:related rdf:resource="#stellarAtmosphere"/>
-		<skosxl:related rdf:resource="#stellarInterior"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-dredgeUp</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#dredgeUp">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>dredge up</skosxl:prefLabel>
+			<skosxl:definition>dredge up</skosxl:definition>
+			<skosxl:related rdf:resource="#convection"/>
+			<skosxl:related rdf:resource="#giant"/>
+			<skosxl:related rdf:resource="#metalAbundance"/>
+			<skosxl:related rdf:resource="#stellarAtmosphere"/>
+			<skosxl:related rdf:resource="#stellarInterior"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

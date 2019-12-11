@@ -1,17 +1,27 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-circumstellarShell</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#circumstellarShell">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>circumstellar shell</skosxl:prefLabel>
-		<skosxl:definition>circumstellar shell</skosxl:definition>
-		<skosxl:altLabel>stellar envelope</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#shell"/>
-		<skosxl:narrower rdf:resource="#dustShell"/>
-		<skosxl:narrower rdf:resource="#rotatingShell"/>
-		<skosxl:related rdf:resource="#BeStar"/>
-		<skosxl:related rdf:resource="#circumstellarEnvelope"/>
-		<skosxl:related rdf:resource="#circumstellarGas"/>
-		<skosxl:related rdf:resource="#circumstellarMatter"/>
-		<skosxl:related rdf:resource="#extremeCarbonStar"/>
-		<skosxl:related rdf:resource="#massLoss"/>
-		<skosxl:related rdf:resource="#shellStar"/>
-		<skosxl:related rdf:resource="#stellarWind"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-circumstellarShell</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#circumstellarShell">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>circumstellar shell</skosxl:prefLabel>
+			<skosxl:definition>circumstellar shell</skosxl:definition>
+			<skosxl:altLabel>stellar envelope</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#shell"/>
+			<skosxl:narrower rdf:resource="#dustShell"/>
+			<skosxl:narrower rdf:resource="#rotatingShell"/>
+			<skosxl:related rdf:resource="#BeStar"/>
+			<skosxl:related rdf:resource="#circumstellarEnvelope"/>
+			<skosxl:related rdf:resource="#circumstellarGas"/>
+			<skosxl:related rdf:resource="#circumstellarMatter"/>
+			<skosxl:related rdf:resource="#extremeCarbonStar"/>
+			<skosxl:related rdf:resource="#massLoss"/>
+			<skosxl:related rdf:resource="#shellStar"/>
+			<skosxl:related rdf:resource="#stellarWind"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

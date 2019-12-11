@@ -1,13 +1,24 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-groundBasedAstronomy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#groundBasedAstronomy">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>ground-based astronomy</skosxl:prefLabel>
-		<skosxl:definition>ground-based astronomy</skosxl:definition>
-		<skosxl:altLabel>ground based astronomy</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#astronomy"/>
-		<skosxl:related rdf:resource="#airplaneBorneInstrument"/>
-		<skosxl:related rdf:resource="#balloonBorneInstrument"/>
-		<skosxl:related rdf:resource="#rocketBorneInstrument"/>
-		<skosxl:related rdf:resource="#satelliteBorneInstrument"/>
-		<skosxl:related rdf:resource="#spaceProbeInstrument"/>
-		<skosxl:related rdf:resource="#spaceTelescope"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-groundBasedAstronomy</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#groundBasedAstronomy">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>ground-based astronomy</skosxl:prefLabel>
+			<skosxl:definition>ground-based astronomy</skosxl:definition>
+			<skosxl:altLabel>ground based astronomy</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#astronomy"/>
+			<skosxl:related rdf:resource="#airplaneBorneInstrument"/>
+			<skosxl:related rdf:resource="#balloonBorneInstrument"/>
+			<skosxl:related rdf:resource="#rocketBorneInstrument"/>
+			<skosxl:related rdf:resource="#satelliteBorneInstrument"/>
+			<skosxl:related rdf:resource="#spaceProbeInstrument"/>
+			<skosxl:related rdf:resource="#spaceTelescope"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

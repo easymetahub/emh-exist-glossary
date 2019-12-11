@@ -1,14 +1,24 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-ellipticalOrbit</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#ellipticalOrbit">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>elliptical orbit</skosxl:prefLabel>
-		<skosxl:definition>elliptical orbit</skosxl:definition>
-		<skosxl:altLabel>eccentric orbit</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#orbit"/>
-		<skosxl:broader rdf:resource="#periodicOrbit"/>
-		<skosxl:narrower rdf:resource="#circularOrbit"/>
-		<skosxl:related rdf:resource="#annualEquation"/>
-		<skosxl:related rdf:resource="#eccentricity"/>
-		<skosxl:related rdf:resource="#equationOfTime"/>
-		<skosxl:related rdf:resource="#hyperbolicOrbit"/>
-		<skosxl:related rdf:resource="#parabolicOrbit"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-ellipticalOrbit</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#ellipticalOrbit">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>elliptical orbit</skosxl:prefLabel>
+			<skosxl:definition>elliptical orbit</skosxl:definition>
+			<skosxl:altLabel>eccentric orbit</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#orbit"/>
+			<skosxl:broader rdf:resource="#periodicOrbit"/>
+			<skosxl:narrower rdf:resource="#circularOrbit"/>
+			<skosxl:related rdf:resource="#annualEquation"/>
+			<skosxl:related rdf:resource="#eccentricity"/>
+			<skosxl:related rdf:resource="#equationOfTime"/>
+			<skosxl:related rdf:resource="#hyperbolicOrbit"/>
+			<skosxl:related rdf:resource="#parabolicOrbit"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

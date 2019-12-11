@@ -1,6 +1,16 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-electricalProperty</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#electricalProperty">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>electrical property</skosxl:prefLabel>
-		<skosxl:definition>electrical property</skosxl:definition>
-		<skosxl:related rdf:resource="#electricity"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-electricalProperty</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#electricalProperty">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>electrical property</skosxl:prefLabel>
+			<skosxl:definition>electrical property</skosxl:definition>
+			<skosxl:related rdf:resource="#electricity"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

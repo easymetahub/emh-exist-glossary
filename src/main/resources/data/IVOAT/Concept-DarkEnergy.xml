@@ -1,20 +1,30 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-DarkEnergy</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#DarkEnergy">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>Dark Energy</skosxl:prefLabel>
-		<skosxl:definition>Dark Energy</skosxl:definition>
-		<skosxl:altLabel>dark energy</skosxl:altLabel>
-		<skosxl:related rdf:resource="#DarkMatter"/>
-		<skosxl:related rdf:resource="#HubbleLaw"/>
-		<skosxl:related rdf:resource="#coldDarkMatter"/>
-		<skosxl:related rdf:resource="#cosmologicalConstant"/>
-		<skosxl:related rdf:resource="#cosmology"/>
-		<skosxl:related rdf:resource="#earlyUniverse"/>
-		<skosxl:related rdf:resource="#galaxyCount"/>
-		<skosxl:related rdf:resource="#galaxyDistribution"/>
-		<skosxl:related rdf:resource="#generalTheoryOfRelativity"/>
-		<skosxl:related rdf:resource="#redshiftDistanceRelation"/>
-		<skosxl:related rdf:resource="#redshiftMagnitudeRelation"/>
-		<skosxl:related rdf:resource="#spaceTimeCurvature"/>
-		<skosxl:related rdf:resource="#universe"/>
-		<skosxl:historyNote>FVH: new (2007-SEP-21)</skosxl:historyNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-DarkEnergy</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#DarkEnergy">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>Dark Energy</skosxl:prefLabel>
+			<skosxl:definition>Dark Energy</skosxl:definition>
+			<skosxl:altLabel>dark energy</skosxl:altLabel>
+			<skosxl:related rdf:resource="#DarkMatter"/>
+			<skosxl:related rdf:resource="#HubbleLaw"/>
+			<skosxl:related rdf:resource="#coldDarkMatter"/>
+			<skosxl:related rdf:resource="#cosmologicalConstant"/>
+			<skosxl:related rdf:resource="#cosmology"/>
+			<skosxl:related rdf:resource="#earlyUniverse"/>
+			<skosxl:related rdf:resource="#galaxyCount"/>
+			<skosxl:related rdf:resource="#galaxyDistribution"/>
+			<skosxl:related rdf:resource="#generalTheoryOfRelativity"/>
+			<skosxl:related rdf:resource="#redshiftDistanceRelation"/>
+			<skosxl:related rdf:resource="#redshiftMagnitudeRelation"/>
+			<skosxl:related rdf:resource="#spaceTimeCurvature"/>
+			<skosxl:related rdf:resource="#universe"/>
+			<skosxl:historyNote>FVH: new (2007-SEP-21)</skosxl:historyNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

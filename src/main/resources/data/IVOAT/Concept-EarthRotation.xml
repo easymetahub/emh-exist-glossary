@@ -1,13 +1,23 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-EarthRotation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#EarthRotation">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>Earth rotation</skosxl:prefLabel>
-		<skosxl:definition>Earth rotation</skosxl:definition>
-		<skosxl:broader rdf:resource="#rotation"/>
-		<skosxl:related rdf:resource="#ChandlerWobble"/>
-		<skosxl:related rdf:resource="#astrometry"/>
-		<skosxl:related rdf:resource="#equationOfTheEquinox"/>
-		<skosxl:related rdf:resource="#nutation"/>
-		<skosxl:related rdf:resource="#polarMotion"/>
-		<skosxl:related rdf:resource="#precession"/>
-		<skosxl:related rdf:resource="#time"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-EarthRotation</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#EarthRotation">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>Earth rotation</skosxl:prefLabel>
+			<skosxl:definition>Earth rotation</skosxl:definition>
+			<skosxl:broader rdf:resource="#rotation"/>
+			<skosxl:related rdf:resource="#ChandlerWobble"/>
+			<skosxl:related rdf:resource="#astrometry"/>
+			<skosxl:related rdf:resource="#equationOfTheEquinox"/>
+			<skosxl:related rdf:resource="#nutation"/>
+			<skosxl:related rdf:resource="#polarMotion"/>
+			<skosxl:related rdf:resource="#precession"/>
+			<skosxl:related rdf:resource="#time"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

@@ -1,10 +1,22 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-gravitationalMicrolensing</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#gravitationalMicrolensing">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>gravitational microlensing</skosxl:prefLabel>
-		<skosxl:definition>microlensing</skosxl:definition>
-		<skosxl:altLabel>microlensing</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#gravitationalLensing"/>
-		<skosxl:narrower rdf:resource="#planetaryMicrolensing"/>
-		<skosxl:narrower rdf:resource="#quasarMicrolensing"/>
-		<skosxl:changeNote>FVH: added gravitational_ as prefix; moved RT to BT gravitational_lensing (2007-OCT-8)</skosxl:changeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-gravitationalMicrolensing</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#gravitationalMicrolensing">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>gravitational microlensing</skosxl:prefLabel>
+			<skosxl:definition>microlensing</skosxl:definition>
+			<skosxl:altLabel>microlensing</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#gravitationalLensing"/>
+			<skosxl:narrower rdf:resource="#planetaryMicrolensing"/>
+			<skosxl:narrower rdf:resource="#quasarMicrolensing"/>
+			<skosxl:changeNote>FVH: added gravitational_ as prefix; moved RT to BT
+				gravitational_lensing (2007-OCT-8)</skosxl:changeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

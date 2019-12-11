@@ -1,12 +1,22 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-geology</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#geology">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>geology</skosxl:prefLabel>
-		<skosxl:definition>geology</skosxl:definition>
-		<skosxl:broader rdf:resource="#EarthSciences"/>
-		<skosxl:narrower rdf:resource="#petrology"/>
-		<skosxl:related rdf:resource="#geophysicalObservatory"/>
-		<skosxl:related rdf:resource="#glaciology"/>
-		<skosxl:related rdf:resource="#planetology"/>
-		<skosxl:related rdf:resource="#planet"/>
-		<skosxl:related rdf:resource="#surfaceOfCelestialBody"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-geology</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#geology">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>geology</skosxl:prefLabel>
+			<skosxl:definition>geology</skosxl:definition>
+			<skosxl:broader rdf:resource="#EarthSciences"/>
+			<skosxl:narrower rdf:resource="#petrology"/>
+			<skosxl:related rdf:resource="#geophysicalObservatory"/>
+			<skosxl:related rdf:resource="#glaciology"/>
+			<skosxl:related rdf:resource="#planetology"/>
+			<skosxl:related rdf:resource="#planet"/>
+			<skosxl:related rdf:resource="#surfaceOfCelestialBody"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

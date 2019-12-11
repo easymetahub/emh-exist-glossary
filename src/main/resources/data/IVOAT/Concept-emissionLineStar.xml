@@ -1,28 +1,38 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-emissionLineStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#emissionLineStar">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>emission line star</skosxl:prefLabel>
-		<skosxl:definition>emission line star</skosxl:definition>
-		<skosxl:broader rdf:resource="#activeStar"/>
-		<skosxl:broader rdf:resource="#emissionLineObject"/>
-		<skosxl:narrower rdf:resource="#MeStar"/>
-		<skosxl:narrower rdf:resource="#MeVariableStar"/>
-		<skosxl:narrower rdf:resource="#MiraVariableStar"/>
-		<skosxl:narrower rdf:resource="#RvTauriStar"/>
-		<skosxl:narrower rdf:resource="#RwAurigaeStar"/>
-		<skosxl:narrower rdf:resource="#SDoradusStar"/>
-		<skosxl:narrower rdf:resource="#TTauriStar"/>
-		<skosxl:narrower rdf:resource="#XRayStar"/>
-		<skosxl:narrower rdf:resource="#ZAndromedaeStar"/>
-		<skosxl:narrower rdf:resource="#earlyTypeEmissionStar"/>
-		<skosxl:narrower rdf:resource="#flareStar"/>
-		<skosxl:narrower rdf:resource="#flashStar"/>
-		<skosxl:narrower rdf:resource="#gammaCassiopeiaeStar"/>
-		<skosxl:narrower rdf:resource="#symbioticStar"/>
-		<skosxl:related rdf:resource="#PCygniLineProfile"/>
-		<skosxl:related rdf:resource="#UGeminorumStar"/>
-		<skosxl:related rdf:resource="#dwarfNova"/>
-		<skosxl:related rdf:resource="#emissionLine"/>
-		<skosxl:related rdf:resource="#peculiarStar"/>
-		<skosxl:related rdf:resource="#planetaryNebula"/>
-		<skosxl:scopeNote>ES: deleted NT shell_star (2007-OCT-8)</skosxl:scopeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-emissionLineStar</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#emissionLineStar">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>emission line star</skosxl:prefLabel>
+			<skosxl:definition>emission line star</skosxl:definition>
+			<skosxl:broader rdf:resource="#activeStar"/>
+			<skosxl:broader rdf:resource="#emissionLineObject"/>
+			<skosxl:narrower rdf:resource="#MeStar"/>
+			<skosxl:narrower rdf:resource="#MeVariableStar"/>
+			<skosxl:narrower rdf:resource="#MiraVariableStar"/>
+			<skosxl:narrower rdf:resource="#RvTauriStar"/>
+			<skosxl:narrower rdf:resource="#RwAurigaeStar"/>
+			<skosxl:narrower rdf:resource="#SDoradusStar"/>
+			<skosxl:narrower rdf:resource="#TTauriStar"/>
+			<skosxl:narrower rdf:resource="#XRayStar"/>
+			<skosxl:narrower rdf:resource="#ZAndromedaeStar"/>
+			<skosxl:narrower rdf:resource="#earlyTypeEmissionStar"/>
+			<skosxl:narrower rdf:resource="#flareStar"/>
+			<skosxl:narrower rdf:resource="#flashStar"/>
+			<skosxl:narrower rdf:resource="#gammaCassiopeiaeStar"/>
+			<skosxl:narrower rdf:resource="#symbioticStar"/>
+			<skosxl:related rdf:resource="#PCygniLineProfile"/>
+			<skosxl:related rdf:resource="#UGeminorumStar"/>
+			<skosxl:related rdf:resource="#dwarfNova"/>
+			<skosxl:related rdf:resource="#emissionLine"/>
+			<skosxl:related rdf:resource="#peculiarStar"/>
+			<skosxl:related rdf:resource="#planetaryNebula"/>
+			<skosxl:scopeNote>ES: deleted NT shell_star (2007-OCT-8)</skosxl:scopeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

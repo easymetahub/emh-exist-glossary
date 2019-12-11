@@ -1,13 +1,23 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-fieldCurvature</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#fieldCurvature">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>field curvature</skosxl:prefLabel>
-		<skosxl:definition>field curvature</skosxl:definition>
-		<skosxl:altLabel>curvature of field</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#opticalAberration"/>
-		<skosxl:related rdf:resource="#astigmatism"/>
-		<skosxl:related rdf:resource="#chromaticAberration"/>
-		<skosxl:related rdf:resource="#comaticAberration"/>
-		<skosxl:related rdf:resource="#distortion"/>
-		<skosxl:related rdf:resource="#opticalSystem"/>
-		<skosxl:related rdf:resource="#sphericalAberration"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-fieldCurvature</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#fieldCurvature">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>field curvature</skosxl:prefLabel>
+			<skosxl:definition>field curvature</skosxl:definition>
+			<skosxl:altLabel>curvature of field</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#opticalAberration"/>
+			<skosxl:related rdf:resource="#astigmatism"/>
+			<skosxl:related rdf:resource="#chromaticAberration"/>
+			<skosxl:related rdf:resource="#comaticAberration"/>
+			<skosxl:related rdf:resource="#distortion"/>
+			<skosxl:related rdf:resource="#opticalSystem"/>
+			<skosxl:related rdf:resource="#sphericalAberration"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

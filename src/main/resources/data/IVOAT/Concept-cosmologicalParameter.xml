@@ -1,15 +1,27 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-cosmologicalParameter</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cosmologicalParameter">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>cosmological parameter</skosxl:prefLabel>
-		<skosxl:definition>cosmological parameter/constant</skosxl:definition>
-		<skosxl:broader rdf:resource="#constant"/>
-		<skosxl:narrower rdf:resource="#HubbleConstant"/>
-		<skosxl:narrower rdf:resource="#OmegaParameter"/>
-		<skosxl:narrower rdf:resource="#cosmologicalConstant"/>
-		<skosxl:narrower rdf:resource="#decelerationParameter"/>
-		<skosxl:narrower rdf:resource="#sigma8"/>
-		<skosxl:related rdf:resource="#cosmologicalDistanceScale"/>
-		<skosxl:related rdf:resource="#cosmology"/>
-		<skosxl:historyNote>FVH: new (2007-SEP-21)</skosxl:historyNote>
-		<skosxl:changeNote>FVH: renamed *_parameter, since some of them aren't necessarily constant (2007-OCT-26)</skosxl:changeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-cosmologicalParameter</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#cosmologicalParameter">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>cosmological parameter</skosxl:prefLabel>
+			<skosxl:definition>cosmological parameter/constant</skosxl:definition>
+			<skosxl:broader rdf:resource="#constant"/>
+			<skosxl:narrower rdf:resource="#HubbleConstant"/>
+			<skosxl:narrower rdf:resource="#OmegaParameter"/>
+			<skosxl:narrower rdf:resource="#cosmologicalConstant"/>
+			<skosxl:narrower rdf:resource="#decelerationParameter"/>
+			<skosxl:narrower rdf:resource="#sigma8"/>
+			<skosxl:related rdf:resource="#cosmologicalDistanceScale"/>
+			<skosxl:related rdf:resource="#cosmology"/>
+			<skosxl:historyNote>FVH: new (2007-SEP-21)</skosxl:historyNote>
+			<skosxl:changeNote>FVH: renamed *_parameter, since some of them aren't necessarily
+				constant (2007-OCT-26)</skosxl:changeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

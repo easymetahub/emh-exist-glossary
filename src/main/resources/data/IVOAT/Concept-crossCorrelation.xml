@@ -1,10 +1,20 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-crossCorrelation</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#crossCorrelation">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>cross-correlation</skosxl:prefLabel>
-		<skosxl:definition>cross-correlation</skosxl:definition>
-		<skosxl:altLabel>cross correlation</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#correlation"/>
-		<skosxl:related rdf:resource="#autoCorrelation"/>
-		<skosxl:related rdf:resource="#dataProcessing"/>
-		<skosxl:related rdf:resource="#interferometricCorrelation"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-crossCorrelation</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#crossCorrelation">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>cross-correlation</skosxl:prefLabel>
+			<skosxl:definition>cross-correlation</skosxl:definition>
+			<skosxl:altLabel>cross correlation</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#correlation"/>
+			<skosxl:related rdf:resource="#autoCorrelation"/>
+			<skosxl:related rdf:resource="#dataProcessing"/>
+			<skosxl:related rdf:resource="#interferometricCorrelation"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

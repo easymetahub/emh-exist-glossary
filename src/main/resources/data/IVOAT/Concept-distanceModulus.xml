@@ -1,11 +1,21 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-distanceModulus</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#distanceModulus">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>distance modulus</skosxl:prefLabel>
-		<skosxl:definition>distance modulus</skosxl:definition>
-		<skosxl:altLabel>modulus</skosxl:altLabel>
-		<skosxl:related rdf:resource="#absoluteMagnitude"/>
-		<skosxl:related rdf:resource="#distance"/>
-		<skosxl:related rdf:resource="#distanceIndicator"/>
-		<skosxl:related rdf:resource="#distanceScale"/>
-		<skosxl:related rdf:resource="#parallax"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-distanceModulus</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#distanceModulus">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>distance modulus</skosxl:prefLabel>
+			<skosxl:definition>distance modulus</skosxl:definition>
+			<skosxl:altLabel>modulus</skosxl:altLabel>
+			<skosxl:related rdf:resource="#absoluteMagnitude"/>
+			<skosxl:related rdf:resource="#distance"/>
+			<skosxl:related rdf:resource="#distanceIndicator"/>
+			<skosxl:related rdf:resource="#distanceScale"/>
+			<skosxl:related rdf:resource="#parallax"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

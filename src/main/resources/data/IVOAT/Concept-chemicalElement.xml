@@ -1,16 +1,26 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-chemicalElement</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#chemicalElement">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>chemical element</skosxl:prefLabel>
-		<skosxl:definition>chemical element</skosxl:definition>
-		<skosxl:narrower rdf:resource="#fundamentalChemicalElement"/>
-		<skosxl:narrower rdf:resource="#heavyElement"/>
-		<skosxl:narrower rdf:resource="#isotope"/>
-		<skosxl:narrower rdf:resource="#traceElement"/>
-		<skosxl:related rdf:resource="#abundance"/>
-		<skosxl:related rdf:resource="#atom"/>
-		<skosxl:related rdf:resource="#curveOfGrowth"/>
-		<skosxl:related rdf:resource="#elementFormation"/>
-		<skosxl:related rdf:resource="#metalAbundance"/>
-		<skosxl:related rdf:resource="#origin"/>
-		<skosxl:scopeNote>see appendix</skosxl:scopeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-chemicalElement</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#chemicalElement">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>chemical element</skosxl:prefLabel>
+			<skosxl:definition>chemical element</skosxl:definition>
+			<skosxl:narrower rdf:resource="#fundamentalChemicalElement"/>
+			<skosxl:narrower rdf:resource="#heavyElement"/>
+			<skosxl:narrower rdf:resource="#isotope"/>
+			<skosxl:narrower rdf:resource="#traceElement"/>
+			<skosxl:related rdf:resource="#abundance"/>
+			<skosxl:related rdf:resource="#atom"/>
+			<skosxl:related rdf:resource="#curveOfGrowth"/>
+			<skosxl:related rdf:resource="#elementFormation"/>
+			<skosxl:related rdf:resource="#metalAbundance"/>
+			<skosxl:related rdf:resource="#origin"/>
+			<skosxl:scopeNote>see appendix</skosxl:scopeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

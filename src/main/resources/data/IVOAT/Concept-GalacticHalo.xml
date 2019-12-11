@@ -1,15 +1,26 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-GalacticHalo</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#GalacticHalo">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>Galactic halo</skosxl:prefLabel>
-		<skosxl:definition>Galactic halo</skosxl:definition>
-		<skosxl:broader rdf:resource="#halo"/>
-		<skosxl:related rdf:resource="#GalacticStructure"/>
-		<skosxl:related rdf:resource="#MilkyWayGalaxy"/>
-		<skosxl:related rdf:resource="#RrLyraeStar"/>
-		<skosxl:related rdf:resource="#globularStarCluster"/>
-		<skosxl:related rdf:resource="#haloStar"/>
-		<skosxl:related rdf:resource="#populationIiStar"/>
-		<skosxl:related rdf:resource="#populationIiiStar"/>
-		<skosxl:changeNote>FVH: added RT POPULATION_III_STARS (2007-SEP-21)</skosxl:changeNote>
-		<skosxl:changeNote>FVH: capitalized, since only refers to MW (2007-OCT-5)</skosxl:changeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-GalacticHalo</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#GalacticHalo">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>Galactic halo</skosxl:prefLabel>
+			<skosxl:definition>Galactic halo</skosxl:definition>
+			<skosxl:broader rdf:resource="#halo"/>
+			<skosxl:related rdf:resource="#GalacticStructure"/>
+			<skosxl:related rdf:resource="#MilkyWayGalaxy"/>
+			<skosxl:related rdf:resource="#RrLyraeStar"/>
+			<skosxl:related rdf:resource="#globularStarCluster"/>
+			<skosxl:related rdf:resource="#haloStar"/>
+			<skosxl:related rdf:resource="#populationIiStar"/>
+			<skosxl:related rdf:resource="#populationIiiStar"/>
+			<skosxl:changeNote>FVH: added RT POPULATION_III_STARS (2007-SEP-21)</skosxl:changeNote>
+			<skosxl:changeNote>FVH: capitalized, since only refers to MW
+				(2007-OCT-5)</skosxl:changeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

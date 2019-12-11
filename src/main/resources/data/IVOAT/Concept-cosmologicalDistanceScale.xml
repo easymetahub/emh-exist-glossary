@@ -1,13 +1,24 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-cosmologicalDistanceScale</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cosmologicalDistanceScale">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>cosmological distance scale</skosxl:prefLabel>
-		<skosxl:definition>cosmological distance scale</skosxl:definition>
-		<skosxl:broader rdf:resource="#distanceScale"/>
-		<skosxl:related rdf:resource="#HubbleConstant"/>
-		<skosxl:related rdf:resource="#cosmologicalParameter"/>
-		<skosxl:related rdf:resource="#decelerationParameter"/>
-		<skosxl:related rdf:resource="#observationalCosmology"/>
-		<skosxl:related rdf:resource="#redshift"/>
-		<skosxl:related rdf:resource="#redshiftDistanceRelation"/>
-		<skosxl:related rdf:resource="#redshiftMagnitudeRelation"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-cosmologicalDistanceScale</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#cosmologicalDistanceScale">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>cosmological distance scale</skosxl:prefLabel>
+			<skosxl:definition>cosmological distance scale</skosxl:definition>
+			<skosxl:broader rdf:resource="#distanceScale"/>
+			<skosxl:related rdf:resource="#HubbleConstant"/>
+			<skosxl:related rdf:resource="#cosmologicalParameter"/>
+			<skosxl:related rdf:resource="#decelerationParameter"/>
+			<skosxl:related rdf:resource="#observationalCosmology"/>
+			<skosxl:related rdf:resource="#redshift"/>
+			<skosxl:related rdf:resource="#redshiftDistanceRelation"/>
+			<skosxl:related rdf:resource="#redshiftMagnitudeRelation"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

@@ -1,11 +1,22 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-cosmologicalConstant</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cosmologicalConstant">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>cosmological constant</skosxl:prefLabel>
-		<skosxl:definition>cosmological constant</skosxl:definition>
-		<skosxl:altLabel>Lambda</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#cosmologicalParameter"/>
-		<skosxl:related rdf:resource="#DarkEnergy"/>
-		<skosxl:related rdf:resource="#OmegaLambda"/>
-		<skosxl:related rdf:resource="#cosmology"/>
-		<skosxl:changeNote>FVH: added ALT lambda (2007-SEP-21)</skosxl:changeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-cosmologicalConstant</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#cosmologicalConstant">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>cosmological constant</skosxl:prefLabel>
+			<skosxl:definition>cosmological constant</skosxl:definition>
+			<skosxl:altLabel>Lambda</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#cosmologicalParameter"/>
+			<skosxl:related rdf:resource="#DarkEnergy"/>
+			<skosxl:related rdf:resource="#OmegaLambda"/>
+			<skosxl:related rdf:resource="#cosmology"/>
+			<skosxl:changeNote>FVH: added ALT lambda (2007-SEP-21)</skosxl:changeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

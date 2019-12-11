@@ -1,11 +1,22 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-gravitationallyLensedSource</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#gravitationallyLensedSource">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>gravitationally lensed source</skosxl:prefLabel>
-		<skosxl:definition>gravitationally lensed source</skosxl:definition>
-		<skosxl:broader rdf:resource="#source"/>
-		<skosxl:narrower rdf:resource="#EinsteinRing"/>
-		<skosxl:narrower rdf:resource="#doubleQuasar"/>
-		<skosxl:narrower rdf:resource="#luminousArc"/>
-		<skosxl:related rdf:resource="#gravitationalLensing"/>
-		<skosxl:historyNote>FVH: new (2007-OCT-8)</skosxl:historyNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-gravitationallyLensedSource</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#gravitationallyLensedSource">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>gravitationally lensed source</skosxl:prefLabel>
+			<skosxl:definition>gravitationally lensed source</skosxl:definition>
+			<skosxl:broader rdf:resource="#source"/>
+			<skosxl:narrower rdf:resource="#EinsteinRing"/>
+			<skosxl:narrower rdf:resource="#doubleQuasar"/>
+			<skosxl:narrower rdf:resource="#luminousArc"/>
+			<skosxl:related rdf:resource="#gravitationalLensing"/>
+			<skosxl:historyNote>FVH: new (2007-OCT-8)</skosxl:historyNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

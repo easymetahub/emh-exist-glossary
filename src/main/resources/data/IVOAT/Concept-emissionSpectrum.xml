@@ -1,22 +1,32 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-emissionSpectrum</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#emissionSpectrum">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>emission spectrum</skosxl:prefLabel>
-		<skosxl:definition>emission spectrum</skosxl:definition>
-		<skosxl:broader rdf:resource="#lineSpectrum"/>
-		<skosxl:broader rdf:resource="#spectrum"/>
-		<skosxl:narrower rdf:resource="#CIEmission"/>
-		<skosxl:narrower rdf:resource="#OhEmission"/>
-		<skosxl:narrower rdf:resource="#XRayEmission"/>
-		<skosxl:narrower rdf:resource="#freeBoundEmission"/>
-		<skosxl:narrower rdf:resource="#freeFreeEmission"/>
-		<skosxl:narrower rdf:resource="#infraredEmission"/>
-		<skosxl:narrower rdf:resource="#microwaveEmission"/>
-		<skosxl:narrower rdf:resource="#radioEmission"/>
-		<skosxl:narrower rdf:resource="#thermalEmission"/>
-		<skosxl:related rdf:resource="#HIEmission"/>
-		<skosxl:related rdf:resource="#NeumannLine"/>
-		<skosxl:related rdf:resource="#RamanEffect"/>
-		<skosxl:related rdf:resource="#emissionLine"/>
-		<skosxl:related rdf:resource="#emissionProcess"/>
-		<skosxl:related rdf:resource="#lightEmission"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-emissionSpectrum</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#emissionSpectrum">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>emission spectrum</skosxl:prefLabel>
+			<skosxl:definition>emission spectrum</skosxl:definition>
+			<skosxl:broader rdf:resource="#lineSpectrum"/>
+			<skosxl:broader rdf:resource="#spectrum"/>
+			<skosxl:narrower rdf:resource="#CIEmission"/>
+			<skosxl:narrower rdf:resource="#OhEmission"/>
+			<skosxl:narrower rdf:resource="#XRayEmission"/>
+			<skosxl:narrower rdf:resource="#freeBoundEmission"/>
+			<skosxl:narrower rdf:resource="#freeFreeEmission"/>
+			<skosxl:narrower rdf:resource="#infraredEmission"/>
+			<skosxl:narrower rdf:resource="#microwaveEmission"/>
+			<skosxl:narrower rdf:resource="#radioEmission"/>
+			<skosxl:narrower rdf:resource="#thermalEmission"/>
+			<skosxl:related rdf:resource="#HIEmission"/>
+			<skosxl:related rdf:resource="#NeumannLine"/>
+			<skosxl:related rdf:resource="#RamanEffect"/>
+			<skosxl:related rdf:resource="#emissionLine"/>
+			<skosxl:related rdf:resource="#emissionProcess"/>
+			<skosxl:related rdf:resource="#lightEmission"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

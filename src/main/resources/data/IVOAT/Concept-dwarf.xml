@@ -1,24 +1,35 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-dwarf</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#dwarf">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>dwarf</skosxl:prefLabel>
-		<skosxl:definition>dwarf star</skosxl:definition>
-		<skosxl:broader rdf:resource="#mainSequenceStar"/>
-		<skosxl:narrower rdf:resource="#ADwarf"/>
-		<skosxl:narrower rdf:resource="#BDwarf"/>
-		<skosxl:narrower rdf:resource="#FDwarf"/>
-		<skosxl:narrower rdf:resource="#GDwarf"/>
-		<skosxl:narrower rdf:resource="#KDwarf"/>
-		<skosxl:narrower rdf:resource="#MDwarf"/>
-		<skosxl:narrower rdf:resource="#ODwarf"/>
-		<skosxl:narrower rdf:resource="#blackDwarf"/>
-		<skosxl:narrower rdf:resource="#flareStar"/>
-		<skosxl:narrower rdf:resource="#lateTypeDwarf"/>
-		<skosxl:narrower rdf:resource="#nearbyDwarf"/>
-		<skosxl:related rdf:resource="#brownDwarf"/>
-		<skosxl:related rdf:resource="#lowLuminosityStar"/>
-		<skosxl:related rdf:resource="#lowMassStar"/>
-		<skosxl:related rdf:resource="#luminosityClassification"/>
-		<skosxl:related rdf:resource="#mainSequence"/>
-		<skosxl:related rdf:resource="#subdwarf"/>
-		<skosxl:scopeNote>the term alone refers to main sequence star, but subterms may refer to evolved star</skosxl:scopeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-dwarf</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#dwarf">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>dwarf</skosxl:prefLabel>
+			<skosxl:definition>dwarf star</skosxl:definition>
+			<skosxl:broader rdf:resource="#mainSequenceStar"/>
+			<skosxl:narrower rdf:resource="#ADwarf"/>
+			<skosxl:narrower rdf:resource="#BDwarf"/>
+			<skosxl:narrower rdf:resource="#FDwarf"/>
+			<skosxl:narrower rdf:resource="#GDwarf"/>
+			<skosxl:narrower rdf:resource="#KDwarf"/>
+			<skosxl:narrower rdf:resource="#MDwarf"/>
+			<skosxl:narrower rdf:resource="#ODwarf"/>
+			<skosxl:narrower rdf:resource="#blackDwarf"/>
+			<skosxl:narrower rdf:resource="#flareStar"/>
+			<skosxl:narrower rdf:resource="#lateTypeDwarf"/>
+			<skosxl:narrower rdf:resource="#nearbyDwarf"/>
+			<skosxl:related rdf:resource="#brownDwarf"/>
+			<skosxl:related rdf:resource="#lowLuminosityStar"/>
+			<skosxl:related rdf:resource="#lowMassStar"/>
+			<skosxl:related rdf:resource="#luminosityClassification"/>
+			<skosxl:related rdf:resource="#mainSequence"/>
+			<skosxl:related rdf:resource="#subdwarf"/>
+			<skosxl:scopeNote>the term alone refers to main sequence star, but subterms may refer to
+				evolved star</skosxl:scopeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

@@ -1,13 +1,23 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-cometaryGlobule</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cometaryGlobule">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>cometary globule</skosxl:prefLabel>
-		<skosxl:definition>cometary globule</skosxl:definition>
-		<skosxl:broader rdf:resource="#darkNebula"/>
-		<skosxl:broader rdf:resource="#globule"/>
-		<skosxl:broader rdf:resource="#interstellarMatter"/>
-		<skosxl:related rdf:resource="#BokGlobule"/>
-		<skosxl:related rdf:resource="#HIiRegion"/>
-		<skosxl:related rdf:resource="#protostar"/>
-		<skosxl:related rdf:resource="#starFormation"/>
-		<skosxl:historyNote>FVH: new (2007-SEP-21)</skosxl:historyNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-cometaryGlobule</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#cometaryGlobule">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>cometary globule</skosxl:prefLabel>
+			<skosxl:definition>cometary globule</skosxl:definition>
+			<skosxl:broader rdf:resource="#darkNebula"/>
+			<skosxl:broader rdf:resource="#globule"/>
+			<skosxl:broader rdf:resource="#interstellarMatter"/>
+			<skosxl:related rdf:resource="#BokGlobule"/>
+			<skosxl:related rdf:resource="#HIiRegion"/>
+			<skosxl:related rdf:resource="#protostar"/>
+			<skosxl:related rdf:resource="#starFormation"/>
+			<skosxl:historyNote>FVH: new (2007-SEP-21)</skosxl:historyNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

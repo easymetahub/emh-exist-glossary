@@ -1,16 +1,27 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-GalacticPole</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#GalacticPole">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>Galactic pole</skosxl:prefLabel>
-		<skosxl:definition>Galactic pole (Milky Way)</skosxl:definition>
-		<skosxl:broader rdf:resource="#pole"/>
-		<skosxl:narrower rdf:resource="#NorthGalacticPole"/>
-		<skosxl:narrower rdf:resource="#SouthGalacticPole"/>
-		<skosxl:related rdf:resource="#GalacticCoordinateSystem"/>
-		<skosxl:related rdf:resource="#GalacticEquator"/>
-		<skosxl:related rdf:resource="#GalacticLatitude"/>
-		<skosxl:related rdf:resource="#GalacticLongitude"/>
-		<skosxl:related rdf:resource="#GalacticPlane"/>
-		<skosxl:related rdf:resource="#GalacticSpurs"/>
-		<skosxl:related rdf:resource="#MilkyWayGalaxy"/>
-		<skosxl:changeNote>FVH: capitalized, since only refers to MW (2007-OCT-5)</skosxl:changeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-GalacticPole</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#GalacticPole">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>Galactic pole</skosxl:prefLabel>
+			<skosxl:definition>Galactic pole (Milky Way)</skosxl:definition>
+			<skosxl:broader rdf:resource="#pole"/>
+			<skosxl:narrower rdf:resource="#NorthGalacticPole"/>
+			<skosxl:narrower rdf:resource="#SouthGalacticPole"/>
+			<skosxl:related rdf:resource="#GalacticCoordinateSystem"/>
+			<skosxl:related rdf:resource="#GalacticEquator"/>
+			<skosxl:related rdf:resource="#GalacticLatitude"/>
+			<skosxl:related rdf:resource="#GalacticLongitude"/>
+			<skosxl:related rdf:resource="#GalacticPlane"/>
+			<skosxl:related rdf:resource="#GalacticSpurs"/>
+			<skosxl:related rdf:resource="#MilkyWayGalaxy"/>
+			<skosxl:changeNote>FVH: capitalized, since only refers to MW
+				(2007-OCT-5)</skosxl:changeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

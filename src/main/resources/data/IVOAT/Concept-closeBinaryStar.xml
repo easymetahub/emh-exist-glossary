@@ -1,18 +1,28 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-closeBinaryStar</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#closeBinaryStar">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>close binary star</skosxl:prefLabel>
-		<skosxl:definition>close binary star</skosxl:definition>
-		<skosxl:broader rdf:resource="#binaryStar"/>
-		<skosxl:narrower rdf:resource="#ZAndromedaeStar"/>
-		<skosxl:narrower rdf:resource="#betaLyraeStar"/>
-		<skosxl:narrower rdf:resource="#cataclysmicVariableStar"/>
-		<skosxl:narrower rdf:resource="#ellipsoidalVariableStar"/>
-		<skosxl:narrower rdf:resource="#semiDetachedBinaryStar"/>
-		<skosxl:related rdf:resource="#RocheLimit"/>
-		<skosxl:related rdf:resource="#RocheLobe"/>
-		<skosxl:related rdf:resource="#XRayBrightPoint"/>
-		<skosxl:related rdf:resource="#accretionDisk"/>
-		<skosxl:related rdf:resource="#contactBinaryStar"/>
-		<skosxl:related rdf:resource="#synchronousRotation"/>
-		<skosxl:related rdf:resource="#tidalFriction"/>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-closeBinaryStar</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#closeBinaryStar">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>close binary star</skosxl:prefLabel>
+			<skosxl:definition>close binary star</skosxl:definition>
+			<skosxl:broader rdf:resource="#binaryStar"/>
+			<skosxl:narrower rdf:resource="#ZAndromedaeStar"/>
+			<skosxl:narrower rdf:resource="#betaLyraeStar"/>
+			<skosxl:narrower rdf:resource="#cataclysmicVariableStar"/>
+			<skosxl:narrower rdf:resource="#ellipsoidalVariableStar"/>
+			<skosxl:narrower rdf:resource="#semiDetachedBinaryStar"/>
+			<skosxl:related rdf:resource="#RocheLimit"/>
+			<skosxl:related rdf:resource="#RocheLobe"/>
+			<skosxl:related rdf:resource="#XRayBrightPoint"/>
+			<skosxl:related rdf:resource="#accretionDisk"/>
+			<skosxl:related rdf:resource="#contactBinaryStar"/>
+			<skosxl:related rdf:resource="#synchronousRotation"/>
+			<skosxl:related rdf:resource="#tidalFriction"/>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>

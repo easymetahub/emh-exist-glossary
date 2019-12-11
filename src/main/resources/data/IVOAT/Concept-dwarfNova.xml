@@ -1,20 +1,30 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-dwarfNova</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#dwarfNova">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>dwarf nova</skosxl:prefLabel>
-		<skosxl:definition>dwarf nova</skosxl:definition>
-		<skosxl:altLabel>DN</skosxl:altLabel>
-		<skosxl:broader rdf:resource="#cataclysmicVariableStar"/>
-		<skosxl:broader rdf:resource="#eruptiveBinaryStar"/>
-		<skosxl:narrower rdf:resource="#SuUrsaeMajorisStar"/>
-		<skosxl:narrower rdf:resource="#SxArietisStar"/>
-		<skosxl:narrower rdf:resource="#UGeminorumStar"/>
-		<skosxl:narrower rdf:resource="#WzSagittaeStar"/>
-		<skosxl:narrower rdf:resource="#ZCamelopardalisStar"/>
-		<skosxl:related rdf:resource="#AmCanumVenaticorumStar"/>
-		<skosxl:related rdf:resource="#UvPerseiStar"/>
-		<skosxl:related rdf:resource="#UxUrsaeMajorisStar"/>
-		<skosxl:related rdf:resource="#XRayBinaryStar"/>
-		<skosxl:related rdf:resource="#accretionDisk"/>
-		<skosxl:related rdf:resource="#emissionLineStar"/>
-		<skosxl:changeNote>FVH: total update (2007-SEP-24)</skosxl:changeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-dwarfNova</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#dwarfNova">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>dwarf nova</skosxl:prefLabel>
+			<skosxl:definition>dwarf nova</skosxl:definition>
+			<skosxl:altLabel>DN</skosxl:altLabel>
+			<skosxl:broader rdf:resource="#cataclysmicVariableStar"/>
+			<skosxl:broader rdf:resource="#eruptiveBinaryStar"/>
+			<skosxl:narrower rdf:resource="#SuUrsaeMajorisStar"/>
+			<skosxl:narrower rdf:resource="#SxArietisStar"/>
+			<skosxl:narrower rdf:resource="#UGeminorumStar"/>
+			<skosxl:narrower rdf:resource="#WzSagittaeStar"/>
+			<skosxl:narrower rdf:resource="#ZCamelopardalisStar"/>
+			<skosxl:related rdf:resource="#AmCanumVenaticorumStar"/>
+			<skosxl:related rdf:resource="#UvPerseiStar"/>
+			<skosxl:related rdf:resource="#UxUrsaeMajorisStar"/>
+			<skosxl:related rdf:resource="#XRayBinaryStar"/>
+			<skosxl:related rdf:resource="#accretionDisk"/>
+			<skosxl:related rdf:resource="#emissionLineStar"/>
+			<skosxl:changeNote>FVH: total update (2007-SEP-24)</skosxl:changeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>
