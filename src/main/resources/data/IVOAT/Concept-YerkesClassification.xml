@@ -1,17 +1,28 @@
-<env:envelope xmlns:env="http://exist-db.org/data/envelope"><env:headers><env:id>Concept-YerkesClassification</env:id><env:glossaryName>IVOAT</env:glossaryName><env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp></env:headers><env:instance><skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="#YerkesClassification">
-		<skosxl:inScheme rdf:resource=""/>
-		<skosxl:prefLabel>Yerkes classification</skosxl:prefLabel>
-		<skosxl:definition>Yerkes galaxy classification scheme</skosxl:definition>
-		<skosxl:related rdf:resource="#BGalaxy"/>
-		<skosxl:related rdf:resource="#DGalaxy"/>
-		<skosxl:related rdf:resource="#EGalaxy"/>
-		<skosxl:related rdf:resource="#EpGalaxy"/>
-		<skosxl:related rdf:resource="#galaxy"/>
-		<skosxl:related rdf:resource="#IGalaxy"/>
-		<skosxl:related rdf:resource="#LGalaxy"/>
-		<skosxl:related rdf:resource="#NGalaxy"/>
-		<skosxl:related rdf:resource="#SGalaxy"/>
-		<skosxl:related rdf:resource="#cDGalaxy"/>
-		<skosxl:historyNote>FVH: new (2007-OCT-12)</skosxl:historyNote>
-		<skosxl:changeNote>FVH: removed NTs (2007-NOV-15)</skosxl:changeNote>
-	</skosxl:Concept></env:instance></env:envelope>
+<env:envelope xmlns:env="http://exist-db.org/data/envelope">
+	<env:headers>
+		<env:id>Concept-YerkesClassification</env:id>
+		<env:glossaryName>IVOAT</env:glossaryName>
+		<env:timestamp>2019-12-10T10:35:29.29-05:00</env:timestamp>
+	</env:headers>
+	<env:instance>
+		<skosxl:Concept xmlns:skosxl="http://www.w3.org/2008/05/skos#"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			rdf:about="#YerkesClassification">
+			<skosxl:inScheme rdf:resource=""/>
+			<skosxl:prefLabel>Yerkes classification</skosxl:prefLabel>
+			<skosxl:definition>Yerkes galaxy classification scheme</skosxl:definition>
+			<skosxl:related rdf:resource="#BGalaxy"/>
+			<skosxl:related rdf:resource="#DGalaxy"/>
+			<skosxl:related rdf:resource="#EGalaxy"/>
+			<skosxl:related rdf:resource="#EpGalaxy"/>
+			<skosxl:related rdf:resource="#galaxy"/>
+			<skosxl:related rdf:resource="#IGalaxy"/>
+			<skosxl:related rdf:resource="#LGalaxy"/>
+			<skosxl:related rdf:resource="#NGalaxy"/>
+			<skosxl:related rdf:resource="#SGalaxy"/>
+			<skosxl:related rdf:resource="#cDGalaxy"/>
+			<skosxl:historyNote>FVH: new (2007-OCT-12)</skosxl:historyNote>
+			<skosxl:changeNote>FVH: removed NTs (2007-NOV-15)</skosxl:changeNote>
+		</skosxl:Concept>
+	</env:instance>
+</env:envelope>
