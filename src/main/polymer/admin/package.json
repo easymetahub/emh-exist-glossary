@@ -2,7 +2,21 @@
   "name": "emh-glossary-admin",
   "description": "This page is for administering the glossaries in the app",
   "dependencies": {
-    "@polymer/polymer": "^3.0.0"
+    "@polymer/app-layout": "^3.0.2",
+    "@polymer/iron-ajax": "^3.0.1",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/iron-location": "^3.0.1",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-card": "^3.0.1",
+    "@polymer/paper-dialog": "^3.0.1",
+    "@polymer/paper-icon-button": "^3.0.2",
+    "@polymer/paper-input": "^3.0.2",
+    "@polymer/polymer": "^3.0.0",
+    "@vaadin/vaadin-grid": "^5.2.1",
+    "@vaadin/vaadin-progress-bar": "^1.1.0",
+    "@vaadin/vaadin-upload": "^4.2.1",
+    "@vaadin/vaadin-tabs": "^2.1.2",
+    "@vaadin/vaadin-text-field": "^2.4.4"
   },
   "devDependencies": {
     "@polymer/test-fixture": "^4.0.2",

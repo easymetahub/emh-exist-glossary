@@ -27,7 +27,6 @@ import '@polymer/paper-dialog/paper-dialog.js';
 import '@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
 import '@polymer/iron-ajax/iron-ajax.js';
 import '@vaadin/vaadin-upload/vaadin-upload.js';
-import './upload-item.js';
 import './result-item.js';
 import './facet-card.js';
 import 'paper-pagination/paper-pagination.js';
@@ -140,24 +139,6 @@ class EMHAcceleratorApp extends PolymerElement {
           <paper-button dialog-dismiss>Close</paper-button>
         </div>
       </paper-dialog>
-      <paper-dialog class="wide" id="dialog">
-        <h2>Upload RDF(s)</h2>
-        <paper-dialog-scrollable>
-          <vaadin-upload accept=".rdf" target="modules/upload.xq" method="POST" timeout="300000" form-data-name="my-attachment" id="responseDemo" files="{{files}}">
-            <iron-icon slot="drop-label-icon" icon="description"></iron-icon>
-            <span slot="drop-label">Drop your requests here (RDF files only)</span>
-            <div slot="file-list">
-              <h4 id="files">Files</h4>
-              <template is="dom-repeat" items="[[files]]" as="file">
-                <upload-item item="[[file]]"></upload-item>
-              </template>
-            </div>
-          </vaadin-upload>
-        </paper-dialog-scrollable>
-        <div class="buttons">
-          <paper-button on-click="_closeUpload">Close</paper-button>
-        </div>
-      </paper-dialog>
       <paper-dialog id="thespinner" modal>
         <paper-spinner active></paper-spinner>
       </paper-dialog>
@@ -165,7 +146,6 @@ class EMHAcceleratorApp extends PolymerElement {
         <app-drawer slot="drawer">
           <app-toolbar>
             <div main-title>Facets</div>
-            <paper-icon-button icon="file-upload" on-click="_openDialog"></paper-icon-button>
           </app-toolbar>
         <section>
           <template is="dom-repeat" items="{{result.facets}}" as="facet">
@@ -186,6 +166,9 @@ class EMHAcceleratorApp extends PolymerElement {
             <paper-button on-click="_openLoginDialog" raised>Hello [[user.name]]</paper-button>
             <template is="dom-if" if="[[_isLoggedIn(user.id)]]">
               <paper-icon-button on-click="_attemptUserLogout" icon="close" raised></paper-icon-button>
+            </template>
+            <template is="dom-if" if="[[_isAdmin(user)]]">
+              <paper-icon-button icon="settings" on-click="_goAdmin"></paper-icon-button>
             </template>
           </app-toolbar>
           </app-header>
@@ -302,27 +285,8 @@ class EMHAcceleratorApp extends PolymerElement {
       this._runSearch();
     }
 
-    _openDialog() {
-      var d = this.$.dialog;
-      var upload = this.$.responseDemo;
-
-      upload.addEventListener('upload-response', function(event) {
-        var results = JSON.parse(event.detail.xhr.response);
-        console.log('upload xhr after server response: ', event.detail.xhr);
-        
-        if (results.errorResponse) {
-          event.detail.file.messages = [{'type': 'fatal', 'message': results.errorResponse.message }];
-        } else {
-          if (results[0].responseFilename) {
-            event.detail.file.responseFilename = results[0].responseFilename;
-            event.detail.file.location = results[0].location;
-            if (results[0].messages.length) {
-              event.detail.file.messages = results[0].messages;
-            }
-          }
-        }
-      });
-      this.$.dialog.open();
+    _goAdmin() {
+      window.location = "admin/index.html";
     }
 
     _runSearch() {
@@ -405,6 +369,16 @@ class EMHAcceleratorApp extends PolymerElement {
      */
   _isLoggedIn(a) {
     return (a != 'guest');
+  }
+
+    /**
+     *
+     * @param a
+     * @returns {boolean}
+     * @private
+     */
+  _isAdmin(a) {
+    return true;
   }
 
 
