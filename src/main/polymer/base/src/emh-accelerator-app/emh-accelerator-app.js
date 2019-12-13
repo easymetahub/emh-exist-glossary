@@ -378,7 +378,13 @@ class EMHAcceleratorApp extends PolymerElement {
      * @private
      */
   _isAdmin(a) {
-    return true;
+    for (let index = 0; index < a.groups.length; index++) {
+      let group = a.groups[index];
+      if (group.id == 'emh') {
+        return true;
+      }
+    }
+    return false;
   }
 
 

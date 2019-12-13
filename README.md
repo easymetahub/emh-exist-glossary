@@ -29,7 +29,7 @@ Select the 'Package Manager'
 
 ![images/package-manager.png](images/package-manager.png)
 
-Click on 'Upload' and select emh-glossary-1.0.0.xar
+Click on 'Upload' and select emh-glossary-0.8.0.xar
 
 ![images/package-upload.png](images/package-upload.png)
 
@@ -70,6 +70,12 @@ You can then select a facet to narrow the search results.  You can also expand a
 If you select one of the buttons for *Related*, *Broader*, or *Narrower*, then you will be hyperlinked to that *Concept*
 
 ![images/emh-glossary-8.png](images/emh-glossary-8.png)
+
+![images/emh-glossary-9.png](images/emh-glossary-9.png)
+
+If you select one of the buttons for *Related*, *Broader*, or *Narrower*, then you will be hyperlinked to that *Concept*
+
+![images/emh-glossary-10.png](images/emh-glossary-10.png)
 
 
 The customizations for this project template are in:
