@@ -83,6 +83,9 @@ This page shows the list of glossaries that are loaded and the ability to load m
 
 You can delete a glossary by clicking on the trash can by the name.  You can add glossaries by uploading RDF files containing either SKOS or SKOS-XL.
 
+Sample glossaries can be found here: 
+[https://github.com/easymetahub/emh-exist-glossary/tree/master/samples](https://github.com/easymetahub/emh-exist-glossary/tree/master/samples)
+
 Click on the chevron next tothe Administration header to return the the search page.
 
 ## Customization
