@@ -96,3 +96,9 @@ The customizations for this project template are in:
 - src/main/xquery/modules/custom/custom.xqm
 - src/main/resources/collection.xconf
 - src/main/polymer/src/emh-accelerator-app/result-item.js
+
+## Donation
+
+If you find this template application useful, then I would appreciate a dontribution to the development through PayPal to loren.cahlander@easymetahub.com
+
+
