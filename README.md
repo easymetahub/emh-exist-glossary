@@ -99,6 +99,6 @@ The customizations for this project template are in:
 
 ## Donation
 
-If you find this template application useful, then I would appreciate a dontribution to the development through PayPal to loren.cahlander@easymetahub.com
+If you find this template application useful, then I would appreciate a contribution to the development through PayPal to loren.cahlander@easymetahub.com
 
 
