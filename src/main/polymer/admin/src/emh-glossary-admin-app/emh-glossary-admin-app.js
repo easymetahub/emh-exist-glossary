@@ -164,11 +164,13 @@ class EmhGlossaryAdminApp extends PolymerElement {
     let upload = this.$.responseDemo;
 
     upload.addEventListener('upload-response', function(event) {
-      var results = JSON.parse(event.detail.xhr.response);
+      let response = JSON.parse(event.detail.xhr.response);
+      let glossaries = response.glossaries;
+      let results = response.results;
       console.log('upload xhr after server response: ', event.detail.xhr);
       
-      if (results.errorResponse) {
-        event.detail.file.messages = [{'type': 'fatal', 'message': results.errorResponse.message }];
+      if (response.errorResponse) {
+        event.detail.file.messages = [{'type': 'fatal', 'message': response.errorResponse.message }];
       } else {
         if (results[0].responseFilename) {
           event.detail.file.responseFilename = results[0].responseFilename;

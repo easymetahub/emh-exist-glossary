@@ -37,46 +37,55 @@ The EMH Glossary shows up in the installed list.
 
 ![images/package-manager-2.png](images/package-manager-2.png)
 
-Select 'Launcher' and the EMH Glossary shows up in the list of applications.
-
-![images/launcher-2.png](images/launcher-2.png)
-
-Click on the glossary:
-
-![images/emh-glossary-1.png](images/emh-glossary-1.png)
-
-Click on the upload button
-
-![images/emh-glossary-2.png](images/emh-glossary-2.png)
-
-Click on 'upload files' and select IVOAT.rdf or drag the file onto the upload dialog.
-
-![images/emh-glossary-3.png](images/emh-glossary-3.png)
-
-![images/emh-glossary-4.png](images/emh-glossary-4.png)
-
 Close the dialog and you will get this:
 
-![images/emh-glossary-5.png](images/emh-glossary-5.png)
+![images/emh-glossary-00.png](images/emh-glossary-00.png)
 
 Type *Galaxy* in the search bar.
 
-![images/emh-glossary-6.png](images/emh-glossary-6.png)
+![images/emh-glossary-01.png](images/emh-glossary-01.png)
 
 You can then select a facet to narrow the search results.  You can also expand a result item by selecting *Show Details*
 
-![images/emh-glossary-7.png](images/emh-glossary-7.png)
+![images/emh-glossary-02.png](images/emh-glossary-02.png)
 
 If you select one of the buttons for *Related*, *Broader*, or *Narrower*, then you will be hyperlinked to that *Concept*
 
-![images/emh-glossary-8.png](images/emh-glossary-8.png)
+![images/emh-glossary-03.png](images/emh-glossary-03.png)
 
-![images/emh-glossary-9.png](images/emh-glossary-9.png)
+## Authentication and Authorization
 
-If you select one of the buttons for *Related*, *Broader*, or *Narrower*, then you will be hyperlinked to that *Concept*
+This glossary manager in searchable as a *guest*.  In order to manage the glossaries, then you need to go the the *Administration* screen.  Click on *HELLO GUEST*.
+
+![images/emh-glossary-04.png](images/emh-glossary-04.png)
+
+This page shown the user as logged in.
+
+![images/emh-glossary-05.png](images/emh-glossary-05.png)
+
+Click on the username to get details of the user.
+
+![images/emh-glossary-06.png](images/emh-glossary-06.png)
+
+The details about the user show up in a dialog, including the groups that the user is part of.
+
+![images/emh-glossary-07.png](images/emh-glossary-07.png)
+
+## Administration
+
+In order to go to the administration screen, you need to be logged in as part of the *emh* group and click on the *gear* icon.
+
+![images/emh-glossary-08.png](images/emh-glossary-08.png)
+
+This page shows the list of glossaries that are loaded and the ability to load more glossaries.
 
 ![images/emh-glossary-10.png](images/emh-glossary-10.png)
 
+You can delete a glossary by clicking on the trash can by the name.  You can add glossaries by uploading RDF files containing either SKOS or SKOS-XL.
+
+Click on the chevron next tothe Administration header to return the the search page.
+
+## Customization
 
 The customizations for this project template are in:
 

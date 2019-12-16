@@ -25,6 +25,7 @@ xquery version "3.1";
  : @version 1.0
  :)
 import module namespace custom="http://easymetahub.com/emh-glossary/library/custom" at "custom/custom.xqm";
+import module namespace functx = "http://www.functx.com";
 
 declare namespace skos="http://www.w3.org/2004/02/skos/core#";
 declare namespace skosxl="http://www.w3.org/2008/05/skos#";
@@ -38,40 +39,44 @@ declare variable $request-filename := request:get-uploaded-file-name("my-attachm
 let $log := util:log("info", "Starting an upload!")
 (: wrapping updates in invoke-function so transaction results are visible to code below :)
 let $json-response :=
-                array {
-                    if (fn:count($request-filename) eq 0)
-                    then 
-                        map {
-                            "responseFilename" : "none", 
-                            "messages" : 
-                                array { 
-                                    map { 
-                                        "type" : "error", 
-                                        "message" : "There are no files to process!" 
-                                    } 
-                                } 
-                        }
-                    else
-                        for $file at $pos in request:get-uploaded-file-data("my-attachment")
-                        let $filename := $request-filename[$pos]
-                        let $file-string := util:binary-to-string($file)
-                        return
-                            map { 
-                                "responseFilename" : $filename, 
-                                "messages" : array {(
+                map {
+                    "glossaries" : array { functx:sort(fn:distinct-values(collection($config:data-root)//env:glossaryName/text())) },
+                    "results" : 
+                            array {
+                                if (fn:count($request-filename) eq 0)
+                                then 
                                     map {
-                                        "type" : "info", 
-                                        "message" : "Processing file " || $filename 
-                                    },
-                                    try {
-                                        custom:process-upload($filename, fn:parse-xml($file-string) ) 
-                                    } catch * {
-                                        map { 
-                                            "type" : "error", 
-                                            "message" : $err:description 
-                                        } 
+                                        "responseFilename" : "none", 
+                                        "messages" : 
+                                            array { 
+                                                map { 
+                                                    "type" : "error", 
+                                                    "message" : "There are no files to process!" 
+                                                } 
+                                            } 
                                     }
-                                )} 
+                                else
+                                    for $file at $pos in request:get-uploaded-file-data("my-attachment")
+                                    let $filename := $request-filename[$pos]
+                                    let $file-string := util:binary-to-string($file)
+                                    return
+                                        map { 
+                                            "responseFilename" : $filename, 
+                                            "messages" : array {(
+                                                map {
+                                                    "type" : "info", 
+                                                    "message" : "Processing file " || $filename 
+                                                },
+                                                try {
+                                                    custom:process-upload($filename, fn:parse-xml($file-string) ) 
+                                                } catch * {
+                                                    map { 
+                                                        "type" : "error", 
+                                                        "message" : $err:description 
+                                                    } 
+                                                }
+                                            )} 
+                                        }
                             }
                 }
 
