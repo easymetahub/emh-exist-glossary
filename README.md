@@ -5,10 +5,37 @@ There a many projects out there that do not require the power of MarkLogic and t
 
 This is a starting point for most search programs.  It is a general purpose viewer for SKOS taxonomies.
 
-Download a release candidate for version 5 of eXist-db from here: 
-[https://bintray.com/existdb/releases/exist/5.0.0-RC7/view](https://bintray.com/existdb/releases/exist/5.0.0-RC7/view)
+Download version 5 of eXist-db from here: 
+[http://exist-db.org/exist/apps/homepage/index.html](http://exist-db.org/exist/apps/homepage/index.html)
 
-The basic installation and getting started is here:
+## Development
+
+### Requirements
+
+* Gradle 
+[https://gradle.org/install/](https://gradle.org/install/)
+* npm 
+[https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
+* Polymer-cli 
+[https://polymer-library.polymer-project.org/3.0/docs/tools/polymer-cli#install](https://polymer-library.polymer-project.org/3.0/docs/tools/polymer-cli#install)
+
+### Building
+
+In the root directory of the application run:
+
+```gradle buildXAR```
+
+The build is in the ```build``` directory.
+
+### Customization
+
+The customizations for this project template are in:
+
+- src/main/xquery/modules/custom/custom.xqm
+- src/main/resources/collection.xconf
+- src/main/polymer/src/emh-accelerator-app/result-item.js
+
+## Basic installation and getting started is here:
 
 [http://exist-db.org/exist/apps/doc/basic-installation](http://exist-db.org/exist/apps/doc/basic-installation)
 
@@ -88,14 +115,6 @@ Sample glossaries can be found here:
 
 Click on the chevron next tothe Administration header to return the the search page.
 
-## Customization
-
-The customizations for this project template are in:
-
-
-- src/main/xquery/modules/custom/custom.xqm
-- src/main/resources/collection.xconf
-- src/main/polymer/src/emh-accelerator-app/result-item.js
 
 ## Donation
 
