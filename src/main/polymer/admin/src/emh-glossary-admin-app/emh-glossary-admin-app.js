@@ -35,7 +35,7 @@ class EmhGlossaryAdminApp extends PolymerElement {
         :host {
           display: block;
           background-color: lightgrey;
-          --app-drawer-width: 400px;
+//          --app-drawer-width: 400px; 
         }
         app-drawer-layout {
           background-color: lightgrey;
@@ -110,11 +110,11 @@ class EmhGlossaryAdminApp extends PolymerElement {
             <paper-icon-button icon="menu" drawer-toggle></paper-icon-button>
             <paper-icon-button icon="chevron-left" on-click="_goHome"></paper-icon-button>
             <div main-title>Administration</div>
-            <paper-button disabled>Hello [[user.name]]</paper-button>
           </app-toolbar>
           </app-header>
             <section>
               <paper-card>
+                <h2>Glossaries</h2>
                 <vaadin-grid  theme="compact wrap-cell-content column-borders row-stripes" items="[[glossaries]]"  height-by-rows>
                   <vaadin-grid-column>
                     <template class="header">ID</template>
@@ -163,25 +163,35 @@ class EmhGlossaryAdminApp extends PolymerElement {
     super.connectedCallback();
     let upload = this.$.responseDemo;
 
-    upload.addEventListener('upload-response', function(event) {
-      let response = JSON.parse(event.detail.xhr.response);
-      let glossaries = response.glossaries;
-      let results = response.results;
-      console.log('upload xhr after server response: ', event.detail.xhr);
-      
-      if (response.errorResponse) {
-        event.detail.file.messages = [{'type': 'fatal', 'message': response.errorResponse.message }];
-      } else {
-        if (results[0].responseFilename) {
-          event.detail.file.responseFilename = results[0].responseFilename;
-          event.detail.file.location = results[0].location;
-          if (results[0].messages.length) {
-            event.detail.file.messages = results[0].messages;
-          }
+    upload.addEventListener('upload-response', this._uploadResponse.bind(this));
+
+  }
+
+
+  disconnectedCallback() {
+    super.disconnectedCallback();
+    let upload = this.$.responseDemo;
+    upload.removeEventListener('upload-response', this._uploadResponse);
+  }
+
+  _uploadResponse(event) {
+    let response = JSON.parse(event.detail.xhr.response);
+    let glossaries = response.glossaries;
+    let results = response.results;
+    console.log('upload xhr after server response: ', event.detail.xhr);
+    
+    if (response.errorResponse) {
+      event.detail.file.messages = [{'type': 'fatal', 'message': response.errorResponse.message }];
+    } else {
+      if (results[0].responseFilename) {
+        event.detail.file.responseFilename = results[0].responseFilename;
+        event.detail.file.location = results[0].location;
+        if (results[0].messages.length) {
+          event.detail.file.messages = results[0].messages;
         }
       }
-    });
-
+      this.$.getGlossaries.generateRequest();
+    }
   }
 
   _goHome() {

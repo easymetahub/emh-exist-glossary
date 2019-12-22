@@ -1,5 +1,11 @@
 xquery version "3.1";
 
+(:~
+ : This action returns a list of existing glossary.
+ :
+ : @author Loren Cahlander
+ :)
+
 import module namespace config="http://exist-db.org/apps/emh-glossary/config" at "config.xqm";
 import module namespace functx = "http://www.functx.com";
 

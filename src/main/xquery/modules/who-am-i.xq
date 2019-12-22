@@ -1,5 +1,11 @@
 xquery version "3.1";
 
+(:~
+ : This action returns the information about the currently logged in user.
+ :
+ : @author Loren Cahlander
+ :)
+
 import module namespace sm = "http://exist-db.org/xquery/securitymanager";
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";

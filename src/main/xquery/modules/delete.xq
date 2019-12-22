@@ -1,5 +1,13 @@
 xquery version "3.1";
 
+(:~
+ : This action deletes an existing glossary.
+ :
+ : @custom:query-param glossary The glossary to be deleted.
+ :
+ : @author Loren Cahlander
+ :)
+
 import module namespace config="http://exist-db.org/apps/emh-glossary/config" at "config.xqm";
 import module namespace sm = "http://exist-db.org/xquery/securitymanager";
 

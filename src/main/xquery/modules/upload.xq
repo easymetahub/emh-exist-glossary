@@ -40,7 +40,6 @@ let $log := util:log("info", "Starting an upload!")
 (: wrapping updates in invoke-function so transaction results are visible to code below :)
 let $json-response :=
                 map {
-                    "glossaries" : array { functx:sort(fn:distinct-values(collection($config:data-root)//env:glossaryName/text())) },
                     "results" : 
                             array {
                                 if (fn:count($request-filename) eq 0)
@@ -62,7 +61,7 @@ let $json-response :=
                                     return
                                         map { 
                                             "responseFilename" : $filename, 
-                                            "messages" : array {(
+                                             "messages" : array {(
                                                 map {
                                                     "type" : "info", 
                                                     "message" : "Processing file " || $filename 

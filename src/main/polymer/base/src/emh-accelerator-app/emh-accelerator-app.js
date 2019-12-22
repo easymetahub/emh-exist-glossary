@@ -288,7 +288,7 @@ class EMHAcceleratorApp extends PolymerElement {
     _goAdmin() {
       window.location = "admin/index.html";
     }
-
+ 
     _runSearch() {
         this.$.thespinner.open();
         this.$.runSearch.generateRequest();
