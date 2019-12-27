@@ -1,12 +1,29 @@
 # EasyMetaHub Glossary for an eXist-db project
 
+## Introduction
+
+This application is a SKOS glossary manager and faceted search application that can 
+manage multiple glossaries.  It is intended for organizations that need to manage
+one or more glossaries.
+
+
 There a many projects out there that do not require the power of MarkLogic and the licensing fees for it as well.  
 [http://history.state.gov](http://history.state.gov) is one such project.  It has been using eXist-db as its hosting platform.
 
-This is a starting point for most search programs.  It is a general purpose viewer for SKOS taxonomies.
+It was created as an easily customizable search application.  It abstracts out the
+common code for faceted search and gives an easy development interface to customize
+for uses other than a glossary manager.
 
-Download version 5 of eXist-db from here: 
-[http://exist-db.org/exist/apps/homepage/index.html](http://exist-db.org/exist/apps/homepage/index.html)
+#### About the author
+
+[Loren Cahlander](https://www.linkedin.com/in/lorencahlander/) is the creator of
+this tool and the [sister glossary application](https://github.com/easymetahub/emh-marklogic-glossary)
+for MarkLogic.
+
+#### Consulting 
+[EasyMetaHub](http://easymetahub.com) is available for consulting in developing your
+own customization of this tool.
+
 
 ## Development
 
@@ -37,7 +54,10 @@ The customizations for this project template are in:
 
 ## Basic installation and getting started is here:
 
+Download version 5 of eXist-db following the instructions here: 
 [http://exist-db.org/exist/apps/doc/basic-installation](http://exist-db.org/exist/apps/doc/basic-installation)
+
+Version 5 of eXist-db is required for the faceting feature.
 
 The initial view when you open your browser to 
 [http://localhost:8080](http://localhost:8080) is:
@@ -119,5 +139,3 @@ Click on the chevron next tothe Administration header to return the the search p
 ## Donation
 
 If you find this template application useful, then I would appreciate a contribution to the development through PayPal to loren.cahlander@easymetahub.com
-
-
