@@ -111,6 +111,18 @@ class EMHAcceleratorApp extends PolymerElement {
         url="modules/who-am-i.xq"  
         handle-as="json"
         on-response="_onLogoutResponse"></iron-ajax>
+      <paper-dialog id="emhinfo" modal>
+        <h2>EasyMetaHub</h2>
+        <h3>Data Stewardship</h3>
+        <p>At our company, we help our clients to manage their data assets.  We work closely with our users throughout development to ensure that we are still aligned with the end-goal.</p>
+        <h3>Data Migration</h3>
+        <p>One of the largest and most complicated part of any development project is the data migration from an old data source to a new data source.  
+        Our tools take a complicated and time consuming process and make it manageable.</p> 
+        <p>Please come visit us at <a target="_blank" rel="noopener noreferrer" href="https://easymetahub.com/">EasyMetaHub</a></p> 
+        <div class="buttons">
+          <paper-button dialog-dismiss>Dismiss</paper-button>
+        </div>
+      </paper-dialog>
       <paper-dialog id="login">
         <h2>Login</h2>
         <template is="dom-if" if="[[user.error]]">
@@ -160,7 +172,7 @@ class EMHAcceleratorApp extends PolymerElement {
           <app-header slot="header" reveals effects="waterfall">
           <app-toolbar>
             <paper-icon-button icon="menu" drawer-toggle></paper-icon-button>
-            <iron-icon src="icon.svg"></iron-icon>
+            <paper-icon-button src="icon.svg" on-click="_openInfoDialog"></paper-icon-button>
             <div main-title>Glossary</div>
             <paper-slider title="Page size" pin snaps min="10" max="100" step="10" value="{{params.pagelength}}"></paper-slider>
             <paper-button on-click="_openLoginDialog" raised>Hello [[user.name]]</paper-button>
@@ -217,6 +229,9 @@ class EMHAcceleratorApp extends PolymerElement {
 
     clearInput() {
       this.search = "";
+      this.params.q = "";
+      this.params.facets = "";
+      this.searchChanged();
     }
 
     searchChanged() {
@@ -283,6 +298,10 @@ class EMHAcceleratorApp extends PolymerElement {
         this.notifyPath('params.pagelength');
       }
       this._runSearch();
+      if (document.cookie.replace(/(?:(?:^|.*;\s*)_emh_notify\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+        this._openInfoDialog();
+        document.cookie = "_emh_notify=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+      }
     }
 
     _goAdmin() {
@@ -305,6 +324,14 @@ class EMHAcceleratorApp extends PolymerElement {
       this.$.dialog.close();
     }
 
+
+    /**
+     *
+     * @private
+     */
+  _openInfoDialog() {
+    this.$.emhinfo.open();
+  }
 
     /**
      *
