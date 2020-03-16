@@ -56,6 +56,12 @@ class EMHAcceleratorApp extends PolymerElement {
         #userdata {
           width: 80%;
         }
+        #userdatabutton {
+          font-size: 14px;
+          padding-top: 4px;
+          padding-bottom: 3px;
+        }
+
         .close {
           cursor:pointer;
           float:right;
@@ -175,7 +181,7 @@ class EMHAcceleratorApp extends PolymerElement {
             <paper-icon-button src="icon.svg" on-click="_openInfoDialog"></paper-icon-button>
             <div main-title>Glossary</div>
             <paper-slider title="Page size" pin snaps min="10" max="100" step="10" value="{{params.pagelength}}"></paper-slider>
-            <paper-button on-click="_openLoginDialog" raised>Hello [[user.name]]</paper-button>
+            <paper-button id="userdatabutton" on-click="_openLoginDialog" raised>Hello [[user.name]]</paper-button>
             <template is="dom-if" if="[[_isLoggedIn(user.id)]]">
               <paper-icon-button on-click="_attemptUserLogout" icon="close" raised></paper-icon-button>
             </template>
