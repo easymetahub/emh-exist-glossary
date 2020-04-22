@@ -100,7 +100,7 @@ task buildXAR(type: Zip) {
    from 'build/default/'
    include '*'
    include '*/**' //to include contents of a folder present inside build/default directory
-   archiveName 'emh-glossary-0.8.0.xar'
+   archiveName 'emh-glossary-0.8.1.xar'
    destinationDir(file('build/'))
 }
 

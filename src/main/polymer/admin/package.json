@@ -10,19 +10,19 @@
     "@polymer/paper-card": "^3.0.1",
     "@polymer/paper-dialog": "^3.0.1",
     "@polymer/paper-icon-button": "^3.0.2",
-    "@polymer/paper-input": "^3.0.2",
+    "@polymer/paper-input": "^3.2.1",
     "@polymer/polymer": "^3.0.0",
-    "@vaadin/vaadin-grid": "^5.2.1",
+    "@vaadin/vaadin-grid": "^5.5.3",
     "@vaadin/vaadin-progress-bar": "^1.1.0",
-    "@vaadin/vaadin-upload": "^4.2.1",
     "@vaadin/vaadin-tabs": "^2.1.2",
-    "@vaadin/vaadin-text-field": "^2.4.4"
+    "@vaadin/vaadin-text-field": "^2.5.5",
+    "@vaadin/vaadin-upload": "^4.2.1"
   },
   "devDependencies": {
     "@polymer/test-fixture": "^4.0.2",
-    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "@webcomponents/webcomponentsjs": "^2.4.3",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.3",
     "wct-mocha": "^1.0.1"
   }
 }
