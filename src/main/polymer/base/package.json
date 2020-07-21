@@ -18,19 +18,19 @@
     "@polymer/paper-listbox": "^3.0.1",
     "@polymer/paper-slider": "^3.0.1",
     "@polymer/paper-spinner": "^3.0.2",
-    "@polymer/polymer": "^3.3.1",
-    "@vaadin/vaadin-grid": "^5.5.3",
-    "@vaadin/vaadin-progress-bar": "^1.1.2",
-    "@vaadin/vaadin-upload": "^4.2.2",
+    "@polymer/polymer": "^3.4.1",
+    "@vaadin/vaadin-grid": "^5.6.6",
+    "@vaadin/vaadin-progress-bar": "^1.2.0",
+    "@vaadin/vaadin-upload": "^4.3.0",
     "paper-pagination": "^1.0.0"
   },
   "devDependencies": {
-    "@webcomponents/webcomponentsjs": "^2.4.3",
-    "wct-browser-legacy": "^1.0.2",
-    "growl": ">=1.10.0",
-    "lodash": ">=4.17.19",
+    "@webcomponents/webcomponentsjs": "^2.4.4",
+    "debug": ">=2.6.9",
     "diff": ">=3.5.0",
+    "growl": ">=1.10.0",
+    "lodash": "^4.17.19",
     "minimist": ">=0.2.1",
-    "debug": ">=2.6.9"
+    "wct-browser-legacy": "^1.0.2"
   }
 }
