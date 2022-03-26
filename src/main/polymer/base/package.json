@@ -30,7 +30,7 @@
     "diff": ">=3.5.0",
     "growl": ">=1.10.0",
     "lodash": "^4.17.21",
-    "minimist": ">=0.2.1",
+    "minimist": ">=1.2.6",
     "wct-browser-legacy": "^1.0.2"
   }
 }
